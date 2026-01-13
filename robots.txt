@@ -1,0 +1,5 @@
+# robots.txt for visa.japanlifeinfo.com
+User-agent: *
+Allow: /
+
+Sitemap: https://visa.japanlifeinfo.com/sitemap-index.xml
