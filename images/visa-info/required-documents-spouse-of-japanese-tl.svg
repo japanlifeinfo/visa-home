@@ -1,0 +1,79 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#f8fafc"/>
+
+  <!-- Header gradient bar -->
+  <rect width="1200" height="8" fill="url(#headerGradient)"/>
+
+  <!-- Title -->
+  <text x="600" y="100" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="48" font-weight="bold">Asawa ng Japanese</text>
+
+  <!-- Subtitle -->
+  <text x="600" y="150" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="28">Gabay sa mga Kinakailangang Dokumento</text>
+
+  <!-- Main Card -->
+  <g transform="translate(200, 190)">
+    <!-- Card background -->
+    <rect width="800" height="350" rx="20" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+
+    <!-- Left side - Icon area -->
+    <g transform="translate(50, 50)">
+      <!-- Wedding rings icon -->
+      <circle cx="50" cy="80" r="35" fill="none" stroke="#ec4899" stroke-width="8"/>
+      <circle cx="90" cy="80" r="35" fill="none" stroke="#f472b6" stroke-width="8"/>
+
+      <!-- Heart -->
+      <path d="M70 40 C55 25, 30 35, 30 55 C30 80, 70 100, 70 100 C70 100, 110 80, 110 55 C110 35, 85 25, 70 40" fill="#fce7f3"/>
+
+      <!-- Japan flag hint -->
+      <circle cx="70" cy="140" r="20" fill="#fecdd3"/>
+      <circle cx="70" cy="140" r="10" fill="#dc2626"/>
+    </g>
+
+    <!-- Right side - Content -->
+    <g transform="translate(220, 40)">
+      <text x="0" y="30" fill="#1e293b" font-family="sans-serif" font-size="24" font-weight="bold">Status-based Residence (Walang limitasyon sa trabaho)</text>
+
+      <!-- Features list -->
+      <g transform="translate(0, 60)">
+        <circle cx="12" cy="12" r="12" fill="#fce7f3"/>
+        <text x="12" y="17" text-anchor="middle" fill="#ec4899" font-family="sans-serif" font-size="14">&#10003;</text>
+        <text x="35" y="18" fill="#64748b" font-family="sans-serif" font-size="18">Asawa o anak ng Japanese national</text>
+      </g>
+
+      <g transform="translate(0, 105)">
+        <circle cx="12" cy="12" r="12" fill="#fce7f3"/>
+        <text x="12" y="17" text-anchor="middle" fill="#ec4899" font-family="sans-serif" font-size="14">&#10003;</text>
+        <text x="35" y="18" fill="#64748b" font-family="sans-serif" font-size="18">Kailangan ang family register at marriage certificate</text>
+      </g>
+
+      <g transform="translate(0, 150)">
+        <circle cx="12" cy="12" r="12" fill="#fce7f3"/>
+        <text x="12" y="17" text-anchor="middle" fill="#ec4899" font-family="sans-serif" font-size="14">&#10003;</text>
+        <text x="35" y="18" fill="#64748b" font-family="sans-serif" font-size="18">Isumite ang questionnaire at mga larawan ng mag-asawa</text>
+      </g>
+
+      <g transform="translate(0, 195)">
+        <circle cx="12" cy="12" r="12" fill="#fce7f3"/>
+        <text x="12" y="17" text-anchor="middle" fill="#ec4899" font-family="sans-serif" font-size="14">&#10003;</text>
+        <text x="35" y="18" fill="#64748b" font-family="sans-serif" font-size="18">Mag-report sa loob ng 14 na araw kung may divorce/death</text>
+      </g>
+    </g>
+
+    <!-- Bottom badge -->
+    <rect x="280" y="290" width="240" height="44" rx="22" fill="#fce7f3"/>
+    <text x="400" y="320" text-anchor="middle" fill="#be185d" font-family="sans-serif" font-size="18" font-weight="bold">日本人の配偶者等</text>
+  </g>
+
+  <!-- Footer -->
+  <text x="600" y="590" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="18">visa.japanlifeinfo.com</text>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+  </defs>
+</svg>

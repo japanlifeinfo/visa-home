@@ -1,0 +1,86 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#f8fafc"/>
+
+  <!-- Header gradient bar -->
+  <rect width="1200" height="8" fill="url(#headerGradient)"/>
+
+  <!-- Title -->
+  <text x="600" y="100" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="44" font-weight="bold">Penduduk Jangka Panjang</text>
+
+  <!-- Subtitle -->
+  <text x="600" y="150" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="28">Panduan Dokumen yang Diperlukan</text>
+
+  <!-- Main Card -->
+  <g transform="translate(200, 190)">
+    <!-- Card background -->
+    <rect width="800" height="350" rx="20" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+
+    <!-- Left side - Icon area -->
+    <g transform="translate(40, 25)">
+      <!-- House -->
+      <polygon points="60,25 20,55 100,55" fill="#f97316"/>
+      <rect x="30" y="55" width="60" height="50" fill="#fb923c"/>
+      <rect x="45" y="70" width="30" height="35" fill="#92400e"/>
+      <rect x="70" y="55" width="15" height="15" fill="#fed7aa"/>
+      <!-- Japan connection -->
+      <circle cx="115" cy="55" r="20" fill="white" stroke="#ef4444" stroke-width="3"/>
+      <circle cx="115" cy="55" r="10" fill="#ef4444"/>
+      <!-- Family silhouettes -->
+      <circle cx="50" cy="15" r="8" fill="#d1d5db"/>
+      <rect x="45" y="23" width="10" height="15" rx="3" fill="#9ca3af"/>
+      <circle cx="70" cy="15" r="8" fill="#d1d5db"/>
+      <rect x="65" y="23" width="10" height="15" rx="3" fill="#9ca3af"/>
+      <!-- Roots/Connection lines -->
+      <path d="M60 105 Q60 115 45 120" stroke="#22c55e" stroke-width="3" fill="none"/>
+      <path d="M60 105 Q60 115 75 120" stroke="#22c55e" stroke-width="3" fill="none"/>
+      <path d="M60 105 Q60 120 60 125" stroke="#22c55e" stroke-width="3" fill="none"/>
+    </g>
+
+    <!-- Right side - Content -->
+    <g transform="translate(220, 40)">
+      <text x="0" y="30" fill="#1e293b" font-family="sans-serif" font-size="24" font-weight="bold">Status Tinggal Jangka Panjang</text>
+
+      <!-- Features list -->
+      <g transform="translate(0, 60)">
+        <circle cx="12" cy="12" r="12" fill="#ffedd5"/>
+        <text x="12" y="17" text-anchor="middle" fill="#f97316" font-family="sans-serif" font-size="14">✓</text>
+        <text x="35" y="18" fill="#64748b" font-family="sans-serif" font-size="18">Keturunan Jepang gen-3, pasangan keturunan, dll.</text>
+      </g>
+
+      <g transform="translate(0, 105)">
+        <circle cx="12" cy="12" r="12" fill="#ffedd5"/>
+        <text x="12" y="17" text-anchor="middle" fill="#f97316" font-family="sans-serif" font-size="14">✓</text>
+        <text x="35" y="18" fill="#64748b" font-family="sans-serif" font-size="18">Diakui secara khusus oleh Menteri Kehakiman</text>
+      </g>
+
+      <g transform="translate(0, 150)">
+        <circle cx="12" cy="12" r="12" fill="#ffedd5"/>
+        <text x="12" y="17" text-anchor="middle" fill="#f97316" font-family="sans-serif" font-size="14">✓</text>
+        <text x="35" y="18" fill="#64748b" font-family="sans-serif" font-size="18">Masa tinggal: 5 tahun, 3 tahun, 1 tahun, 6 bulan</text>
+      </g>
+
+      <g transform="translate(0, 195)">
+        <circle cx="12" cy="12" r="12" fill="#ffedd5"/>
+        <text x="12" y="17" text-anchor="middle" fill="#f97316" font-family="sans-serif" font-size="14">✓</text>
+        <text x="35" y="18" fill="#64748b" font-family="sans-serif" font-size="18">Pengakuan/perubahan/perpanjangan tersedia</text>
+      </g>
+    </g>
+
+    <!-- Bottom badge -->
+    <rect x="330" y="290" width="140" height="44" rx="22" fill="#ffedd5"/>
+    <text x="400" y="320" text-anchor="middle" fill="#c2410c" font-family="sans-serif" font-size="18" font-weight="bold">定住者</text>
+  </g>
+
+  <!-- Footer -->
+  <text x="600" y="590" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="18">visa.japanlifeinfo.com</text>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+  </defs>
+</svg>

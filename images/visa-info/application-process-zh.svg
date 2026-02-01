@@ -1,0 +1,90 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#f8fafc"/>
+
+  <!-- Header gradient bar -->
+  <rect width="1200" height="8" fill="url(#headerGradient)"/>
+
+  <!-- Title -->
+  <text x="600" y="90" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="42" font-weight="bold">日本在留资格申请流程</text>
+  <text x="600" y="145" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="42" font-weight="bold">完全指南</text>
+
+  <!-- Subtitle -->
+  <text x="600" y="200" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="24">为首次申请者准备的分步指南</text>
+
+  <!-- Process Steps -->
+  <!-- Step 1 -->
+  <g transform="translate(100, 260)">
+    <rect width="220" height="140" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+    <circle cx="40" cy="40" r="25" fill="#dbeafe"/>
+    <text x="40" y="48" text-anchor="middle" fill="#3b82f6" font-family="sans-serif" font-size="20" font-weight="bold">1</text>
+    <text x="120" y="45" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="16" font-weight="bold">准备材料</text>
+    <text x="110" y="80" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="12">申请书、护照</text>
+    <text x="110" y="100" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="12">证件照、活动证明</text>
+    <text x="110" y="120" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="12">公司相关材料</text>
+  </g>
+
+  <!-- Arrow 1 -->
+  <path d="M330 330 L370 330" stroke="#cbd5e1" stroke-width="3" marker-end="url(#arrowhead)"/>
+
+  <!-- Step 2 -->
+  <g transform="translate(380, 260)">
+    <rect width="220" height="140" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+    <circle cx="40" cy="40" r="25" fill="#dcfce7"/>
+    <text x="40" y="48" text-anchor="middle" fill="#16a34a" font-family="sans-serif" font-size="20" font-weight="bold">2</text>
+    <text x="120" y="45" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="16" font-weight="bold">提交申请</text>
+    <text x="110" y="80" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="12">前往入管局</text>
+    <text x="110" y="100" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="12">或代理申请</text>
+    <text x="110" y="120" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="12">提交免费</text>
+  </g>
+
+  <!-- Arrow 2 -->
+  <path d="M610 330 L650 330" stroke="#cbd5e1" stroke-width="3" marker-end="url(#arrowhead)"/>
+
+  <!-- Step 3 -->
+  <g transform="translate(660, 260)">
+    <rect width="220" height="140" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+    <circle cx="40" cy="40" r="25" fill="#fef3c7"/>
+    <text x="40" y="48" text-anchor="middle" fill="#d97706" font-family="sans-serif" font-size="20" font-weight="bold">3</text>
+    <text x="120" y="45" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="16" font-weight="bold">审查期间</text>
+    <text x="110" y="80" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="12">平均1-3个月</text>
+    <text x="110" y="100" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="12">可能要求</text>
+    <text x="110" y="120" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="12">补充材料</text>
+  </g>
+
+  <!-- Arrow 3 -->
+  <path d="M890 330 L930 330" stroke="#cbd5e1" stroke-width="3" marker-end="url(#arrowhead)"/>
+
+  <!-- Step 4 -->
+  <g transform="translate(940, 260)">
+    <rect width="220" height="140" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+    <circle cx="40" cy="40" r="25" fill="#fce7f3"/>
+    <text x="40" y="48" text-anchor="middle" fill="#db2777" font-family="sans-serif" font-size="20" font-weight="bold">4</text>
+    <text x="120" y="45" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="16" font-weight="bold">许可后手续</text>
+    <text x="110" y="80" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="12">领取在留卡</text>
+    <text x="110" y="100" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="12">申请签证(新规)</text>
+    <text x="110" y="120" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="12">缴纳印花税</text>
+  </g>
+
+  <!-- Key Points Box -->
+  <g transform="translate(300, 440)">
+    <rect width="600" height="80" rx="12" fill="#1e293b"/>
+    <text x="300" y="35" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="14">关键要点</text>
+    <text x="300" y="60" text-anchor="middle" fill="white" font-family="sans-serif" font-size="16" font-weight="bold">资格与活动一致 | 材料一致性 | 及时回复追加要求</text>
+  </g>
+
+  <!-- Footer -->
+  <text x="600" y="590" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="18">visa.japanlifeinfo.com</text>
+
+  <!-- Gradients and markers -->
+  <defs>
+    <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#cbd5e1"/>
+    </marker>
+  </defs>
+</svg>

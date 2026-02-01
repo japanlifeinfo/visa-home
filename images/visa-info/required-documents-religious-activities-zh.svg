@@ -1,0 +1,80 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#f8fafc"/>
+
+  <!-- Header gradient bar -->
+  <rect width="1200" height="8" fill="url(#headerGradient)"/>
+
+  <!-- Title -->
+  <text x="600" y="100" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="44" font-weight="bold">宗教</text>
+
+  <!-- Subtitle -->
+  <text x="600" y="150" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="28">提交材料指南</text>
+
+  <!-- Main Card -->
+  <g transform="translate(200, 190)">
+    <!-- Card background -->
+    <rect width="800" height="350" rx="20" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+
+    <!-- Left side - Icon area -->
+    <g transform="translate(60, 40)">
+      <!-- Temple/Church building -->
+      <rect x="20" y="50" width="80" height="70" fill="#f59e0b"/>
+      <polygon points="60,10 15,50 105,50" fill="#fbbf24"/>
+      <!-- Door -->
+      <rect x="45" y="80" width="30" height="40" rx="15" fill="#92400e"/>
+      <!-- Windows -->
+      <rect x="30" y="60" width="15" height="15" fill="#fef3c7"/>
+      <rect x="75" y="60" width="15" height="15" fill="#fef3c7"/>
+      <!-- Bell tower -->
+      <rect x="50" y="0" width="20" height="20" fill="#f59e0b"/>
+      <ellipse cx="60" cy="10" rx="6" ry="8" fill="#fbbf24"/>
+    </g>
+
+    <!-- Right side - Content -->
+    <g transform="translate(220, 40)">
+      <text x="0" y="30" fill="#1e293b" font-family="sans-serif" font-size="24" font-weight="bold">宗教活动在留资格</text>
+
+      <!-- Features list -->
+      <g transform="translate(0, 60)">
+        <circle cx="12" cy="12" r="12" fill="#fef3c7"/>
+        <text x="12" y="17" text-anchor="middle" fill="#f59e0b" font-family="sans-serif" font-size="14">✓</text>
+        <text x="35" y="18" fill="#64748b" font-family="sans-serif" font-size="18">由外国宗教团体派遣的宗教人士</text>
+      </g>
+
+      <g transform="translate(0, 105)">
+        <circle cx="12" cy="12" r="12" fill="#fef3c7"/>
+        <text x="12" y="17" text-anchor="middle" fill="#f59e0b" font-family="sans-serif" font-size="14">✓</text>
+        <text x="35" y="18" fill="#64748b" font-family="sans-serif" font-size="18">传教、主持宗教仪式等活动</text>
+      </g>
+
+      <g transform="translate(0, 150)">
+        <circle cx="12" cy="12" r="12" fill="#fef3c7"/>
+        <text x="12" y="17" text-anchor="middle" fill="#f59e0b" font-family="sans-serif" font-size="14">✓</text>
+        <text x="35" y="18" fill="#64748b" font-family="sans-serif" font-size="18">在留期间：5年、3年、1年、3个月</text>
+      </g>
+
+      <g transform="translate(0, 195)">
+        <circle cx="12" cy="12" r="12" fill="#fef3c7"/>
+        <text x="12" y="17" text-anchor="middle" fill="#f59e0b" font-family="sans-serif" font-size="14">✓</text>
+        <text x="35" y="18" fill="#64748b" font-family="sans-serif" font-size="18">可申请认定·变更·更新</text>
+      </g>
+    </g>
+
+    <!-- Bottom badge -->
+    <rect x="330" y="290" width="140" height="44" rx="22" fill="#fef3c7"/>
+    <text x="400" y="320" text-anchor="middle" fill="#b45309" font-family="sans-serif" font-size="18" font-weight="bold">宗教</text>
+  </g>
+
+  <!-- Footer -->
+  <text x="600" y="590" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="18">visa.japanlifeinfo.com</text>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+  </defs>
+</svg>

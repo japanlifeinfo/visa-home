@@ -1,0 +1,89 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#f8fafc"/>
+
+  <!-- Header gradient bar -->
+  <rect width="1200" height="8" fill="url(#headerGradient)"/>
+
+  <!-- Title -->
+  <text x="600" y="100" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="44" font-weight="bold">Designated Activities</text>
+
+  <!-- Subtitle -->
+  <text x="600" y="150" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="28">Gabay sa mga Kinakailangang Dokumento</text>
+
+  <!-- Main Card -->
+  <g transform="translate(200, 190)">
+    <!-- Card background -->
+    <rect width="800" height="350" rx="20" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+
+    <!-- Left side - Icon area -->
+    <g transform="translate(40, 25)">
+      <!-- Document with special mark -->
+      <rect x="25" y="15" width="70" height="90" rx="5" fill="#e0e7ff"/>
+      <rect x="25" y="15" width="70" height="20" fill="#6366f1"/>
+      <text x="60" y="30" text-anchor="middle" fill="white" font-family="sans-serif" font-size="12" font-weight="bold">特定</text>
+      <!-- Lines on document -->
+      <rect x="32" y="45" width="45" height="5" fill="#a5b4fc"/>
+      <rect x="32" y="55" width="55" height="5" fill="#a5b4fc"/>
+      <rect x="32" y="65" width="40" height="5" fill="#a5b4fc"/>
+      <rect x="32" y="75" width="50" height="5" fill="#a5b4fc"/>
+      <rect x="32" y="85" width="35" height="5" fill="#a5b4fc"/>
+      <!-- Stamp -->
+      <circle cx="78" cy="85" r="12" fill="none" stroke="#dc2626" stroke-width="2"/>
+      <text x="78" y="89" text-anchor="middle" fill="#dc2626" font-family="sans-serif" font-size="10">認</text>
+      <!-- Multiple activity icons -->
+      <circle cx="110" cy="35" r="15" fill="#f0fdf4"/>
+      <text x="110" y="40" text-anchor="middle" fill="#22c55e" font-family="sans-serif" font-size="16">W</text>
+      <circle cx="110" cy="70" r="15" fill="#fef3c7"/>
+      <text x="110" y="75" text-anchor="middle" fill="#f59e0b" font-family="sans-serif" font-size="16">I</text>
+      <circle cx="110" cy="105" r="15" fill="#fce7f3"/>
+      <text x="110" y="110" text-anchor="middle" fill="#ec4899" font-family="sans-serif" font-size="16">46</text>
+    </g>
+
+    <!-- Right side - Content -->
+    <g transform="translate(220, 40)">
+      <text x="0" y="30" fill="#1e293b" font-family="sans-serif" font-size="24" font-weight="bold">Status para sa Indibidwal na Itinalagang Aktibidad</text>
+
+      <!-- Features list -->
+      <g transform="translate(0, 60)">
+        <circle cx="12" cy="12" r="12" fill="#e0e7ff"/>
+        <text x="12" y="17" text-anchor="middle" fill="#6366f1" font-family="sans-serif" font-size="14">&#10003;</text>
+        <text x="35" y="18" fill="#64748b" font-family="sans-serif" font-size="18">Working holiday, internship, atbp.</text>
+      </g>
+
+      <g transform="translate(0, 105)">
+        <circle cx="12" cy="12" r="12" fill="#e0e7ff"/>
+        <text x="12" y="17" text-anchor="middle" fill="#6366f1" font-family="sans-serif" font-size="14">&#10003;</text>
+        <text x="35" y="18" fill="#64748b" font-family="sans-serif" font-size="18">No. 46 (employment ng graduate), EPA, atbp.</text>
+      </g>
+
+      <g transform="translate(0, 150)">
+        <circle cx="12" cy="12" r="12" fill="#e0e7ff"/>
+        <text x="12" y="17" text-anchor="middle" fill="#6366f1" font-family="sans-serif" font-size="14">&#10003;</text>
+        <text x="35" y="18" fill="#64748b" font-family="sans-serif" font-size="18">Iba't ibang dokumento depende sa uri ng aktibidad</text>
+      </g>
+
+      <g transform="translate(0, 195)">
+        <circle cx="12" cy="12" r="12" fill="#e0e7ff"/>
+        <text x="12" y="17" text-anchor="middle" fill="#6366f1" font-family="sans-serif" font-size="14">&#10003;</text>
+        <text x="35" y="18" fill="#64748b" font-family="sans-serif" font-size="18">Pwedeng mag-apply: Pagkilala, Pagbabago, Pag-renew</text>
+      </g>
+    </g>
+
+    <!-- Bottom badge -->
+    <rect x="305" y="290" width="190" height="44" rx="22" fill="#e0e7ff"/>
+    <text x="400" y="320" text-anchor="middle" fill="#4338ca" font-family="sans-serif" font-size="18" font-weight="bold">特定活動</text>
+  </g>
+
+  <!-- Footer -->
+  <text x="600" y="590" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="18">visa.japanlifeinfo.com</text>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,84 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#f8fafc"/>
+
+  <!-- Header gradient bar -->
+  <rect width="1200" height="8" fill="url(#headerGradient)"/>
+
+  <!-- Title -->
+  <text x="600" y="100" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="40" font-weight="bold">Cham soc dieu duong</text>
+
+  <!-- Subtitle -->
+  <text x="600" y="150" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="28">Huong dan ho so can nop</text>
+
+  <!-- Main Card -->
+  <g transform="translate(200, 190)">
+    <!-- Card background -->
+    <rect width="800" height="350" rx="20" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+
+    <!-- Left side - Icon area -->
+    <g transform="translate(50, 40)">
+      <!-- Caregiver -->
+      <circle cx="50" cy="40" r="18" fill="#ec4899"/>
+      <rect x="32" y="62" width="36" height="45" rx="6" fill="#ec4899"/>
+      <!-- Heart -->
+      <path d="M50,75 C42,67 30,70 30,82 C30,95 50,105 50,105 C50,105 70,95 70,82 C70,70 58,67 50,75" fill="#fecdd3"/>
+      <!-- Elderly person in wheelchair -->
+      <circle cx="110" cy="60" r="15" fill="#f9a8d4"/>
+      <rect x="95" y="78" width="30" height="35" rx="4" fill="#f9a8d4"/>
+      <!-- Wheelchair -->
+      <circle cx="100" cy="130" r="12" fill="none" stroke="#9ca3af" stroke-width="3"/>
+      <circle cx="130" cy="130" r="12" fill="none" stroke="#9ca3af" stroke-width="3"/>
+      <line x1="100" y1="118" x2="130" y2="118" stroke="#9ca3af" stroke-width="3"/>
+      <line x1="115" y1="90" x2="115" y2="118" stroke="#9ca3af" stroke-width="3"/>
+      <!-- Hands helping -->
+      <path d="M75,100 Q85,95 95,100" fill="none" stroke="#ec4899" stroke-width="3"/>
+    </g>
+
+    <!-- Right side - Content -->
+    <g transform="translate(220, 40)">
+      <text x="0" y="30" fill="#1e293b" font-family="sans-serif" font-size="24" font-weight="bold">Cham soc va huong dan cham soc</text>
+
+      <!-- Features list -->
+      <g transform="translate(0, 60)">
+        <circle cx="12" cy="12" r="12" fill="#fce7f3"/>
+        <text x="12" y="17" text-anchor="middle" fill="#ec4899" font-family="sans-serif" font-size="14">✓</text>
+        <text x="35" y="18" fill="#64748b" font-family="sans-serif" font-size="18">Chung chi Kaigo Fukushishi</text>
+      </g>
+
+      <g transform="translate(0, 105)">
+        <circle cx="12" cy="12" r="12" fill="#fce7f3"/>
+        <text x="12" y="17" text-anchor="middle" fill="#ec4899" font-family="sans-serif" font-size="14">✓</text>
+        <text x="35" y="18" fill="#64748b" font-family="sans-serif" font-size="18">Nhan vien phuc loi dieu duong</text>
+      </g>
+
+      <g transform="translate(0, 150)">
+        <circle cx="12" cy="12" r="12" fill="#fce7f3"/>
+        <text x="12" y="17" text-anchor="middle" fill="#ec4899" font-family="sans-serif" font-size="14">✓</text>
+        <text x="35" y="18" fill="#64748b" font-family="sans-serif" font-size="18">Thoi han: 5 nam, 3 nam, 1 nam, 3 thang</text>
+      </g>
+
+      <g transform="translate(0, 195)">
+        <circle cx="12" cy="12" r="12" fill="#fce7f3"/>
+        <text x="12" y="17" text-anchor="middle" fill="#ec4899" font-family="sans-serif" font-size="14">✓</text>
+        <text x="35" y="18" fill="#64748b" font-family="sans-serif" font-size="18">Hop dong voi co quan tai Nhat Ban</text>
+      </g>
+    </g>
+
+    <!-- Bottom badge -->
+    <rect x="330" y="290" width="140" height="44" rx="22" fill="#fce7f3"/>
+    <text x="400" y="320" text-anchor="middle" fill="#be185d" font-family="sans-serif" font-size="18" font-weight="bold">介護</text>
+  </g>
+
+  <!-- Footer -->
+  <text x="600" y="590" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="18">visa.japanlifeinfo.com</text>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+  </defs>
+</svg>

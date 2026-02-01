@@ -1,0 +1,87 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#f8fafc"/>
+
+  <!-- Header gradient bar -->
+  <rect width="1200" height="8" fill="url(#headerGradient)"/>
+
+  <!-- Title -->
+  <text x="600" y="100" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="44" font-weight="bold">개호</text>
+
+  <!-- Subtitle -->
+  <text x="600" y="150" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="28">제출 서류 안내</text>
+
+  <!-- Main Card -->
+  <g transform="translate(200, 190)">
+    <!-- Card background -->
+    <rect width="800" height="350" rx="20" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+
+    <!-- Left side - Icon area -->
+    <g transform="translate(50, 30)">
+      <!-- Caregiver (standing) -->
+      <circle cx="45" cy="25" r="15" fill="#f9a8d4"/>
+      <rect x="35" y="42" width="20" height="35" rx="5" fill="#ec4899"/>
+      <rect x="32" y="42" width="8" height="25" rx="3" fill="#ec4899"/>
+      <rect x="50" y="42" width="8" height="25" rx="3" fill="#ec4899"/>
+      <rect x="38" y="75" width="6" height="25" fill="#ec4899"/>
+      <rect x="46" y="75" width="6" height="25" fill="#ec4899"/>
+      <!-- Wheelchair -->
+      <circle cx="95" cy="90" r="18" stroke="#6b7280" stroke-width="4" fill="none"/>
+      <circle cx="95" cy="90" r="5" fill="#6b7280"/>
+      <circle cx="70" cy="95" r="8" stroke="#6b7280" stroke-width="3" fill="none"/>
+      <rect x="70" y="55" width="40" height="25" rx="5" fill="#3b82f6"/>
+      <rect x="105" y="50" width="5" height="40" fill="#6b7280"/>
+      <!-- Elderly person in wheelchair -->
+      <circle cx="90" cy="45" r="12" fill="#d4d4d4"/>
+      <rect x="80" y="55" width="20" height="20" rx="3" fill="#9ca3af"/>
+      <!-- Heart -->
+      <path d="M115 25 C115 15 130 15 130 25 C130 15 145 15 145 25 C145 45 130 55 130 55 C130 55 115 45 115 25" fill="#ef4444"/>
+    </g>
+
+    <!-- Right side - Content -->
+    <g transform="translate(220, 40)">
+      <text x="0" y="30" fill="#1e293b" font-family="sans-serif" font-size="24" font-weight="bold">개호 전문직 재류자격</text>
+
+      <!-- Features list -->
+      <g transform="translate(0, 60)">
+        <circle cx="12" cy="12" r="12" fill="#fce7f3"/>
+        <text x="12" y="17" text-anchor="middle" fill="#ec4899" font-family="sans-serif" font-size="14">✓</text>
+        <text x="35" y="18" fill="#64748b" font-family="sans-serif" font-size="18">개호복지사 자격 필요</text>
+      </g>
+
+      <g transform="translate(0, 105)">
+        <circle cx="12" cy="12" r="12" fill="#fce7f3"/>
+        <text x="12" y="17" text-anchor="middle" fill="#ec4899" font-family="sans-serif" font-size="14">✓</text>
+        <text x="35" y="18" fill="#64748b" font-family="sans-serif" font-size="18">개호 또는 개호 지도 업무</text>
+      </g>
+
+      <g transform="translate(0, 150)">
+        <circle cx="12" cy="12" r="12" fill="#fce7f3"/>
+        <text x="12" y="17" text-anchor="middle" fill="#ec4899" font-family="sans-serif" font-size="14">✓</text>
+        <text x="35" y="18" fill="#64748b" font-family="sans-serif" font-size="18">재류 기간: 5년, 3년, 1년, 3개월</text>
+      </g>
+
+      <g transform="translate(0, 195)">
+        <circle cx="12" cy="12" r="12" fill="#fce7f3"/>
+        <text x="12" y="17" text-anchor="middle" fill="#ec4899" font-family="sans-serif" font-size="14">✓</text>
+        <text x="35" y="18" fill="#64748b" font-family="sans-serif" font-size="18">인정 · 변경 · 갱신 신청 가능</text>
+      </g>
+    </g>
+
+    <!-- Bottom badge -->
+    <rect x="330" y="290" width="140" height="44" rx="22" fill="#fce7f3"/>
+    <text x="400" y="320" text-anchor="middle" fill="#be185d" font-family="sans-serif" font-size="18" font-weight="bold">介護</text>
+  </g>
+
+  <!-- Footer -->
+  <text x="600" y="590" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="18">visa.japanlifeinfo.com</text>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,43 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#f8fafc"/>
+  <rect width="1200" height="8" fill="url(#headerGradient)"/>
+  <text x="600" y="100" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="44" font-weight="bold">Spouse of Japanese</text>
+  <text x="600" y="150" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="28">Required Documents Guide</text>
+  <g transform="translate(200, 190)">
+    <rect width="800" height="350" rx="20" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+    <!-- Heart with Couple Icon -->
+    <g transform="translate(60, 65)">
+      <!-- Large Heart -->
+      <path d="M80,160 C20,100 20,50 60,40 C80,35 100,50 100,50 C100,50 120,35 140,40 C180,50 180,100 120,160 L80,160 Z" fill="#fecdd3" stroke="#f43f5e" stroke-width="3"/>
+      <!-- Couple inside heart -->
+      <circle cx="70" cy="90" r="15" fill="#ffe4e6" stroke="#f43f5e" stroke-width="2"/>
+      <rect x="57" y="108" width="26" height="35" rx="6" fill="#f43f5e"/>
+      <circle cx="110" cy="90" r="15" fill="#ffe4e6" stroke="#f43f5e" stroke-width="2"/>
+      <rect x="97" y="108" width="26" height="35" rx="6" fill="#fb7185"/>
+      <!-- Japan flag indicator -->
+      <circle cx="145" cy="45" r="18" fill="white" stroke="#f43f5e" stroke-width="2"/>
+      <circle cx="145" cy="45" r="8" fill="#f43f5e"/>
+    </g>
+    <!-- Content Section -->
+    <g transform="translate(280, 60)">
+      <circle cx="20" cy="20" r="12" fill="#fecdd3"/>
+      <text x="45" y="26" fill="#1e293b" font-family="sans-serif" font-size="20">Marriage certificate</text>
+      <circle cx="20" cy="70" r="12" fill="#fecdd3"/>
+      <text x="45" y="76" fill="#1e293b" font-family="sans-serif" font-size="20">Spouse guarantee letter</text>
+      <circle cx="20" cy="120" r="12" fill="#fecdd3"/>
+      <text x="45" y="126" fill="#1e293b" font-family="sans-serif" font-size="20">No work restrictions</text>
+      <circle cx="20" cy="170" r="12" fill="#fecdd3"/>
+      <text x="45" y="176" fill="#1e293b" font-family="sans-serif" font-size="20">Path to permanent residence</text>
+    </g>
+    <rect x="290" y="290" width="220" height="44" rx="22" fill="#fecdd3"/>
+    <text x="400" y="320" text-anchor="middle" fill="#e11d48" font-family="sans-serif" font-size="18" font-weight="bold">日本人の配偶者等</text>
+  </g>
+  <text x="600" y="590" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="18">visa.japanlifeinfo.com</text>
+  <defs>
+    <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+  </defs>
+</svg>

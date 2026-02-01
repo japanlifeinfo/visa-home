@@ -1,0 +1,84 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#f8fafc"/>
+
+  <!-- Header gradient bar -->
+  <rect width="1200" height="8" fill="url(#headerGradient)"/>
+
+  <!-- Title -->
+  <text x="600" y="100" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="44" font-weight="bold">영주자의 배우자등</text>
+
+  <!-- Subtitle -->
+  <text x="600" y="150" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="28">제출 서류 안내</text>
+
+  <!-- Main Card -->
+  <g transform="translate(200, 190)">
+    <!-- Card background -->
+    <rect width="800" height="350" rx="20" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+
+    <!-- Left side - Icon area -->
+    <g transform="translate(40, 25)">
+      <!-- Permanent resident (with star badge) -->
+      <circle cx="40" cy="35" r="18" fill="#a5b4fc"/>
+      <rect x="25" y="55" width="30" height="40" rx="5" fill="#6366f1"/>
+      <rect x="18" y="57" width="12" height="10" rx="3" fill="#6366f1"/>
+      <rect x="50" y="57" width="12" height="10" rx="3" fill="#6366f1"/>
+      <!-- Star badge for permanent resident -->
+      <polygon points="40,5 43,15 53,15 45,21 48,31 40,25 32,31 35,21 27,15 37,15" fill="#fbbf24"/>
+      <text x="40" y="22" text-anchor="middle" fill="#92400e" font-family="sans-serif" font-size="8" font-weight="bold">永</text>
+      <!-- Heart connection -->
+      <path d="M62 50 C62 40 77 40 77 50 C77 40 92 40 92 50 C92 70 77 80 77 80 C77 80 62 70 62 50" fill="#f472b6"/>
+      <!-- Spouse -->
+      <circle cx="100" cy="35" r="18" fill="#fda4af"/>
+      <rect x="85" y="55" width="30" height="40" rx="5" fill="#ec4899"/>
+      <rect x="78" y="57" width="12" height="10" rx="3" fill="#ec4899"/>
+      <rect x="110" y="57" width="12" height="10" rx="3" fill="#ec4899"/>
+    </g>
+
+    <!-- Right side - Content -->
+    <g transform="translate(220, 40)">
+      <text x="0" y="30" fill="#1e293b" font-family="sans-serif" font-size="24" font-weight="bold">영주자 가족 재류자격</text>
+
+      <!-- Features list -->
+      <g transform="translate(0, 60)">
+        <circle cx="12" cy="12" r="12" fill="#fce7f3"/>
+        <text x="12" y="17" text-anchor="middle" fill="#ec4899" font-family="sans-serif" font-size="14">✓</text>
+        <text x="35" y="18" fill="#64748b" font-family="sans-serif" font-size="18">영주자·특별영주자의 배우자</text>
+      </g>
+
+      <g transform="translate(0, 105)">
+        <circle cx="12" cy="12" r="12" fill="#fce7f3"/>
+        <text x="12" y="17" text-anchor="middle" fill="#ec4899" font-family="sans-serif" font-size="14">✓</text>
+        <text x="35" y="18" fill="#64748b" font-family="sans-serif" font-size="18">영주자의 자녀 (일본 출생, 계속 재류)</text>
+      </g>
+
+      <g transform="translate(0, 150)">
+        <circle cx="12" cy="12" r="12" fill="#fce7f3"/>
+        <text x="12" y="17" text-anchor="middle" fill="#ec4899" font-family="sans-serif" font-size="14">✓</text>
+        <text x="35" y="18" fill="#64748b" font-family="sans-serif" font-size="18">재류 기간: 5년, 3년, 1년, 6개월</text>
+      </g>
+
+      <g transform="translate(0, 195)">
+        <circle cx="12" cy="12" r="12" fill="#fce7f3"/>
+        <text x="12" y="17" text-anchor="middle" fill="#ec4899" font-family="sans-serif" font-size="14">✓</text>
+        <text x="35" y="18" fill="#64748b" font-family="sans-serif" font-size="18">인정 · 변경 · 갱신 신청 가능</text>
+      </g>
+    </g>
+
+    <!-- Bottom badge -->
+    <rect x="260" y="290" width="280" height="44" rx="22" fill="#fce7f3"/>
+    <text x="400" y="320" text-anchor="middle" fill="#be185d" font-family="sans-serif" font-size="18" font-weight="bold">永住者の配偶者等</text>
+  </g>
+
+  <!-- Footer -->
+  <text x="600" y="590" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="18">visa.japanlifeinfo.com</text>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+  </defs>
+</svg>

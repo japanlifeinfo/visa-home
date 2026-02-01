@@ -1,0 +1,84 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#f8fafc"/>
+
+  <!-- Header gradient bar -->
+  <rect width="1200" height="8" fill="url(#headerGradient)"/>
+
+  <!-- Title -->
+  <text x="600" y="100" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="36" font-weight="bold">Vo/chong nguoi thuong tru</text>
+
+  <!-- Subtitle -->
+  <text x="600" y="150" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="28">Huong dan ho so can nop</text>
+
+  <!-- Main Card -->
+  <g transform="translate(200, 190)">
+    <!-- Card background -->
+    <rect width="800" height="350" rx="20" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+
+    <!-- Left side - Icon area -->
+    <g transform="translate(50, 45)">
+      <!-- Couple icon -->
+      <!-- Person 1 (Permanent resident) -->
+      <circle cx="45" cy="40" r="20" fill="#f43f5e"/>
+      <rect x="25" y="65" width="40" height="50" rx="8" fill="#f43f5e"/>
+      <!-- Person 2 (Spouse) -->
+      <circle cx="100" cy="40" r="20" fill="#fb7185"/>
+      <rect x="80" y="65" width="40" height="50" rx="8" fill="#fb7185"/>
+      <!-- Heart between them -->
+      <path d="M72 55 C65 47, 52 50, 52 62 C52 77, 72 87, 72 87 C72 87, 92 77, 92 62 C92 50, 79 47, 72 55" fill="#fecdd3"/>
+      <!-- Permanent resident badge -->
+      <rect x="30" y="125" width="50" height="25" rx="4" fill="#f43f5e"/>
+      <text x="55" y="142" text-anchor="middle" fill="white" font-family="sans-serif" font-size="10" font-weight="bold">永住</text>
+      <!-- Wedding rings -->
+      <circle cx="95" cy="137" r="10" fill="none" stroke="#fbbf24" stroke-width="3"/>
+      <circle cx="110" cy="137" r="10" fill="none" stroke="#fbbf24" stroke-width="3"/>
+    </g>
+
+    <!-- Right side - Content -->
+    <g transform="translate(220, 40)">
+      <text x="0" y="30" fill="#1e293b" font-family="sans-serif" font-size="22" font-weight="bold">Vo/chong Vinh tru nhan/Vinh tru nhan dac biet</text>
+
+      <!-- Features list -->
+      <g transform="translate(0, 60)">
+        <circle cx="12" cy="12" r="12" fill="#ffe4e6"/>
+        <text x="12" y="17" text-anchor="middle" fill="#f43f5e" font-family="sans-serif" font-size="14">✓</text>
+        <text x="35" y="18" fill="#64748b" font-family="sans-serif" font-size="18">Khong gioi han viec lam</text>
+      </g>
+
+      <g transform="translate(0, 105)">
+        <circle cx="12" cy="12" r="12" fill="#ffe4e6"/>
+        <text x="12" y="17" text-anchor="middle" fill="#f43f5e" font-family="sans-serif" font-size="14">✓</text>
+        <text x="35" y="18" fill="#64748b" font-family="sans-serif" font-size="18">Bao gom con sinh tai Nhat va tiep tuc o</text>
+      </g>
+
+      <g transform="translate(0, 150)">
+        <circle cx="12" cy="12" r="12" fill="#ffe4e6"/>
+        <text x="12" y="17" text-anchor="middle" fill="#f43f5e" font-family="sans-serif" font-size="14">✓</text>
+        <text x="35" y="18" fill="#64748b" font-family="sans-serif" font-size="18">Thoi han: 5 nam, 3 nam, 1 nam, 6 thang</text>
+      </g>
+
+      <g transform="translate(0, 195)">
+        <circle cx="12" cy="12" r="12" fill="#ffe4e6"/>
+        <text x="12" y="17" text-anchor="middle" fill="#f43f5e" font-family="sans-serif" font-size="14">✓</text>
+        <text x="35" y="18" fill="#64748b" font-family="sans-serif" font-size="18">Bang cau hoi can thiet</text>
+      </g>
+    </g>
+
+    <!-- Bottom badge -->
+    <rect x="260" y="290" width="280" height="44" rx="22" fill="#ffe4e6"/>
+    <text x="400" y="320" text-anchor="middle" fill="#be123c" font-family="sans-serif" font-size="16" font-weight="bold">永住者の配偶者等</text>
+  </g>
+
+  <!-- Footer -->
+  <text x="600" y="590" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="18">visa.japanlifeinfo.com</text>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+  </defs>
+</svg>

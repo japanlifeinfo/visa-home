@@ -1,0 +1,86 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#f8fafc"/>
+
+  <!-- Header gradient bar -->
+  <rect width="1200" height="8" fill="url(#headerGradient)"/>
+
+  <!-- Title -->
+  <text x="600" y="100" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="44" font-weight="bold">Peserta Pelatihan</text>
+
+  <!-- Subtitle -->
+  <text x="600" y="150" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="28">Panduan Dokumen yang Diperlukan</text>
+
+  <!-- Main Card -->
+  <g transform="translate(200, 190)">
+    <!-- Card background -->
+    <rect width="800" height="350" rx="20" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+
+    <!-- Left side - Icon area -->
+    <g transform="translate(45, 30)">
+      <!-- Person learning -->
+      <circle cx="45" cy="30" r="18" fill="#93c5fd"/>
+      <rect x="30" y="50" width="30" height="40" rx="5" fill="#3b82f6"/>
+      <rect x="22" y="52" width="15" height="10" rx="3" fill="#3b82f6"/>
+      <rect x="53" y="52" width="15" height="10" rx="3" fill="#3b82f6"/>
+      <!-- Book/Manual -->
+      <rect x="55" y="60" width="30" height="25" rx="3" fill="#fef3c7" stroke="#f59e0b" stroke-width="2"/>
+      <line x1="70" y1="60" x2="70" y2="85" stroke="#f59e0b" stroke-width="2"/>
+      <!-- Lightbulb (learning) -->
+      <ellipse cx="100" cy="35" rx="15" ry="18" fill="#fbbf24"/>
+      <rect x="93" y="50" width="14" height="8" fill="#f59e0b"/>
+      <rect x="95" y="56" width="10" height="3" fill="#d97706"/>
+      <line x1="100" y1="20" x2="100" y2="10" stroke="#fbbf24" stroke-width="2"/>
+      <line x1="85" y1="25" x2="78" y2="18" stroke="#fbbf24" stroke-width="2"/>
+      <line x1="115" y1="25" x2="122" y2="18" stroke="#fbbf24" stroke-width="2"/>
+      <!-- Arrow showing growth -->
+      <path d="M30 100 L60 100 L60 95 L75 105 L60 115 L60 110 L30 110 Z" fill="#22c55e"/>
+    </g>
+
+    <!-- Right side - Content -->
+    <g transform="translate(220, 40)">
+      <text x="0" y="30" fill="#1e293b" font-family="sans-serif" font-size="24" font-weight="bold">Status Tinggal Kegiatan Pelatihan</text>
+
+      <!-- Features list -->
+      <g transform="translate(0, 60)">
+        <circle cx="12" cy="12" r="12" fill="#dbeafe"/>
+        <text x="12" y="17" text-anchor="middle" fill="#3b82f6" font-family="sans-serif" font-size="14">✓</text>
+        <text x="35" y="18" fill="#64748b" font-family="sans-serif" font-size="18">Pelatihan keterampilan di lembaga publik/swasta</text>
+      </g>
+
+      <g transform="translate(0, 105)">
+        <circle cx="12" cy="12" r="12" fill="#dbeafe"/>
+        <text x="12" y="17" text-anchor="middle" fill="#3b82f6" font-family="sans-serif" font-size="14">✓</text>
+        <text x="35" y="18" fill="#64748b" font-family="sans-serif" font-size="18">Berbeda dari magang teknis dan pelajar</text>
+      </g>
+
+      <g transform="translate(0, 150)">
+        <circle cx="12" cy="12" r="12" fill="#dbeafe"/>
+        <text x="12" y="17" text-anchor="middle" fill="#3b82f6" font-family="sans-serif" font-size="14">✓</text>
+        <text x="35" y="18" fill="#64748b" font-family="sans-serif" font-size="18">Masa tinggal: 1 tahun, 6 bulan, 3 bulan</text>
+      </g>
+
+      <g transform="translate(0, 195)">
+        <circle cx="12" cy="12" r="12" fill="#dbeafe"/>
+        <text x="12" y="17" text-anchor="middle" fill="#3b82f6" font-family="sans-serif" font-size="14">✓</text>
+        <text x="35" y="18" fill="#64748b" font-family="sans-serif" font-size="18">Pengakuan/perubahan/perpanjangan tersedia</text>
+      </g>
+    </g>
+
+    <!-- Bottom badge -->
+    <rect x="330" y="290" width="140" height="44" rx="22" fill="#dbeafe"/>
+    <text x="400" y="320" text-anchor="middle" fill="#1d4ed8" font-family="sans-serif" font-size="18" font-weight="bold">研修</text>
+  </g>
+
+  <!-- Footer -->
+  <text x="600" y="590" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="18">visa.japanlifeinfo.com</text>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+  </defs>
+</svg>

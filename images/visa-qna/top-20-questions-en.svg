@@ -1,0 +1,105 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#f8fafc"/>
+
+  <!-- Header gradient bar -->
+  <rect width="1200" height="8" fill="url(#headerGradient)"/>
+
+  <!-- Title -->
+  <text x="600" y="90" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="42" font-weight="bold">Top 20 Questions Beginners Ask</text>
+  <text x="600" y="145" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="42" font-weight="bold">About Japanese Visa &amp; Residence Status</text>
+
+  <!-- Subtitle -->
+  <text x="600" y="195" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="24">Know this, and half your problems are solved</text>
+
+  <!-- Q&A Cards Grid -->
+  <!-- Row 1 -->
+  <g transform="translate(100, 240)">
+    <rect width="180" height="100" rx="12" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+    <circle cx="35" cy="35" r="20" fill="#dbeafe"/>
+    <text x="35" y="42" text-anchor="middle" fill="#3b82f6" font-family="sans-serif" font-size="18" font-weight="bold">Q1</text>
+    <text x="100" y="60" text-anchor="middle" fill="#475569" font-family="sans-serif" font-size="13">Visa vs Status</text>
+  </g>
+
+  <g transform="translate(300, 240)">
+    <rect width="180" height="100" rx="12" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+    <circle cx="35" cy="35" r="20" fill="#dcfce7"/>
+    <text x="35" y="42" text-anchor="middle" fill="#16a34a" font-family="sans-serif" font-size="18" font-weight="bold">Q2</text>
+    <text x="100" y="60" text-anchor="middle" fill="#475569" font-family="sans-serif" font-size="13">Changing Status</text>
+  </g>
+
+  <g transform="translate(500, 240)">
+    <rect width="180" height="100" rx="12" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+    <circle cx="35" cy="35" r="20" fill="#fef3c7"/>
+    <text x="35" y="42" text-anchor="middle" fill="#d97706" font-family="sans-serif" font-size="18" font-weight="bold">Q3</text>
+    <text x="100" y="60" text-anchor="middle" fill="#475569" font-family="sans-serif" font-size="13">Tourist to Work</text>
+  </g>
+
+  <g transform="translate(700, 240)">
+    <rect width="180" height="100" rx="12" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+    <circle cx="35" cy="35" r="20" fill="#fce7f3"/>
+    <text x="35" y="42" text-anchor="middle" fill="#db2777" font-family="sans-serif" font-size="18" font-weight="bold">Q4</text>
+    <text x="100" y="60" text-anchor="middle" fill="#475569" font-family="sans-serif" font-size="13">Where to Apply</text>
+  </g>
+
+  <g transform="translate(900, 240)">
+    <rect width="180" height="100" rx="12" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+    <circle cx="35" cy="35" r="20" fill="#e0e7ff"/>
+    <text x="35" y="42" text-anchor="middle" fill="#4f46e5" font-family="sans-serif" font-size="18" font-weight="bold">Q5</text>
+    <text x="100" y="60" text-anchor="middle" fill="#475569" font-family="sans-serif" font-size="13">Proxy Application</text>
+  </g>
+
+  <!-- Row 2 -->
+  <g transform="translate(100, 360)">
+    <rect width="180" height="100" rx="12" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+    <circle cx="35" cy="35" r="20" fill="#ccfbf1"/>
+    <text x="35" y="42" text-anchor="middle" fill="#0d9488" font-family="sans-serif" font-size="18" font-weight="bold">Q6</text>
+    <text x="100" y="60" text-anchor="middle" fill="#475569" font-family="sans-serif" font-size="13">Review Period</text>
+  </g>
+
+  <g transform="translate(300, 360)">
+    <rect width="180" height="100" rx="12" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+    <circle cx="35" cy="35" r="20" fill="#fed7aa"/>
+    <text x="35" y="42" text-anchor="middle" fill="#ea580c" font-family="sans-serif" font-size="18" font-weight="bold">Q7</text>
+    <text x="100" y="60" text-anchor="middle" fill="#475569" font-family="sans-serif" font-size="13">Leaving Japan</text>
+  </g>
+
+  <g transform="translate(500, 360)">
+    <rect width="180" height="100" rx="12" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+    <circle cx="35" cy="35" r="20" fill="#ddd6fe"/>
+    <text x="35" y="42" text-anchor="middle" fill="#7c3aed" font-family="sans-serif" font-size="18" font-weight="bold">Q8</text>
+    <text x="100" y="60" text-anchor="middle" fill="#475569" font-family="sans-serif" font-size="13">Extra Documents</text>
+  </g>
+
+  <g transform="translate(700, 360)">
+    <rect width="180" height="100" rx="12" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+    <circle cx="35" cy="35" r="20" fill="#fecaca"/>
+    <text x="35" y="42" text-anchor="middle" fill="#dc2626" font-family="sans-serif" font-size="18" font-weight="bold">Q9</text>
+    <text x="100" y="60" text-anchor="middle" fill="#475569" font-family="sans-serif" font-size="13">Denial Reasons</text>
+  </g>
+
+  <g transform="translate(900, 360)">
+    <rect width="180" height="100" rx="12" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+    <circle cx="35" cy="35" r="20" fill="#bfdbfe"/>
+    <text x="35" y="42" text-anchor="middle" fill="#2563eb" font-family="sans-serif" font-size="18" font-weight="bold">...</text>
+    <text x="100" y="60" text-anchor="middle" fill="#475569" font-family="sans-serif" font-size="13">+11 more</text>
+  </g>
+
+  <!-- Badge -->
+  <g transform="translate(500, 490)">
+    <rect width="200" height="50" rx="25" fill="#1e293b"/>
+    <text x="100" y="33" text-anchor="middle" fill="white" font-family="sans-serif" font-size="20" font-weight="bold">TOP 20 Q&amp;A</text>
+  </g>
+
+  <!-- Footer -->
+  <text x="600" y="590" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="18">visa.japanlifeinfo.com</text>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+  </defs>
+</svg>
