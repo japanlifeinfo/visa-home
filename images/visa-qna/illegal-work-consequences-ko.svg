@@ -1,0 +1,103 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#f8fafc"/>
+  <rect width="1200" height="8" fill="url(#headerGradient)"/>
+
+  <text x="600" y="58" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="30" font-weight="bold">불법취업 적발 시 어떤 일이 벌어질까?</text>
+  <text x="600" y="85" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="16">"잠깐 일한 건데…"가 인생을 바꿀 수 있습니다</text>
+
+  <!-- Cascade steps - descending chain -->
+  <!-- Step 1 -->
+  <g transform="translate(60, 110)">
+    <rect width="220" height="90" rx="10" fill="#fef3c7" stroke="#f59e0b" stroke-width="2"/>
+    <text x="110" y="25" text-anchor="middle" fill="#92400e" font-family="sans-serif" font-size="13" font-weight="bold">STEP 1</text>
+    <text x="110" y="48" text-anchor="middle" fill="#78350f" font-family="sans-serif" font-size="16" font-weight="bold">조사 개시</text>
+    <text x="110" y="70" text-anchor="middle" fill="#92400e" font-family="sans-serif" font-size="12">출석 요구 · 근무기록 확인</text>
+  </g>
+  <!-- Arrow 1→2 -->
+  <path d="M280,155 L320,155 L320,175 L340,155 L320,135 L320,155" fill="#94a3b8"/>
+
+  <!-- Step 2 -->
+  <g transform="translate(340, 120)">
+    <rect width="220" height="90" rx="10" fill="#fee2e2" stroke="#ef4444" stroke-width="2"/>
+    <text x="110" y="25" text-anchor="middle" fill="#991b1b" font-family="sans-serif" font-size="13" font-weight="bold">STEP 2</text>
+    <text x="110" y="48" text-anchor="middle" fill="#7f1d1d" font-family="sans-serif" font-size="16" font-weight="bold">강제퇴거</text>
+    <text x="110" y="70" text-anchor="middle" fill="#991b1b" font-family="sans-serif" font-size="12">즉시 출국 · 구금 가능</text>
+  </g>
+  <!-- Arrow 2→3 -->
+  <path d="M560,165 L600,165 L600,185 L620,165 L600,145 L600,165" fill="#94a3b8"/>
+
+  <!-- Step 3 -->
+  <g transform="translate(620, 130)">
+    <rect width="220" height="90" rx="10" fill="#fecaca" stroke="#dc2626" stroke-width="2"/>
+    <text x="110" y="25" text-anchor="middle" fill="#991b1b" font-family="sans-serif" font-size="13" font-weight="bold">STEP 3</text>
+    <text x="110" y="48" text-anchor="middle" fill="#7f1d1d" font-family="sans-serif" font-size="16" font-weight="bold">재입국 금지</text>
+    <text x="110" y="70" text-anchor="middle" fill="#991b1b" font-family="sans-serif" font-size="12">5년~10년 입국 불가</text>
+  </g>
+  <!-- Arrow 3→4 -->
+  <path d="M840,175 L880,175 L880,195 L900,175 L880,155 L880,175" fill="#94a3b8"/>
+
+  <!-- Step 4 -->
+  <g transform="translate(900, 140)">
+    <rect width="240" height="90" rx="10" fill="#881337" stroke="#be123c" stroke-width="2"/>
+    <text x="120" y="25" text-anchor="middle" fill="#fecdd3" font-family="sans-serif" font-size="13" font-weight="bold">STEP 4</text>
+    <text x="120" y="48" text-anchor="middle" fill="white" font-family="sans-serif" font-size="16" font-weight="bold">비자 심사 불이익</text>
+    <text x="120" y="70" text-anchor="middle" fill="#fecdd3" font-family="sans-serif" font-size="12">취업·영주권 모든 심사 악영향</text>
+  </g>
+
+  <!-- Common cases section -->
+  <text x="60" y="270" fill="#475569" font-family="sans-serif" font-size="15" font-weight="bold">흔한 적발 사례</text>
+  <g transform="translate(60, 280)">
+    <rect width="260" height="55" rx="8" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="130" y="22" text-anchor="middle" fill="#334155" font-family="sans-serif" font-size="13" font-weight="bold">관광비자 단기 알바</text>
+    <text x="130" y="42" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="11">"잠깐이니까 괜찮겠지"</text>
+  </g>
+  <g transform="translate(330, 280)">
+    <rect width="260" height="55" rx="8" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="130" y="22" text-anchor="middle" fill="#334155" font-family="sans-serif" font-size="13" font-weight="bold">유학생 28시간 초과</text>
+    <text x="130" y="42" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="11">허용 시간 넘긴 근무</text>
+  </g>
+  <g transform="translate(600, 280)">
+    <rect width="260" height="55" rx="8" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="130" y="22" text-anchor="middle" fill="#334155" font-family="sans-serif" font-size="13" font-weight="bold">SNS 통역·행사 알바</text>
+    <text x="130" y="42" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="11">소셜미디어 모집 주의</text>
+  </g>
+  <g transform="translate(870, 280)">
+    <rect width="270" height="55" rx="8" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="135" y="22" text-anchor="middle" fill="#334155" font-family="sans-serif" font-size="13" font-weight="bold">워킹홀리데이 조건 위반</text>
+    <text x="135" y="42" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="11">업종·기간 제한 무시</text>
+  </g>
+
+  <!-- Key insight box -->
+  <g transform="translate(60, 360)">
+    <rect width="540" height="80" rx="12" fill="#1e293b"/>
+    <text x="270" y="28" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="16" font-weight="bold">일본 법은 "금액"이 아니라 "행위"를 봅니다</text>
+    <text x="270" y="52" text-anchor="middle" fill="#e2e8f0" font-family="sans-serif" font-size="14">1일 근무라도 보수를 받았다면</text>
+    <text x="270" y="70" text-anchor="middle" fill="#e2e8f0" font-family="sans-serif" font-size="14">불법취업에 해당할 수 있습니다</text>
+  </g>
+
+  <!-- What you lose -->
+  <g transform="translate(620, 360)">
+    <rect width="520" height="80" rx="12" fill="#fef2f2" stroke="#fecaca" stroke-width="2"/>
+    <text x="260" y="25" text-anchor="middle" fill="#dc2626" font-family="sans-serif" font-size="15" font-weight="bold">몇 만 엔 때문에 잃는 것</text>
+    <text x="80" y="55" text-anchor="middle" fill="#991b1b" font-family="sans-serif" font-size="13">취업 기회</text>
+    <text x="195" y="55" text-anchor="middle" fill="#991b1b" font-family="sans-serif" font-size="13">영주권 가능성</text>
+    <text x="330" y="55" text-anchor="middle" fill="#991b1b" font-family="sans-serif" font-size="13">일본 커리어</text>
+    <text x="445" y="55" text-anchor="middle" fill="#991b1b" font-family="sans-serif" font-size="13">가족 체류 계획</text>
+  </g>
+
+  <!-- Employer penalty note -->
+  <g transform="translate(60, 465)">
+    <rect width="1080" height="50" rx="10" fill="#fffbeb" stroke="#fde68a" stroke-width="1"/>
+    <text x="540" y="32" text-anchor="middle" fill="#92400e" font-family="sans-serif" font-size="14" font-weight="bold">⚠ 고용주도 처벌 대상 — 벌금·사업장 조사·형사처벌 | 정상적인 기업은 불법취업을 허용하지 않습니다</text>
+  </g>
+
+  <!-- Bottom message -->
+  <text x="600" y="555" text-anchor="middle" fill="#475569" font-family="sans-serif" font-size="15">합법적인 재류자격 안에서 활동하는 것이 결국 가장 빠른 길입니다</text>
+  <text x="600" y="590" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="18">visa.japanlifeinfo.com</text>
+
+  <defs>
+    <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">
+      <stop offset="0%" stop-color="#3b82f6"/><stop offset="50%" stop-color="#8b5cf6"/><stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+  </defs>
+</svg>
