@@ -1,0 +1,72 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#f8fafc"/>
+
+  <!-- Header gradient bar -->
+  <rect width="1200" height="8" fill="url(#headerGradient)"/>
+
+  <!-- Title -->
+  <text x="600" y="75" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="34" font-weight="bold">从工作签证取得永住权的好处</text>
+
+  <!-- Card 1 (top-left) -->
+  <g transform="translate(120, 110)">
+    <rect width="460" height="165" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+    <circle cx="45" cy="45" r="28" fill="#dbeafe"/>
+    <text x="45" y="55" text-anchor="middle" fill="#3b82f6" font-family="sans-serif" font-size="22" font-weight="bold">&#8734;</text>
+    <text x="90" y="52" fill="#1e293b" font-family="sans-serif" font-size="20" font-weight="bold">居留无期限</text>
+    <text x="45" y="92" fill="#64748b" font-family="sans-serif" font-size="15">无需更新</text>
+    <text x="45" y="114" fill="#64748b" font-family="sans-serif" font-size="15">不用担心到期</text>
+    <text x="45" y="136" fill="#64748b" font-family="sans-serif" font-size="15">行政压力消失</text>
+  </g>
+
+  <!-- Card 2 (top-right) -->
+  <g transform="translate(620, 110)">
+    <rect width="460" height="165" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+    <circle cx="45" cy="45" r="28" fill="#dcfce7"/>
+    <text x="45" y="55" text-anchor="middle" fill="#16a34a" font-family="sans-serif" font-size="22" font-weight="bold">&#9733;</text>
+    <text x="90" y="52" fill="#1e293b" font-family="sans-serif" font-size="20" font-weight="bold">职业选择自由</text>
+    <text x="45" y="92" fill="#64748b" font-family="sans-serif" font-size="15">无行业限制</text>
+    <text x="45" y="114" fill="#64748b" font-family="sans-serif" font-size="15">可做自由职业、创业</text>
+    <text x="45" y="136" fill="#64748b" font-family="sans-serif" font-size="15">副业也自由</text>
+  </g>
+
+  <!-- Card 3 (bottom-left) -->
+  <g transform="translate(120, 300)">
+    <rect width="460" height="165" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+    <circle cx="45" cy="45" r="28" fill="#fef3c7"/>
+    <text x="45" y="55" text-anchor="middle" fill="#d97706" font-family="sans-serif" font-size="22" font-weight="bold">&#9750;</text>
+    <text x="90" y="52" fill="#1e293b" font-family="sans-serif" font-size="20" font-weight="bold">跳槽风险降低</text>
+    <text x="45" y="92" fill="#64748b" font-family="sans-serif" font-size="15">基于个人的居留</text>
+    <text x="45" y="114" fill="#64748b" font-family="sans-serif" font-size="15">与公司无关可继续居留</text>
+    <text x="45" y="136" fill="#64748b" font-family="sans-serif" font-size="15">最强安全保障</text>
+  </g>
+
+  <!-- Card 4 (bottom-right) -->
+  <g transform="translate(620, 300)">
+    <rect width="460" height="165" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+    <circle cx="45" cy="45" r="28" fill="#fce7f3"/>
+    <text x="45" y="55" text-anchor="middle" fill="#db2777" font-family="sans-serif" font-size="22" font-weight="bold">&#9960;</text>
+    <text x="90" y="52" fill="#1e293b" font-family="sans-serif" font-size="20" font-weight="bold">金融信用提升</text>
+    <text x="45" y="92" fill="#64748b" font-family="sans-serif" font-size="15">住房贷款批准可能性提升</text>
+    <text x="45" y="114" fill="#64748b" font-family="sans-serif" font-size="15">更优惠的利率条件</text>
+    <text x="45" y="136" fill="#64748b" font-family="sans-serif" font-size="15">信用卡审查通过率提升</text>
+  </g>
+
+  <!-- Key Points Box -->
+  <g transform="translate(200, 495)">
+    <rect width="800" height="80" rx="12" fill="#1e293b"/>
+    <text x="400" y="32" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="15">永住权的核心价值</text>
+    <text x="400" y="58" text-anchor="middle" fill="white" font-family="sans-serif" font-size="17" font-weight="bold">保持国籍 | 无限期居住 | 可以设计人生的资格</text>
+  </g>
+
+  <!-- Footer -->
+  <text x="600" y="610" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="18">visa.japanlifeinfo.com</text>
+
+  <defs>
+    <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+  </defs>
+</svg>
