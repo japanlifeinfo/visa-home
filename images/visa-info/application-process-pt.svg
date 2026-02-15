@@ -6,85 +6,70 @@
   <rect width="1200" height="8" fill="url(#headerGradient)"/>
 
   <!-- Title -->
-  <text x="600" y="90" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="34" font-weight="bold">Guia Completo do Processo de Solicitacao</text>
-  <text x="600" y="145" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="34" font-weight="bold">de Status de Residencia no Japao</text>
+  <text x="600" y="75" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="28" font-weight="bold">Guia passo a passo para candidatos de primeira viagem</text>
 
-  <!-- Subtitle -->
-  <text x="600" y="200" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="24">Guia passo a passo para candidatos de primeira viagem</text>
-
-  <!-- Process Steps -->
-  <!-- Step 1 -->
-  <g transform="translate(100, 260)">
-    <rect width="220" height="140" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
-    <circle cx="40" cy="40" r="25" fill="#dbeafe"/>
-    <text x="40" y="48" text-anchor="middle" fill="#3b82f6" font-family="sans-serif" font-size="20" font-weight="bold">1</text>
-    <text x="120" y="45" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="14" font-weight="bold">Preparar Docs</text>
-    <text x="110" y="80" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="12">Formulario, Passaporte</text>
-    <text x="110" y="100" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="12">Fotos, Comprovantes</text>
-    <text x="110" y="120" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="12">Docs da empresa</text>
+  <!-- Step 1 (top-left) -->
+  <g transform="translate(120, 110)">
+    <rect width="460" height="165" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+    <circle cx="45" cy="45" r="28" fill="#dbeafe"/>
+    <text x="45" y="53" text-anchor="middle" fill="#3b82f6" font-family="sans-serif" font-size="22" font-weight="bold">1</text>
+    <text x="90" y="52" fill="#1e293b" font-family="sans-serif" font-size="20" font-weight="bold">Preparar Docs</text>
+    <text x="45" y="92" fill="#64748b" font-family="sans-serif" font-size="15">Formulario, passaporte, fotos</text>
+    <text x="45" y="114" fill="#64748b" font-family="sans-serif" font-size="15">Comprovantes, docs da empresa</text>
+    <text x="45" y="136" fill="#64748b" font-family="sans-serif" font-size="15">Certificado de emprego</text>
   </g>
 
-  <!-- Arrow 1 -->
-  <path d="M330 330 L370 330" stroke="#cbd5e1" stroke-width="3" marker-end="url(#arrowhead)"/>
 
-  <!-- Step 2 -->
-  <g transform="translate(380, 260)">
-    <rect width="220" height="140" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
-    <circle cx="40" cy="40" r="25" fill="#dcfce7"/>
-    <text x="40" y="48" text-anchor="middle" fill="#16a34a" font-family="sans-serif" font-size="20" font-weight="bold">2</text>
-    <text x="120" y="45" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="14" font-weight="bold">Enviar Solicitacao</text>
-    <text x="110" y="80" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="12">Ir a Imigracao</text>
-    <text x="110" y="100" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="12">Ou via procurador</text>
-    <text x="110" y="120" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="12">Sem taxa de envio</text>
+  <!-- Step 2 (top-right) -->
+  <g transform="translate(620, 110)">
+    <rect width="460" height="165" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+    <circle cx="45" cy="45" r="28" fill="#dcfce7"/>
+    <text x="45" y="53" text-anchor="middle" fill="#16a34a" font-family="sans-serif" font-size="22" font-weight="bold">2</text>
+    <text x="90" y="52" fill="#1e293b" font-family="sans-serif" font-size="20" font-weight="bold">Enviar Solicitacao</text>
+    <text x="45" y="92" fill="#64748b" font-family="sans-serif" font-size="15">Ir a Imigracao ou procurador</text>
+    <text x="45" y="114" fill="#64748b" font-family="sans-serif" font-size="15">Sem taxa de envio</text>
+    <text x="45" y="136" fill="#64748b" font-family="sans-serif" font-size="15">Verificar jurisdicao</text>
   </g>
 
-  <!-- Arrow 2 -->
-  <path d="M610 330 L650 330" stroke="#cbd5e1" stroke-width="3" marker-end="url(#arrowhead)"/>
 
-  <!-- Step 3 -->
-  <g transform="translate(660, 260)">
-    <rect width="220" height="140" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
-    <circle cx="40" cy="40" r="25" fill="#fef3c7"/>
-    <text x="40" y="48" text-anchor="middle" fill="#d97706" font-family="sans-serif" font-size="20" font-weight="bold">3</text>
-    <text x="120" y="45" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="14" font-weight="bold">Periodo de Analise</text>
-    <text x="110" y="80" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="12">Media de 1-3 meses</text>
-    <text x="110" y="100" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="12">Podem solicitar</text>
-    <text x="110" y="120" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="12">docs adicionais</text>
+  <!-- Step 3 (bottom-left) -->
+  <g transform="translate(120, 300)">
+    <rect width="460" height="165" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+    <circle cx="45" cy="45" r="28" fill="#fef3c7"/>
+    <text x="45" y="53" text-anchor="middle" fill="#d97706" font-family="sans-serif" font-size="22" font-weight="bold">3</text>
+    <text x="90" y="52" fill="#1e293b" font-family="sans-serif" font-size="20" font-weight="bold">Periodo de Analise</text>
+    <text x="45" y="92" fill="#64748b" font-family="sans-serif" font-size="15">Media de 1-3 meses</text>
+    <text x="45" y="114" fill="#64748b" font-family="sans-serif" font-size="15">Resposta rapida a solicitacoes</text>
+    <text x="45" y="136" fill="#64748b" font-family="sans-serif" font-size="15">Aguardar notificacao</text>
   </g>
 
-  <!-- Arrow 3 -->
-  <path d="M890 330 L930 330" stroke="#cbd5e1" stroke-width="3" marker-end="url(#arrowhead)"/>
 
-  <!-- Step 4 -->
-  <g transform="translate(940, 260)">
-    <rect width="220" height="140" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
-    <circle cx="40" cy="40" r="25" fill="#fce7f3"/>
-    <text x="40" y="48" text-anchor="middle" fill="#db2777" font-family="sans-serif" font-size="20" font-weight="bold">4</text>
-    <text x="120" y="45" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="14" font-weight="bold">Apos Aprovacao</text>
-    <text x="110" y="80" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="12">Cartao de residencia</text>
-    <text x="110" y="100" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="12">Visto (nova entrada)</text>
-    <text x="110" y="120" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="12">Pagamento de selo</text>
+  <!-- Step 4 (bottom-right) -->
+  <g transform="translate(620, 300)">
+    <rect width="460" height="165" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+    <circle cx="45" cy="45" r="28" fill="#fce7f3"/>
+    <text x="45" y="53" text-anchor="middle" fill="#db2777" font-family="sans-serif" font-size="22" font-weight="bold">4</text>
+    <text x="90" y="52" fill="#1e293b" font-family="sans-serif" font-size="20" font-weight="bold">Apos Aprovacao</text>
+    <text x="45" y="92" fill="#64748b" font-family="sans-serif" font-size="15">Cartao de residencia, visto (nova)</text>
+    <text x="45" y="114" fill="#64748b" font-family="sans-serif" font-size="15">Pagamento de selo</text>
+    <text x="45" y="136" fill="#64748b" font-family="sans-serif" font-size="15">Registro de endereco</text>
   </g>
 
   <!-- Key Points Box -->
-  <g transform="translate(300, 440)">
-    <rect width="600" height="80" rx="12" fill="#1e293b"/>
-    <text x="300" y="35" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="14">Pontos Principais</text>
-    <text x="300" y="60" text-anchor="middle" fill="white" font-family="sans-serif" font-size="14" font-weight="bold">Combinar status | Consistencia de docs | Resposta rapida</text>
+  <g transform="translate(200, 495)">
+    <rect width="800" height="80" rx="12" fill="#1e293b"/>
+    <text x="400" y="32" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="15">Pontos Principais</text>
+    <text x="400" y="58" text-anchor="middle" fill="white" font-family="sans-serif" font-size="17" font-weight="bold">Combinar status | Consistencia de docs | Resposta rapida</text>
   </g>
 
   <!-- Footer -->
-  <text x="600" y="590" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="18">visa.japanlifeinfo.com</text>
+  <text x="600" y="610" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="18">visa.japanlifeinfo.com</text>
 
-  <!-- Gradients and markers -->
   <defs>
     <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">
       <stop offset="0%" stop-color="#3b82f6"/>
       <stop offset="50%" stop-color="#8b5cf6"/>
       <stop offset="100%" stop-color="#10b981"/>
     </linearGradient>
-    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
-      <polygon points="0 0, 10 3.5, 0 7" fill="#cbd5e1"/>
-    </marker>
   </defs>
 </svg>

@@ -6,85 +6,70 @@
   <rect width="1200" height="8" fill="url(#headerGradient)"/>
 
   <!-- Title -->
-  <text x="600" y="90" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="42" font-weight="bold">일본 재류자격 신청 절차</text>
-  <text x="600" y="145" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="42" font-weight="bold">완전 정복</text>
+  <text x="600" y="75" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="34" font-weight="bold">처음 준비하시는 분들을 위한 단계별 가이드</text>
 
-  <!-- Subtitle -->
-  <text x="600" y="200" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="24">처음 준비하시는 분들을 위한 단계별 가이드</text>
-
-  <!-- Process Steps -->
-  <!-- Step 1 -->
-  <g transform="translate(100, 260)">
-    <rect width="220" height="140" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
-    <circle cx="40" cy="40" r="25" fill="#dbeafe"/>
-    <text x="40" y="48" text-anchor="middle" fill="#3b82f6" font-family="sans-serif" font-size="20" font-weight="bold">1</text>
-    <text x="120" y="45" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="16" font-weight="bold">서류 준비</text>
-    <text x="110" y="80" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="12">신청서, 여권</text>
-    <text x="110" y="100" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="12">증명사진, 활동증명</text>
-    <text x="110" y="120" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="12">회사 관련 서류</text>
+  <!-- Step 1 (top-left) -->
+  <g transform="translate(120, 110)">
+    <rect width="460" height="165" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+    <circle cx="45" cy="45" r="28" fill="#dbeafe"/>
+    <text x="45" y="53" text-anchor="middle" fill="#3b82f6" font-family="sans-serif" font-size="22" font-weight="bold">1</text>
+    <text x="90" y="52" fill="#1e293b" font-family="sans-serif" font-size="20" font-weight="bold">서류 준비</text>
+    <text x="45" y="92" fill="#64748b" font-family="sans-serif" font-size="15">신청서, 여권, 증명사진</text>
+    <text x="45" y="114" fill="#64748b" font-family="sans-serif" font-size="15">활동증명, 회사 관련 서류</text>
+    <text x="45" y="136" fill="#64748b" font-family="sans-serif" font-size="15">재직증명서 등</text>
   </g>
 
-  <!-- Arrow 1 -->
-  <path d="M330 330 L370 330" stroke="#cbd5e1" stroke-width="3" marker-end="url(#arrowhead)"/>
 
-  <!-- Step 2 -->
-  <g transform="translate(380, 260)">
-    <rect width="220" height="140" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
-    <circle cx="40" cy="40" r="25" fill="#dcfce7"/>
-    <text x="40" y="48" text-anchor="middle" fill="#16a34a" font-family="sans-serif" font-size="20" font-weight="bold">2</text>
-    <text x="120" y="45" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="16" font-weight="bold">입국관리국 신청</text>
-    <text x="110" y="80" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="12">본인 직접 방문</text>
-    <text x="110" y="100" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="12">또는 대리 신청</text>
-    <text x="110" y="120" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="12">접수 수수료 무료</text>
+  <!-- Step 2 (top-right) -->
+  <g transform="translate(620, 110)">
+    <rect width="460" height="165" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+    <circle cx="45" cy="45" r="28" fill="#dcfce7"/>
+    <text x="45" y="53" text-anchor="middle" fill="#16a34a" font-family="sans-serif" font-size="22" font-weight="bold">2</text>
+    <text x="90" y="52" fill="#1e293b" font-family="sans-serif" font-size="20" font-weight="bold">입국관리국 신청</text>
+    <text x="45" y="92" fill="#64748b" font-family="sans-serif" font-size="15">본인 직접 방문 또는 대리 신청</text>
+    <text x="45" y="114" fill="#64748b" font-family="sans-serif" font-size="15">접수 수수료 무료</text>
+    <text x="45" y="136" fill="#64748b" font-family="sans-serif" font-size="15">관할 사무소 사전 확인</text>
   </g>
 
-  <!-- Arrow 2 -->
-  <path d="M610 330 L650 330" stroke="#cbd5e1" stroke-width="3" marker-end="url(#arrowhead)"/>
 
-  <!-- Step 3 -->
-  <g transform="translate(660, 260)">
-    <rect width="220" height="140" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
-    <circle cx="40" cy="40" r="25" fill="#fef3c7"/>
-    <text x="40" y="48" text-anchor="middle" fill="#d97706" font-family="sans-serif" font-size="20" font-weight="bold">3</text>
-    <text x="120" y="45" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="16" font-weight="bold">심사 기간</text>
-    <text x="110" y="80" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="12">평균 1~3개월</text>
-    <text x="110" y="100" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="12">추가 서류 요청</text>
-    <text x="110" y="120" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="12">신속한 대응 필요</text>
+  <!-- Step 3 (bottom-left) -->
+  <g transform="translate(120, 300)">
+    <rect width="460" height="165" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+    <circle cx="45" cy="45" r="28" fill="#fef3c7"/>
+    <text x="45" y="53" text-anchor="middle" fill="#d97706" font-family="sans-serif" font-size="22" font-weight="bold">3</text>
+    <text x="90" y="52" fill="#1e293b" font-family="sans-serif" font-size="20" font-weight="bold">심사 기간</text>
+    <text x="45" y="92" fill="#64748b" font-family="sans-serif" font-size="15">평균 1~3개월 소요</text>
+    <text x="45" y="114" fill="#64748b" font-family="sans-serif" font-size="15">추가 서류 요청 시 신속 대응</text>
+    <text x="45" y="136" fill="#64748b" font-family="sans-serif" font-size="15">결과 통지 대기</text>
   </g>
 
-  <!-- Arrow 3 -->
-  <path d="M890 330 L930 330" stroke="#cbd5e1" stroke-width="3" marker-end="url(#arrowhead)"/>
 
-  <!-- Step 4 -->
-  <g transform="translate(940, 260)">
-    <rect width="220" height="140" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
-    <circle cx="40" cy="40" r="25" fill="#fce7f3"/>
-    <text x="40" y="48" text-anchor="middle" fill="#db2777" font-family="sans-serif" font-size="20" font-weight="bold">4</text>
-    <text x="120" y="45" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="16" font-weight="bold">허가 후 절차</text>
-    <text x="110" y="80" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="12">재류카드 발급</text>
-    <text x="110" y="100" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="12">비자 발급 (신규)</text>
-    <text x="110" y="120" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="12">수입인지 납부</text>
+  <!-- Step 4 (bottom-right) -->
+  <g transform="translate(620, 300)">
+    <rect width="460" height="165" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+    <circle cx="45" cy="45" r="28" fill="#fce7f3"/>
+    <text x="45" y="53" text-anchor="middle" fill="#db2777" font-family="sans-serif" font-size="22" font-weight="bold">4</text>
+    <text x="90" y="52" fill="#1e293b" font-family="sans-serif" font-size="20" font-weight="bold">허가 후 절차</text>
+    <text x="45" y="92" fill="#64748b" font-family="sans-serif" font-size="15">재류카드 발급, 비자 발급 (신규)</text>
+    <text x="45" y="114" fill="#64748b" font-family="sans-serif" font-size="15">수입인지 납부</text>
+    <text x="45" y="136" fill="#64748b" font-family="sans-serif" font-size="15">주소지 등록</text>
   </g>
 
   <!-- Key Points Box -->
-  <g transform="translate(300, 440)">
-    <rect width="600" height="80" rx="12" fill="#1e293b"/>
-    <text x="300" y="35" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="14">핵심 포인트</text>
-    <text x="300" y="60" text-anchor="middle" fill="white" font-family="sans-serif" font-size="16" font-weight="bold">재류자격과 활동 일치 | 서류 일관성 | 추가 요청 신속 대응</text>
+  <g transform="translate(200, 495)">
+    <rect width="800" height="80" rx="12" fill="#1e293b"/>
+    <text x="400" y="32" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="15">핵심 포인트</text>
+    <text x="400" y="58" text-anchor="middle" fill="white" font-family="sans-serif" font-size="17" font-weight="bold">재류자격과 활동 일치 | 서류 일관성 | 추가 요청 신속 대응</text>
   </g>
 
   <!-- Footer -->
-  <text x="600" y="590" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="18">visa.japanlifeinfo.com</text>
+  <text x="600" y="610" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="18">visa.japanlifeinfo.com</text>
 
-  <!-- Gradients and markers -->
   <defs>
     <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">
       <stop offset="0%" stop-color="#3b82f6"/>
       <stop offset="50%" stop-color="#8b5cf6"/>
       <stop offset="100%" stop-color="#10b981"/>
     </linearGradient>
-    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
-      <polygon points="0 0, 10 3.5, 0 7" fill="#cbd5e1"/>
-    </marker>
   </defs>
 </svg>

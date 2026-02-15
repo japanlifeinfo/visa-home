@@ -6,61 +6,62 @@
   <rect width="1200" height="8" fill="url(#headerGradient)"/>
 
   <!-- Title -->
-  <text x="600" y="90" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="42" font-weight="bold">거주지별 출입국재류관리국</text>
-  <text x="600" y="145" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="42" font-weight="bold">신청 장소 안내</text>
+  <text x="600" y="75" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="34" font-weight="bold">47개 도도부현별 관할 본청·출장소 안내</text>
 
-  <!-- Subtitle -->
-  <text x="600" y="200" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="24">47개 도도부현별 관할 본청·출장소 주소와 전화번호</text>
-
-  <!-- Region Cards -->
-  <!-- Card 1 -->
-  <g transform="translate(60, 250)">
-    <rect width="250" height="100" rx="12" fill="white" stroke="#e2e8f0" stroke-width="2"/>
-    <circle cx="35" cy="50" r="20" fill="#dbeafe"/>
-    <text x="35" y="56" text-anchor="middle" fill="#3b82f6" font-family="sans-serif" font-size="14" font-weight="bold">北</text>
-    <text x="145" y="42" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="15" font-weight="bold">삿포로·센다이</text>
-    <text x="145" y="68" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="12">北海道·東北 지역</text>
+  <!-- Step 1 (top-left) -->
+  <g transform="translate(120, 110)">
+    <rect width="460" height="165" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+    <circle cx="45" cy="45" r="28" fill="#dbeafe"/>
+    <text x="45" y="53" text-anchor="middle" fill="#3b82f6" font-family="sans-serif" font-size="20" font-weight="bold">🏢</text>
+    <text x="90" y="52" fill="#1e293b" font-family="sans-serif" font-size="20" font-weight="bold">전국 사무소 규모</text>
+    <text x="45" y="92" fill="#64748b" font-family="sans-serif" font-size="15">본청 8곳 전국 배치</text>
+    <text x="45" y="114" fill="#64748b" font-family="sans-serif" font-size="15">지국 3곳</text>
+    <text x="45" y="136" fill="#64748b" font-family="sans-serif" font-size="15">출장소 약 55곳</text>
   </g>
 
-  <!-- Card 2 -->
-  <g transform="translate(340, 250)">
-    <rect width="250" height="100" rx="12" fill="white" stroke="#e2e8f0" stroke-width="2"/>
-    <circle cx="35" cy="50" r="20" fill="#dcfce7"/>
-    <text x="35" y="56" text-anchor="middle" fill="#16a34a" font-family="sans-serif" font-size="14" font-weight="bold">関</text>
-    <text x="145" y="42" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="15" font-weight="bold">도쿄·요코하마</text>
-    <text x="145" y="68" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="12">関東·甲信越 지역</text>
+  <!-- Step 2 (top-right) -->
+  <g transform="translate(620, 110)">
+    <rect width="460" height="165" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+    <circle cx="45" cy="45" r="28" fill="#dcfce7"/>
+    <text x="45" y="53" text-anchor="middle" fill="#16a34a" font-family="sans-serif" font-size="20" font-weight="bold">📍</text>
+    <text x="90" y="52" fill="#1e293b" font-family="sans-serif" font-size="20" font-weight="bold">관할 확인</text>
+    <text x="45" y="92" fill="#64748b" font-family="sans-serif" font-size="15">거주지 기준 관할 결정</text>
+    <text x="45" y="114" fill="#64748b" font-family="sans-serif" font-size="15">도도부현별 지정 사무소</text>
+    <text x="45" y="136" fill="#64748b" font-family="sans-serif" font-size="15">온라인으로 확인 가능</text>
   </g>
 
-  <!-- Card 3 -->
-  <g transform="translate(620, 250)">
-    <rect width="250" height="100" rx="12" fill="white" stroke="#e2e8f0" stroke-width="2"/>
-    <circle cx="35" cy="50" r="20" fill="#fef3c7"/>
-    <text x="35" y="56" text-anchor="middle" fill="#d97706" font-family="sans-serif" font-size="14" font-weight="bold">中</text>
-    <text x="145" y="42" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="15" font-weight="bold">나고야·오사카</text>
-    <text x="145" y="68" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="12">中部·近畿 지역</text>
+  <!-- Step 3 (bottom-left) -->
+  <g transform="translate(120, 300)">
+    <rect width="460" height="165" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+    <circle cx="45" cy="45" r="28" fill="#fef3c7"/>
+    <text x="45" y="53" text-anchor="middle" fill="#d97706" font-family="sans-serif" font-size="20" font-weight="bold">🕐</text>
+    <text x="90" y="52" fill="#1e293b" font-family="sans-serif" font-size="20" font-weight="bold">운영 시간</text>
+    <text x="45" y="92" fill="#64748b" font-family="sans-serif" font-size="15">평일 9:00~16:00</text>
+    <text x="45" y="114" fill="#64748b" font-family="sans-serif" font-size="15">점심시간 혼잡</text>
+    <text x="45" y="136" fill="#64748b" font-family="sans-serif" font-size="15">혼잡기 사전 확인 필요</text>
   </g>
 
-  <!-- Card 4 -->
-  <g transform="translate(900, 250)">
-    <rect width="250" height="100" rx="12" fill="white" stroke="#e2e8f0" stroke-width="2"/>
-    <circle cx="35" cy="50" r="20" fill="#fce7f3"/>
-    <text x="35" y="56" text-anchor="middle" fill="#db2777" font-family="sans-serif" font-size="14" font-weight="bold">西</text>
-    <text x="145" y="42" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="15" font-weight="bold">히로시마·후쿠오카</text>
-    <text x="145" y="68" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="12">中国·四国·九州 지역</text>
+  <!-- Step 4 (bottom-right) -->
+  <g transform="translate(620, 300)">
+    <rect width="460" height="165" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+    <circle cx="45" cy="45" r="28" fill="#fce7f3"/>
+    <text x="45" y="53" text-anchor="middle" fill="#db2777" font-family="sans-serif" font-size="20" font-weight="bold">📋</text>
+    <text x="90" y="52" fill="#1e293b" font-family="sans-serif" font-size="20" font-weight="bold">방문 준비</text>
+    <text x="45" y="92" fill="#64748b" font-family="sans-serif" font-size="15">여권·재류카드 지참</text>
+    <text x="45" y="114" fill="#64748b" font-family="sans-serif" font-size="15">신청서류 사전 준비</text>
+    <text x="45" y="136" fill="#64748b" font-family="sans-serif" font-size="15">수수료 인지 준비</text>
   </g>
 
-  <!-- Info Box -->
-  <g transform="translate(200, 400)">
-    <rect width="800" height="110" rx="12" fill="#1e293b"/>
-    <text x="400" y="35" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="14">전국 출입국재류관리국 안내</text>
-    <text x="400" y="65" text-anchor="middle" fill="white" font-family="sans-serif" font-size="17" font-weight="bold">본청 8곳 | 지국 3곳 | 출장소 약 55곳</text>
-    <text x="400" y="92" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="14">거주지 기준으로 관할 사무소를 확인하세요</text>
+  <!-- Key Points Box -->
+  <g transform="translate(200, 495)">
+    <rect width="800" height="80" rx="12" fill="#1e293b"/>
+    <text x="400" y="32" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="15">핵심 포인트</text>
+    <text x="400" y="58" text-anchor="middle" fill="white" font-family="sans-serif" font-size="17" font-weight="bold">거주지 기준 관할 | 47 도도부현 | 전국 66곳+</text>
   </g>
 
   <!-- Footer -->
-  <text x="600" y="590" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="18">visa.japanlifeinfo.com</text>
+  <text x="600" y="610" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="18">visa.japanlifeinfo.com</text>
 
-  <!-- Gradients and markers -->
   <defs>
     <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">
       <stop offset="0%" stop-color="#3b82f6"/>
