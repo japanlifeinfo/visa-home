@@ -1,0 +1,53 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#f8fafc"/>
+  <rect width="1200" height="8" fill="url(#headerGradient)"/>
+  <text x="600" y="75" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="36" font-weight="bold">在留资格审批需要多长时间？</text>
+  <g transform="translate(80, 110)">
+    <rect width="330" height="310" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+    <rect width="330" height="60" rx="16" fill="#3b82f6"/><rect y="45" width="330" height="15" fill="#3b82f6"/>
+    <text x="165" y="42" text-anchor="middle" fill="white" font-family="sans-serif" font-size="22" font-weight="bold">新申请 (COE)</text>
+    <text x="165" y="110" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="42" font-weight="bold">1~3个月</text>
+    <text x="165" y="145" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="16">旺季: 3~4个月以上</text>
+    <rect x="65" y="170" width="200" height="32" rx="16" fill="#dbeafe"/>
+    <text x="165" y="192" text-anchor="middle" fill="#1d4ed8" font-family="sans-serif" font-size="15" font-weight="bold">审查力度: 高</text>
+    <text x="165" y="235" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="14">针对海外居住者</text>
+    <text x="165" y="260" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="14">大城市管辖 = 更久</text>
+    <text x="165" y="285" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="14">4月入职 → 12~1月申请</text>
+  </g>
+  <g transform="translate(435, 110)">
+    <rect width="330" height="310" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+    <rect width="330" height="60" rx="16" fill="#10b981"/><rect y="45" width="330" height="15" fill="#10b981"/>
+    <text x="165" y="42" text-anchor="middle" fill="white" font-family="sans-serif" font-size="22" font-weight="bold">更新 (延长)</text>
+    <text x="165" y="110" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="42" font-weight="bold">2周~1个月</text>
+    <text x="165" y="145" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="16">通常比新申请快</text>
+    <rect x="65" y="170" width="200" height="32" rx="16" fill="#d1fae5"/>
+    <text x="165" y="192" text-anchor="middle" fill="#047857" font-family="sans-serif" font-size="15" font-weight="bold">审查力度: 低</text>
+    <text x="165" y="235" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="14">条件不变时较稳定</text>
+    <text x="165" y="260" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="14">公司财务恶化可能延迟</text>
+    <text x="165" y="285" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="14">到期前提交 → 特例期间适用</text>
+  </g>
+  <g transform="translate(790, 110)">
+    <rect width="330" height="310" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+    <rect width="330" height="60" rx="16" fill="#f59e0b"/><rect y="45" width="330" height="15" fill="#f59e0b"/>
+    <text x="165" y="42" text-anchor="middle" fill="white" font-family="sans-serif" font-size="22" font-weight="bold">变更 (留学→就业等)</text>
+    <text x="165" y="110" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="42" font-weight="bold">1~2个月</text>
+    <text x="165" y="145" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="16">可能达到新申请级别审查</text>
+    <rect x="65" y="170" width="200" height="32" rx="16" fill="#fef3c7"/>
+    <text x="165" y="192" text-anchor="middle" fill="#92400e" font-family="sans-serif" font-size="15" font-weight="bold">审查力度: 中~高</text>
+    <text x="165" y="235" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="14">专业·职务关联性很重要</text>
+    <text x="165" y="260" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="14">不一致 = 更多补充材料</text>
+    <text x="165" y="285" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="14">准确的职务说明书必须</text>
+  </g>
+  <!-- Key Points Box -->
+  <g transform="translate(200, 450)">
+    <rect width="800" height="80" rx="12" fill="#1e293b"/>
+    <text x="400" y="32" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="15">核心要点</text>
+    <text x="400" y="58" text-anchor="middle" fill="white" font-family="sans-serif" font-size="17" font-weight="bold">了解各类型审批时间和审查强度，做好战略准备</text>
+  </g>
+  <text x="600" y="575" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="18">visa.japanlifeinfo.com</text>
+  <defs>
+    <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">
+      <stop offset="0%" stop-color="#3b82f6"/><stop offset="50%" stop-color="#8b5cf6"/><stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,53 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#f8fafc"/>
+  <rect width="1200" height="8" fill="url(#headerGradient)"/>
+  <text x="600" y="75" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="30" font-weight="bold">बसोबास स्थिति जारी हुन कति समय लाग्छ?</text>
+  <g transform="translate(80, 110)">
+    <rect width="330" height="310" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+    <rect width="330" height="60" rx="16" fill="#3b82f6"/><rect y="45" width="330" height="15" fill="#3b82f6"/>
+    <text x="165" y="42" text-anchor="middle" fill="white" font-family="sans-serif" font-size="22" font-weight="bold">नयाँ (COE)</text>
+    <text x="165" y="110" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="42" font-weight="bold">१~३ महिना</text>
+    <text x="165" y="145" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="16">व्यस्त समय: ३~४+ महिना</text>
+    <rect x="65" y="170" width="200" height="32" rx="16" fill="#dbeafe"/>
+    <text x="165" y="192" text-anchor="middle" fill="#1d4ed8" font-family="sans-serif" font-size="15" font-weight="bold">समीक्षा: उच्च</text>
+    <text x="165" y="235" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="14">विदेशमा बस्नेहरूको लागि</text>
+    <text x="165" y="260" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="14">ठूलो शहर = बढी समय</text>
+    <text x="165" y="285" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="14">अप्रिल → डिसेम्बर~जनवरीमा</text>
+  </g>
+  <g transform="translate(435, 110)">
+    <rect width="330" height="310" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+    <rect width="330" height="60" rx="16" fill="#10b981"/><rect y="45" width="330" height="15" fill="#10b981"/>
+    <text x="165" y="42" text-anchor="middle" fill="white" font-family="sans-serif" font-size="22" font-weight="bold">नवीकरण</text>
+    <text x="165" y="110" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="38" font-weight="bold">२ हप्ता~१ महिना</text>
+    <text x="165" y="145" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="16">सामान्यतया नयाँभन्दा छिटो</text>
+    <rect x="65" y="170" width="200" height="32" rx="16" fill="#d1fae5"/>
+    <text x="165" y="192" text-anchor="middle" fill="#047857" font-family="sans-serif" font-size="15" font-weight="bold">समीक्षा: कम</text>
+    <text x="165" y="235" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="14">अवस्था अपरिवर्तित भए स्थिर</text>
+    <text x="165" y="260" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="14">कम्पनी समस्या = ढिलो</text>
+    <text x="165" y="285" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="14">समाप्ति अघि दर्ता → बस्न मिल्छ</text>
+  </g>
+  <g transform="translate(790, 110)">
+    <rect width="330" height="310" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+    <rect width="330" height="60" rx="16" fill="#f59e0b"/><rect y="45" width="330" height="15" fill="#f59e0b"/>
+    <text x="165" y="42" text-anchor="middle" fill="white" font-family="sans-serif" font-size="22" font-weight="bold">परिवर्तन</text>
+    <text x="165" y="110" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="42" font-weight="bold">१~२ महिना</text>
+    <text x="165" y="145" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="16">नयाँ स्तरको समीक्षा सम्भव</text>
+    <rect x="65" y="170" width="200" height="32" rx="16" fill="#fef3c7"/>
+    <text x="165" y="192" text-anchor="middle" fill="#92400e" font-family="sans-serif" font-size="15" font-weight="bold">समीक्षा: मध्यम~उच्च</text>
+    <text x="165" y="235" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="14">विशेषज्ञता-कार्य सम्बन्ध महत्त्वपूर्ण</text>
+    <text x="165" y="260" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="14">नमिल्दा = थप कागजात</text>
+    <text x="165" y="285" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="14">सही कार्य विवरण आवश्यक</text>
+  </g>
+  <!-- Key Points Box -->
+  <g transform="translate(200, 450)">
+    <rect width="800" height="80" rx="12" fill="#1e293b"/>
+    <text x="400" y="32" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="15">मुख्य बुँदा</text>
+    <text x="400" y="58" text-anchor="middle" fill="white" font-family="sans-serif" font-size="17" font-weight="bold">प्रकारअनुसार समीक्षा समय र तीव्रता बुझेर रणनीतिक तयारी गर्नुहोस्</text>
+  </g>
+  <text x="600" y="575" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="18">visa.japanlifeinfo.com</text>
+  <defs>
+    <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">
+      <stop offset="0%" stop-color="#3b82f6"/><stop offset="50%" stop-color="#8b5cf6"/><stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+  </defs>
+</svg>
