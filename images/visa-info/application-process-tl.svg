@@ -1,75 +1,100 @@
 <svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- Background -->
   <rect width="1200" height="630" fill="#f8fafc"/>
-
-  <!-- Header gradient bar -->
   <rect width="1200" height="8" fill="url(#headerGradient)"/>
 
-  <!-- Title -->
-  <text x="600" y="75" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="32" font-weight="bold">Step-by-step na gabay para sa mga baguhan</text>
+  <text x="600" y="50" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="24" font-weight="bold">Kumpletong Gabay sa Pag-apply ng Status of Residence</text>
+  <text x="600" y="78" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="15">Hakbang-hakbang na gabay para sa unang beses mag-apply</text>
 
-  <!-- Step 1 (top-left) -->
-  <g transform="translate(120, 110)">
-    <rect width="460" height="165" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
-    <circle cx="45" cy="45" r="28" fill="#dbeafe"/>
-    <text x="45" y="53" text-anchor="middle" fill="#3b82f6" font-family="sans-serif" font-size="22" font-weight="bold">1</text>
-    <text x="90" y="52" fill="#1e293b" font-family="sans-serif" font-size="20" font-weight="bold">Ihanda ang Docs</text>
-    <text x="45" y="92" fill="#64748b" font-family="sans-serif" font-size="15">Application form, passport, larawan</text>
-    <text x="45" y="114" fill="#64748b" font-family="sans-serif" font-size="15">Docs ng kompanya</text>
-    <text x="45" y="136" fill="#64748b" font-family="sans-serif" font-size="15">Sertipiko ng trabaho</text>
+  <!-- Step 1 -->
+  <g transform="translate(50, 100)">
+    <rect width="240" height="145" rx="12" fill="#eff6ff" stroke="#93c5fd" stroke-width="2"/>
+    <rect width="240" height="38" rx="12" fill="#3b82f6"/>
+    <rect y="26" width="240" height="12" fill="#3b82f6"/>
+    <text x="120" y="27" text-anchor="middle" fill="white" font-family="sans-serif" font-size="12" font-weight="bold">STEP 1 · Paghahanda ng Docs</text>
+    <text x="120" y="65" text-anchor="middle" fill="#1e40af" font-family="sans-serif" font-size="12" font-weight="bold">Application form, pasaporte, litrato</text>
+    <text x="120" y="88" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="11">Patunay ng aktibidad, docs ng kompanya</text>
+    <text x="120" y="108" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="12">Sertipiko ng trabaho</text>
+    <text x="120" y="132" text-anchor="middle" fill="#3b82f6" font-family="sans-serif" font-size="11" font-weight="bold">Suriin ang dagdag na docs sa bawat visa!</text>
   </g>
 
+  <!-- Arrow 1-2 -->
+  <text x="300" y="172" fill="#94a3b8" font-family="sans-serif" font-size="24">&#x2192;</text>
 
-  <!-- Step 2 (top-right) -->
-  <g transform="translate(620, 110)">
-    <rect width="460" height="165" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
-    <circle cx="45" cy="45" r="28" fill="#dcfce7"/>
-    <text x="45" y="53" text-anchor="middle" fill="#16a34a" font-family="sans-serif" font-size="22" font-weight="bold">2</text>
-    <text x="90" y="52" fill="#1e293b" font-family="sans-serif" font-size="20" font-weight="bold">Isumite</text>
-    <text x="45" y="92" fill="#64748b" font-family="sans-serif" font-size="15">Pumunta sa Immigration o proxy</text>
-    <text x="45" y="114" fill="#64748b" font-family="sans-serif" font-size="15">Walang bayad</text>
-    <text x="45" y="136" fill="#64748b" font-family="sans-serif" font-size="15">Suriin ang saklaw ng opisina</text>
+  <!-- Step 2 -->
+  <g transform="translate(320, 130)">
+    <rect width="240" height="145" rx="12" fill="#f0fdf4" stroke="#86efac" stroke-width="2"/>
+    <rect width="240" height="38" rx="12" fill="#16a34a"/>
+    <rect y="26" width="240" height="12" fill="#16a34a"/>
+    <text x="120" y="27" text-anchor="middle" fill="white" font-family="sans-serif" font-size="12" font-weight="bold">STEP 2 · Pag-apply sa Immigration</text>
+    <text x="120" y="65" text-anchor="middle" fill="#15803d" font-family="sans-serif" font-size="12" font-weight="bold">Personal o proxy na aplikasyon</text>
+    <text x="120" y="88" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="12">Walang bayad sa pag-apply</text>
+    <text x="120" y="108" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="12">Suriin muna ang opisina</text>
+    <text x="120" y="132" text-anchor="middle" fill="#16a34a" font-family="sans-serif" font-size="12" font-weight="bold">Pwede ring mag-apply online!</text>
   </g>
 
+  <!-- Arrow 2-3 -->
+  <text x="570" y="202" fill="#94a3b8" font-family="sans-serif" font-size="24">&#x2192;</text>
 
-  <!-- Step 3 (bottom-left) -->
-  <g transform="translate(120, 300)">
-    <rect width="460" height="165" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
-    <circle cx="45" cy="45" r="28" fill="#fef3c7"/>
-    <text x="45" y="53" text-anchor="middle" fill="#d97706" font-family="sans-serif" font-size="22" font-weight="bold">3</text>
-    <text x="90" y="52" fill="#1e293b" font-family="sans-serif" font-size="20" font-weight="bold">Panahon ng Review</text>
-    <text x="45" y="92" fill="#64748b" font-family="sans-serif" font-size="15">Average 1-3 buwan</text>
-    <text x="45" y="114" fill="#64748b" font-family="sans-serif" font-size="15">Mabilis na tugon sa mga requests</text>
-    <text x="45" y="136" fill="#64748b" font-family="sans-serif" font-size="15">Hintayin ang resulta</text>
+  <!-- Step 3 -->
+  <g transform="translate(590, 160)">
+    <rect width="240" height="145" rx="12" fill="#fffbeb" stroke="#fde68a" stroke-width="2"/>
+    <rect width="240" height="38" rx="12" fill="#d97706"/>
+    <rect y="26" width="240" height="12" fill="#d97706"/>
+    <text x="120" y="27" text-anchor="middle" fill="white" font-family="sans-serif" font-size="13" font-weight="bold">STEP 3 · Panahon ng Review</text>
+    <text x="120" y="65" text-anchor="middle" fill="#92400e" font-family="sans-serif" font-size="14" font-weight="bold">Average 1-3 buwan</text>
+    <text x="120" y="88" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="11">Mabilis na sagot sa dagdag na docs</text>
+    <text x="120" y="108" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="12">Hintayin ang resulta</text>
+    <text x="120" y="132" text-anchor="middle" fill="#d97706" font-family="sans-serif" font-size="12" font-weight="bold">Peak season 3-4 buwan+</text>
   </g>
 
+  <!-- Arrow 3-4 -->
+  <text x="840" y="232" fill="#94a3b8" font-family="sans-serif" font-size="24">&#x2192;</text>
 
-  <!-- Step 4 (bottom-right) -->
-  <g transform="translate(620, 300)">
-    <rect width="460" height="165" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
-    <circle cx="45" cy="45" r="28" fill="#fce7f3"/>
-    <text x="45" y="53" text-anchor="middle" fill="#db2777" font-family="sans-serif" font-size="22" font-weight="bold">4</text>
-    <text x="90" y="52" fill="#1e293b" font-family="sans-serif" font-size="20" font-weight="bold">Pagkatapos Apruba</text>
-    <text x="45" y="92" fill="#64748b" font-family="sans-serif" font-size="15">Residence card, visa (bagong entry)</text>
-    <text x="45" y="114" fill="#64748b" font-family="sans-serif" font-size="15">Bayad ng stamp</text>
-    <text x="45" y="136" fill="#64748b" font-family="sans-serif" font-size="15">Rehistro ng address</text>
+  <!-- Step 4 -->
+  <g transform="translate(860, 190)">
+    <rect width="280" height="145" rx="12" fill="#fdf2f8" stroke="#fbcfe8" stroke-width="2"/>
+    <rect width="280" height="38" rx="12" fill="#db2777"/>
+    <rect y="26" width="280" height="12" fill="#db2777"/>
+    <text x="140" y="27" text-anchor="middle" fill="white" font-family="sans-serif" font-size="14" font-weight="bold">STEP 4 · Aprubado Na!</text>
+    <text x="140" y="65" text-anchor="middle" fill="#9d174d" font-family="sans-serif" font-size="13" font-weight="bold">Residence card &amp; visa issuance</text>
+    <text x="140" y="88" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="12">Revenue stamp (&#xA5;4,000)</text>
+    <text x="140" y="108" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="12">Rehistrasyon ng address</text>
+    <text x="140" y="132" text-anchor="middle" fill="#16a34a" font-family="sans-serif" font-size="14" font-weight="bold">Opisyal na paninirahan!</text>
   </g>
 
-  <!-- Key Points Box -->
-  <g transform="translate(200, 495)">
-    <rect width="800" height="80" rx="12" fill="#1e293b"/>
-    <text x="400" y="32" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="15">Mga Pangunahing Punto</text>
-    <text x="400" y="58" text-anchor="middle" fill="white" font-family="sans-serif" font-size="17" font-weight="bold">Itugma ang status | Konsistensya ng docs | Mabilis na tugon</text>
+  <!-- Checklist Box -->
+  <g transform="translate(50, 365)">
+    <rect width="520" height="210" rx="12" fill="#1e293b"/>
+    <text x="260" y="30" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="16" font-weight="bold">Mahalagang Checklist</text>
+    <line x1="30" y1="45" x2="490" y2="45" stroke="#334155"/>
+    <text x="40" y="72" fill="#e2e8f0" font-family="sans-serif" font-size="13">&#x2713; Tiyaking tumutugma ang status sa aktwal na aktibidad</text>
+    <text x="40" y="98" fill="#e2e8f0" font-family="sans-serif" font-size="13">&#x2713; Siguraduhing consistent ang lahat ng dokumento</text>
+    <text x="40" y="124" fill="#e2e8f0" font-family="sans-serif" font-size="13">&#x2713; Mabilis na tugon sa mga dagdag na kahilingan</text>
+    <text x="40" y="150" fill="#e2e8f0" font-family="sans-serif" font-size="13">&#x2713; Mag-apply bago mag-expire ang period of stay</text>
+    <text x="40" y="176" fill="#e2e8f0" font-family="sans-serif" font-size="13">&#x2713; Suriin muna ang jurisdiction na immigration office</text>
+    <text x="40" y="200" fill="#fbbf24" font-family="sans-serif" font-size="13">&#x203B; Karamihan ng rejection ay dahil sa kulang na dokumento</text>
   </g>
 
-  <!-- Footer -->
+  <!-- Duration summary -->
+  <g transform="translate(600, 365)">
+    <rect width="550" height="100" rx="12" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+    <text x="275" y="30" text-anchor="middle" fill="#475569" font-family="sans-serif" font-size="14">Tinatayang Kabuuang Tagal</text>
+    <text x="275" y="65" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="32" font-weight="bold">Mga 1-3 buwan</text>
+    <text x="275" y="88" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="13">Bagong aplikasyon (may COE): 1.5-4 na buwan+</text>
+  </g>
+
+  <g transform="translate(600, 480)">
+    <rect width="550" height="95" rx="12" fill="#fefce8" stroke="#fde68a" stroke-width="1"/>
+    <text x="275" y="28" text-anchor="middle" fill="#854d0e" font-family="sans-serif" font-size="14" font-weight="bold">Sanggunian Ayon sa Uri ng Aplikasyon</text>
+    <text x="275" y="52" text-anchor="middle" fill="#713f12" font-family="sans-serif" font-size="12">Bago (COE) · Pagbabago · Renewal · Permanent — iba ang docs at review</text>
+    <text x="275" y="75" text-anchor="middle" fill="#713f12" font-family="sans-serif" font-size="13">Mag-apply mag-isa para makatipid | Pwede ring kumuha ng ahente</text>
+  </g>
+
   <text x="600" y="610" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="18">visa.japanlifeinfo.com</text>
 
   <defs>
     <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">
-      <stop offset="0%" stop-color="#3b82f6"/>
-      <stop offset="50%" stop-color="#8b5cf6"/>
-      <stop offset="100%" stop-color="#10b981"/>
+      <stop offset="0%" stop-color="#3b82f6"/><stop offset="50%" stop-color="#8b5cf6"/><stop offset="100%" stop-color="#10b981"/>
     </linearGradient>
   </defs>
 </svg>

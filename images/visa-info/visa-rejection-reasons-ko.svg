@@ -1,70 +1,108 @@
 <svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- Background -->
-  <rect width="1200" height="630" fill="#f8fafc"/>
-  <!-- Header gradient bar -->
+  <rect width="1200" height="630" fill="#fef2f2"/>
   <rect width="1200" height="8" fill="url(#headerGradient)"/>
-  <!-- Title -->
-  <text x="600" y="75" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="36" font-weight="bold">일본 취업비자 기각되는 흔한 이유</text>
 
-  <!-- Card 1: 전공·직무 불일치 (top-left) -->
-  <g transform="translate(120, 110)">
-    <rect width="460" height="165" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
-    <circle cx="45" cy="45" r="28" fill="#fee2e2"/>
-    <text x="45" y="53" text-anchor="middle" fill="#dc2626" font-family="sans-serif" font-size="20" font-weight="bold">1</text>
-    <text x="90" y="52" fill="#1e293b" font-family="sans-serif" font-size="20" font-weight="bold">전공·직무 불일치</text>
-    <text x="45" y="92" fill="#64748b" font-family="sans-serif" font-size="15">가장 흔한 기각 사유</text>
-    <text x="45" y="114" fill="#64748b" font-family="sans-serif" font-size="15">학력·경력과 직무 관련성 필수</text>
-    <text x="45" y="136" fill="#64748b" font-family="sans-serif" font-size="15">설명 불가 시 "단순노동" 판정</text>
+  <text x="600" y="50" text-anchor="middle" fill="#991b1b" font-family="sans-serif" font-size="28" font-weight="bold">일본 취업비자 기각되는 흔한 이유</text>
+  <text x="600" y="78" text-anchor="middle" fill="#b91c1c" font-family="sans-serif" font-size="15">대부분의 기각은 서류 준비 부족이 원인입니다</text>
+
+  <!-- Danger card 1 -->
+  <g transform="translate(50, 100)">
+    <rect width="350" height="150" rx="12" fill="white" stroke="#fca5a5" stroke-width="2"/>
+    <rect width="60" height="150" rx="12" fill="#dc2626"/>
+    <rect x="48" width="12" height="150" fill="#dc2626"/>
+    <text x="30" y="82" text-anchor="middle" fill="white" font-family="sans-serif" font-size="26" font-weight="bold">1</text>
+    <text x="80" y="35" fill="#991b1b" font-family="sans-serif" font-size="16" font-weight="bold">전공 · 직무 불일치</text>
+    <text x="80" y="60" fill="#64748b" font-family="sans-serif" font-size="13">가장 흔한 기각 사유</text>
+    <text x="80" y="82" fill="#64748b" font-family="sans-serif" font-size="13">학력·경력과 직무 관련성 필수</text>
+    <text x="80" y="104" fill="#64748b" font-family="sans-serif" font-size="13">설명 불가 시 "단순노동" 판정</text>
+    <text x="80" y="132" fill="#dc2626" font-family="sans-serif" font-size="12" font-weight="bold">→ 기각률 1위</text>
   </g>
 
-  <!-- Card 2: 직무 설명 모호 (top-right) -->
-  <g transform="translate(620, 110)">
-    <rect width="460" height="165" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
-    <circle cx="45" cy="45" r="28" fill="#fef3c7"/>
-    <text x="45" y="53" text-anchor="middle" fill="#d97706" font-family="sans-serif" font-size="20" font-weight="bold">2</text>
-    <text x="90" y="52" fill="#1e293b" font-family="sans-serif" font-size="20" font-weight="bold">직무 설명 모호</text>
-    <text x="45" y="92" fill="#64748b" font-family="sans-serif" font-size="15">"전문직인가?" 심사 기준</text>
-    <text x="45" y="114" fill="#64748b" font-family="sans-serif" font-size="15">추상적 표현은 위험</text>
-    <text x="45" y="136" fill="#64748b" font-family="sans-serif" font-size="15">구체적 직무 설명 필수</text>
+  <!-- Danger card 2 -->
+  <g transform="translate(420, 100)">
+    <rect width="350" height="150" rx="12" fill="white" stroke="#fdba74" stroke-width="2"/>
+    <rect width="60" height="150" rx="12" fill="#ea580c"/>
+    <rect x="48" width="12" height="150" fill="#ea580c"/>
+    <text x="30" y="82" text-anchor="middle" fill="white" font-family="sans-serif" font-size="26" font-weight="bold">2</text>
+    <text x="80" y="35" fill="#9a3412" font-family="sans-serif" font-size="16" font-weight="bold">직무 설명 모호</text>
+    <text x="80" y="60" fill="#64748b" font-family="sans-serif" font-size="13">"전문직인가?" 심사 기준</text>
+    <text x="80" y="82" fill="#64748b" font-family="sans-serif" font-size="13">추상적 표현은 위험</text>
+    <text x="80" y="104" fill="#64748b" font-family="sans-serif" font-size="13">구체적 직무 설명 필수</text>
+    <text x="80" y="132" fill="#ea580c" font-family="sans-serif" font-size="12" font-weight="bold">→ 직무기술서 작성이 핵심</text>
   </g>
 
-  <!-- Card 3: 회사 재무 문제 (bottom-left) -->
-  <g transform="translate(120, 300)">
-    <rect width="460" height="165" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
-    <circle cx="45" cy="45" r="28" fill="#dbeafe"/>
-    <text x="45" y="53" text-anchor="middle" fill="#2563eb" font-family="sans-serif" font-size="20" font-weight="bold">3</text>
-    <text x="90" y="52" fill="#1e293b" font-family="sans-serif" font-size="20" font-weight="bold">회사 재무 문제</text>
-    <text x="45" y="92" fill="#64748b" font-family="sans-serif" font-size="15">신청자가 아닌 회사 문제로 기각</text>
-    <text x="45" y="114" fill="#64748b" font-family="sans-serif" font-size="15">스타트업·적자 기업 = 고위험</text>
-    <text x="45" y="136" fill="#64748b" font-family="sans-serif" font-size="15">고용 지속 가능성 심사</text>
+  <!-- Danger card 3 -->
+  <g transform="translate(790, 100)">
+    <rect width="360" height="150" rx="12" fill="white" stroke="#fde68a" stroke-width="2"/>
+    <rect width="60" height="150" rx="12" fill="#d97706"/>
+    <rect x="48" width="12" height="150" fill="#d97706"/>
+    <text x="30" y="82" text-anchor="middle" fill="white" font-family="sans-serif" font-size="26" font-weight="bold">3</text>
+    <text x="80" y="35" fill="#92400e" font-family="sans-serif" font-size="16" font-weight="bold">회사 재무 문제</text>
+    <text x="80" y="60" fill="#64748b" font-family="sans-serif" font-size="13">신청자가 아닌 회사 문제로 기각</text>
+    <text x="80" y="82" fill="#64748b" font-family="sans-serif" font-size="13">스타트업·적자 기업 = 고위험</text>
+    <text x="80" y="104" fill="#64748b" font-family="sans-serif" font-size="13">고용 지속 가능성 심사</text>
+    <text x="80" y="132" fill="#d97706" font-family="sans-serif" font-size="12" font-weight="bold">→ 회사 안정성도 심사 대상</text>
   </g>
 
-  <!-- Card 4: 급여·서류·경력 (bottom-right) -->
-  <g transform="translate(620, 300)">
-    <rect width="460" height="165" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
-    <circle cx="45" cy="45" r="28" fill="#fce7f3"/>
-    <text x="45" y="53" text-anchor="middle" fill="#db2777" font-family="sans-serif" font-size="20" font-weight="bold">+</text>
-    <text x="90" y="52" fill="#1e293b" font-family="sans-serif" font-size="20" font-weight="bold">급여·서류·경력·체류</text>
-    <text x="45" y="92" fill="#64748b" font-family="sans-serif" font-size="15">급여가 일본 평균 이하 = 의심</text>
-    <text x="45" y="114" fill="#64748b" font-family="sans-serif" font-size="15">서류 누락·번역 미제출</text>
-    <text x="45" y="136" fill="#64748b" font-family="sans-serif" font-size="15">과거 불법 체류·세금 미납</text>
+  <!-- Additional reasons row -->
+  <text x="50" y="290" fill="#991b1b" font-family="sans-serif" font-size="15" font-weight="bold">기타 주요 기각 사유</text>
+  <g transform="translate(50, 300)">
+    <rect width="260" height="85" rx="8" fill="white" stroke="#fecaca" stroke-width="1"/>
+    <text x="20" y="25" fill="#dc2626" font-family="sans-serif" font-size="22" font-weight="bold">¥</text>
+    <text x="50" y="27" fill="#334155" font-family="sans-serif" font-size="14" font-weight="bold">급여 수준 미달</text>
+    <text x="20" y="48" fill="#64748b" font-family="sans-serif" font-size="12">일본 평균 이하 = 의심</text>
+    <text x="20" y="68" fill="#64748b" font-family="sans-serif" font-size="12">동일 직종 평균과 비교 심사</text>
+  </g>
+  <g transform="translate(325, 300)">
+    <rect width="260" height="85" rx="8" fill="white" stroke="#fecaca" stroke-width="1"/>
+    <text x="20" y="27" fill="#dc2626" font-family="sans-serif" font-size="16" font-weight="bold">!</text>
+    <text x="40" y="27" fill="#334155" font-family="sans-serif" font-size="14" font-weight="bold">서류 누락 · 불일치</text>
+    <text x="20" y="48" fill="#64748b" font-family="sans-serif" font-size="12">번역 미제출 · 서류 간 모순</text>
+    <text x="20" y="68" fill="#64748b" font-family="sans-serif" font-size="12">일관성 없는 정보 = 신뢰 하락</text>
+  </g>
+  <g transform="translate(600, 300)">
+    <rect width="260" height="85" rx="8" fill="white" stroke="#fecaca" stroke-width="1"/>
+    <text x="20" y="27" fill="#dc2626" font-family="sans-serif" font-size="16" font-weight="bold">X</text>
+    <text x="42" y="27" fill="#334155" font-family="sans-serif" font-size="14" font-weight="bold">체류 이력 문제</text>
+    <text x="20" y="48" fill="#64748b" font-family="sans-serif" font-size="12">과거 불법 체류</text>
+    <text x="20" y="68" fill="#64748b" font-family="sans-serif" font-size="12">세금 미납 · 범죄 이력</text>
+  </g>
+  <g transform="translate(875, 300)">
+    <rect width="275" height="85" rx="8" fill="white" stroke="#fecaca" stroke-width="1"/>
+    <text x="20" y="27" fill="#dc2626" font-family="sans-serif" font-size="16" font-weight="bold">?</text>
+    <text x="42" y="27" fill="#334155" font-family="sans-serif" font-size="14" font-weight="bold">경력 증명 부족</text>
+    <text x="20" y="48" fill="#64748b" font-family="sans-serif" font-size="12">10년 경력 필요 자격에 증명 미달</text>
+    <text x="20" y="68" fill="#64748b" font-family="sans-serif" font-size="12">학력 요건 불충족</text>
   </g>
 
-  <!-- Key Points Box -->
-  <g transform="translate(200, 495)">
-    <rect width="800" height="80" rx="12" fill="#1e293b"/>
-    <text x="400" y="32" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="15">핵심 포인트</text>
-    <text x="400" y="58" text-anchor="middle" fill="white" font-family="sans-serif" font-size="17" font-weight="bold">합격이 끝이 아닙니다 — 대부분의 기각은 서류 준비 부족이 원인입니다</text>
+  <!-- Prevention checklist -->
+  <g transform="translate(50, 405)">
+    <rect width="540" height="155" rx="12" fill="#1e293b"/>
+    <text x="270" y="28" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="15" font-weight="bold">기각 방지 체크리스트</text>
+    <line x1="30" y1="42" x2="510" y2="42" stroke="#334155"/>
+    <text x="35" y="65" fill="#e2e8f0" font-family="sans-serif" font-size="13">✓ 전공/경력과 직무의 연관성을 명확히 설명</text>
+    <text x="35" y="87" fill="#e2e8f0" font-family="sans-serif" font-size="13">✓ 직무기술서를 구체적으로 작성</text>
+    <text x="35" y="109" fill="#e2e8f0" font-family="sans-serif" font-size="13">✓ 모든 서류 간 정보 일관성 확인</text>
+    <text x="35" y="131" fill="#e2e8f0" font-family="sans-serif" font-size="13">✓ 급여가 동일 직종 평균 수준 이상인지 확인</text>
+    <text x="35" y="148" fill="#fbbf24" font-family="sans-serif" font-size="12">※ 기각 후 재신청 가능하지만, 같은 사유면 또 기각됩니다</text>
   </g>
 
-  <!-- Footer -->
-  <text x="600" y="610" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="18">visa.japanlifeinfo.com</text>
+  <!-- Rejection rate box -->
+  <g transform="translate(610, 405)">
+    <rect width="540" height="155" rx="12" fill="white" stroke="#fecaca" stroke-width="2"/>
+    <text x="270" y="28" text-anchor="middle" fill="#dc2626" font-family="sans-serif" font-size="15" font-weight="bold">기각 시 결과</text>
+    <line x1="30" y1="42" x2="510" y2="42" stroke="#fecaca"/>
+    <text x="270" y="68" text-anchor="middle" fill="#334155" font-family="sans-serif" font-size="14">입국 불가 (COE 불허 시)</text>
+    <text x="270" y="90" text-anchor="middle" fill="#334155" font-family="sans-serif" font-size="14">변경/갱신 불허 → 출국 필요</text>
+    <text x="270" y="112" text-anchor="middle" fill="#334155" font-family="sans-serif" font-size="14">재신청 가능하지만 시간 소요</text>
+    <text x="270" y="140" text-anchor="middle" fill="#dc2626" font-family="sans-serif" font-size="14" font-weight="bold">→ 첫 신청에서 확실히 준비하세요!</text>
+  </g>
+
+  <text x="600" y="600" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="18">visa.japanlifeinfo.com</text>
 
   <defs>
     <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">
-      <stop offset="0%" stop-color="#3b82f6"/>
-      <stop offset="50%" stop-color="#8b5cf6"/>
-      <stop offset="100%" stop-color="#10b981"/>
+      <stop offset="0%" stop-color="#dc2626"/><stop offset="50%" stop-color="#ea580c"/><stop offset="100%" stop-color="#d97706"/>
     </linearGradient>
   </defs>
 </svg>

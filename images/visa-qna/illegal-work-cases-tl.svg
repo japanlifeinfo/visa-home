@@ -1,0 +1,91 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#f8fafc"/>
+  <rect width="1200" height="8" fill="url(#headerGradient)"/>
+
+  <text x="600" y="55" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="26" font-weight="bold">Mga Totoong Kaso ng Illegal na Trabaho sa Japan</text>
+  <text x="600" y="82" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="16">"Isang pagkakamali" maaaring baguhin ang buhay mo</text>
+
+  <g transform="translate(50, 100)">
+    <rect width="350" height="160" rx="8" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+    <rect width="350" height="32" rx="8" fill="#dc2626"/>
+    <rect y="16" width="350" height="16" fill="#dc2626"/>
+    <text x="175" y="22" text-anchor="middle" fill="white" font-family="sans-serif" font-size="12" font-weight="bold">Kaso 1 · Tumakas na Trainee + Pekeng Card</text>
+    <text x="20" y="58" fill="#334155" font-family="sans-serif" font-size="13">Trainee tumakas, nagtrabahong ilegal</text>
+    <text x="20" y="78" fill="#334155" font-family="sans-serif" font-size="13">Broker gumawa ng pekeng residence card</text>
+    <text x="20" y="100" fill="#dc2626" font-family="sans-serif" font-size="13" font-weight="bold">Resulta: Broker inaresto at kinasuhan</text>
+    <text x="20" y="122" fill="#64748b" font-family="sans-serif" font-size="12">→ Mga recruiter may parusa rin</text>
+    <text x="20" y="144" fill="#64748b" font-family="sans-serif" font-size="12">→ Worker, employer, broker LAHAT may pananagutan</text>
+  </g>
+
+  <g transform="translate(420, 100)">
+    <rect width="350" height="160" rx="8" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+    <rect width="350" height="32" rx="8" fill="#ea580c"/>
+    <rect y="16" width="350" height="16" fill="#ea580c"/>
+    <text x="175" y="22" text-anchor="middle" fill="white" font-family="sans-serif" font-size="12" font-weight="bold">Kaso 2 · Trabaho sa Labas ng Visa Category</text>
+    <text x="20" y="58" fill="#334155" font-family="sans-serif" font-size="13">Agriculture visa → laundry/factory work</text>
+    <text x="20" y="78" fill="#334155" font-family="sans-serif" font-size="13">Agency sabi "okay lang" pero hindi pala</text>
+    <text x="20" y="100" fill="#ea580c" font-family="sans-serif" font-size="13" font-weight="bold">Resulta: Inaresto sa immigration violation</text>
+    <text x="20" y="122" fill="#64748b" font-family="sans-serif" font-size="12">→ Labas ng designated industry = illegal</text>
+    <text x="20" y="144" fill="#64748b" font-family="sans-serif" font-size="12">→ Visa type dapat match sa actual work</text>
+  </g>
+
+  <g transform="translate(790, 100)">
+    <rect width="360" height="160" rx="8" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+    <rect width="360" height="32" rx="8" fill="#9333ea"/>
+    <rect y="16" width="360" height="16" fill="#9333ea"/>
+    <text x="180" y="22" text-anchor="middle" fill="white" font-family="sans-serif" font-size="12" font-weight="bold">Kaso 3 · Employer Nahuli</text>
+    <text x="20" y="58" fill="#334155" font-family="sans-serif" font-size="13">Nag-hire ng expired/walang visa workers</text>
+    <text x="20" y="78" fill="#334155" font-family="sans-serif" font-size="13">"Mura kasi ang sahod kaya in-hire"</text>
+    <text x="20" y="100" fill="#9333ea" font-family="sans-serif" font-size="13" font-weight="bold">Resulta: Inaresto sa immigration violation</text>
+    <text x="20" y="122" fill="#64748b" font-family="sans-serif" font-size="12">→ Employer haharap sa criminal charges</text>
+    <text x="20" y="144" fill="#64748b" font-family="sans-serif" font-size="12">→ Kailangang i-verify ang status bago mag-hire</text>
+  </g>
+
+  <g transform="translate(50, 280)">
+    <rect width="530" height="75" rx="12" fill="#1e293b"/>
+    <text x="265" y="30" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="16" font-weight="bold">2024 Stats: ~14,000 nahuli sa work violation</text>
+    <text x="265" y="55" text-anchor="middle" fill="#e2e8f0" font-family="sans-serif" font-size="13">Kasama ang mga kaso na stay mismo ay labag sa visa rules</text>
+  </g>
+
+  <g transform="translate(600, 280)">
+    <rect width="550" height="75" rx="12" fill="#fef2f2" stroke="#fecaca" stroke-width="2"/>
+    <text x="275" y="30" text-anchor="middle" fill="#dc2626" font-family="sans-serif" font-size="16" font-weight="bold">⚠ Mag-ingat sa SNS "Quick High-Pay Jobs"</text>
+    <text x="275" y="55" text-anchor="middle" fill="#991b1b" font-family="sans-serif" font-size="13">Illegal job recruitment online — flagged ng Japanese police</text>
+  </g>
+
+  <text x="50" y="395" fill="#475569" font-family="sans-serif" font-size="15" font-weight="bold">Bakit Maraming Ganito?</text>
+  <g transform="translate(50, 405)">
+    <rect width="260" height="48" rx="8" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="130" y="30" text-anchor="middle" fill="#334155" font-family="sans-serif" font-size="13">Labor shortage → foreign reliance</text>
+  </g>
+  <g transform="translate(320, 405)">
+    <rect width="260" height="48" rx="8" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="130" y="30" text-anchor="middle" fill="#334155" font-family="sans-serif" font-size="13">Hindi alam ang visa terms</text>
+  </g>
+  <g transform="translate(590, 405)">
+    <rect width="260" height="48" rx="8" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="130" y="30" text-anchor="middle" fill="#334155" font-family="sans-serif" font-size="13">Illegal brokers nagtutulak</text>
+  </g>
+  <g transform="translate(860, 405)">
+    <rect width="290" height="48" rx="8" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="145" y="30" text-anchor="middle" fill="#334155" font-family="sans-serif" font-size="13">Visa status ≠ Actual work</text>
+  </g>
+
+  <g transform="translate(50, 475)">
+    <rect width="1100" height="55" rx="10" fill="#fffbeb" stroke="#fde68a" stroke-width="1"/>
+    <text x="100" y="35" text-anchor="middle" fill="#92400e" font-family="sans-serif" font-size="14" font-weight="bold">Aresto</text>
+    <text x="310" y="35" text-anchor="middle" fill="#92400e" font-family="sans-serif" font-size="14" font-weight="bold">Deportasyon</text>
+    <text x="550" y="35" text-anchor="middle" fill="#92400e" font-family="sans-serif" font-size="14" font-weight="bold">Entry Ban</text>
+    <text x="810" y="35" text-anchor="middle" fill="#92400e" font-family="sans-serif" font-size="14" font-weight="bold">Visa Disadvantage</text>
+    <text x="1010" y="35" text-anchor="middle" fill="#92400e" font-family="sans-serif" font-size="14" font-weight="bold">Career Sira</text>
+  </g>
+
+  <text x="600" y="565" text-anchor="middle" fill="#475569" font-family="sans-serif" font-size="15">Ang visa status mo ay dapat tumugma sa totoong trabaho — ito ay legal na kritikal</text>
+  <text x="600" y="600" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="18">visa.japanlifeinfo.com</text>
+
+  <defs>
+    <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">
+      <stop offset="0%" stop-color="#3b82f6"/><stop offset="50%" stop-color="#8b5cf6"/><stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+  </defs>
+</svg>

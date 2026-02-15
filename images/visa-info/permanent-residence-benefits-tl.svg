@@ -1,72 +1,94 @@
 <svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- Background -->
   <rect width="1200" height="630" fill="#f8fafc"/>
-
-  <!-- Header gradient bar -->
   <rect width="1200" height="8" fill="url(#headerGradient)"/>
 
-  <!-- Title -->
-  <text x="600" y="75" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="30" font-weight="bold">Mga Benepisyo ng Permanent Residence mula sa Work Visa</text>
+  <text x="600" y="50" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="26" font-weight="bold">Work Visa vs Permanent Residence — Ano ang Pagbabago?</text>
+  <text x="600" y="78" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="15">Tunay na benepisyo kapag nakuha ang permanent residence</text>
 
-  <!-- Card 1 (top-left) -->
-  <g transform="translate(120, 110)">
-    <rect width="460" height="165" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
-    <circle cx="45" cy="45" r="28" fill="#dbeafe"/>
-    <text x="45" y="55" text-anchor="middle" fill="#3b82f6" font-family="sans-serif" font-size="22" font-weight="bold">&#8734;</text>
-    <text x="90" y="52" fill="#1e293b" font-family="sans-serif" font-size="20" font-weight="bold">Walang Limitasyon</text>
-    <text x="45" y="92" fill="#64748b" font-family="sans-serif" font-size="15">Hindi na kailangan mag-renew</text>
-    <text x="45" y="114" fill="#64748b" font-family="sans-serif" font-size="15">Walang pag-aalala sa pag-expire</text>
-    <text x="45" y="136" fill="#64748b" font-family="sans-serif" font-size="15">Walang admin stress</text>
+  <!-- Left column header -->
+  <g transform="translate(60, 100)">
+    <rect width="520" height="50" rx="10" fill="#64748b"/>
+    <text x="260" y="33" text-anchor="middle" fill="white" font-family="sans-serif" font-size="20" font-weight="bold">Work Visa (Limitado)</text>
   </g>
 
-  <!-- Card 2 (top-right) -->
-  <g transform="translate(620, 110)">
-    <rect width="460" height="165" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
-    <circle cx="45" cy="45" r="28" fill="#dcfce7"/>
-    <text x="45" y="55" text-anchor="middle" fill="#16a34a" font-family="sans-serif" font-size="22" font-weight="bold">&#9733;</text>
-    <text x="90" y="52" fill="#1e293b" font-family="sans-serif" font-size="20" font-weight="bold">Kalayaan sa Karera</text>
-    <text x="45" y="92" fill="#64748b" font-family="sans-serif" font-size="15">Walang restriksyon sa industriya</text>
-    <text x="45" y="114" fill="#64748b" font-family="sans-serif" font-size="15">Freelance, negosyo posible</text>
-    <text x="45" y="136" fill="#64748b" font-family="sans-serif" font-size="15">Sideline din allowed</text>
+  <!-- Right column header -->
+  <g transform="translate(620, 100)">
+    <rect width="520" height="50" rx="10" fill="#16a34a"/>
+    <text x="260" y="33" text-anchor="middle" fill="white" font-family="sans-serif" font-size="20" font-weight="bold">Permanent Residence (Malaya)</text>
   </g>
 
-  <!-- Card 3 (bottom-left) -->
-  <g transform="translate(120, 300)">
-    <rect width="460" height="165" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
-    <circle cx="45" cy="45" r="28" fill="#fef3c7"/>
-    <text x="45" y="55" text-anchor="middle" fill="#d97706" font-family="sans-serif" font-size="22" font-weight="bold">&#9750;</text>
-    <text x="90" y="52" fill="#1e293b" font-family="sans-serif" font-size="20" font-weight="bold">Nabawasan ang Panganib</text>
-    <text x="45" y="92" fill="#64748b" font-family="sans-serif" font-size="15">Residency base sa indibidwal</text>
-    <text x="45" y="114" fill="#64748b" font-family="sans-serif" font-size="15">Manatili kahit anong kumpanya</text>
-    <text x="45" y="136" fill="#64748b" font-family="sans-serif" font-size="15">Pinakamalakas na safety net</text>
+  <!-- Row 1: Tagal ng Pananatili -->
+  <g transform="translate(60, 160)">
+    <rect width="520" height="60" rx="8" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="25" y="25" fill="#64748b" font-family="sans-serif" font-size="12">Tagal ng Pananatili</text>
+    <text x="25" y="47" fill="#475569" font-family="sans-serif" font-size="16" font-weight="bold">Kailangang i-renew tuwing 1-5 taon</text>
+  </g>
+  <g transform="translate(620, 160)">
+    <rect width="520" height="60" rx="8" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
+    <text x="25" y="25" fill="#16a34a" font-family="sans-serif" font-size="12">Tagal ng Pananatili</text>
+    <text x="25" y="47" fill="#15803d" font-family="sans-serif" font-size="15" font-weight="bold">Walang limitasyon — hindi na kailangang i-renew</text>
   </g>
 
-  <!-- Card 4 (bottom-right) -->
-  <g transform="translate(620, 300)">
-    <rect width="460" height="165" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
-    <circle cx="45" cy="45" r="28" fill="#fce7f3"/>
-    <text x="45" y="55" text-anchor="middle" fill="#db2777" font-family="sans-serif" font-size="22" font-weight="bold">&#9960;</text>
-    <text x="90" y="52" fill="#1e293b" font-family="sans-serif" font-size="20" font-weight="bold">Financial Credibility</text>
-    <text x="45" y="92" fill="#64748b" font-family="sans-serif" font-size="15">Mas mataas na mortgage approval</text>
-    <text x="45" y="114" fill="#64748b" font-family="sans-serif" font-size="15">Mas magandang interest rate</text>
-    <text x="45" y="136" fill="#64748b" font-family="sans-serif" font-size="15">Mas madaling credit card approval</text>
+  <!-- Row 2: Pagpili ng Trabaho -->
+  <g transform="translate(60, 228)">
+    <rect width="520" height="60" rx="8" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="25" y="25" fill="#64748b" font-family="sans-serif" font-size="12">Pagpili ng Trabaho</text>
+    <text x="25" y="47" fill="#475569" font-family="sans-serif" font-size="16" font-weight="bold">Pinapayagang industriya lang, bawal side job</text>
+  </g>
+  <g transform="translate(620, 228)">
+    <rect width="520" height="60" rx="8" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
+    <text x="25" y="25" fill="#16a34a" font-family="sans-serif" font-size="12">Pagpili ng Trabaho</text>
+    <text x="25" y="47" fill="#15803d" font-family="sans-serif" font-size="16" font-weight="bold">Walang limitasyon, freelance, negosyo OK</text>
   </g>
 
-  <!-- Key Points Box -->
-  <g transform="translate(200, 495)">
-    <rect width="800" height="80" rx="12" fill="#1e293b"/>
-    <text x="400" y="32" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="15">Core Value ng Permanent Residence</text>
-    <text x="400" y="58" text-anchor="middle" fill="white" font-family="sans-serif" font-size="17" font-weight="bold">Panatilihin nasyonalidad | Walang limitasyon | Disenyo ng buhay</text>
+  <!-- Row 3: Pagpalit ng Trabaho / Kawalan -->
+  <g transform="translate(60, 296)">
+    <rect width="520" height="60" rx="8" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="25" y="25" fill="#64748b" font-family="sans-serif" font-size="12">Pagpalit ng Trabaho / Kawalan</text>
+    <text x="25" y="47" fill="#475569" font-family="sans-serif" font-size="15" font-weight="bold">Visa nakabatay sa kumpanya, delikado kung umalis</text>
+  </g>
+  <g transform="translate(620, 296)">
+    <rect width="520" height="60" rx="8" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
+    <text x="25" y="25" fill="#16a34a" font-family="sans-serif" font-size="12">Pagpalit ng Trabaho / Kawalan</text>
+    <text x="25" y="47" fill="#15803d" font-family="sans-serif" font-size="15" font-weight="bold">Nakabatay sa indibidwal, manatili kahit walang trabaho</text>
   </g>
 
-  <!-- Footer -->
+  <!-- Row 4: Pananalapi / Utang -->
+  <g transform="translate(60, 364)">
+    <rect width="520" height="60" rx="8" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="25" y="25" fill="#64748b" font-family="sans-serif" font-size="12">Pananalapi / Utang</text>
+    <text x="25" y="47" fill="#475569" font-family="sans-serif" font-size="15" font-weight="bold">Mahirap ang housing loan, hindi paborableng rate</text>
+  </g>
+  <g transform="translate(620, 364)">
+    <rect width="520" height="60" rx="8" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
+    <text x="25" y="25" fill="#16a34a" font-family="sans-serif" font-size="12">Pananalapi / Utang</text>
+    <text x="25" y="47" fill="#15803d" font-family="sans-serif" font-size="16" font-weight="bold">Posible ang housing loan, magandang kondisyon</text>
+  </g>
+
+  <!-- Row 5: Pasanin sa Admin -->
+  <g transform="translate(60, 432)">
+    <rect width="520" height="60" rx="8" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="25" y="25" fill="#64748b" font-family="sans-serif" font-size="12">Pasanin sa Admin</text>
+    <text x="25" y="47" fill="#475569" font-family="sans-serif" font-size="15" font-weight="bold">Regular na renewal, stress sa paghahanda ng dokumento</text>
+  </g>
+  <g transform="translate(620, 432)">
+    <rect width="520" height="60" rx="8" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
+    <text x="25" y="25" fill="#16a34a" font-family="sans-serif" font-size="12">Pasanin sa Admin</text>
+    <text x="25" y="47" fill="#15803d" font-family="sans-serif" font-size="16" font-weight="bold">Hindi na kailangang i-renew, walang admin stress</text>
+  </g>
+
+  <!-- Bottom summary -->
+  <g transform="translate(60, 510)">
+    <rect width="1080" height="65" rx="12" fill="#1e293b"/>
+    <text x="540" y="28" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="16" font-weight="bold">Pangunahing Halaga ng Permanent Residence</text>
+    <text x="540" y="52" text-anchor="middle" fill="white" font-family="sans-serif" font-size="14">Panatilihin ang nasyonalidad · Manirahan nang walang hanggan · Idisenyo ang sariling buhay</text>
+  </g>
+
   <text x="600" y="610" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="18">visa.japanlifeinfo.com</text>
 
   <defs>
     <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">
-      <stop offset="0%" stop-color="#3b82f6"/>
-      <stop offset="50%" stop-color="#8b5cf6"/>
-      <stop offset="100%" stop-color="#10b981"/>
+      <stop offset="0%" stop-color="#3b82f6"/><stop offset="50%" stop-color="#8b5cf6"/><stop offset="100%" stop-color="#10b981"/>
     </linearGradient>
   </defs>
 </svg>

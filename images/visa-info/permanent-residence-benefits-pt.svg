@@ -1,72 +1,94 @@
 <svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- Background -->
   <rect width="1200" height="630" fill="#f8fafc"/>
-
-  <!-- Header gradient bar -->
   <rect width="1200" height="8" fill="url(#headerGradient)"/>
 
-  <!-- Title -->
-  <text x="600" y="75" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="28" font-weight="bold">Beneficios da Residencia Permanente a Partir do Visto de Trabalho</text>
+  <text x="600" y="50" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="26" font-weight="bold">Visto de Trabalho vs Residencia Permanente — O que Muda?</text>
+  <text x="600" y="78" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="15">Beneficios reais ao obter a residencia permanente</text>
 
-  <!-- Card 1 (top-left) -->
-  <g transform="translate(120, 110)">
-    <rect width="460" height="165" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
-    <circle cx="45" cy="45" r="28" fill="#dbeafe"/>
-    <text x="45" y="55" text-anchor="middle" fill="#3b82f6" font-family="sans-serif" font-size="22" font-weight="bold">&#8734;</text>
-    <text x="90" y="52" fill="#1e293b" font-family="sans-serif" font-size="20" font-weight="bold">Permanencia Ilimitada</text>
-    <text x="45" y="92" fill="#64748b" font-family="sans-serif" font-size="15">Sem necessidade de renovacao</text>
-    <text x="45" y="114" fill="#64748b" font-family="sans-serif" font-size="15">Sem preocupacao com expiracao</text>
-    <text x="45" y="136" fill="#64748b" font-family="sans-serif" font-size="15">Estresse administrativo eliminado</text>
+  <!-- Left column header -->
+  <g transform="translate(60, 100)">
+    <rect width="520" height="50" rx="10" fill="#64748b"/>
+    <text x="260" y="33" text-anchor="middle" fill="white" font-family="sans-serif" font-size="20" font-weight="bold">Visto de Trabalho (Restrito)</text>
   </g>
 
-  <!-- Card 2 (top-right) -->
-  <g transform="translate(620, 110)">
-    <rect width="460" height="165" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
-    <circle cx="45" cy="45" r="28" fill="#dcfce7"/>
-    <text x="45" y="55" text-anchor="middle" fill="#16a34a" font-family="sans-serif" font-size="22" font-weight="bold">&#9733;</text>
-    <text x="90" y="52" fill="#1e293b" font-family="sans-serif" font-size="20" font-weight="bold">Liberdade de Carreira</text>
-    <text x="45" y="92" fill="#64748b" font-family="sans-serif" font-size="15">Sem restricoes de setor</text>
-    <text x="45" y="114" fill="#64748b" font-family="sans-serif" font-size="15">Freelance, empreender possivel</text>
-    <text x="45" y="136" fill="#64748b" font-family="sans-serif" font-size="15">Trabalhos extras tambem livres</text>
+  <!-- Right column header -->
+  <g transform="translate(620, 100)">
+    <rect width="520" height="50" rx="10" fill="#16a34a"/>
+    <text x="260" y="33" text-anchor="middle" fill="white" font-family="sans-serif" font-size="20" font-weight="bold">Residencia Permanente (Livre)</text>
   </g>
 
-  <!-- Card 3 (bottom-left) -->
-  <g transform="translate(120, 300)">
-    <rect width="460" height="165" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
-    <circle cx="45" cy="45" r="28" fill="#fef3c7"/>
-    <text x="45" y="55" text-anchor="middle" fill="#d97706" font-family="sans-serif" font-size="22" font-weight="bold">&#9750;</text>
-    <text x="90" y="52" fill="#1e293b" font-family="sans-serif" font-size="20" font-weight="bold">Risco Reduzido</text>
-    <text x="45" y="92" fill="#64748b" font-family="sans-serif" font-size="15">Residencia baseada no individuo</text>
-    <text x="45" y="114" fill="#64748b" font-family="sans-serif" font-size="15">Permanecer independente da empresa</text>
-    <text x="45" y="136" fill="#64748b" font-family="sans-serif" font-size="15">Rede de seguranca mais forte</text>
+  <!-- Row 1: Duracao da Estadia -->
+  <g transform="translate(60, 160)">
+    <rect width="520" height="60" rx="8" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="25" y="25" fill="#64748b" font-family="sans-serif" font-size="12">Duracao da Estadia</text>
+    <text x="25" y="47" fill="#475569" font-family="sans-serif" font-size="16" font-weight="bold">Renovacao obrigatoria a cada 1-5 anos</text>
+  </g>
+  <g transform="translate(620, 160)">
+    <rect width="520" height="60" rx="8" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
+    <text x="25" y="25" fill="#16a34a" font-family="sans-serif" font-size="12">Duracao da Estadia</text>
+    <text x="25" y="47" fill="#15803d" font-family="sans-serif" font-size="16" font-weight="bold">Ilimitado — sem necessidade de renovacao</text>
   </g>
 
-  <!-- Card 4 (bottom-right) -->
-  <g transform="translate(620, 300)">
-    <rect width="460" height="165" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
-    <circle cx="45" cy="45" r="28" fill="#fce7f3"/>
-    <text x="45" y="55" text-anchor="middle" fill="#db2777" font-family="sans-serif" font-size="22" font-weight="bold">&#9960;</text>
-    <text x="90" y="52" fill="#1e293b" font-family="sans-serif" font-size="20" font-weight="bold">Credibilidade Financeira</text>
-    <text x="45" y="92" fill="#64748b" font-family="sans-serif" font-size="15">Maiores chances de hipoteca</text>
-    <text x="45" y="114" fill="#64748b" font-family="sans-serif" font-size="15">Taxas de juros mais favoraveis</text>
-    <text x="45" y="136" fill="#64748b" font-family="sans-serif" font-size="15">Cartao de credito mais facil</text>
+  <!-- Row 2: Escolha de Emprego -->
+  <g transform="translate(60, 228)">
+    <rect width="520" height="60" rx="8" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="25" y="25" fill="#64748b" font-family="sans-serif" font-size="12">Escolha de Emprego</text>
+    <text x="25" y="47" fill="#475569" font-family="sans-serif" font-size="15" font-weight="bold">Somente setores permitidos, trabalho extra restrito</text>
+  </g>
+  <g transform="translate(620, 228)">
+    <rect width="520" height="60" rx="8" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
+    <text x="25" y="25" fill="#16a34a" font-family="sans-serif" font-size="12">Escolha de Emprego</text>
+    <text x="25" y="47" fill="#15803d" font-family="sans-serif" font-size="16" font-weight="bold">Sem restricao de setor, freelance, negocio OK</text>
   </g>
 
-  <!-- Key Points Box -->
-  <g transform="translate(200, 495)">
-    <rect width="800" height="80" rx="12" fill="#1e293b"/>
-    <text x="400" y="32" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="15">Valor Central da Residencia Permanente</text>
-    <text x="400" y="58" text-anchor="middle" fill="white" font-family="sans-serif" font-size="17" font-weight="bold">Manter nacionalidade | Permanencia ilimitada | Projetar sua vida</text>
+  <!-- Row 3: Mudanca de Emprego / Desemprego -->
+  <g transform="translate(60, 296)">
+    <rect width="520" height="60" rx="8" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="25" y="25" fill="#64748b" font-family="sans-serif" font-size="12">Mudanca de Emprego / Desemprego</text>
+    <text x="25" y="47" fill="#475569" font-family="sans-serif" font-size="16" font-weight="bold">Visto vinculado a empresa, risco ao sair</text>
+  </g>
+  <g transform="translate(620, 296)">
+    <rect width="520" height="60" rx="8" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
+    <text x="25" y="25" fill="#16a34a" font-family="sans-serif" font-size="12">Mudanca de Emprego / Desemprego</text>
+    <text x="25" y="47" fill="#15803d" font-family="sans-serif" font-size="16" font-weight="bold">Base individual, permanece mesmo desempregado</text>
   </g>
 
-  <!-- Footer -->
+  <!-- Row 4: Financas / Emprestimos -->
+  <g transform="translate(60, 364)">
+    <rect width="520" height="60" rx="8" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="25" y="25" fill="#64748b" font-family="sans-serif" font-size="12">Financas / Emprestimos</text>
+    <text x="25" y="47" fill="#475569" font-family="sans-serif" font-size="16" font-weight="bold">Financiamento dificil, taxas desfavoraveis</text>
+  </g>
+  <g transform="translate(620, 364)">
+    <rect width="520" height="60" rx="8" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
+    <text x="25" y="25" fill="#16a34a" font-family="sans-serif" font-size="12">Financas / Emprestimos</text>
+    <text x="25" y="47" fill="#15803d" font-family="sans-serif" font-size="16" font-weight="bold">Financiamento possivel, condicoes favoraveis</text>
+  </g>
+
+  <!-- Row 5: Carga Administrativa -->
+  <g transform="translate(60, 432)">
+    <rect width="520" height="60" rx="8" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="25" y="25" fill="#64748b" font-family="sans-serif" font-size="12">Carga Administrativa</text>
+    <text x="25" y="47" fill="#475569" font-family="sans-serif" font-size="16" font-weight="bold">Renovacao regular, estresse com documentos</text>
+  </g>
+  <g transform="translate(620, 432)">
+    <rect width="520" height="60" rx="8" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
+    <text x="25" y="25" fill="#16a34a" font-family="sans-serif" font-size="12">Carga Administrativa</text>
+    <text x="25" y="47" fill="#15803d" font-family="sans-serif" font-size="16" font-weight="bold">Sem renovacao, sem estresse administrativo</text>
+  </g>
+
+  <!-- Bottom summary -->
+  <g transform="translate(60, 510)">
+    <rect width="1080" height="65" rx="12" fill="#1e293b"/>
+    <text x="540" y="28" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="16" font-weight="bold">Valor Principal da Residencia Permanente</text>
+    <text x="540" y="52" text-anchor="middle" fill="white" font-family="sans-serif" font-size="14">Mantenha sua nacionalidade · Resida por tempo indeterminado · Projete sua propria vida</text>
+  </g>
+
   <text x="600" y="610" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="18">visa.japanlifeinfo.com</text>
 
   <defs>
     <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">
-      <stop offset="0%" stop-color="#3b82f6"/>
-      <stop offset="50%" stop-color="#8b5cf6"/>
-      <stop offset="100%" stop-color="#10b981"/>
+      <stop offset="0%" stop-color="#3b82f6"/><stop offset="50%" stop-color="#8b5cf6"/><stop offset="100%" stop-color="#10b981"/>
     </linearGradient>
   </defs>
 </svg>

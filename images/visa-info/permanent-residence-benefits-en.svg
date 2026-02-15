@@ -1,72 +1,94 @@
 <svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- Background -->
   <rect width="1200" height="630" fill="#f8fafc"/>
-
-  <!-- Header gradient bar -->
   <rect width="1200" height="8" fill="url(#headerGradient)"/>
 
-  <!-- Title -->
-  <text x="600" y="75" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="34" font-weight="bold">Benefits of Permanent Residence from a Work Visa</text>
+  <text x="600" y="50" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="28" font-weight="bold">Work Visa vs Permanent Residence — What Changes?</text>
+  <text x="600" y="78" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="15">Real benefits you gain with permanent residence</text>
 
-  <!-- Card 1 (top-left) -->
-  <g transform="translate(120, 110)">
-    <rect width="460" height="165" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
-    <circle cx="45" cy="45" r="28" fill="#dbeafe"/>
-    <text x="45" y="55" text-anchor="middle" fill="#3b82f6" font-family="sans-serif" font-size="22" font-weight="bold">&#8734;</text>
-    <text x="90" y="52" fill="#1e293b" font-family="sans-serif" font-size="20" font-weight="bold">Unlimited Stay</text>
-    <text x="45" y="92" fill="#64748b" font-family="sans-serif" font-size="15">No more renewals needed</text>
-    <text x="45" y="114" fill="#64748b" font-family="sans-serif" font-size="15">No expiration worries</text>
-    <text x="45" y="136" fill="#64748b" font-family="sans-serif" font-size="15">Administrative stress gone</text>
+  <!-- Left column header: Work Visa -->
+  <g transform="translate(60, 100)">
+    <rect width="520" height="50" rx="10" fill="#64748b"/>
+    <text x="260" y="33" text-anchor="middle" fill="white" font-family="sans-serif" font-size="20" font-weight="bold">Work Visa (Restricted)</text>
   </g>
 
-  <!-- Card 2 (top-right) -->
-  <g transform="translate(620, 110)">
-    <rect width="460" height="165" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
-    <circle cx="45" cy="45" r="28" fill="#dcfce7"/>
-    <text x="45" y="55" text-anchor="middle" fill="#16a34a" font-family="sans-serif" font-size="22" font-weight="bold">&#9733;</text>
-    <text x="90" y="52" fill="#1e293b" font-family="sans-serif" font-size="20" font-weight="bold">Career Freedom</text>
-    <text x="45" y="92" fill="#64748b" font-family="sans-serif" font-size="15">No industry restrictions</text>
-    <text x="45" y="114" fill="#64748b" font-family="sans-serif" font-size="15">Freelance, start a business</text>
-    <text x="45" y="136" fill="#64748b" font-family="sans-serif" font-size="15">Side jobs allowed</text>
+  <!-- Right column header: Permanent Residence -->
+  <g transform="translate(620, 100)">
+    <rect width="520" height="50" rx="10" fill="#16a34a"/>
+    <text x="260" y="33" text-anchor="middle" fill="white" font-family="sans-serif" font-size="20" font-weight="bold">Permanent Residence (Free)</text>
   </g>
 
-  <!-- Card 3 (bottom-left) -->
-  <g transform="translate(120, 300)">
-    <rect width="460" height="165" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
-    <circle cx="45" cy="45" r="28" fill="#fef3c7"/>
-    <text x="45" y="55" text-anchor="middle" fill="#d97706" font-family="sans-serif" font-size="22" font-weight="bold">&#9750;</text>
-    <text x="90" y="52" fill="#1e293b" font-family="sans-serif" font-size="20" font-weight="bold">Reduced Job Risk</text>
-    <text x="45" y="92" fill="#64748b" font-family="sans-serif" font-size="15">Individual-based residency</text>
-    <text x="45" y="114" fill="#64748b" font-family="sans-serif" font-size="15">Stay regardless of employer</text>
-    <text x="45" y="136" fill="#64748b" font-family="sans-serif" font-size="15">Strongest safety net</text>
+  <!-- Row 1: Stay Duration -->
+  <g transform="translate(60, 160)">
+    <rect width="520" height="60" rx="8" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="25" y="25" fill="#64748b" font-family="sans-serif" font-size="12">Stay Duration</text>
+    <text x="25" y="47" fill="#475569" font-family="sans-serif" font-size="16" font-weight="bold">Renewal required every 1-5 years</text>
+  </g>
+  <g transform="translate(620, 160)">
+    <rect width="520" height="60" rx="8" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
+    <text x="25" y="25" fill="#16a34a" font-family="sans-serif" font-size="12">Stay Duration</text>
+    <text x="25" y="47" fill="#15803d" font-family="sans-serif" font-size="16" font-weight="bold">Unlimited — no renewal needed</text>
   </g>
 
-  <!-- Card 4 (bottom-right) -->
-  <g transform="translate(620, 300)">
-    <rect width="460" height="165" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
-    <circle cx="45" cy="45" r="28" fill="#fce7f3"/>
-    <text x="45" y="55" text-anchor="middle" fill="#db2777" font-family="sans-serif" font-size="22" font-weight="bold">&#9960;</text>
-    <text x="90" y="52" fill="#1e293b" font-family="sans-serif" font-size="20" font-weight="bold">Financial Credibility</text>
-    <text x="45" y="92" fill="#64748b" font-family="sans-serif" font-size="15">Higher mortgage approval chances</text>
-    <text x="45" y="114" fill="#64748b" font-family="sans-serif" font-size="15">Better interest rates</text>
-    <text x="45" y="136" fill="#64748b" font-family="sans-serif" font-size="15">Easier credit card approval</text>
+  <!-- Row 2: Job Choice -->
+  <g transform="translate(60, 228)">
+    <rect width="520" height="60" rx="8" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="25" y="25" fill="#64748b" font-family="sans-serif" font-size="12">Job Choice</text>
+    <text x="25" y="47" fill="#475569" font-family="sans-serif" font-size="16" font-weight="bold">Only permitted industries, side job restricted</text>
+  </g>
+  <g transform="translate(620, 228)">
+    <rect width="520" height="60" rx="8" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
+    <text x="25" y="25" fill="#16a34a" font-family="sans-serif" font-size="12">Job Choice</text>
+    <text x="25" y="47" fill="#15803d" font-family="sans-serif" font-size="16" font-weight="bold">No industry restrictions, freelance, business OK</text>
   </g>
 
-  <!-- Key Points Box -->
-  <g transform="translate(200, 495)">
-    <rect width="800" height="80" rx="12" fill="#1e293b"/>
-    <text x="400" y="32" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="15">Core Value of Permanent Residence</text>
-    <text x="400" y="58" text-anchor="middle" fill="white" font-family="sans-serif" font-size="17" font-weight="bold">Keep nationality | Indefinite stay | A qualification to design your life</text>
+  <!-- Row 3: Job Change/Unemployment -->
+  <g transform="translate(60, 296)">
+    <rect width="520" height="60" rx="8" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="25" y="25" fill="#64748b" font-family="sans-serif" font-size="12">Job Change / Unemployment</text>
+    <text x="25" y="47" fill="#475569" font-family="sans-serif" font-size="16" font-weight="bold">Company-based visa, risk if you quit</text>
+  </g>
+  <g transform="translate(620, 296)">
+    <rect width="520" height="60" rx="8" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
+    <text x="25" y="25" fill="#16a34a" font-family="sans-serif" font-size="12">Job Change / Unemployment</text>
+    <text x="25" y="47" fill="#15803d" font-family="sans-serif" font-size="16" font-weight="bold">Individual-based, stay even if unemployed</text>
   </g>
 
-  <!-- Footer -->
+  <!-- Row 4: Finance/Loans -->
+  <g transform="translate(60, 364)">
+    <rect width="520" height="60" rx="8" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="25" y="25" fill="#64748b" font-family="sans-serif" font-size="12">Finance / Loans</text>
+    <text x="25" y="47" fill="#475569" font-family="sans-serif" font-size="16" font-weight="bold">Difficult mortgage, unfavorable rates</text>
+  </g>
+  <g transform="translate(620, 364)">
+    <rect width="520" height="60" rx="8" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
+    <text x="25" y="25" fill="#16a34a" font-family="sans-serif" font-size="12">Finance / Loans</text>
+    <text x="25" y="47" fill="#15803d" font-family="sans-serif" font-size="16" font-weight="bold">Mortgage possible, favorable terms</text>
+  </g>
+
+  <!-- Row 5: Admin Burden -->
+  <g transform="translate(60, 432)">
+    <rect width="520" height="60" rx="8" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="25" y="25" fill="#64748b" font-family="sans-serif" font-size="12">Admin Burden</text>
+    <text x="25" y="47" fill="#475569" font-family="sans-serif" font-size="16" font-weight="bold">Regular renewal, document preparation stress</text>
+  </g>
+  <g transform="translate(620, 432)">
+    <rect width="520" height="60" rx="8" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
+    <text x="25" y="25" fill="#16a34a" font-family="sans-serif" font-size="12">Admin Burden</text>
+    <text x="25" y="47" fill="#15803d" font-family="sans-serif" font-size="16" font-weight="bold">No renewal needed, no admin stress</text>
+  </g>
+
+  <!-- Bottom summary -->
+  <g transform="translate(60, 510)">
+    <rect width="1080" height="65" rx="12" fill="#1e293b"/>
+    <text x="540" y="28" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="16" font-weight="bold">Key Value of Permanent Residence</text>
+    <text x="540" y="52" text-anchor="middle" fill="white" font-family="sans-serif" font-size="15">Keep your nationality · Reside indefinitely · Design your own life</text>
+  </g>
+
   <text x="600" y="610" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="18">visa.japanlifeinfo.com</text>
 
   <defs>
     <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">
-      <stop offset="0%" stop-color="#3b82f6"/>
-      <stop offset="50%" stop-color="#8b5cf6"/>
-      <stop offset="100%" stop-color="#10b981"/>
+      <stop offset="0%" stop-color="#3b82f6"/><stop offset="50%" stop-color="#8b5cf6"/><stop offset="100%" stop-color="#10b981"/>
     </linearGradient>
   </defs>
 </svg>
