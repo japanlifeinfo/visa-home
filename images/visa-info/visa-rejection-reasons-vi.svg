@@ -1,0 +1,57 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#f8fafc"/>
+  <rect width="1200" height="8" fill="url(#headerGradient)"/>
+  <text x="600" y="75" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="34" font-weight="bold">Ly Do Thuong Gap Visa Lam Viec Bi Tu Choi</text>
+
+  <g transform="translate(120, 110)">
+    <rect width="460" height="165" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+    <circle cx="45" cy="45" r="28" fill="#fee2e2"/>
+    <text x="45" y="53" text-anchor="middle" fill="#dc2626" font-family="sans-serif" font-size="20" font-weight="bold">1</text>
+    <text x="90" y="52" fill="#1e293b" font-family="sans-serif" font-size="20" font-weight="bold">Nganh hoc-cong viec khong hop</text>
+    <text x="45" y="92" fill="#64748b" font-family="sans-serif" font-size="15">Ly do tu choi pho bien nhat</text>
+    <text x="45" y="114" fill="#64748b" font-family="sans-serif" font-size="15">Can su lien quan hoc van-cong viec</text>
+    <text x="45" y="136" fill="#64748b" font-family="sans-serif" font-size="15">Khong giai thich = "lao dong don gian"</text>
+  </g>
+
+  <g transform="translate(620, 110)">
+    <rect width="460" height="165" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+    <circle cx="45" cy="45" r="28" fill="#fef3c7"/>
+    <text x="45" y="53" text-anchor="middle" fill="#d97706" font-family="sans-serif" font-size="20" font-weight="bold">2</text>
+    <text x="90" y="52" fill="#1e293b" font-family="sans-serif" font-size="20" font-weight="bold">Mo ta cong viec khong ro</text>
+    <text x="45" y="92" fill="#64748b" font-family="sans-serif" font-size="15">"Day co phai chuyen mon?" xet duyet</text>
+    <text x="45" y="114" fill="#64748b" font-family="sans-serif" font-size="15">Mo ta truu tuong rat nguy hiem</text>
+    <text x="45" y="136" fill="#64748b" font-family="sans-serif" font-size="15">Mo ta cu the la bat buoc</text>
+  </g>
+
+  <g transform="translate(120, 300)">
+    <rect width="460" height="165" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+    <circle cx="45" cy="45" r="28" fill="#dbeafe"/>
+    <text x="45" y="53" text-anchor="middle" fill="#2563eb" font-family="sans-serif" font-size="20" font-weight="bold">3</text>
+    <text x="90" y="52" fill="#1e293b" font-family="sans-serif" font-size="20" font-weight="bold">Van de tai chinh cong ty</text>
+    <text x="45" y="92" fill="#64748b" font-family="sans-serif" font-size="15">Tu choi vi cong ty, khong phai nguoi xin</text>
+    <text x="45" y="114" fill="#64748b" font-family="sans-serif" font-size="15">Startup · thua lo = rui ro cao</text>
+    <text x="45" y="136" fill="#64748b" font-family="sans-serif" font-size="15">Xet duyet kha nang duy tri viec lam</text>
+  </g>
+
+  <g transform="translate(620, 300)">
+    <rect width="460" height="165" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+    <circle cx="45" cy="45" r="28" fill="#fce7f3"/>
+    <text x="45" y="53" text-anchor="middle" fill="#db2777" font-family="sans-serif" font-size="20" font-weight="bold">+</text>
+    <text x="90" y="52" fill="#1e293b" font-family="sans-serif" font-size="20" font-weight="bold">Luong · Tai lieu · Kinh nghiem</text>
+    <text x="45" y="92" fill="#64748b" font-family="sans-serif" font-size="15">Luong thap = gay nghi ngo</text>
+    <text x="45" y="114" fill="#64748b" font-family="sans-serif" font-size="15">Thieu tai lieu · khong co ban dich</text>
+    <text x="45" y="136" fill="#64748b" font-family="sans-serif" font-size="15">Luu tru bat hop phap · thieu dong</text>
+  </g>
+
+  <g transform="translate(200, 495)">
+    <rect width="800" height="80" rx="12" fill="#1e293b"/>
+    <text x="400" y="32" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="15">Diem Chinh</text>
+    <text x="400" y="58" text-anchor="middle" fill="white" font-family="sans-serif" font-size="17" font-weight="bold">Duoc nhan viec khong phai ket thuc — phan lon tu choi do chuan bi tai lieu khong du</text>
+  </g>
+  <text x="600" y="610" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="18">visa.japanlifeinfo.com</text>
+  <defs>
+    <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">
+      <stop offset="0%" stop-color="#3b82f6"/><stop offset="50%" stop-color="#8b5cf6"/><stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+  </defs>
+</svg>

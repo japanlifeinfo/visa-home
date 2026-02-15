@@ -1,0 +1,57 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#f8fafc"/>
+  <rect width="1200" height="8" fill="url(#headerGradient)"/>
+  <text x="600" y="75" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="36" font-weight="bold">日本就业签证被拒的常见原因</text>
+
+  <g transform="translate(120, 110)">
+    <rect width="460" height="165" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+    <circle cx="45" cy="45" r="28" fill="#fee2e2"/>
+    <text x="45" y="53" text-anchor="middle" fill="#dc2626" font-family="sans-serif" font-size="20" font-weight="bold">1</text>
+    <text x="90" y="52" fill="#1e293b" font-family="sans-serif" font-size="20" font-weight="bold">专业·职务不匹配</text>
+    <text x="45" y="92" fill="#64748b" font-family="sans-serif" font-size="15">最常见的拒签原因</text>
+    <text x="45" y="114" fill="#64748b" font-family="sans-serif" font-size="15">学历·经历与职务关联性必须</text>
+    <text x="45" y="136" fill="#64748b" font-family="sans-serif" font-size="15">无法说明 = 判定"单纯劳动"</text>
+  </g>
+
+  <g transform="translate(620, 110)">
+    <rect width="460" height="165" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+    <circle cx="45" cy="45" r="28" fill="#fef3c7"/>
+    <text x="45" y="53" text-anchor="middle" fill="#d97706" font-family="sans-serif" font-size="20" font-weight="bold">2</text>
+    <text x="90" y="52" fill="#1e293b" font-family="sans-serif" font-size="20" font-weight="bold">职务说明模糊</text>
+    <text x="45" y="92" fill="#64748b" font-family="sans-serif" font-size="15">"这是专业性工作吗？"审查</text>
+    <text x="45" y="114" fill="#64748b" font-family="sans-serif" font-size="15">抽象表述很危险</text>
+    <text x="45" y="136" fill="#64748b" font-family="sans-serif" font-size="15">具体职务说明必须</text>
+  </g>
+
+  <g transform="translate(120, 300)">
+    <rect width="460" height="165" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+    <circle cx="45" cy="45" r="28" fill="#dbeafe"/>
+    <text x="45" y="53" text-anchor="middle" fill="#2563eb" font-family="sans-serif" font-size="20" font-weight="bold">3</text>
+    <text x="90" y="52" fill="#1e293b" font-family="sans-serif" font-size="20" font-weight="bold">公司财务状况问题</text>
+    <text x="45" y="92" fill="#64748b" font-family="sans-serif" font-size="15">因公司问题被拒非申请人问题</text>
+    <text x="45" y="114" fill="#64748b" font-family="sans-serif" font-size="15">创业公司·亏损企业 = 高风险</text>
+    <text x="45" y="136" fill="#64748b" font-family="sans-serif" font-size="15">审查雇佣持续可能性</text>
+  </g>
+
+  <g transform="translate(620, 300)">
+    <rect width="460" height="165" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+    <circle cx="45" cy="45" r="28" fill="#fce7f3"/>
+    <text x="45" y="53" text-anchor="middle" fill="#db2777" font-family="sans-serif" font-size="20" font-weight="bold">+</text>
+    <text x="90" y="52" fill="#1e293b" font-family="sans-serif" font-size="20" font-weight="bold">薪资·材料·经历·居留</text>
+    <text x="45" y="92" fill="#64748b" font-family="sans-serif" font-size="15">薪资低于平均 = 引起怀疑</text>
+    <text x="45" y="114" fill="#64748b" font-family="sans-serif" font-size="15">材料遗漏·翻译未提交</text>
+    <text x="45" y="136" fill="#64748b" font-family="sans-serif" font-size="15">过去非法居留·税金未缴</text>
+  </g>
+
+  <g transform="translate(200, 495)">
+    <rect width="800" height="80" rx="12" fill="#1e293b"/>
+    <text x="400" y="32" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="15">核心要点</text>
+    <text x="400" y="58" text-anchor="middle" fill="white" font-family="sans-serif" font-size="17" font-weight="bold">被录用不是终点 — 大部分拒签是因为材料准备不足</text>
+  </g>
+  <text x="600" y="610" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="18">visa.japanlifeinfo.com</text>
+  <defs>
+    <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">
+      <stop offset="0%" stop-color="#3b82f6"/><stop offset="50%" stop-color="#8b5cf6"/><stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+  </defs>
+</svg>

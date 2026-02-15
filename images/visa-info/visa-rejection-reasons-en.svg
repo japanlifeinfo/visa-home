@@ -1,0 +1,57 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#f8fafc"/>
+  <rect width="1200" height="8" fill="url(#headerGradient)"/>
+  <text x="600" y="75" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="36" font-weight="bold">Common Reasons for Work Visa Rejection</text>
+
+  <g transform="translate(120, 110)">
+    <rect width="460" height="165" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+    <circle cx="45" cy="45" r="28" fill="#fee2e2"/>
+    <text x="45" y="53" text-anchor="middle" fill="#dc2626" font-family="sans-serif" font-size="20" font-weight="bold">1</text>
+    <text x="90" y="52" fill="#1e293b" font-family="sans-serif" font-size="20" font-weight="bold">Major-Job Mismatch</text>
+    <text x="45" y="92" fill="#64748b" font-family="sans-serif" font-size="15">Most common rejection reason</text>
+    <text x="45" y="114" fill="#64748b" font-family="sans-serif" font-size="15">Education-job relevance required</text>
+    <text x="45" y="136" fill="#64748b" font-family="sans-serif" font-size="15">No relevance = deemed "simple labor"</text>
+  </g>
+
+  <g transform="translate(620, 110)">
+    <rect width="460" height="165" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+    <circle cx="45" cy="45" r="28" fill="#fef3c7"/>
+    <text x="45" y="53" text-anchor="middle" fill="#d97706" font-family="sans-serif" font-size="20" font-weight="bold">2</text>
+    <text x="90" y="52" fill="#1e293b" font-family="sans-serif" font-size="20" font-weight="bold">Vague Job Description</text>
+    <text x="45" y="92" fill="#64748b" font-family="sans-serif" font-size="15">"Is this truly specialized?" test</text>
+    <text x="45" y="114" fill="#64748b" font-family="sans-serif" font-size="15">Abstract descriptions are risky</text>
+    <text x="45" y="136" fill="#64748b" font-family="sans-serif" font-size="15">Specific job details essential</text>
+  </g>
+
+  <g transform="translate(120, 300)">
+    <rect width="460" height="165" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+    <circle cx="45" cy="45" r="28" fill="#dbeafe"/>
+    <text x="45" y="53" text-anchor="middle" fill="#2563eb" font-family="sans-serif" font-size="20" font-weight="bold">3</text>
+    <text x="90" y="52" fill="#1e293b" font-family="sans-serif" font-size="20" font-weight="bold">Company Financial Issues</text>
+    <text x="45" y="92" fill="#64748b" font-family="sans-serif" font-size="15">Rejection due to company, not applicant</text>
+    <text x="45" y="114" fill="#64748b" font-family="sans-serif" font-size="15">Startups / loss-making = high risk</text>
+    <text x="45" y="136" fill="#64748b" font-family="sans-serif" font-size="15">Employment sustainability reviewed</text>
+  </g>
+
+  <g transform="translate(620, 300)">
+    <rect width="460" height="165" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+    <circle cx="45" cy="45" r="28" fill="#fce7f3"/>
+    <text x="45" y="53" text-anchor="middle" fill="#db2777" font-family="sans-serif" font-size="20" font-weight="bold">+</text>
+    <text x="90" y="52" fill="#1e293b" font-family="sans-serif" font-size="20" font-weight="bold">Salary · Docs · Experience</text>
+    <text x="45" y="92" fill="#64748b" font-family="sans-serif" font-size="15">Below-average salary = suspicion</text>
+    <text x="45" y="114" fill="#64748b" font-family="sans-serif" font-size="15">Missing documents / translations</text>
+    <text x="45" y="136" fill="#64748b" font-family="sans-serif" font-size="15">Past illegal stay / unpaid taxes</text>
+  </g>
+
+  <g transform="translate(200, 495)">
+    <rect width="800" height="80" rx="12" fill="#1e293b"/>
+    <text x="400" y="32" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="15">Key Points</text>
+    <text x="400" y="58" text-anchor="middle" fill="white" font-family="sans-serif" font-size="17" font-weight="bold">A job offer isn't the end — most rejections are due to insufficient document preparation</text>
+  </g>
+  <text x="600" y="610" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="18">visa.japanlifeinfo.com</text>
+  <defs>
+    <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">
+      <stop offset="0%" stop-color="#3b82f6"/><stop offset="50%" stop-color="#8b5cf6"/><stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+  </defs>
+</svg>
