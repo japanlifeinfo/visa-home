@@ -1,0 +1,59 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#f8fafc"/>
+  <rect width="1200" height="8" fill="url(#headerGradient)"/>
+
+  <text x="600" y="65" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="28" font-weight="bold">पर्यटक भिसामा जापानमा काम गर्न सकिन्छ?</text>
+
+  <circle cx="600" cy="185" r="70" fill="#fef2f2" stroke="#dc2626" stroke-width="5"/>
+  <line x1="555" y1="140" x2="645" y2="230" stroke="#dc2626" stroke-width="5" stroke-linecap="round"/>
+  <text x="600" y="195" text-anchor="middle" fill="#dc2626" font-family="sans-serif" font-size="26" font-weight="bold">काम</text>
+
+  <text x="600" y="285" text-anchor="middle" fill="#dc2626" font-family="sans-serif" font-size="20" font-weight="bold">अल्पकालीन बसोबास (पर्यटक भिसा) मा सख्त निषेध!</text>
+
+  <g transform="translate(60, 310)">
+    <rect width="250" height="70" rx="12" fill="#fee2e2"/>
+    <text x="125" y="30" text-anchor="middle" fill="#991b1b" font-family="sans-serif" font-size="14" font-weight="bold">❌ क्याफे अंशकालिक</text>
+    <text x="125" y="52" text-anchor="middle" fill="#991b1b" font-family="sans-serif" font-size="12">छोटो अवधि पनि अवैध</text>
+  </g>
+  <g transform="translate(330, 310)">
+    <rect width="250" height="70" rx="12" fill="#fee2e2"/>
+    <text x="125" y="30" text-anchor="middle" fill="#991b1b" font-family="sans-serif" font-size="14" font-weight="bold">❌ दोभाषे · कार्यक्रम</text>
+    <text x="125" y="52" text-anchor="middle" fill="#991b1b" font-family="sans-serif" font-size="12">भुक्तानी गतिविधि निषेध</text>
+  </g>
+  <g transform="translate(600, 310)">
+    <rect width="250" height="70" rx="12" fill="#fee2e2"/>
+    <text x="125" y="30" text-anchor="middle" fill="#991b1b" font-family="sans-serif" font-size="14" font-weight="bold">❌ नगद भुक्तानी</text>
+    <text x="125" y="52" text-anchor="middle" fill="#991b1b" font-family="sans-serif" font-size="12">भुक्तानी तरिका असम्बन्धित</text>
+  </g>
+  <g transform="translate(870, 310)">
+    <rect width="250" height="70" rx="12" fill="#fee2e2"/>
+    <text x="125" y="30" text-anchor="middle" fill="#991b1b" font-family="sans-serif" font-size="14" font-weight="bold">❌ रिमोट काम</text>
+    <text x="125" y="52" text-anchor="middle" fill="#991b1b" font-family="sans-serif" font-size="12">जापानमा बस्दा आय गतिविधि</text>
+  </g>
+
+  <g transform="translate(60, 400)">
+    <rect width="530" height="80" rx="12" fill="#1e293b"/>
+    <text x="265" y="28" text-anchor="middle" fill="#f87171" font-family="sans-serif" font-size="15" font-weight="bold">समातिएमा</text>
+    <text x="130" y="55" text-anchor="middle" fill="#e2e8f0" font-family="sans-serif" font-size="13">जबरजस्ती निष्कासन</text>
+    <text x="265" y="55" text-anchor="middle" fill="#e2e8f0" font-family="sans-serif" font-size="13">५+ वर्ष प्रवेश प्रतिबन्ध</text>
+    <text x="410" y="55" text-anchor="middle" fill="#e2e8f0" font-family="sans-serif" font-size="13">भिसा जाँचमा हानि</text>
+  </g>
+
+  <g transform="translate(610, 400)">
+    <rect width="530" height="80" rx="12" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="2"/>
+    <text x="265" y="28" text-anchor="middle" fill="#15803d" font-family="sans-serif" font-size="15" font-weight="bold">✓ कानूनी तरिका</text>
+    <text x="100" y="55" text-anchor="middle" fill="#166534" font-family="sans-serif" font-size="12">कार्य भिसा</text>
+    <text x="220" y="55" text-anchor="middle" fill="#166534" font-family="sans-serif" font-size="12">वर्किङ हलिडे</text>
+    <text x="355" y="55" text-anchor="middle" fill="#166534" font-family="sans-serif" font-size="12">विद्यार्थी + अनुमति</text>
+    <text x="470" y="55" text-anchor="middle" fill="#166534" font-family="sans-serif" font-size="12">जीवनसाथी भिसा</text>
+  </g>
+
+  <text x="600" y="520" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="15">"अलिकति मात्र" भन्ने सोचले दीर्घकालीन जापान करियर योजना बिगार्न सक्छ</text>
+
+  <text x="600" y="575" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="18">visa.japanlifeinfo.com</text>
+  <defs>
+    <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">
+      <stop offset="0%" stop-color="#3b82f6"/><stop offset="50%" stop-color="#8b5cf6"/><stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+  </defs>
+</svg>
