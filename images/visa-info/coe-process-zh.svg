@@ -1,0 +1,66 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#f8fafc"/>
+  <rect width="1200" height="8" fill="url(#headerGradient)"/>
+  <text x="600" y="75" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="36" font-weight="bold">COE（在留资格认定证明书）办理流程</text>
+
+  <!-- Card 1: 准备阶段 -->
+  <g transform="translate(80, 110)">
+    <rect width="330" height="310" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+    <rect width="330" height="60" rx="16" fill="#3b82f6"/><rect y="45" width="330" height="15" fill="#3b82f6"/>
+    <text x="165" y="42" text-anchor="middle" fill="white" font-family="sans-serif" font-size="22" font-weight="bold">①② 准备阶段</text>
+    <text x="165" y="110" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="20" font-weight="bold">签订雇佣合同</text>
+    <text x="165" y="135" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="15">↓</text>
+    <text x="165" y="158" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="20" font-weight="bold">公司向入管局提交申请</text>
+    <rect x="40" y="180" width="250" height="32" rx="16" fill="#dbeafe"/>
+    <text x="165" y="201" text-anchor="middle" fill="#1d4ed8" font-family="sans-serif" font-size="14" font-weight="bold">通常由公司方面代办</text>
+    <text x="165" y="240" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="14">COE申请书 · 雇佣合同</text>
+    <text x="165" y="262" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="14">公司登记簿 · 财务报表</text>
+    <text x="165" y="284" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="14">职务说明书 · 毕业证明</text>
+  </g>
+
+  <text x="422" y="265" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="28">→</text>
+
+  <!-- Card 2: 审查阶段 -->
+  <g transform="translate(435, 110)">
+    <rect width="330" height="310" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+    <rect width="330" height="60" rx="16" fill="#f59e0b"/><rect y="45" width="330" height="15" fill="#f59e0b"/>
+    <text x="165" y="42" text-anchor="middle" fill="white" font-family="sans-serif" font-size="22" font-weight="bold">③④ 审查·签发</text>
+    <text x="165" y="110" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="42" font-weight="bold">1~3个月</text>
+    <text x="165" y="145" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="16">高峰期: 3~4个月以上</text>
+    <rect x="65" y="170" width="200" height="32" rx="16" fill="#fef3c7"/>
+    <text x="165" y="192" text-anchor="middle" fill="#92400e" font-family="sans-serif" font-size="15" font-weight="bold">最关键的一道关卡</text>
+    <text x="165" y="235" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="14">专业·职务关联性审查</text>
+    <text x="165" y="260" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="14">公司财务状况确认</text>
+    <text x="165" y="285" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="14">补充材料 = 进一步延期</text>
+  </g>
+
+  <text x="777" y="265" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="28">→</text>
+
+  <!-- Card 3: 入境阶段 -->
+  <g transform="translate(790, 110)">
+    <rect width="330" height="310" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+    <rect width="330" height="60" rx="16" fill="#10b981"/><rect y="45" width="330" height="15" fill="#10b981"/>
+    <text x="165" y="42" text-anchor="middle" fill="white" font-family="sans-serif" font-size="22" font-weight="bold">⑤⑥ 签证·入境</text>
+    <text x="165" y="110" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="20" font-weight="bold">在大使馆申请签证</text>
+    <text x="165" y="138" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="16">签发: 3~7天</text>
+    <text x="165" y="163" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="15">↓</text>
+    <text x="165" y="188" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="20" font-weight="bold">入境日本 · 领取在留卡</text>
+    <rect x="65" y="210" width="200" height="32" rx="16" fill="#d1fae5"/>
+    <text x="165" y="231" text-anchor="middle" fill="#047857" font-family="sans-serif" font-size="14" font-weight="bold">正式开始工作！</text>
+    <text x="165" y="270" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="14">确认管辖大使馆</text>
+    <text x="165" y="292" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="14">总计: 约1.5~4个月</text>
+  </g>
+
+  <!-- Key Points Box -->
+  <g transform="translate(200, 450)">
+    <rect width="800" height="80" rx="12" fill="#1e293b"/>
+    <text x="400" y="32" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="15">核心要点</text>
+    <text x="400" y="58" text-anchor="middle" fill="white" font-family="sans-serif" font-size="17" font-weight="bold">被录用不是终点 — COE审查才是最关键的一道关卡</text>
+  </g>
+  <text x="600" y="575" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="18">visa.japanlifeinfo.com</text>
+  <defs>
+    <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">
+      <stop offset="0%" stop-color="#3b82f6"/><stop offset="50%" stop-color="#8b5cf6"/><stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+  </defs>
+</svg>
