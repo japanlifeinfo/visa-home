@@ -2,86 +2,38 @@
   <rect width="1200" height="630" fill="#f8fafc"/>
   <rect width="1200" height="8" fill="url(#headerGradient)"/>
 
-  <text x="600" y="55" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="26" font-weight="bold">Casos Reais de Trabalho Ilegal Detectado no Japao</text>
-  <text x="600" y="82" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="16">"Um erro" pode mudar sua vida inteira</text>
+  <text x="600" y="75" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="44" font-weight="bold">Casos de Trabalho Ilegal</text>
 
-  <g transform="translate(50, 100)">
-    <rect width="350" height="160" rx="8" fill="white" stroke="#e2e8f0" stroke-width="2"/>
-    <rect width="350" height="32" rx="8" fill="#dc2626"/>
-    <rect y="16" width="350" height="16" fill="#dc2626"/>
-    <text x="175" y="22" text-anchor="middle" fill="white" font-family="sans-serif" font-size="12" font-weight="bold">Caso 1 · Estagiario Fugitivo + Cartao Falso</text>
-    <text x="20" y="58" fill="#334155" font-family="sans-serif" font-size="13">Estagiario fugiu, trabalhou ilegalmente</text>
-    <text x="20" y="78" fill="#334155" font-family="sans-serif" font-size="13">Corretor fez cartoes de residencia falsos</text>
-    <text x="20" y="100" fill="#dc2626" font-family="sans-serif" font-size="13" font-weight="bold">Resultado: Corretor preso e processado</text>
-    <text x="20" y="122" fill="#64748b" font-family="sans-serif" font-size="12">→ Recrutadores tambem sao punidos</text>
-    <text x="20" y="144" fill="#64748b" font-family="sans-serif" font-size="12">→ Trabalhador, empregador, corretor TODOS responsaveis</text>
-  </g>
+  <!-- Badge 1: Red -->
+  <rect x="60" y="130" width="340" height="280" rx="20" fill="#dc2626"/>
+  <circle cx="230" cy="200" r="50" fill="white"/>
+  <text x="230" y="215" text-anchor="middle" fill="#dc2626" font-family="sans-serif" font-size="50" font-weight="bold">1</text>
+  <text x="230" y="295" text-anchor="middle" fill="white" font-family="sans-serif" font-size="28" font-weight="bold">Estagi&#225;rio fugitivo</text>
+  <text x="230" y="340" text-anchor="middle" fill="#fecaca" font-family="sans-serif" font-size="24">Cart&#227;o de resid&#234;ncia falso</text>
+  <text x="230" y="385" text-anchor="middle" fill="#fecaca" font-family="sans-serif" font-size="24">Intermedi&#225;rio preso</text>
 
-  <g transform="translate(420, 100)">
-    <rect width="350" height="160" rx="8" fill="white" stroke="#e2e8f0" stroke-width="2"/>
-    <rect width="350" height="32" rx="8" fill="#ea580c"/>
-    <rect y="16" width="350" height="16" fill="#ea580c"/>
-    <text x="175" y="22" text-anchor="middle" fill="white" font-family="sans-serif" font-size="12" font-weight="bold">Caso 2 · Trabalho Fora da Categoria do Visto</text>
-    <text x="20" y="58" fill="#334155" font-family="sans-serif" font-size="13">Visto agricola → lavanderia/fabrica</text>
-    <text x="20" y="78" fill="#334155" font-family="sans-serif" font-size="13">Agencia disse "tudo bem" mas nao era</text>
-    <text x="20" y="100" fill="#ea580c" font-family="sans-serif" font-size="13" font-weight="bold">Resultado: Preso por violacao de imigracao</text>
-    <text x="20" y="122" fill="#64748b" font-family="sans-serif" font-size="12">→ Trabalho fora da industria = ilegal</text>
-    <text x="20" y="144" fill="#64748b" font-family="sans-serif" font-size="12">→ Tipo de visto deve corresponder ao trabalho</text>
-  </g>
+  <!-- Badge 2: Orange -->
+  <rect x="430" y="130" width="340" height="280" rx="20" fill="#ea580c"/>
+  <circle cx="600" cy="200" r="50" fill="white"/>
+  <text x="600" y="215" text-anchor="middle" fill="#ea580c" font-family="sans-serif" font-size="50" font-weight="bold">2</text>
+  <text x="600" y="295" text-anchor="middle" fill="white" font-family="sans-serif" font-size="28" font-weight="bold">Setor errado</text>
+  <text x="600" y="340" text-anchor="middle" fill="#fed7aa" font-family="sans-serif" font-size="24">Visto agr&#237;cola em f&#225;brica</text>
+  <text x="600" y="385" text-anchor="middle" fill="#fed7aa" font-family="sans-serif" font-size="24">Viola&#231;&#227;o de imigra&#231;&#227;o</text>
 
-  <g transform="translate(790, 100)">
-    <rect width="360" height="160" rx="8" fill="white" stroke="#e2e8f0" stroke-width="2"/>
-    <rect width="360" height="32" rx="8" fill="#9333ea"/>
-    <rect y="16" width="360" height="16" fill="#9333ea"/>
-    <text x="180" y="22" text-anchor="middle" fill="white" font-family="sans-serif" font-size="12" font-weight="bold">Caso 3 · Empregador Pego</text>
-    <text x="20" y="58" fill="#334155" font-family="sans-serif" font-size="13">Contratou pessoas sem/com visto vencido</text>
-    <text x="20" y="78" fill="#334155" font-family="sans-serif" font-size="13">"Contratei porque o salario era barato"</text>
-    <text x="20" y="100" fill="#9333ea" font-family="sans-serif" font-size="13" font-weight="bold">Resultado: Preso por violacao de imigracao</text>
-    <text x="20" y="122" fill="#64748b" font-family="sans-serif" font-size="12">→ Empregador enfrenta acusacoes criminais</text>
-    <text x="20" y="144" fill="#64748b" font-family="sans-serif" font-size="12">→ Deve verificar status antes de contratar</text>
-  </g>
+  <!-- Badge 3: Purple -->
+  <rect x="800" y="130" width="340" height="280" rx="20" fill="#9333ea"/>
+  <circle cx="970" cy="200" r="50" fill="white"/>
+  <text x="970" y="215" text-anchor="middle" fill="#9333ea" font-family="sans-serif" font-size="50" font-weight="bold">3</text>
+  <text x="970" y="295" text-anchor="middle" fill="white" font-family="sans-serif" font-size="28" font-weight="bold">Empregador pego</text>
+  <text x="970" y="340" text-anchor="middle" fill="#e9d5ff" font-family="sans-serif" font-size="22">Contrata&#231;&#227;o sem qualifica&#231;&#227;o</text>
+  <text x="970" y="385" text-anchor="middle" fill="#e9d5ff" font-family="sans-serif" font-size="24">Processo criminal</text>
 
-  <g transform="translate(50, 280)">
-    <rect width="530" height="75" rx="12" fill="#1e293b"/>
-    <text x="265" y="30" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="16" font-weight="bold">Estatisticas 2024: ~14.000 pegos por violacao</text>
-    <text x="265" y="55" text-anchor="middle" fill="#e2e8f0" font-family="sans-serif" font-size="13">Inclui casos onde a estadia violou regras do visto</text>
-  </g>
+  <!-- Bottom -->
+  <rect x="100" y="460" width="1000" height="80" rx="16" fill="#1e293b"/>
+  <text x="600" y="498" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="30" font-weight="bold">2024: ~14.000 viola&#231;&#245;es trabalhistas</text>
+  <text x="600" y="530" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="22">Cuidado com golpes de "dinheiro r&#225;pido" em redes sociais</text>
 
-  <g transform="translate(600, 280)">
-    <rect width="550" height="75" rx="12" fill="#fef2f2" stroke="#fecaca" stroke-width="2"/>
-    <text x="275" y="30" text-anchor="middle" fill="#dc2626" font-family="sans-serif" font-size="16" font-weight="bold">⚠ Cuidado com "Trabalho Rapido" no SNS</text>
-    <text x="275" y="55" text-anchor="middle" fill="#991b1b" font-family="sans-serif" font-size="13">Recrutamento ilegal online — alerta da policia japonesa</text>
-  </g>
-
-  <text x="50" y="395" fill="#475569" font-family="sans-serif" font-size="15" font-weight="bold">Por Que Tantos Casos?</text>
-  <g transform="translate(50, 405)">
-    <rect width="260" height="48" rx="8" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
-    <text x="130" y="30" text-anchor="middle" fill="#334155" font-family="sans-serif" font-size="13">Falta de mao de obra → estrangeiros</text>
-  </g>
-  <g transform="translate(320, 405)">
-    <rect width="260" height="48" rx="8" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
-    <text x="130" y="30" text-anchor="middle" fill="#334155" font-family="sans-serif" font-size="13">Trabalhadores nao conhecem termos</text>
-  </g>
-  <g transform="translate(590, 405)">
-    <rect width="260" height="48" rx="8" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
-    <text x="130" y="30" text-anchor="middle" fill="#334155" font-family="sans-serif" font-size="13">Corretores ilegais facilitam</text>
-  </g>
-  <g transform="translate(860, 405)">
-    <rect width="290" height="48" rx="8" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
-    <text x="145" y="30" text-anchor="middle" fill="#334155" font-family="sans-serif" font-size="13">Status do visto ≠ Trabalho real</text>
-  </g>
-
-  <g transform="translate(50, 475)">
-    <rect width="1100" height="55" rx="10" fill="#fffbeb" stroke="#fde68a" stroke-width="1"/>
-    <text x="100" y="35" text-anchor="middle" fill="#92400e" font-family="sans-serif" font-size="14" font-weight="bold">Prisao</text>
-    <text x="310" y="35" text-anchor="middle" fill="#92400e" font-family="sans-serif" font-size="14" font-weight="bold">Deportacao</text>
-    <text x="550" y="35" text-anchor="middle" fill="#92400e" font-family="sans-serif" font-size="14" font-weight="bold">Proibicao Entrada</text>
-    <text x="810" y="35" text-anchor="middle" fill="#92400e" font-family="sans-serif" font-size="14" font-weight="bold">Desvantagem Visa</text>
-    <text x="1010" y="35" text-anchor="middle" fill="#92400e" font-family="sans-serif" font-size="14" font-weight="bold">Carreira Destruida</text>
-  </g>
-
-  <text x="600" y="565" text-anchor="middle" fill="#475569" font-family="sans-serif" font-size="15">Seu status de visto deve corresponder ao trabalho real — isso e critico legalmente</text>
-  <text x="600" y="600" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="18">visa.japanlifeinfo.com</text>
+  <text x="600" y="600" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="24">visa.japanlifeinfo.com</text>
 
   <defs>
     <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">

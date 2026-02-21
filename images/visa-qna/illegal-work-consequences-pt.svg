@@ -2,85 +2,35 @@
   <rect width="1200" height="630" fill="#f8fafc"/>
   <rect width="1200" height="8" fill="url(#headerGradient)"/>
 
-  <text x="600" y="58" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="26" font-weight="bold">O Que Acontece Se For Pego Trabalhando Ilegalmente?</text>
-  <text x="600" y="85" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="16">"Foi so um pouquinho..." pode mudar sua vida para sempre</text>
+  <text x="600" y="75" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="42" font-weight="bold">Se Pego Trabalhando Ilegalmente</text>
 
-  <g transform="translate(60, 110)">
-    <rect width="220" height="90" rx="10" fill="#fef3c7" stroke="#f59e0b" stroke-width="2"/>
-    <text x="110" y="25" text-anchor="middle" fill="#92400e" font-family="sans-serif" font-size="13" font-weight="bold">PASSO 1</text>
-    <text x="110" y="48" text-anchor="middle" fill="#78350f" font-family="sans-serif" font-size="16" font-weight="bold">Investigacao</text>
-    <text x="110" y="70" text-anchor="middle" fill="#92400e" font-family="sans-serif" font-size="12">Convocacao · Registros verificados</text>
-  </g>
-  <path d="M280,155 L320,155 L320,175 L340,155 L320,135 L320,155" fill="#94a3b8"/>
+  <!-- 4 descending stair blocks -->
+  <rect x="60" y="130" width="260" height="100" rx="12" fill="#fef3c7" stroke="#f59e0b" stroke-width="3"/>
+  <text x="190" y="175" text-anchor="middle" fill="#92400e" font-family="sans-serif" font-size="28" font-weight="bold">STEP 1</text>
+  <text x="190" y="215" text-anchor="middle" fill="#78350f" font-family="sans-serif" font-size="32" font-weight="bold">Investiga&#231;&#227;o</text>
 
-  <g transform="translate(340, 120)">
-    <rect width="220" height="90" rx="10" fill="#fee2e2" stroke="#ef4444" stroke-width="2"/>
-    <text x="110" y="25" text-anchor="middle" fill="#991b1b" font-family="sans-serif" font-size="13" font-weight="bold">PASSO 2</text>
-    <text x="110" y="48" text-anchor="middle" fill="#7f1d1d" font-family="sans-serif" font-size="16" font-weight="bold">Deportacao</text>
-    <text x="110" y="70" text-anchor="middle" fill="#991b1b" font-family="sans-serif" font-size="12">Remocao imediata · Detencao</text>
-  </g>
-  <path d="M560,165 L600,165 L600,185 L620,165 L600,145 L600,165" fill="#94a3b8"/>
+  <rect x="330" y="210" width="260" height="100" rx="12" fill="#fee2e2" stroke="#ef4444" stroke-width="3"/>
+  <text x="460" y="255" text-anchor="middle" fill="#991b1b" font-family="sans-serif" font-size="28" font-weight="bold">STEP 2</text>
+  <text x="460" y="295" text-anchor="middle" fill="#7f1d1d" font-family="sans-serif" font-size="32" font-weight="bold">Deporta&#231;&#227;o</text>
 
-  <g transform="translate(620, 130)">
-    <rect width="220" height="90" rx="10" fill="#fecaca" stroke="#dc2626" stroke-width="2"/>
-    <text x="110" y="25" text-anchor="middle" fill="#991b1b" font-family="sans-serif" font-size="13" font-weight="bold">PASSO 3</text>
-    <text x="110" y="48" text-anchor="middle" fill="#7f1d1d" font-family="sans-serif" font-size="16" font-weight="bold">Proibicao de Entrada</text>
-    <text x="110" y="70" text-anchor="middle" fill="#991b1b" font-family="sans-serif" font-size="12">5-10 anos proibido de entrar</text>
-  </g>
-  <path d="M840,175 L880,175 L880,195 L900,175 L880,155 L880,175" fill="#94a3b8"/>
+  <rect x="600" y="290" width="260" height="100" rx="12" fill="#fecaca" stroke="#dc2626" stroke-width="3"/>
+  <text x="730" y="335" text-anchor="middle" fill="#991b1b" font-family="sans-serif" font-size="28" font-weight="bold">STEP 3</text>
+  <text x="730" y="375" text-anchor="middle" fill="#7f1d1d" font-family="sans-serif" font-size="26" font-weight="bold">Proibi&#231;&#227;o de Reentrada</text>
 
-  <g transform="translate(900, 140)">
-    <rect width="240" height="90" rx="10" fill="#881337" stroke="#be123c" stroke-width="2"/>
-    <text x="120" y="25" text-anchor="middle" fill="#fecdd3" font-family="sans-serif" font-size="13" font-weight="bold">PASSO 4</text>
-    <text x="120" y="48" text-anchor="middle" fill="white" font-family="sans-serif" font-size="16" font-weight="bold">Desvantagem Visa</text>
-    <text x="120" y="70" text-anchor="middle" fill="#fecdd3" font-family="sans-serif" font-size="12">Todas as solicitacoes afetadas</text>
-  </g>
+  <rect x="870" y="370" width="270" height="100" rx="12" fill="#881337"/>
+  <text x="1005" y="415" text-anchor="middle" fill="#fecdd3" font-family="sans-serif" font-size="28" font-weight="bold">STEP 4</text>
+  <text x="1005" y="455" text-anchor="middle" fill="white" font-family="sans-serif" font-size="30" font-weight="bold">Carreira Destru&#237;da</text>
 
-  <text x="60" y="270" fill="#475569" font-family="sans-serif" font-size="15" font-weight="bold">Casos Comuns</text>
-  <g transform="translate(60, 280)">
-    <rect width="260" height="55" rx="8" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
-    <text x="130" y="22" text-anchor="middle" fill="#334155" font-family="sans-serif" font-size="13" font-weight="bold">Visa Turista Trabalho Parcial</text>
-    <text x="130" y="42" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="11">"So um pouco, nao tem problema"</text>
-  </g>
-  <g transform="translate(330, 280)">
-    <rect width="260" height="55" rx="8" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
-    <text x="130" y="22" text-anchor="middle" fill="#334155" font-family="sans-serif" font-size="13" font-weight="bold">Estudante Acima 28h/semana</text>
-    <text x="130" y="42" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="11">Excedendo horas permitidas</text>
-  </g>
-  <g transform="translate(600, 280)">
-    <rect width="260" height="55" rx="8" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
-    <text x="130" y="22" text-anchor="middle" fill="#334155" font-family="sans-serif" font-size="13" font-weight="bold">SNS Tradutor/Eventos</text>
-    <text x="130" y="42" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="11">Ofertas via redes sociais</text>
-  </g>
-  <g transform="translate(870, 280)">
-    <rect width="270" height="55" rx="8" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
-    <text x="135" y="22" text-anchor="middle" fill="#334155" font-family="sans-serif" font-size="13" font-weight="bold">Violacao Working Holiday</text>
-    <text x="135" y="42" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="11">Ignorando limites de setor/tempo</text>
-  </g>
+  <!-- Arrows -->
+  <text x="300" y="200" fill="#94a3b8" font-family="sans-serif" font-size="40" font-weight="bold">&gt;</text>
+  <text x="570" y="280" fill="#94a3b8" font-family="sans-serif" font-size="40" font-weight="bold">&gt;</text>
+  <text x="840" y="360" fill="#94a3b8" font-family="sans-serif" font-size="40" font-weight="bold">&gt;</text>
 
-  <g transform="translate(60, 360)">
-    <rect width="540" height="80" rx="12" fill="#1e293b"/>
-    <text x="270" y="28" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="16" font-weight="bold">A lei japonesa julga o "ato", nao o "valor"</text>
-    <text x="270" y="52" text-anchor="middle" fill="#e2e8f0" font-family="sans-serif" font-size="14">Mesmo 1 dia de trabalho remunerado</text>
-    <text x="270" y="70" text-anchor="middle" fill="#e2e8f0" font-family="sans-serif" font-size="14">pode ser considerado emprego ilegal</text>
-  </g>
+  <!-- Bottom -->
+  <rect x="100" y="510" width="1000" height="60" rx="12" fill="#1e293b"/>
+  <text x="600" y="550" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="26" font-weight="bold">Poucos mil ienes podem acabar com sua carreira no Jap&#227;o</text>
 
-  <g transform="translate(620, 360)">
-    <rect width="520" height="80" rx="12" fill="#fef2f2" stroke="#fecaca" stroke-width="2"/>
-    <text x="260" y="25" text-anchor="middle" fill="#dc2626" font-family="sans-serif" font-size="15" font-weight="bold">O Que Perde Por Alguns Ienes</text>
-    <text x="80" y="55" text-anchor="middle" fill="#991b1b" font-family="sans-serif" font-size="13">Emprego</text>
-    <text x="195" y="55" text-anchor="middle" fill="#991b1b" font-family="sans-serif" font-size="13">Residencia perm.</text>
-    <text x="330" y="55" text-anchor="middle" fill="#991b1b" font-family="sans-serif" font-size="13">Carreira no Japao</text>
-    <text x="445" y="55" text-anchor="middle" fill="#991b1b" font-family="sans-serif" font-size="13">Planos familiares</text>
-  </g>
-
-  <g transform="translate(60, 465)">
-    <rect width="1080" height="50" rx="10" fill="#fffbeb" stroke="#fde68a" stroke-width="1"/>
-    <text x="540" y="32" text-anchor="middle" fill="#92400e" font-family="sans-serif" font-size="14" font-weight="bold">⚠ Empregador tambem e punido — Multa · Investigacao · Criminal | Empresas legitimas nao permitem trabalho ilegal</text>
-  </g>
-
-  <text x="600" y="555" text-anchor="middle" fill="#475569" font-family="sans-serif" font-size="15">Trabalhar dentro do status legal e o caminho mais rapido</text>
-  <text x="600" y="590" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="18">visa.japanlifeinfo.com</text>
+  <text x="600" y="610" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="24">visa.japanlifeinfo.com</text>
 
   <defs>
     <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">

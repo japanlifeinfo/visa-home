@@ -2,103 +2,23 @@
   <rect width="1200" height="630" fill="#fef2f2"/>
   <rect width="1200" height="8" fill="url(#headerGradient)"/>
 
-  <text x="600" y="50" text-anchor="middle" fill="#991b1b" font-family="sans-serif" font-size="26" font-weight="bold">Karaniwang Dahilan ng Pagtanggi sa Work Visa sa Japan</text>
-  <text x="600" y="78" text-anchor="middle" fill="#b91c1c" font-family="sans-serif" font-size="14">Karamihan ng pagtanggi ay dahil sa kakulangan sa paghahanda ng dokumento</text>
+  <text x="600" y="75" text-anchor="middle" fill="#991b1b" font-family="sans-serif" font-size="44" font-weight="bold">Dahilan ng Visa Rejection</text>
 
-  <!-- Danger card 1 -->
-  <g transform="translate(50, 100)">
-    <rect width="350" height="150" rx="12" fill="white" stroke="#fca5a5" stroke-width="2"/>
-    <rect width="60" height="150" rx="12" fill="#dc2626"/>
-    <rect x="48" width="12" height="150" fill="#dc2626"/>
-    <text x="30" y="82" text-anchor="middle" fill="white" font-family="sans-serif" font-size="26" font-weight="bold">1</text>
-    <text x="80" y="35" fill="#991b1b" font-family="sans-serif" font-size="15" font-weight="bold">Kurso · Trabaho Hindi Tugma</text>
-    <text x="80" y="60" fill="#64748b" font-family="sans-serif" font-size="12">Pinakakaraniwang dahilan ng pagtanggi</text>
-    <text x="80" y="82" fill="#64748b" font-family="sans-serif" font-size="12">Edukasyon/karanasan dapat may kaugnayan</text>
-    <text x="80" y="104" fill="#64748b" font-family="sans-serif" font-size="12">Hindi maipaliwanag → "simpleng paggawa"</text>
-    <text x="80" y="132" fill="#dc2626" font-family="sans-serif" font-size="12" font-weight="bold">→ Dahilan #1 ng pagtanggi</text>
-  </g>
+  <!-- Warning triangle icon -->
+  <polygon points="600,120 680,260 520,260" fill="#fbbf24" stroke="#f59e0b" stroke-width="4"/>
+  <text x="600" y="240" text-anchor="middle" fill="#78350f" font-family="sans-serif" font-size="60" font-weight="bold">!</text>
 
-  <!-- Danger card 2 -->
-  <g transform="translate(420, 100)">
-    <rect width="350" height="150" rx="12" fill="white" stroke="#fdba74" stroke-width="2"/>
-    <rect width="60" height="150" rx="12" fill="#ea580c"/>
-    <rect x="48" width="12" height="150" fill="#ea580c"/>
-    <text x="30" y="82" text-anchor="middle" fill="white" font-family="sans-serif" font-size="26" font-weight="bold">2</text>
-    <text x="80" y="35" fill="#9a3412" font-family="sans-serif" font-size="14" font-weight="bold">Malabo ang Paglalarawan ng Trabaho</text>
-    <text x="80" y="60" fill="#64748b" font-family="sans-serif" font-size="12">"Propesyonal ba?" pamantayan sa pagsusuri</text>
-    <text x="80" y="82" fill="#64748b" font-family="sans-serif" font-size="12">Mga abstract na pagpapahayag ay mapanganib</text>
-    <text x="80" y="104" fill="#64748b" font-family="sans-serif" font-size="12">Kailangan ng tiyak na job description</text>
-    <text x="80" y="132" fill="#ea580c" font-family="sans-serif" font-size="12" font-weight="bold">→ Job description ang susi</text>
-  </g>
+  <!-- 3 reason rows -->
+  <rect x="100" y="300" width="1000" height="70" rx="12" fill="#dc2626"/>
+  <text x="600" y="347" text-anchor="middle" fill="white" font-family="sans-serif" font-size="34" font-weight="bold">1. Hindi tugma ang kurso/trabaho</text>
 
-  <!-- Danger card 3 -->
-  <g transform="translate(790, 100)">
-    <rect width="360" height="150" rx="12" fill="white" stroke="#fde68a" stroke-width="2"/>
-    <rect width="60" height="150" rx="12" fill="#d97706"/>
-    <rect x="48" width="12" height="150" fill="#d97706"/>
-    <text x="30" y="82" text-anchor="middle" fill="white" font-family="sans-serif" font-size="26" font-weight="bold">3</text>
-    <text x="80" y="35" fill="#92400e" font-family="sans-serif" font-size="14" font-weight="bold">Problema sa Pananalapi ng Kumpanya</text>
-    <text x="80" y="60" fill="#64748b" font-family="sans-serif" font-size="12">Tinanggihan dahil sa kumpanya, hindi aplikante</text>
-    <text x="80" y="82" fill="#64748b" font-family="sans-serif" font-size="12">Startup / lugi na kumpanya = mataas na panganib</text>
-    <text x="80" y="104" fill="#64748b" font-family="sans-serif" font-size="12">Sinusuri ang sustainability ng trabaho</text>
-    <text x="80" y="132" fill="#d97706" font-family="sans-serif" font-size="12" font-weight="bold">→ Sinusuri rin ang stability ng kumpanya</text>
-  </g>
+  <rect x="100" y="385" width="1000" height="70" rx="12" fill="#ea580c"/>
+  <text x="600" y="432" text-anchor="middle" fill="white" font-family="sans-serif" font-size="34" font-weight="bold">2. Malabo ang job description</text>
 
-  <!-- Additional reasons row -->
-  <text x="50" y="290" fill="#991b1b" font-family="sans-serif" font-size="15" font-weight="bold">Iba Pang Pangunahing Dahilan ng Pagtanggi</text>
-  <g transform="translate(50, 300)">
-    <rect width="260" height="85" rx="8" fill="white" stroke="#fecaca" stroke-width="1"/>
-    <text x="20" y="25" fill="#dc2626" font-family="sans-serif" font-size="22" font-weight="bold">¥</text>
-    <text x="50" y="27" fill="#334155" font-family="sans-serif" font-size="14" font-weight="bold">Mababang Sahod</text>
-    <text x="20" y="48" fill="#64748b" font-family="sans-serif" font-size="11">Mas mababa sa average ng Japan = kahina-hinala</text>
-    <text x="20" y="68" fill="#64748b" font-family="sans-serif" font-size="12">Inihahambing sa average ng industriya</text>
-  </g>
-  <g transform="translate(325, 300)">
-    <rect width="260" height="85" rx="8" fill="white" stroke="#fecaca" stroke-width="1"/>
-    <text x="20" y="27" fill="#dc2626" font-family="sans-serif" font-size="16" font-weight="bold">!</text>
-    <text x="40" y="27" fill="#334155" font-family="sans-serif" font-size="13" font-weight="bold">Kulang · Hindi Tugma ang Docs</text>
-    <text x="20" y="48" fill="#64748b" font-family="sans-serif" font-size="12">Kulang na salin, mga kontradiksyon</text>
-    <text x="20" y="68" fill="#64748b" font-family="sans-serif" font-size="12">Hindi pare-pareho = bumababa ang tiwala</text>
-  </g>
-  <g transform="translate(600, 300)">
-    <rect width="260" height="85" rx="8" fill="white" stroke="#fecaca" stroke-width="1"/>
-    <text x="20" y="27" fill="#dc2626" font-family="sans-serif" font-size="16" font-weight="bold">X</text>
-    <text x="42" y="27" fill="#334155" font-family="sans-serif" font-size="13" font-weight="bold">Problema sa Kasaysayan ng Stay</text>
-    <text x="20" y="48" fill="#64748b" font-family="sans-serif" font-size="12">Nakaraang illegal na pananatili</text>
-    <text x="20" y="68" fill="#64748b" font-family="sans-serif" font-size="12">Hindi nabayarang buwis, criminal record</text>
-  </g>
-  <g transform="translate(875, 300)">
-    <rect width="275" height="85" rx="8" fill="white" stroke="#fecaca" stroke-width="1"/>
-    <text x="20" y="27" fill="#dc2626" font-family="sans-serif" font-size="16" font-weight="bold">?</text>
-    <text x="42" y="27" fill="#334155" font-family="sans-serif" font-size="13" font-weight="bold">Kulang sa Patunay ng Karanasan</text>
-    <text x="20" y="48" fill="#64748b" font-family="sans-serif" font-size="11">Hindi natugunan ang 10 taon na requirement</text>
-    <text x="20" y="68" fill="#64748b" font-family="sans-serif" font-size="12">Hindi natugunan ang academic requirements</text>
-  </g>
+  <rect x="100" y="470" width="1000" height="70" rx="12" fill="#d97706"/>
+  <text x="600" y="517" text-anchor="middle" fill="white" font-family="sans-serif" font-size="32" font-weight="bold">3. Problema sa pinansyal ng kumpanya</text>
 
-  <!-- Prevention checklist -->
-  <g transform="translate(50, 405)">
-    <rect width="540" height="155" rx="12" fill="#1e293b"/>
-    <text x="270" y="28" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="15" font-weight="bold">Checklist para Maiwasan ang Pagtanggi</text>
-    <line x1="30" y1="42" x2="510" y2="42" stroke="#334155"/>
-    <text x="35" y="65" fill="#e2e8f0" font-family="sans-serif" font-size="12">✓ Malinaw na ipaliwanag ang kaugnayan ng kurso/karanasan sa trabaho</text>
-    <text x="35" y="87" fill="#e2e8f0" font-family="sans-serif" font-size="13">✓ Sumulat ng tiyak na job description</text>
-    <text x="35" y="109" fill="#e2e8f0" font-family="sans-serif" font-size="12">✓ I-verify ang consistency ng impormasyon sa lahat ng dokumento</text>
-    <text x="35" y="131" fill="#e2e8f0" font-family="sans-serif" font-size="12">✓ Kumpirmahin na ang sahod ay katumbas o higit sa average ng industriya</text>
-    <text x="35" y="148" fill="#fbbf24" font-family="sans-serif" font-size="12">※ Puwedeng mag-reapply pero parehong isyu = parehong resulta</text>
-  </g>
-
-  <!-- Rejection consequences box -->
-  <g transform="translate(610, 405)">
-    <rect width="540" height="155" rx="12" fill="white" stroke="#fecaca" stroke-width="2"/>
-    <text x="270" y="28" text-anchor="middle" fill="#dc2626" font-family="sans-serif" font-size="15" font-weight="bold">Mga Resulta ng Pagtanggi</text>
-    <line x1="30" y1="42" x2="510" y2="42" stroke="#fecaca"/>
-    <text x="270" y="68" text-anchor="middle" fill="#334155" font-family="sans-serif" font-size="14">Hindi makapasok (COE tinanggihan)</text>
-    <text x="270" y="90" text-anchor="middle" fill="#334155" font-family="sans-serif" font-size="13">Pagbabago/renewal tinanggihan → kailangang umalis</text>
-    <text x="270" y="112" text-anchor="middle" fill="#334155" font-family="sans-serif" font-size="14">Puwedeng mag-reapply pero matagal</text>
-    <text x="270" y="140" text-anchor="middle" fill="#dc2626" font-family="sans-serif" font-size="14" font-weight="bold">→ Maghanda nang maayos sa unang pagsubok!</text>
-  </g>
-
-  <text x="600" y="600" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="18">visa.japanlifeinfo.com</text>
+  <text x="600" y="600" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="24">visa.japanlifeinfo.com</text>
 
   <defs>
     <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">

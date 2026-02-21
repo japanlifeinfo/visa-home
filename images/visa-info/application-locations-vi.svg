@@ -1,72 +1,31 @@
 <svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- Background -->
   <rect width="1200" height="630" fill="#f8fafc"/>
-
-  <!-- Header gradient bar -->
   <rect width="1200" height="8" fill="url(#headerGradient)"/>
 
-  <!-- Title -->
-  <text x="600" y="75" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="34" font-weight="bold">Dia chi va so dien thoai van phong theo 47 tinh thanh</text>
+  <text x="600" y="75" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="42" font-weight="bold">H&#x1B0;&#x1EDB;ng d&#x1EA5;n c&#x1A1; quan qu&#x1EA3;n l&#xFD;</text>
 
-  <!-- Step 1 (top-left) -->
-  <g transform="translate(120, 110)">
-    <rect width="460" height="165" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
-    <circle cx="45" cy="45" r="28" fill="#dbeafe"/>
-    <text x="45" y="53" text-anchor="middle" fill="#3b82f6" font-family="sans-serif" font-size="20" font-weight="bold">🏢</text>
-    <text x="90" y="52" fill="#1e293b" font-family="sans-serif" font-size="20" font-weight="bold">Mang luoi van phong</text>
-    <text x="45" y="92" fill="#64748b" font-family="sans-serif" font-size="15">8 tru so chinh toan quoc</text>
-    <text x="45" y="114" fill="#64748b" font-family="sans-serif" font-size="15">3 chi cuc</text>
-    <text x="45" y="136" fill="#64748b" font-family="sans-serif" font-size="15">Khoang 55 van phong</text>
-  </g>
+  <!-- Map pin icon -->
+  <ellipse cx="350" cy="340" rx="120" ry="130" fill="#dbeafe"/>
+  <path d="M350,230 C290,230 250,280 250,320 C250,380 350,430 350,430 C350,430 450,380 450,320 C450,280 410,230 350,230Z" fill="#3b82f6"/>
+  <circle cx="350" cy="310" r="35" fill="white"/>
 
-  <!-- Step 2 (top-right) -->
-  <g transform="translate(620, 110)">
-    <rect width="460" height="165" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
-    <circle cx="45" cy="45" r="28" fill="#dcfce7"/>
-    <text x="45" y="53" text-anchor="middle" fill="#16a34a" font-family="sans-serif" font-size="20" font-weight="bold">📍</text>
-    <text x="90" y="52" fill="#1e293b" font-family="sans-serif" font-size="20" font-weight="bold">Xac nhan tham quyen</text>
-    <text x="45" y="92" fill="#64748b" font-family="sans-serif" font-size="15">Theo noi cu tru</text>
-    <text x="45" y="114" fill="#64748b" font-family="sans-serif" font-size="15">Van phong chi dinh theo tinh</text>
-    <text x="45" y="136" fill="#64748b" font-family="sans-serif" font-size="15">Tra cuu truc tuyen</text>
-  </g>
+  <!-- Big numbers -->
+  <text x="780" y="240" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="50" font-weight="bold">To&#xE0;n qu&#x1ED1;c</text>
 
-  <!-- Step 3 (bottom-left) -->
-  <g transform="translate(120, 300)">
-    <rect width="460" height="165" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
-    <circle cx="45" cy="45" r="28" fill="#fef3c7"/>
-    <text x="45" y="53" text-anchor="middle" fill="#d97706" font-family="sans-serif" font-size="20" font-weight="bold">🕐</text>
-    <text x="90" y="52" fill="#1e293b" font-family="sans-serif" font-size="20" font-weight="bold">Gio lam viec</text>
-    <text x="45" y="92" fill="#64748b" font-family="sans-serif" font-size="15">Ngay thuong 9:00-16:00</text>
-    <text x="45" y="114" fill="#64748b" font-family="sans-serif" font-size="15">Dong vao gio trua</text>
-    <text x="45" y="136" fill="#64748b" font-family="sans-serif" font-size="15">Kiem tra gio cao diem</text>
-  </g>
+  <text x="780" y="340" text-anchor="middle" fill="#3b82f6" font-family="sans-serif" font-size="90" font-weight="bold">66+</text>
+  <text x="780" y="390" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="36">v&#x103;n ph&#xF2;ng</text>
 
-  <!-- Step 4 (bottom-right) -->
-  <g transform="translate(620, 300)">
-    <rect width="460" height="165" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
-    <circle cx="45" cy="45" r="28" fill="#fce7f3"/>
-    <text x="45" y="53" text-anchor="middle" fill="#db2777" font-family="sans-serif" font-size="20" font-weight="bold">📋</text>
-    <text x="90" y="52" fill="#1e293b" font-family="sans-serif" font-size="20" font-weight="bold">Chuan bi khi den</text>
-    <text x="45" y="92" fill="#64748b" font-family="sans-serif" font-size="15">Mang ho chieu va the cu tru</text>
-    <text x="45" y="114" fill="#64748b" font-family="sans-serif" font-size="15">Chuan bi ho so truoc</text>
-    <text x="45" y="136" fill="#64748b" font-family="sans-serif" font-size="15">San sang tem thu nhap</text>
-  </g>
+  <text x="780" y="460" text-anchor="middle" fill="#8b5cf6" font-family="sans-serif" font-size="46" font-weight="bold">47 t&#x1EC9;nh th&#xE0;nh</text>
 
-  <!-- Key Points Box -->
-  <g transform="translate(200, 495)">
-    <rect width="800" height="80" rx="12" fill="#1e293b"/>
-    <text x="400" y="32" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="15">Diem Chinh</text>
-    <text x="400" y="58" text-anchor="middle" fill="white" font-family="sans-serif" font-size="17" font-weight="bold">Theo noi cu tru | 47 tinh thanh | 66+ van phong</text>
-  </g>
+  <!-- Bottom -->
+  <rect x="100" y="500" width="1000" height="60" rx="12" fill="#1e293b"/>
+  <text x="600" y="540" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="28" font-weight="bold">V&#x103;n ph&#xF2;ng qu&#x1EA3;n l&#xFD; theo n&#x1A1;i c&#x1B0; tr&#xFA;</text>
 
-  <!-- Footer -->
-  <text x="600" y="610" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="18">visa.japanlifeinfo.com</text>
+  <text x="600" y="610" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="24">visa.japanlifeinfo.com</text>
 
   <defs>
     <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">
-      <stop offset="0%" stop-color="#3b82f6"/>
-      <stop offset="50%" stop-color="#8b5cf6"/>
-      <stop offset="100%" stop-color="#10b981"/>
+      <stop offset="0%" stop-color="#3b82f6"/><stop offset="50%" stop-color="#8b5cf6"/><stop offset="100%" stop-color="#10b981"/>
     </linearGradient>
   </defs>
 </svg>

@@ -2,103 +2,23 @@
   <rect width="1200" height="630" fill="#fef2f2"/>
   <rect width="1200" height="8" fill="url(#headerGradient)"/>
 
-  <text x="600" y="50" text-anchor="middle" fill="#991b1b" font-family="sans-serif" font-size="28" font-weight="bold">Alasan Umum Penolakan Visa Kerja Jepang</text>
-  <text x="600" y="78" text-anchor="middle" fill="#b91c1c" font-family="sans-serif" font-size="15">Sebagian besar penolakan disebabkan oleh persiapan dokumen yang buruk</text>
+  <text x="600" y="75" text-anchor="middle" fill="#991b1b" font-family="sans-serif" font-size="44" font-weight="bold">Alasan Penolakan Visa</text>
 
-  <!-- Danger card 1 -->
-  <g transform="translate(50, 100)">
-    <rect width="350" height="150" rx="12" fill="white" stroke="#fca5a5" stroke-width="2"/>
-    <rect width="60" height="150" rx="12" fill="#dc2626"/>
-    <rect x="48" width="12" height="150" fill="#dc2626"/>
-    <text x="30" y="82" text-anchor="middle" fill="white" font-family="sans-serif" font-size="26" font-weight="bold">1</text>
-    <text x="80" y="35" fill="#991b1b" font-family="sans-serif" font-size="16" font-weight="bold">Jurusan · Pekerjaan Tidak Cocok</text>
-    <text x="80" y="60" fill="#64748b" font-family="sans-serif" font-size="13">Alasan penolakan paling umum</text>
-    <text x="80" y="82" fill="#64748b" font-family="sans-serif" font-size="13">Pendidikan/karier harus terkait pekerjaan</text>
-    <text x="80" y="104" fill="#64748b" font-family="sans-serif" font-size="13">Tidak bisa dijelaskan → "tenaga kerja sederhana"</text>
-    <text x="80" y="132" fill="#dc2626" font-family="sans-serif" font-size="12" font-weight="bold">→ Penyebab penolakan #1</text>
-  </g>
+  <!-- Warning triangle icon -->
+  <polygon points="600,120 680,260 520,260" fill="#fbbf24" stroke="#f59e0b" stroke-width="4"/>
+  <text x="600" y="240" text-anchor="middle" fill="#78350f" font-family="sans-serif" font-size="60" font-weight="bold">!</text>
 
-  <!-- Danger card 2 -->
-  <g transform="translate(420, 100)">
-    <rect width="350" height="150" rx="12" fill="white" stroke="#fdba74" stroke-width="2"/>
-    <rect width="60" height="150" rx="12" fill="#ea580c"/>
-    <rect x="48" width="12" height="150" fill="#ea580c"/>
-    <text x="30" y="82" text-anchor="middle" fill="white" font-family="sans-serif" font-size="26" font-weight="bold">2</text>
-    <text x="80" y="35" fill="#9a3412" font-family="sans-serif" font-size="16" font-weight="bold">Deskripsi Pekerjaan Tidak Jelas</text>
-    <text x="80" y="60" fill="#64748b" font-family="sans-serif" font-size="13">"Apakah profesional?" kriteria penilaian</text>
-    <text x="80" y="82" fill="#64748b" font-family="sans-serif" font-size="13">Ekspresi abstrak berisiko</text>
-    <text x="80" y="104" fill="#64748b" font-family="sans-serif" font-size="13">Deskripsi pekerjaan spesifik diperlukan</text>
-    <text x="80" y="132" fill="#ea580c" font-family="sans-serif" font-size="12" font-weight="bold">→ Deskripsi pekerjaan adalah kunci</text>
-  </g>
+  <!-- 3 reason rows -->
+  <rect x="100" y="300" width="1000" height="70" rx="12" fill="#dc2626"/>
+  <text x="600" y="347" text-anchor="middle" fill="white" font-family="sans-serif" font-size="34" font-weight="bold">1. Jurusan/pekerjaan tidak cocok</text>
 
-  <!-- Danger card 3 -->
-  <g transform="translate(790, 100)">
-    <rect width="360" height="150" rx="12" fill="white" stroke="#fde68a" stroke-width="2"/>
-    <rect width="60" height="150" rx="12" fill="#d97706"/>
-    <rect x="48" width="12" height="150" fill="#d97706"/>
-    <text x="30" y="82" text-anchor="middle" fill="white" font-family="sans-serif" font-size="26" font-weight="bold">3</text>
-    <text x="80" y="35" fill="#92400e" font-family="sans-serif" font-size="16" font-weight="bold">Masalah Keuangan Perusahaan</text>
-    <text x="80" y="60" fill="#64748b" font-family="sans-serif" font-size="13">Ditolak karena perusahaan, bukan pemohon</text>
-    <text x="80" y="82" fill="#64748b" font-family="sans-serif" font-size="13">Startup / perusahaan rugi = risiko tinggi</text>
-    <text x="80" y="104" fill="#64748b" font-family="sans-serif" font-size="13">Peninjauan keberlanjutan pekerjaan</text>
-    <text x="80" y="132" fill="#d97706" font-family="sans-serif" font-size="12" font-weight="bold">→ Stabilitas perusahaan juga dinilai</text>
-  </g>
+  <rect x="100" y="385" width="1000" height="70" rx="12" fill="#ea580c"/>
+  <text x="600" y="432" text-anchor="middle" fill="white" font-family="sans-serif" font-size="34" font-weight="bold">2. Deskripsi pekerjaan tidak jelas</text>
 
-  <!-- Additional reasons row -->
-  <text x="50" y="290" fill="#991b1b" font-family="sans-serif" font-size="15" font-weight="bold">Alasan Penolakan Utama Lainnya</text>
-  <g transform="translate(50, 300)">
-    <rect width="260" height="85" rx="8" fill="white" stroke="#fecaca" stroke-width="1"/>
-    <text x="20" y="25" fill="#dc2626" font-family="sans-serif" font-size="22" font-weight="bold">¥</text>
-    <text x="50" y="27" fill="#334155" font-family="sans-serif" font-size="14" font-weight="bold">Gaji Rendah</text>
-    <text x="20" y="48" fill="#64748b" font-family="sans-serif" font-size="12">Di bawah rata-rata Jepang = mencurigakan</text>
-    <text x="20" y="68" fill="#64748b" font-family="sans-serif" font-size="12">Dibandingkan dengan rata-rata industri</text>
-  </g>
-  <g transform="translate(325, 300)">
-    <rect width="260" height="85" rx="8" fill="white" stroke="#fecaca" stroke-width="1"/>
-    <text x="20" y="27" fill="#dc2626" font-family="sans-serif" font-size="16" font-weight="bold">!</text>
-    <text x="40" y="27" fill="#334155" font-family="sans-serif" font-size="13" font-weight="bold">Dokumen Hilang · Tidak Konsisten</text>
-    <text x="20" y="48" fill="#64748b" font-family="sans-serif" font-size="12">Terjemahan hilang, kontradiksi</text>
-    <text x="20" y="68" fill="#64748b" font-family="sans-serif" font-size="12">Info tidak konsisten = kepercayaan turun</text>
-  </g>
-  <g transform="translate(600, 300)">
-    <rect width="260" height="85" rx="8" fill="white" stroke="#fecaca" stroke-width="1"/>
-    <text x="20" y="27" fill="#dc2626" font-family="sans-serif" font-size="16" font-weight="bold">X</text>
-    <text x="42" y="27" fill="#334155" font-family="sans-serif" font-size="14" font-weight="bold">Masalah Riwayat Tinggal</text>
-    <text x="20" y="48" fill="#64748b" font-family="sans-serif" font-size="12">Pernah tinggal ilegal</text>
-    <text x="20" y="68" fill="#64748b" font-family="sans-serif" font-size="12">Pajak belum dibayar, catatan kriminal</text>
-  </g>
-  <g transform="translate(875, 300)">
-    <rect width="275" height="85" rx="8" fill="white" stroke="#fecaca" stroke-width="1"/>
-    <text x="20" y="27" fill="#dc2626" font-family="sans-serif" font-size="16" font-weight="bold">?</text>
-    <text x="42" y="27" fill="#334155" font-family="sans-serif" font-size="14" font-weight="bold">Bukti Karier Tidak Cukup</text>
-    <text x="20" y="48" fill="#64748b" font-family="sans-serif" font-size="11">Persyaratan pengalaman 10 tahun belum terpenuhi</text>
-    <text x="20" y="68" fill="#64748b" font-family="sans-serif" font-size="12">Persyaratan akademik tidak terpenuhi</text>
-  </g>
+  <rect x="100" y="470" width="1000" height="70" rx="12" fill="#d97706"/>
+  <text x="600" y="517" text-anchor="middle" fill="white" font-family="sans-serif" font-size="34" font-weight="bold">3. Masalah keuangan perusahaan</text>
 
-  <!-- Prevention checklist -->
-  <g transform="translate(50, 405)">
-    <rect width="540" height="155" rx="12" fill="#1e293b"/>
-    <text x="270" y="28" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="15" font-weight="bold">Checklist Pencegahan Penolakan</text>
-    <line x1="30" y1="42" x2="510" y2="42" stroke="#334155"/>
-    <text x="35" y="65" fill="#e2e8f0" font-family="sans-serif" font-size="12">✓ Jelaskan relevansi jurusan/karier dengan pekerjaan secara jelas</text>
-    <text x="35" y="87" fill="#e2e8f0" font-family="sans-serif" font-size="13">✓ Tulis deskripsi pekerjaan yang spesifik</text>
-    <text x="35" y="109" fill="#e2e8f0" font-family="sans-serif" font-size="13">✓ Verifikasi konsistensi info di semua dokumen</text>
-    <text x="35" y="131" fill="#e2e8f0" font-family="sans-serif" font-size="13">✓ Pastikan gaji setara atau di atas rata-rata industri</text>
-    <text x="35" y="148" fill="#fbbf24" font-family="sans-serif" font-size="12">※ Bisa mengajukan ulang tapi masalah sama = hasil sama</text>
-  </g>
-
-  <!-- Rejection consequences box -->
-  <g transform="translate(610, 405)">
-    <rect width="540" height="155" rx="12" fill="white" stroke="#fecaca" stroke-width="2"/>
-    <text x="270" y="28" text-anchor="middle" fill="#dc2626" font-family="sans-serif" font-size="15" font-weight="bold">Konsekuensi Penolakan</text>
-    <line x1="30" y1="42" x2="510" y2="42" stroke="#fecaca"/>
-    <text x="270" y="68" text-anchor="middle" fill="#334155" font-family="sans-serif" font-size="14">Tidak bisa masuk (COE ditolak)</text>
-    <text x="270" y="90" text-anchor="middle" fill="#334155" font-family="sans-serif" font-size="14">Perubahan/perpanjangan ditolak → harus keluar</text>
-    <text x="270" y="112" text-anchor="middle" fill="#334155" font-family="sans-serif" font-size="14">Bisa mengajukan ulang tapi butuh waktu</text>
-    <text x="270" y="140" text-anchor="middle" fill="#dc2626" font-family="sans-serif" font-size="13" font-weight="bold">→ Persiapkan dengan matang pada percobaan pertama!</text>
-  </g>
-
-  <text x="600" y="600" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="18">visa.japanlifeinfo.com</text>
+  <text x="600" y="600" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="24">visa.japanlifeinfo.com</text>
 
   <defs>
     <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">

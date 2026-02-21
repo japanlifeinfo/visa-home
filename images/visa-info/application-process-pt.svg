@@ -2,95 +2,43 @@
   <rect width="1200" height="630" fill="#f8fafc"/>
   <rect width="1200" height="8" fill="url(#headerGradient)"/>
 
-  <text x="600" y="50" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="26" font-weight="bold">Guia Completo de Solicitacao de Status de Residencia</text>
-  <text x="600" y="78" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="15">Guia passo a passo para solicitantes de primeira vez</text>
+  <text x="600" y="80" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="44" font-weight="bold">Processo de 4 Etapas</text>
 
   <!-- Step 1 -->
-  <g transform="translate(50, 100)">
-    <rect width="240" height="145" rx="12" fill="#eff6ff" stroke="#93c5fd" stroke-width="2"/>
-    <rect width="240" height="38" rx="12" fill="#3b82f6"/>
-    <rect y="26" width="240" height="12" fill="#3b82f6"/>
-    <text x="120" y="27" text-anchor="middle" fill="white" font-family="sans-serif" font-size="13" font-weight="bold">STEP 1 · Preparar Documentos</text>
-    <text x="120" y="65" text-anchor="middle" fill="#1e40af" font-family="sans-serif" font-size="13" font-weight="bold">Formulario, passaporte, fotos</text>
-    <text x="120" y="88" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="11">Prova de atividade, docs da empresa</text>
-    <text x="120" y="108" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="12">Certificado de emprego</text>
-    <text x="120" y="132" text-anchor="middle" fill="#3b82f6" font-family="sans-serif" font-size="11" font-weight="bold">Verifique docs extras por tipo de visto!</text>
-  </g>
+  <circle cx="180" cy="250" r="80" fill="#3b82f6"/>
+  <text x="180" y="240" text-anchor="middle" fill="white" font-family="sans-serif" font-size="56" font-weight="bold">1</text>
+  <text x="180" y="290" text-anchor="middle" fill="white" font-family="sans-serif" font-size="28" font-weight="bold">Documentos</text>
 
   <!-- Arrow 1-2 -->
-  <text x="300" y="172" fill="#94a3b8" font-family="sans-serif" font-size="24">&#x2192;</text>
+  <text x="310" y="260" fill="#94a3b8" font-family="sans-serif" font-size="50" font-weight="bold">&gt;</text>
 
   <!-- Step 2 -->
-  <g transform="translate(320, 130)">
-    <rect width="240" height="145" rx="12" fill="#f0fdf4" stroke="#86efac" stroke-width="2"/>
-    <rect width="240" height="38" rx="12" fill="#16a34a"/>
-    <rect y="26" width="240" height="12" fill="#16a34a"/>
-    <text x="120" y="27" text-anchor="middle" fill="white" font-family="sans-serif" font-size="12" font-weight="bold">STEP 2 · Solicitacao na Imigracao</text>
-    <text x="120" y="65" text-anchor="middle" fill="#15803d" font-family="sans-serif" font-size="12" font-weight="bold">Pessoalmente ou por procurador</text>
-    <text x="120" y="88" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="12">Sem taxa de solicitacao</text>
-    <text x="120" y="108" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="11">Verifique o escritorio competente antes</text>
-    <text x="120" y="132" text-anchor="middle" fill="#16a34a" font-family="sans-serif" font-size="12" font-weight="bold">Solicitacao online disponivel!</text>
-  </g>
+  <circle cx="450" cy="250" r="80" fill="#8b5cf6"/>
+  <text x="450" y="240" text-anchor="middle" fill="white" font-family="sans-serif" font-size="56" font-weight="bold">2</text>
+  <text x="450" y="290" text-anchor="middle" fill="white" font-family="sans-serif" font-size="32" font-weight="bold">Solicitar</text>
 
   <!-- Arrow 2-3 -->
-  <text x="570" y="202" fill="#94a3b8" font-family="sans-serif" font-size="24">&#x2192;</text>
+  <text x="580" y="260" fill="#94a3b8" font-family="sans-serif" font-size="50" font-weight="bold">&gt;</text>
 
   <!-- Step 3 -->
-  <g transform="translate(590, 160)">
-    <rect width="240" height="145" rx="12" fill="#fffbeb" stroke="#fde68a" stroke-width="2"/>
-    <rect width="240" height="38" rx="12" fill="#d97706"/>
-    <rect y="26" width="240" height="12" fill="#d97706"/>
-    <text x="120" y="27" text-anchor="middle" fill="white" font-family="sans-serif" font-size="13" font-weight="bold">STEP 3 · Periodo de Analise</text>
-    <text x="120" y="65" text-anchor="middle" fill="#92400e" font-family="sans-serif" font-size="14" font-weight="bold">Media de 1-3 meses</text>
-    <text x="120" y="88" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="11">Responda rapido a pedidos de docs extras</text>
-    <text x="120" y="108" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="12">Aguarde a notificacao do resultado</text>
-    <text x="120" y="132" text-anchor="middle" fill="#d97706" font-family="sans-serif" font-size="12" font-weight="bold">Alta temporada 3-4 meses+</text>
-  </g>
+  <circle cx="720" cy="250" r="80" fill="#f59e0b"/>
+  <text x="720" y="240" text-anchor="middle" fill="white" font-family="sans-serif" font-size="56" font-weight="bold">3</text>
+  <text x="720" y="290" text-anchor="middle" fill="white" font-family="sans-serif" font-size="28" font-weight="bold">Avalia&#231;&#227;o</text>
 
   <!-- Arrow 3-4 -->
-  <text x="840" y="232" fill="#94a3b8" font-family="sans-serif" font-size="24">&#x2192;</text>
+  <text x="850" y="260" fill="#94a3b8" font-family="sans-serif" font-size="50" font-weight="bold">&gt;</text>
 
   <!-- Step 4 -->
-  <g transform="translate(860, 190)">
-    <rect width="280" height="145" rx="12" fill="#fdf2f8" stroke="#fbcfe8" stroke-width="2"/>
-    <rect width="280" height="38" rx="12" fill="#db2777"/>
-    <rect y="26" width="280" height="12" fill="#db2777"/>
-    <text x="140" y="27" text-anchor="middle" fill="white" font-family="sans-serif" font-size="14" font-weight="bold">STEP 4 · Aprovacao Concluida!</text>
-    <text x="140" y="65" text-anchor="middle" fill="#9d174d" font-family="sans-serif" font-size="12" font-weight="bold">Cartao de residencia &amp; visto emitidos</text>
-    <text x="140" y="88" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="12">Pagamento de selo fiscal (&#xA5;4,000)</text>
-    <text x="140" y="108" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="12">Registro de endereco</text>
-    <text x="140" y="132" text-anchor="middle" fill="#16a34a" font-family="sans-serif" font-size="14" font-weight="bold">Residencia oficial comeca!</text>
-  </g>
+  <circle cx="990" cy="250" r="80" fill="#10b981"/>
+  <text x="990" y="240" text-anchor="middle" fill="white" font-family="sans-serif" font-size="56" font-weight="bold">4</text>
+  <text x="990" y="290" text-anchor="middle" fill="white" font-family="sans-serif" font-size="32" font-weight="bold">Aprovado</text>
 
-  <!-- Checklist Box -->
-  <g transform="translate(50, 365)">
-    <rect width="520" height="210" rx="12" fill="#1e293b"/>
-    <text x="260" y="30" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="16" font-weight="bold">Checklist Principal</text>
-    <line x1="30" y1="45" x2="490" y2="45" stroke="#334155"/>
-    <text x="40" y="72" fill="#e2e8f0" font-family="sans-serif" font-size="13">&#x2713; Confirme que o status corresponde as atividades reais</text>
-    <text x="40" y="98" fill="#e2e8f0" font-family="sans-serif" font-size="13">&#x2713; Verifique a consistencia de todos os documentos</text>
-    <text x="40" y="124" fill="#e2e8f0" font-family="sans-serif" font-size="13">&#x2713; Responda rapidamente a pedidos de documentos adicionais</text>
-    <text x="40" y="150" fill="#e2e8f0" font-family="sans-serif" font-size="13">&#x2713; Solicite antes do vencimento do periodo de estadia</text>
-    <text x="40" y="176" fill="#e2e8f0" font-family="sans-serif" font-size="13">&#x2713; Verifique antecipadamente o escritorio de imigracao</text>
-    <text x="40" y="200" fill="#fbbf24" font-family="sans-serif" font-size="13">&#x203B; A maioria das recusas e por preparacao insuficiente de documentos</text>
-  </g>
+  <!-- Bottom summary -->
+  <rect x="100" y="400" width="1000" height="100" rx="16" fill="#1e293b"/>
+  <text x="600" y="445" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="36" font-weight="bold">Prepara&#231;&#227;o de documentos &#233; a chave!</text>
+  <text x="600" y="485" text-anchor="middle" fill="#e2e8f0" font-family="sans-serif" font-size="28">Dura&#231;&#227;o total: aprox. 1~3 meses</text>
 
-  <!-- Duration summary -->
-  <g transform="translate(600, 365)">
-    <rect width="550" height="100" rx="12" fill="white" stroke="#e2e8f0" stroke-width="2"/>
-    <text x="275" y="30" text-anchor="middle" fill="#475569" font-family="sans-serif" font-size="14">Duracao Total Estimada</text>
-    <text x="275" y="65" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="32" font-weight="bold">Aprox. 1-3 meses</text>
-    <text x="275" y="88" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="13">Nova solicitacao (com COE): 1,5-4 meses+</text>
-  </g>
-
-  <g transform="translate(600, 480)">
-    <rect width="550" height="95" rx="12" fill="#fefce8" stroke="#fde68a" stroke-width="1"/>
-    <text x="275" y="28" text-anchor="middle" fill="#854d0e" font-family="sans-serif" font-size="15" font-weight="bold">Referencia por Tipo de Solicitacao</text>
-    <text x="275" y="52" text-anchor="middle" fill="#713f12" font-family="sans-serif" font-size="12">Nova (COE) · Alteracao · Renovacao · Permanente — docs e analise variam</text>
-    <text x="275" y="75" text-anchor="middle" fill="#713f12" font-family="sans-serif" font-size="13">Solicitar sozinho economiza taxas | Servico de agente tambem disponivel</text>
-  </g>
-
-  <text x="600" y="610" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="18">visa.japanlifeinfo.com</text>
+  <text x="600" y="590" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="24">visa.japanlifeinfo.com</text>
 
   <defs>
     <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">

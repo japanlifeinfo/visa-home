@@ -1,59 +1,23 @@
 <svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1200" height="630" fill="#f8fafc"/>
+  <rect width="1200" height="630" fill="#fef2f2"/>
   <rect width="1200" height="8" fill="url(#headerGradient)"/>
 
-  <text x="600" y="65" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="34" font-weight="bold">持观光签证能在日本工作吗？</text>
+  <text x="600" y="80" text-anchor="middle" fill="#991b1b" font-family="sans-serif" font-size="44" font-weight="bold">旅游签证能工作吗?</text>
 
-  <circle cx="600" cy="185" r="70" fill="#fef2f2" stroke="#dc2626" stroke-width="5"/>
-  <line x1="555" y1="140" x2="645" y2="230" stroke="#dc2626" stroke-width="5" stroke-linecap="round"/>
-  <text x="600" y="195" text-anchor="middle" fill="#dc2626" font-family="sans-serif" font-size="28" font-weight="bold">就业</text>
+  <!-- Big prohibition circle -->
+  <circle cx="600" cy="300" r="160" fill="white" stroke="#dc2626" stroke-width="10"/>
+  <line x1="487" y1="187" x2="713" y2="413" stroke="#dc2626" stroke-width="10" stroke-linecap="round"/>
+  <text x="600" y="320" text-anchor="middle" fill="#dc2626" font-family="sans-serif" font-size="70" font-weight="bold">工作</text>
 
-  <text x="600" y="285" text-anchor="middle" fill="#dc2626" font-family="sans-serif" font-size="22" font-weight="bold">短期滞在（观光签证）绝对不可！</text>
+  <!-- Bottom message -->
+  <rect x="150" y="500" width="900" height="70" rx="16" fill="#dc2626"/>
+  <text x="600" y="547" text-anchor="middle" fill="white" font-family="sans-serif" font-size="42" font-weight="bold">绝对不行!</text>
 
-  <g transform="translate(60, 310)">
-    <rect width="250" height="70" rx="12" fill="#fee2e2"/>
-    <text x="125" y="30" text-anchor="middle" fill="#991b1b" font-family="sans-serif" font-size="15" font-weight="bold">❌ 咖啡店打工</text>
-    <text x="125" y="52" text-anchor="middle" fill="#991b1b" font-family="sans-serif" font-size="13">短期打工也违法</text>
-  </g>
-  <g transform="translate(330, 310)">
-    <rect width="250" height="70" rx="12" fill="#fee2e2"/>
-    <text x="125" y="30" text-anchor="middle" fill="#991b1b" font-family="sans-serif" font-size="15" font-weight="bold">❌ 翻译·活动工作</text>
-    <text x="125" y="52" text-anchor="middle" fill="#991b1b" font-family="sans-serif" font-size="13">有偿活动明确禁止</text>
-  </g>
-  <g transform="translate(600, 310)">
-    <rect width="250" height="70" rx="12" fill="#fee2e2"/>
-    <text x="125" y="30" text-anchor="middle" fill="#991b1b" font-family="sans-serif" font-size="15" font-weight="bold">❌ 现金收款</text>
-    <text x="125" y="52" text-anchor="middle" fill="#991b1b" font-family="sans-serif" font-size="13">支付方式无关均违法</text>
-  </g>
-  <g transform="translate(870, 310)">
-    <rect width="250" height="70" rx="12" fill="#fee2e2"/>
-    <text x="125" y="30" text-anchor="middle" fill="#991b1b" font-family="sans-serif" font-size="15" font-weight="bold">❌ 远程工作</text>
-    <text x="125" y="52" text-anchor="middle" fill="#991b1b" font-family="sans-serif" font-size="13">在日期间的收入活动</text>
-  </g>
+  <text x="600" y="610" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="24">visa.japanlifeinfo.com</text>
 
-  <g transform="translate(60, 400)">
-    <rect width="530" height="80" rx="12" fill="#1e293b"/>
-    <text x="265" y="28" text-anchor="middle" fill="#f87171" font-family="sans-serif" font-size="15" font-weight="bold">被查处后果</text>
-    <text x="130" y="55" text-anchor="middle" fill="#e2e8f0" font-family="sans-serif" font-size="14">强制遣返</text>
-    <text x="265" y="55" text-anchor="middle" fill="#e2e8f0" font-family="sans-serif" font-size="14">入境限制5年+</text>
-    <text x="410" y="55" text-anchor="middle" fill="#e2e8f0" font-family="sans-serif" font-size="14">就业签证审查不利</text>
-  </g>
-
-  <g transform="translate(610, 400)">
-    <rect width="530" height="80" rx="12" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="2"/>
-    <text x="265" y="28" text-anchor="middle" fill="#15803d" font-family="sans-serif" font-size="15" font-weight="bold">✓ 合法工作途径</text>
-    <text x="100" y="55" text-anchor="middle" fill="#166534" font-family="sans-serif" font-size="13">就业签证</text>
-    <text x="220" y="55" text-anchor="middle" fill="#166534" font-family="sans-serif" font-size="13">打工度假</text>
-    <text x="355" y="55" text-anchor="middle" fill="#166534" font-family="sans-serif" font-size="13">留学+资格外许可</text>
-    <text x="470" y="55" text-anchor="middle" fill="#166534" font-family="sans-serif" font-size="13">配偶签证</text>
-  </g>
-
-  <text x="600" y="520" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="16">"就一小会儿没关系吧"可能毁掉您的长期赴日就业计划</text>
-
-  <text x="600" y="575" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="18">visa.japanlifeinfo.com</text>
   <defs>
     <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">
-      <stop offset="0%" stop-color="#3b82f6"/><stop offset="50%" stop-color="#8b5cf6"/><stop offset="100%" stop-color="#10b981"/>
+      <stop offset="0%" stop-color="#dc2626"/><stop offset="50%" stop-color="#ea580c"/><stop offset="100%" stop-color="#d97706"/>
     </linearGradient>
   </defs>
 </svg>

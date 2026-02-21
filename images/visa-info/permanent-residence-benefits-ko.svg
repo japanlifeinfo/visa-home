@@ -2,89 +2,35 @@
   <rect width="1200" height="630" fill="#f8fafc"/>
   <rect width="1200" height="8" fill="url(#headerGradient)"/>
 
-  <text x="600" y="50" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="28" font-weight="bold">취업비자 vs 영주권 — 무엇이 달라지나?</text>
-  <text x="600" y="78" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="15">영주권을 취득하면 얻는 실질적 변화</text>
+  <text x="600" y="75" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="44" font-weight="bold">취업비자 vs 영주권</text>
 
-  <!-- Left column header: 취업비자 -->
-  <g transform="translate(60, 100)">
-    <rect width="520" height="50" rx="10" fill="#64748b"/>
-    <text x="260" y="33" text-anchor="middle" fill="white" font-family="sans-serif" font-size="20" font-weight="bold">취업비자 (제한적)</text>
-  </g>
+  <!-- Left: 취업비자 (grey) -->
+  <rect x="60" y="110" width="520" height="400" rx="20" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="3"/>
+  <rect x="60" y="110" width="520" height="70" rx="20" fill="#64748b"/>
+  <rect x="60" y="155" width="520" height="25" fill="#64748b"/>
+  <text x="320" y="155" text-anchor="middle" fill="white" font-family="sans-serif" font-size="36" font-weight="bold">취업비자</text>
 
-  <!-- Right column header: 영주권 -->
-  <g transform="translate(620, 100)">
-    <rect width="520" height="50" rx="10" fill="#16a34a"/>
-    <text x="260" y="33" text-anchor="middle" fill="white" font-family="sans-serif" font-size="20" font-weight="bold">영주권 (자유)</text>
-  </g>
+  <text x="320" y="250" text-anchor="middle" fill="#475569" font-family="sans-serif" font-size="32">업종 제한</text>
+  <text x="320" y="310" text-anchor="middle" fill="#475569" font-family="sans-serif" font-size="32">정기 갱신 필수</text>
+  <text x="320" y="370" text-anchor="middle" fill="#475569" font-family="sans-serif" font-size="32">대출 어려움</text>
+  <text x="320" y="470" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="36" font-weight="bold">제한적</text>
 
-  <!-- Row 1: 체류기간 -->
-  <g transform="translate(60, 160)">
-    <rect width="520" height="60" rx="8" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
-    <text x="25" y="25" fill="#64748b" font-family="sans-serif" font-size="12">체류기간</text>
-    <text x="25" y="47" fill="#475569" font-family="sans-serif" font-size="16" font-weight="bold">1년~5년마다 갱신 필수</text>
-  </g>
-  <g transform="translate(620, 160)">
-    <rect width="520" height="60" rx="8" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
-    <text x="25" y="25" fill="#16a34a" font-family="sans-serif" font-size="12">체류기간</text>
-    <text x="25" y="47" fill="#15803d" font-family="sans-serif" font-size="16" font-weight="bold">무기한 — 갱신 불필요</text>
-  </g>
+  <!-- Right: 영주권 (green) -->
+  <rect x="620" y="110" width="520" height="400" rx="20" fill="#f0fdf4" stroke="#86efac" stroke-width="3"/>
+  <rect x="620" y="110" width="520" height="70" rx="20" fill="#16a34a"/>
+  <rect x="620" y="155" width="520" height="25" fill="#16a34a"/>
+  <text x="880" y="155" text-anchor="middle" fill="white" font-family="sans-serif" font-size="36" font-weight="bold">영주권</text>
 
-  <!-- Row 2: 직업 선택 -->
-  <g transform="translate(60, 228)">
-    <rect width="520" height="60" rx="8" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
-    <text x="25" y="25" fill="#64748b" font-family="sans-serif" font-size="12">직업 선택</text>
-    <text x="25" y="47" fill="#475569" font-family="sans-serif" font-size="16" font-weight="bold">허가된 업종만 가능 · 부업 제한</text>
-  </g>
-  <g transform="translate(620, 228)">
-    <rect width="520" height="60" rx="8" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
-    <text x="25" y="25" fill="#16a34a" font-family="sans-serif" font-size="12">직업 선택</text>
-    <text x="25" y="47" fill="#15803d" font-family="sans-serif" font-size="16" font-weight="bold">업종 제한 없음 · 프리랜서 · 창업 OK</text>
-  </g>
+  <text x="880" y="250" text-anchor="middle" fill="#15803d" font-family="sans-serif" font-size="32">업종 자유</text>
+  <text x="880" y="310" text-anchor="middle" fill="#15803d" font-family="sans-serif" font-size="32">갱신 불필요</text>
+  <text x="880" y="370" text-anchor="middle" fill="#15803d" font-family="sans-serif" font-size="32">대출 가능</text>
+  <text x="880" y="470" text-anchor="middle" fill="#16a34a" font-family="sans-serif" font-size="36" font-weight="bold">자유</text>
 
-  <!-- Row 3: 이직 -->
-  <g transform="translate(60, 296)">
-    <rect width="520" height="60" rx="8" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
-    <text x="25" y="25" fill="#64748b" font-family="sans-serif" font-size="12">이직/실직</text>
-    <text x="25" y="47" fill="#475569" font-family="sans-serif" font-size="16" font-weight="bold">회사 기반 비자 → 퇴직 시 체류 위험</text>
-  </g>
-  <g transform="translate(620, 296)">
-    <rect width="520" height="60" rx="8" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
-    <text x="25" y="25" fill="#16a34a" font-family="sans-serif" font-size="12">이직/실직</text>
-    <text x="25" y="47" fill="#15803d" font-family="sans-serif" font-size="16" font-weight="bold">개인 기반 → 퇴직해도 체류 유지</text>
-  </g>
+  <!-- VS badge -->
+  <circle cx="600" cy="310" r="40" fill="#1e293b"/>
+  <text x="600" y="322" text-anchor="middle" fill="white" font-family="sans-serif" font-size="30" font-weight="bold">VS</text>
 
-  <!-- Row 4: 금융 -->
-  <g transform="translate(60, 364)">
-    <rect width="520" height="60" rx="8" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
-    <text x="25" y="25" fill="#64748b" font-family="sans-serif" font-size="12">금융/대출</text>
-    <text x="25" y="47" fill="#475569" font-family="sans-serif" font-size="16" font-weight="bold">주택대출 어려움 · 불리한 금리</text>
-  </g>
-  <g transform="translate(620, 364)">
-    <rect width="520" height="60" rx="8" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
-    <text x="25" y="25" fill="#16a34a" font-family="sans-serif" font-size="12">금융/대출</text>
-    <text x="25" y="47" fill="#15803d" font-family="sans-serif" font-size="16" font-weight="bold">주택대출 가능 · 유리한 조건</text>
-  </g>
-
-  <!-- Row 5: 행정 -->
-  <g transform="translate(60, 432)">
-    <rect width="520" height="60" rx="8" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
-    <text x="25" y="25" fill="#64748b" font-family="sans-serif" font-size="12">행정 부담</text>
-    <text x="25" y="47" fill="#475569" font-family="sans-serif" font-size="16" font-weight="bold">정기적 갱신, 서류 준비 스트레스</text>
-  </g>
-  <g transform="translate(620, 432)">
-    <rect width="520" height="60" rx="8" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
-    <text x="25" y="25" fill="#16a34a" font-family="sans-serif" font-size="12">행정 부담</text>
-    <text x="25" y="47" fill="#15803d" font-family="sans-serif" font-size="16" font-weight="bold">갱신 불요 · 행정적 스트레스 해소</text>
-  </g>
-
-  <!-- Bottom summary -->
-  <g transform="translate(60, 510)">
-    <rect width="1080" height="65" rx="12" fill="#1e293b"/>
-    <text x="540" y="28" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="16" font-weight="bold">영주권의 핵심 가치</text>
-    <text x="540" y="52" text-anchor="middle" fill="white" font-family="sans-serif" font-size="15">국적은 유지하면서 · 무기한 거주 · 삶을 직접 설계할 수 있는 자격</text>
-  </g>
-
-  <text x="600" y="610" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="18">visa.japanlifeinfo.com</text>
+  <text x="600" y="590" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="24">visa.japanlifeinfo.com</text>
 
   <defs>
     <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">

@@ -2,94 +2,38 @@
   <rect width="1200" height="630" fill="#f8fafc"/>
   <rect width="1200" height="8" fill="url(#headerGradient)"/>
 
-  <text x="600" y="55" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="30" font-weight="bold">일본 불법취업 적발 사례 모음</text>
-  <text x="600" y="82" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="16">"한 번의 실수"가 인생을 바꿉니다</text>
+  <text x="600" y="75" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="44" font-weight="bold">불법취업 적발 사례</text>
 
-  <!-- Case 1 -->
-  <g transform="translate(50, 100)">
-    <rect width="350" height="160" rx="8" fill="white" stroke="#e2e8f0" stroke-width="2"/>
-    <rect width="350" height="32" rx="8" fill="#dc2626"/>
-    <rect y="16" width="350" height="16" fill="#dc2626"/>
-    <text x="175" y="22" text-anchor="middle" fill="white" font-family="sans-serif" font-size="14" font-weight="bold">사례 1 · 기술연수생 도주 + 가짜 재류카드</text>
-    <text x="20" y="58" fill="#334155" font-family="sans-serif" font-size="13">기술연수생 도주 → 건설현장 불법취업</text>
-    <text x="20" y="78" fill="#334155" font-family="sans-serif" font-size="13">중개업자가 가짜 재류카드 제작·배포</text>
-    <text x="20" y="100" fill="#dc2626" font-family="sans-serif" font-size="13" font-weight="bold">결과: 중개업자 체포·기소</text>
-    <text x="20" y="122" fill="#64748b" font-family="sans-serif" font-size="12">→ 알선자도 처벌 대상</text>
-    <text x="20" y="144" fill="#64748b" font-family="sans-serif" font-size="12">→ 본인·고용주·알선자 모두 책임</text>
-  </g>
+  <!-- Badge 1: Red -->
+  <rect x="60" y="130" width="340" height="280" rx="20" fill="#dc2626"/>
+  <circle cx="230" cy="200" r="50" fill="white"/>
+  <text x="230" y="215" text-anchor="middle" fill="#dc2626" font-family="sans-serif" font-size="50" font-weight="bold">1</text>
+  <text x="230" y="300" text-anchor="middle" fill="white" font-family="sans-serif" font-size="32" font-weight="bold">연수생 도주</text>
+  <text x="230" y="345" text-anchor="middle" fill="#fecaca" font-family="sans-serif" font-size="28">가짜 재류카드</text>
+  <text x="230" y="390" text-anchor="middle" fill="#fecaca" font-family="sans-serif" font-size="28">알선자 체포</text>
 
-  <!-- Case 2 -->
-  <g transform="translate(420, 100)">
-    <rect width="350" height="160" rx="8" fill="white" stroke="#e2e8f0" stroke-width="2"/>
-    <rect width="350" height="32" rx="8" fill="#ea580c"/>
-    <rect y="16" width="350" height="16" fill="#ea580c"/>
-    <text x="175" y="22" text-anchor="middle" fill="white" font-family="sans-serif" font-size="14" font-weight="bold">사례 2 · 비자 외 업종 취업</text>
-    <text x="20" y="58" fill="#334155" font-family="sans-serif" font-size="13">농업 비자 → 세탁·공장 업무 종사</text>
-    <text x="20" y="78" fill="#334155" font-family="sans-serif" font-size="13">지원기관이 "괜찮다"고 말했으나</text>
-    <text x="20" y="100" fill="#ea580c" font-family="sans-serif" font-size="13" font-weight="bold">결과: 입관법 위반으로 체포</text>
-    <text x="20" y="122" fill="#64748b" font-family="sans-serif" font-size="12">→ 지정 산업 외 업무 = 불법취업</text>
-    <text x="20" y="144" fill="#64748b" font-family="sans-serif" font-size="12">→ 비자 종류와 업무 일치 필수</text>
-  </g>
+  <!-- Badge 2: Orange -->
+  <rect x="430" y="130" width="340" height="280" rx="20" fill="#ea580c"/>
+  <circle cx="600" cy="200" r="50" fill="white"/>
+  <text x="600" y="215" text-anchor="middle" fill="#ea580c" font-family="sans-serif" font-size="50" font-weight="bold">2</text>
+  <text x="600" y="300" text-anchor="middle" fill="white" font-family="sans-serif" font-size="32" font-weight="bold">비자 외 업종</text>
+  <text x="600" y="345" text-anchor="middle" fill="#fed7aa" font-family="sans-serif" font-size="28">농업 비자로 공장</text>
+  <text x="600" y="390" text-anchor="middle" fill="#fed7aa" font-family="sans-serif" font-size="28">입관법 위반</text>
 
-  <!-- Case 3 -->
-  <g transform="translate(790, 100)">
-    <rect width="360" height="160" rx="8" fill="white" stroke="#e2e8f0" stroke-width="2"/>
-    <rect width="360" height="32" rx="8" fill="#9333ea"/>
-    <rect y="16" width="360" height="16" fill="#9333ea"/>
-    <text x="180" y="22" text-anchor="middle" fill="white" font-family="sans-serif" font-size="14" font-weight="bold">사례 3 · 고용주 적발</text>
-    <text x="20" y="58" fill="#334155" font-family="sans-serif" font-size="13">비자 만료·무자격 외국인 고용</text>
-    <text x="20" y="78" fill="#334155" font-family="sans-serif" font-size="13">"임금이 저렴해서 고용" 진술</text>
-    <text x="20" y="100" fill="#9333ea" font-family="sans-serif" font-size="13" font-weight="bold">결과: 입국관리법 위반 체포</text>
-    <text x="20" y="122" fill="#64748b" font-family="sans-serif" font-size="12">→ 고용주도 형사처벌 대상</text>
-    <text x="20" y="144" fill="#64748b" font-family="sans-serif" font-size="12">→ 고용 전 재류자격 확인 의무</text>
-  </g>
-
-  <!-- Statistics highlight -->
-  <g transform="translate(50, 280)">
-    <rect width="530" height="75" rx="12" fill="#1e293b"/>
-    <text x="265" y="30" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="16" font-weight="bold">2024년 통계: 약 14,000명 취업 위반 적발</text>
-    <text x="265" y="55" text-anchor="middle" fill="#e2e8f0" font-family="sans-serif" font-size="13">체류 자체가 비자 규정과 맞지 않는 경우도 포함</text>
-  </g>
-
-  <!-- SNS Warning -->
-  <g transform="translate(600, 280)">
-    <rect width="550" height="75" rx="12" fill="#fef2f2" stroke="#fecaca" stroke-width="2"/>
-    <text x="275" y="30" text-anchor="middle" fill="#dc2626" font-family="sans-serif" font-size="16" font-weight="bold">⚠ SNS "단기 고소득 알바" 주의</text>
-    <text x="275" y="55" text-anchor="middle" fill="#991b1b" font-family="sans-serif" font-size="13">온라인 불법 취업 알선 — 일본 경찰 경고 대상</text>
-  </g>
-
-  <!-- Why so many cases -->
-  <text x="50" y="395" fill="#475569" font-family="sans-serif" font-size="15" font-weight="bold">왜 이런 사례가 많을까?</text>
-  <g transform="translate(50, 405)">
-    <rect width="260" height="48" rx="8" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
-    <text x="130" y="30" text-anchor="middle" fill="#334155" font-family="sans-serif" font-size="13">노동력 부족 → 외국인 의존</text>
-  </g>
-  <g transform="translate(320, 405)">
-    <rect width="260" height="48" rx="8" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
-    <text x="130" y="30" text-anchor="middle" fill="#334155" font-family="sans-serif" font-size="13">비자 조건을 정확히 모름</text>
-  </g>
-  <g transform="translate(590, 405)">
-    <rect width="260" height="48" rx="8" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
-    <text x="130" y="30" text-anchor="middle" fill="#334155" font-family="sans-serif" font-size="13">불법 알선업체가 조장</text>
-  </g>
-  <g transform="translate(860, 405)">
-    <rect width="290" height="48" rx="8" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
-    <text x="145" y="30" text-anchor="middle" fill="#334155" font-family="sans-serif" font-size="13">비자 상태 ≠ 실제 업무</text>
-  </g>
-
-  <!-- Consequences strip -->
-  <g transform="translate(50, 475)">
-    <rect width="1100" height="55" rx="10" fill="#fffbeb" stroke="#fde68a" stroke-width="1"/>
-    <text x="100" y="35" text-anchor="middle" fill="#92400e" font-family="sans-serif" font-size="14" font-weight="bold">체포·처벌</text>
-    <text x="310" y="35" text-anchor="middle" fill="#92400e" font-family="sans-serif" font-size="14" font-weight="bold">강제퇴거(출국)</text>
-    <text x="550" y="35" text-anchor="middle" fill="#92400e" font-family="sans-serif" font-size="14" font-weight="bold">장기 재입국 제한</text>
-    <text x="810" y="35" text-anchor="middle" fill="#92400e" font-family="sans-serif" font-size="14" font-weight="bold">비자 심사 불이익</text>
-    <text x="1010" y="35" text-anchor="middle" fill="#92400e" font-family="sans-serif" font-size="14" font-weight="bold">커리어 파괴</text>
-  </g>
+  <!-- Badge 3: Purple -->
+  <rect x="800" y="130" width="340" height="280" rx="20" fill="#9333ea"/>
+  <circle cx="970" cy="200" r="50" fill="white"/>
+  <text x="970" y="215" text-anchor="middle" fill="#9333ea" font-family="sans-serif" font-size="50" font-weight="bold">3</text>
+  <text x="970" y="300" text-anchor="middle" fill="white" font-family="sans-serif" font-size="32" font-weight="bold">고용주 적발</text>
+  <text x="970" y="345" text-anchor="middle" fill="#e9d5ff" font-family="sans-serif" font-size="28">무자격 외국인 고용</text>
+  <text x="970" y="390" text-anchor="middle" fill="#e9d5ff" font-family="sans-serif" font-size="28">형사처벌 대상</text>
 
   <!-- Bottom -->
-  <text x="600" y="565" text-anchor="middle" fill="#475569" font-family="sans-serif" font-size="15">정상적인 비자 상태와 업무의 일치가 법적으로 가장 중요합니다</text>
-  <text x="600" y="600" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="18">visa.japanlifeinfo.com</text>
+  <rect x="100" y="460" width="1000" height="80" rx="16" fill="#1e293b"/>
+  <text x="600" y="500" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="32" font-weight="bold">2024년: 약 14,000명 취업 위반 적발</text>
+  <text x="600" y="530" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="24">SNS "단기 고소득 알바" 주의</text>
+
+  <text x="600" y="600" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="24">visa.japanlifeinfo.com</text>
 
   <defs>
     <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">

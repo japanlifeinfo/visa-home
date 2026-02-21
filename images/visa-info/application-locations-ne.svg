@@ -1,72 +1,31 @@
 <svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- Background -->
   <rect width="1200" height="630" fill="#f8fafc"/>
-
-  <!-- Header gradient bar -->
   <rect width="1200" height="8" fill="url(#headerGradient)"/>
 
-  <!-- Title -->
-  <text x="600" y="75" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="28" font-weight="bold">४७ प्रान्तका कार्यालयहरूको ठेगाना र फोन नम्बर</text>
+  <text x="600" y="75" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="40" font-weight="bold">आप्रवासन कार्यालय मार्गदर्शन</text>
 
-  <!-- Step 1 (top-left) -->
-  <g transform="translate(120, 110)">
-    <rect width="460" height="165" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
-    <circle cx="45" cy="45" r="28" fill="#dbeafe"/>
-    <text x="45" y="53" text-anchor="middle" fill="#3b82f6" font-family="sans-serif" font-size="20" font-weight="bold">🏢</text>
-    <text x="90" y="52" fill="#1e293b" font-family="sans-serif" font-size="18" font-weight="bold">कार्यालय नेटवर्क</text>
-    <text x="45" y="92" fill="#64748b" font-family="sans-serif" font-size="14">८ मुख्य कार्यालय राष्ट्रव्यापी</text>
-    <text x="45" y="114" fill="#64748b" font-family="sans-serif" font-size="14">३ शाखा कार्यालय</text>
-    <text x="45" y="136" fill="#64748b" font-family="sans-serif" font-size="14">करिब ५५ शाखा</text>
-  </g>
+  <!-- Map pin icon -->
+  <ellipse cx="350" cy="340" rx="120" ry="130" fill="#dbeafe"/>
+  <path d="M350,230 C290,230 250,280 250,320 C250,380 350,430 350,430 C350,430 450,380 450,320 C450,280 410,230 350,230Z" fill="#3b82f6"/>
+  <circle cx="350" cy="310" r="35" fill="white"/>
 
-  <!-- Step 2 (top-right) -->
-  <g transform="translate(620, 110)">
-    <rect width="460" height="165" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
-    <circle cx="45" cy="45" r="28" fill="#dcfce7"/>
-    <text x="45" y="53" text-anchor="middle" fill="#16a34a" font-family="sans-serif" font-size="20" font-weight="bold">📍</text>
-    <text x="90" y="52" fill="#1e293b" font-family="sans-serif" font-size="18" font-weight="bold">अधिकार क्षेत्र जाँच</text>
-    <text x="45" y="92" fill="#64748b" font-family="sans-serif" font-size="14">बसोबास स्थान अनुसार</text>
-    <text x="45" y="114" fill="#64748b" font-family="sans-serif" font-size="14">प्रान्त अनुसार तोकिएको कार्यालय</text>
-    <text x="45" y="136" fill="#64748b" font-family="sans-serif" font-size="14">अनलाइन जाँच सम्भव</text>
-  </g>
+  <!-- Big numbers -->
+  <text x="780" y="240" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="48" font-weight="bold">देशभर</text>
 
-  <!-- Step 3 (bottom-left) -->
-  <g transform="translate(120, 300)">
-    <rect width="460" height="165" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
-    <circle cx="45" cy="45" r="28" fill="#fef3c7"/>
-    <text x="45" y="53" text-anchor="middle" fill="#d97706" font-family="sans-serif" font-size="20" font-weight="bold">🕐</text>
-    <text x="90" y="52" fill="#1e293b" font-family="sans-serif" font-size="18" font-weight="bold">कार्य समय</text>
-    <text x="45" y="92" fill="#64748b" font-family="sans-serif" font-size="14">कार्यदिन ९:००-१६:००</text>
-    <text x="45" y="114" fill="#64748b" font-family="sans-serif" font-size="14">दिउँसो भीडभाड</text>
-    <text x="45" y="136" fill="#64748b" font-family="sans-serif" font-size="14">व्यस्त समय जाँच गर्नुहोस्</text>
-  </g>
+  <text x="780" y="340" text-anchor="middle" fill="#3b82f6" font-family="sans-serif" font-size="90" font-weight="bold">66+</text>
+  <text x="780" y="390" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="34">कार्यालय</text>
 
-  <!-- Step 4 (bottom-right) -->
-  <g transform="translate(620, 300)">
-    <rect width="460" height="165" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
-    <circle cx="45" cy="45" r="28" fill="#fce7f3"/>
-    <text x="45" y="53" text-anchor="middle" fill="#db2777" font-family="sans-serif" font-size="20" font-weight="bold">📋</text>
-    <text x="90" y="52" fill="#1e293b" font-family="sans-serif" font-size="18" font-weight="bold">भ्रमण तयारी</text>
-    <text x="45" y="92" fill="#64748b" font-family="sans-serif" font-size="14">राहदानी र निवास कार्ड ल्याउनुहोस्</text>
-    <text x="45" y="114" fill="#64748b" font-family="sans-serif" font-size="14">कागजातहरू पहिले तयार गर्नुहोस्</text>
-    <text x="45" y="136" fill="#64748b" font-family="sans-serif" font-size="14">राजस्व टिकट तयार गर्नुहोस्</text>
-  </g>
+  <text x="780" y="460" text-anchor="middle" fill="#8b5cf6" font-family="sans-serif" font-size="46" font-weight="bold">४७ प्रिफेक्चर</text>
 
-  <!-- Key Points Box -->
-  <g transform="translate(200, 495)">
-    <rect width="800" height="80" rx="12" fill="#1e293b"/>
-    <text x="400" y="32" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="15">मुख्य बुँदाहरू</text>
-    <text x="400" y="58" text-anchor="middle" fill="white" font-family="sans-serif" font-size="17" font-weight="bold">बसोबास अनुसार | ४७ प्रान्त | ६६+ कार्यालय</text>
-  </g>
+  <!-- Bottom -->
+  <rect x="100" y="500" width="1000" height="60" rx="12" fill="#1e293b"/>
+  <text x="600" y="540" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="28" font-weight="bold">बसोबास अनुसार कार्यालय निर्धारण</text>
 
-  <!-- Footer -->
-  <text x="600" y="610" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="18">visa.japanlifeinfo.com</text>
+  <text x="600" y="610" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="24">visa.japanlifeinfo.com</text>
 
   <defs>
     <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">
-      <stop offset="0%" stop-color="#3b82f6"/>
-      <stop offset="50%" stop-color="#8b5cf6"/>
-      <stop offset="100%" stop-color="#10b981"/>
+      <stop offset="0%" stop-color="#3b82f6"/><stop offset="50%" stop-color="#8b5cf6"/><stop offset="100%" stop-color="#10b981"/>
     </linearGradient>
   </defs>
 </svg>

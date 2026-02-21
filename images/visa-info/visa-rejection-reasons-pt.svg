@@ -2,103 +2,23 @@
   <rect width="1200" height="630" fill="#fef2f2"/>
   <rect width="1200" height="8" fill="url(#headerGradient)"/>
 
-  <text x="600" y="50" text-anchor="middle" fill="#991b1b" font-family="sans-serif" font-size="26" font-weight="bold">Razoes Comuns para Recusa do Visto de Trabalho no Japao</text>
-  <text x="600" y="78" text-anchor="middle" fill="#b91c1c" font-family="sans-serif" font-size="15">A maioria das recusas e causada por preparacao inadequada de documentos</text>
+  <text x="600" y="75" text-anchor="middle" fill="#991b1b" font-family="sans-serif" font-size="44" font-weight="bold">Motivos de Rejei&#231;&#227;o do Visto</text>
 
-  <!-- Danger card 1 -->
-  <g transform="translate(50, 100)">
-    <rect width="350" height="150" rx="12" fill="white" stroke="#fca5a5" stroke-width="2"/>
-    <rect width="60" height="150" rx="12" fill="#dc2626"/>
-    <rect x="48" width="12" height="150" fill="#dc2626"/>
-    <text x="30" y="82" text-anchor="middle" fill="white" font-family="sans-serif" font-size="26" font-weight="bold">1</text>
-    <text x="80" y="35" fill="#991b1b" font-family="sans-serif" font-size="15" font-weight="bold">Formacao · Trabalho Incompativel</text>
-    <text x="80" y="60" fill="#64748b" font-family="sans-serif" font-size="13">Motivo de recusa mais comum</text>
-    <text x="80" y="82" fill="#64748b" font-family="sans-serif" font-size="13">Educacao/carreira deve estar relacionada</text>
-    <text x="80" y="104" fill="#64748b" font-family="sans-serif" font-size="13">Sem explicacao → "trabalho simples"</text>
-    <text x="80" y="132" fill="#dc2626" font-family="sans-serif" font-size="12" font-weight="bold">→ Causa #1 de recusa</text>
-  </g>
+  <!-- Warning triangle icon -->
+  <polygon points="600,120 680,260 520,260" fill="#fbbf24" stroke="#f59e0b" stroke-width="4"/>
+  <text x="600" y="240" text-anchor="middle" fill="#78350f" font-family="sans-serif" font-size="60" font-weight="bold">!</text>
 
-  <!-- Danger card 2 -->
-  <g transform="translate(420, 100)">
-    <rect width="350" height="150" rx="12" fill="white" stroke="#fdba74" stroke-width="2"/>
-    <rect width="60" height="150" rx="12" fill="#ea580c"/>
-    <rect x="48" width="12" height="150" fill="#ea580c"/>
-    <text x="30" y="82" text-anchor="middle" fill="white" font-family="sans-serif" font-size="26" font-weight="bold">2</text>
-    <text x="80" y="35" fill="#9a3412" font-family="sans-serif" font-size="16" font-weight="bold">Descricao de Trabalho Vaga</text>
-    <text x="80" y="60" fill="#64748b" font-family="sans-serif" font-size="13">"E profissional?" criterio de avaliacao</text>
-    <text x="80" y="82" fill="#64748b" font-family="sans-serif" font-size="13">Expressoes abstratas sao arriscadas</text>
-    <text x="80" y="104" fill="#64748b" font-family="sans-serif" font-size="13">Descricao especifica do trabalho necessaria</text>
-    <text x="80" y="132" fill="#ea580c" font-family="sans-serif" font-size="12" font-weight="bold">→ Descricao do trabalho e essencial</text>
-  </g>
+  <!-- 3 reason rows -->
+  <rect x="100" y="300" width="1000" height="70" rx="12" fill="#dc2626"/>
+  <text x="600" y="347" text-anchor="middle" fill="white" font-family="sans-serif" font-size="34" font-weight="bold">1. Forma&#231;&#227;o / trabalho incompat&#237;vel</text>
 
-  <!-- Danger card 3 -->
-  <g transform="translate(790, 100)">
-    <rect width="360" height="150" rx="12" fill="white" stroke="#fde68a" stroke-width="2"/>
-    <rect width="60" height="150" rx="12" fill="#d97706"/>
-    <rect x="48" width="12" height="150" fill="#d97706"/>
-    <text x="30" y="82" text-anchor="middle" fill="white" font-family="sans-serif" font-size="26" font-weight="bold">3</text>
-    <text x="80" y="35" fill="#92400e" font-family="sans-serif" font-size="15" font-weight="bold">Problemas Financeiros da Empresa</text>
-    <text x="80" y="60" fill="#64748b" font-family="sans-serif" font-size="13">Recusa pela empresa, nao pelo candidato</text>
-    <text x="80" y="82" fill="#64748b" font-family="sans-serif" font-size="13">Startup / empresa com prejuizo = alto risco</text>
-    <text x="80" y="104" fill="#64748b" font-family="sans-serif" font-size="13">Avaliacao de sustentabilidade do emprego</text>
-    <text x="80" y="132" fill="#d97706" font-family="sans-serif" font-size="12" font-weight="bold">→ Estabilidade da empresa tambem e avaliada</text>
-  </g>
+  <rect x="100" y="385" width="1000" height="70" rx="12" fill="#ea580c"/>
+  <text x="600" y="432" text-anchor="middle" fill="white" font-family="sans-serif" font-size="34" font-weight="bold">2. Descri&#231;&#227;o de cargo vaga</text>
 
-  <!-- Additional reasons row -->
-  <text x="50" y="290" fill="#991b1b" font-family="sans-serif" font-size="15" font-weight="bold">Outras Razoes Principais de Recusa</text>
-  <g transform="translate(50, 300)">
-    <rect width="260" height="85" rx="8" fill="white" stroke="#fecaca" stroke-width="1"/>
-    <text x="20" y="25" fill="#dc2626" font-family="sans-serif" font-size="22" font-weight="bold">¥</text>
-    <text x="50" y="27" fill="#334155" font-family="sans-serif" font-size="14" font-weight="bold">Salario Baixo</text>
-    <text x="20" y="48" fill="#64748b" font-family="sans-serif" font-size="12">Abaixo da media do Japao = suspeito</text>
-    <text x="20" y="68" fill="#64748b" font-family="sans-serif" font-size="12">Comparado com media do mesmo setor</text>
-  </g>
-  <g transform="translate(325, 300)">
-    <rect width="260" height="85" rx="8" fill="white" stroke="#fecaca" stroke-width="1"/>
-    <text x="20" y="27" fill="#dc2626" font-family="sans-serif" font-size="16" font-weight="bold">!</text>
-    <text x="40" y="27" fill="#334155" font-family="sans-serif" font-size="13" font-weight="bold">Docs Faltando · Inconsistentes</text>
-    <text x="20" y="48" fill="#64748b" font-family="sans-serif" font-size="12">Traducoes faltando, contradicoes</text>
-    <text x="20" y="68" fill="#64748b" font-family="sans-serif" font-size="12">Info inconsistente = confianca reduzida</text>
-  </g>
-  <g transform="translate(600, 300)">
-    <rect width="260" height="85" rx="8" fill="white" stroke="#fecaca" stroke-width="1"/>
-    <text x="20" y="27" fill="#dc2626" font-family="sans-serif" font-size="16" font-weight="bold">X</text>
-    <text x="42" y="27" fill="#334155" font-family="sans-serif" font-size="13" font-weight="bold">Problemas no Historico de Estadia</text>
-    <text x="20" y="48" fill="#64748b" font-family="sans-serif" font-size="12">Estadia ilegal anterior</text>
-    <text x="20" y="68" fill="#64748b" font-family="sans-serif" font-size="12">Impostos nao pagos, registro criminal</text>
-  </g>
-  <g transform="translate(875, 300)">
-    <rect width="275" height="85" rx="8" fill="white" stroke="#fecaca" stroke-width="1"/>
-    <text x="20" y="27" fill="#dc2626" font-family="sans-serif" font-size="16" font-weight="bold">?</text>
-    <text x="42" y="27" fill="#334155" font-family="sans-serif" font-size="14" font-weight="bold">Prova de Carreira Insuficiente</text>
-    <text x="20" y="48" fill="#64748b" font-family="sans-serif" font-size="12">Requisito de 10 anos nao cumprido</text>
-    <text x="20" y="68" fill="#64748b" font-family="sans-serif" font-size="12">Requisitos academicos nao atendidos</text>
-  </g>
+  <rect x="100" y="470" width="1000" height="70" rx="12" fill="#d97706"/>
+  <text x="600" y="517" text-anchor="middle" fill="white" font-family="sans-serif" font-size="34" font-weight="bold">3. Problemas financeiros da empresa</text>
 
-  <!-- Prevention checklist -->
-  <g transform="translate(50, 405)">
-    <rect width="540" height="155" rx="12" fill="#1e293b"/>
-    <text x="270" y="28" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="15" font-weight="bold">Checklist de Prevencao de Recusa</text>
-    <line x1="30" y1="42" x2="510" y2="42" stroke="#334155"/>
-    <text x="35" y="65" fill="#e2e8f0" font-family="sans-serif" font-size="12">✓ Explique claramente a relacao formacao/carreira com o trabalho</text>
-    <text x="35" y="87" fill="#e2e8f0" font-family="sans-serif" font-size="13">✓ Escreva descricoes de trabalho especificas</text>
-    <text x="35" y="109" fill="#e2e8f0" font-family="sans-serif" font-size="13">✓ Verifique a consistencia das informacoes em todos os documentos</text>
-    <text x="35" y="131" fill="#e2e8f0" font-family="sans-serif" font-size="13">✓ Confirme que o salario esta na media ou acima do setor</text>
-    <text x="35" y="148" fill="#fbbf24" font-family="sans-serif" font-size="12">※ Pode reaplicar mas mesmo problema = mesmo resultado</text>
-  </g>
-
-  <!-- Rejection consequences box -->
-  <g transform="translate(610, 405)">
-    <rect width="540" height="155" rx="12" fill="white" stroke="#fecaca" stroke-width="2"/>
-    <text x="270" y="28" text-anchor="middle" fill="#dc2626" font-family="sans-serif" font-size="15" font-weight="bold">Consequencias da Recusa</text>
-    <line x1="30" y1="42" x2="510" y2="42" stroke="#fecaca"/>
-    <text x="270" y="68" text-anchor="middle" fill="#334155" font-family="sans-serif" font-size="14">Nao pode entrar (COE negado)</text>
-    <text x="270" y="90" text-anchor="middle" fill="#334155" font-family="sans-serif" font-size="14">Mudanca/renovacao negada → deve sair</text>
-    <text x="270" y="112" text-anchor="middle" fill="#334155" font-family="sans-serif" font-size="14">Pode reaplicar mas leva tempo</text>
-    <text x="270" y="140" text-anchor="middle" fill="#dc2626" font-family="sans-serif" font-size="14" font-weight="bold">→ Prepare-se bem na primeira tentativa!</text>
-  </g>
-
-  <text x="600" y="600" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="18">visa.japanlifeinfo.com</text>
+  <text x="600" y="600" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="24">visa.japanlifeinfo.com</text>
 
   <defs>
     <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">

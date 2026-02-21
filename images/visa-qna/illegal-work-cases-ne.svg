@@ -2,86 +2,38 @@
   <rect width="1200" height="630" fill="#f8fafc"/>
   <rect width="1200" height="8" fill="url(#headerGradient)"/>
 
-  <text x="600" y="55" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="24" font-weight="bold">जापानमा अवैध रोजगारी पक्राउ घटना संग्रह</text>
-  <text x="600" y="82" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="15">"एक पटकको गल्ती" ले जीवन बदल्छ</text>
+  <text x="600" y="75" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="42" font-weight="bold">गैरकानुनी काम घटनाहरू</text>
 
-  <g transform="translate(50, 100)">
-    <rect width="350" height="160" rx="8" fill="white" stroke="#e2e8f0" stroke-width="2"/>
-    <rect width="350" height="32" rx="8" fill="#dc2626"/>
-    <rect y="16" width="350" height="16" fill="#dc2626"/>
-    <text x="175" y="22" text-anchor="middle" fill="white" font-family="sans-serif" font-size="11" font-weight="bold">घटना १ · प्रशिक्षार्थी भागेपछि + नक्कली कार्ड</text>
-    <text x="20" y="58" fill="#334155" font-family="sans-serif" font-size="12">प्रशिक्षार्थी भागेर निर्माणमा अवैध काम</text>
-    <text x="20" y="78" fill="#334155" font-family="sans-serif" font-size="12">दलालले नक्कली रेजिडेन्स कार्ड बनाए</text>
-    <text x="20" y="100" fill="#dc2626" font-family="sans-serif" font-size="12" font-weight="bold">नतिजा: दलाल पक्राउ र अभियोग</text>
-    <text x="20" y="122" fill="#64748b" font-family="sans-serif" font-size="11">→ मध्यस्थकर्तालाई पनि सजाय</text>
-    <text x="20" y="144" fill="#64748b" font-family="sans-serif" font-size="11">→ कामदार · रोजगारदाता · दलाल सबै जिम्मेवार</text>
-  </g>
+  <!-- Badge 1: Red -->
+  <rect x="60" y="130" width="340" height="280" rx="20" fill="#dc2626"/>
+  <circle cx="230" cy="200" r="50" fill="white"/>
+  <text x="230" y="215" text-anchor="middle" fill="#dc2626" font-family="sans-serif" font-size="50" font-weight="bold">1</text>
+  <text x="230" y="295" text-anchor="middle" fill="white" font-family="sans-serif" font-size="30" font-weight="bold">प्रशिक्षार्थी भागेको</text>
+  <text x="230" y="340" text-anchor="middle" fill="#fecaca" font-family="sans-serif" font-size="26">नक्कली रेजिडेन्स कार्ड</text>
+  <text x="230" y="385" text-anchor="middle" fill="#fecaca" font-family="sans-serif" font-size="26">दलाल पक्राउ</text>
 
-  <g transform="translate(420, 100)">
-    <rect width="350" height="160" rx="8" fill="white" stroke="#e2e8f0" stroke-width="2"/>
-    <rect width="350" height="32" rx="8" fill="#ea580c"/>
-    <rect y="16" width="350" height="16" fill="#ea580c"/>
-    <text x="175" y="22" text-anchor="middle" fill="white" font-family="sans-serif" font-size="11" font-weight="bold">घटना २ · भिसा बाहिरको उद्योगमा काम</text>
-    <text x="20" y="58" fill="#334155" font-family="sans-serif" font-size="12">कृषि भिसा → धुलाई · कारखाना काम</text>
-    <text x="20" y="78" fill="#334155" font-family="sans-serif" font-size="12">एजेन्सीले "हुन्छ" भन्यो तर कानून विरुद्ध</text>
-    <text x="20" y="100" fill="#ea580c" font-family="sans-serif" font-size="12" font-weight="bold">नतिजा: आप्रवासन उल्लंघनमा पक्राउ</text>
-    <text x="20" y="122" fill="#64748b" font-family="sans-serif" font-size="11">→ तोकिएको उद्योग बाहिर = अवैध</text>
-    <text x="20" y="144" fill="#64748b" font-family="sans-serif" font-size="11">→ भिसा प्रकार र काम मिल्नुपर्छ</text>
-  </g>
+  <!-- Badge 2: Orange -->
+  <rect x="430" y="130" width="340" height="280" rx="20" fill="#ea580c"/>
+  <circle cx="600" cy="200" r="50" fill="white"/>
+  <text x="600" y="215" text-anchor="middle" fill="#ea580c" font-family="sans-serif" font-size="50" font-weight="bold">2</text>
+  <text x="600" y="295" text-anchor="middle" fill="white" font-family="sans-serif" font-size="30" font-weight="bold">गलत उद्योग</text>
+  <text x="600" y="340" text-anchor="middle" fill="#fed7aa" font-family="sans-serif" font-size="26">कृषि भिसामा कारखाना</text>
+  <text x="600" y="385" text-anchor="middle" fill="#fed7aa" font-family="sans-serif" font-size="26">आप्रवासन उल्लङ्घन</text>
 
-  <g transform="translate(790, 100)">
-    <rect width="360" height="160" rx="8" fill="white" stroke="#e2e8f0" stroke-width="2"/>
-    <rect width="360" height="32" rx="8" fill="#9333ea"/>
-    <rect y="16" width="360" height="16" fill="#9333ea"/>
-    <text x="180" y="22" text-anchor="middle" fill="white" font-family="sans-serif" font-size="11" font-weight="bold">घटना ३ · रोजगारदाता पक्राउ</text>
-    <text x="20" y="58" fill="#334155" font-family="sans-serif" font-size="12">म्याद सकिएको/बिना भिसा कामदार राख्यो</text>
-    <text x="20" y="78" fill="#334155" font-family="sans-serif" font-size="12">"तलब सस्तो भएर राखेको" भनी बयान</text>
-    <text x="20" y="100" fill="#9333ea" font-family="sans-serif" font-size="12" font-weight="bold">नतिजा: आप्रवासन कानून उल्लंघनमा पक्राउ</text>
-    <text x="20" y="122" fill="#64748b" font-family="sans-serif" font-size="11">→ रोजगारदाता आपराधिक दण्ड</text>
-    <text x="20" y="144" fill="#64748b" font-family="sans-serif" font-size="11">→ भर्ना अघि बसोबास स्थिति जाँच अनिवार्य</text>
-  </g>
+  <!-- Badge 3: Purple -->
+  <rect x="800" y="130" width="340" height="280" rx="20" fill="#9333ea"/>
+  <circle cx="970" cy="200" r="50" fill="white"/>
+  <text x="970" y="215" text-anchor="middle" fill="#9333ea" font-family="sans-serif" font-size="50" font-weight="bold">3</text>
+  <text x="970" y="295" text-anchor="middle" fill="white" font-family="sans-serif" font-size="28" font-weight="bold">रोजगारदाता पक्रिएको</text>
+  <text x="970" y="340" text-anchor="middle" fill="#e9d5ff" font-family="sans-serif" font-size="24">अयोग्य विदेशी भर्ना</text>
+  <text x="970" y="385" text-anchor="middle" fill="#e9d5ff" font-family="sans-serif" font-size="26">फौजदारी मुद्दा</text>
 
-  <g transform="translate(50, 280)">
-    <rect width="530" height="75" rx="12" fill="#1e293b"/>
-    <text x="265" y="30" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="15" font-weight="bold">२०२४ तथ्यांक: ~१४,००० जना रोजगारी उल्लंघनमा पक्राउ</text>
-    <text x="265" y="55" text-anchor="middle" fill="#e2e8f0" font-family="sans-serif" font-size="12">बसोबास नै भिसा नियम विरुद्ध भएका केसहरू पनि समावेश</text>
-  </g>
+  <!-- Bottom -->
+  <rect x="100" y="460" width="1000" height="80" rx="16" fill="#1e293b"/>
+  <text x="600" y="498" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="30" font-weight="bold">२०२४: ~१४,००० कार्य उल्लङ्घन</text>
+  <text x="600" y="530" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="24">SNS 'छिटो पैसा' जागिरबाट सावधान</text>
 
-  <g transform="translate(600, 280)">
-    <rect width="550" height="75" rx="12" fill="#fef2f2" stroke="#fecaca" stroke-width="2"/>
-    <text x="275" y="30" text-anchor="middle" fill="#dc2626" font-family="sans-serif" font-size="15" font-weight="bold">⚠ SNS "छोटो उच्च तलब" देखि सावधान</text>
-    <text x="275" y="55" text-anchor="middle" fill="#991b1b" font-family="sans-serif" font-size="12">अनलाइन अवैध भर्ती — जापानी प्रहरी चेतावनी</text>
-  </g>
-
-  <text x="50" y="395" fill="#475569" font-family="sans-serif" font-size="14" font-weight="bold">किन यस्ता घटना धेरै छन्?</text>
-  <g transform="translate(50, 405)">
-    <rect width="260" height="48" rx="8" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
-    <text x="130" y="30" text-anchor="middle" fill="#334155" font-family="sans-serif" font-size="12">श्रमिक अभाव → विदेशीमा निर्भर</text>
-  </g>
-  <g transform="translate(320, 405)">
-    <rect width="260" height="48" rx="8" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
-    <text x="130" y="30" text-anchor="middle" fill="#334155" font-family="sans-serif" font-size="12">भिसा सर्तहरू थाहा नभएको</text>
-  </g>
-  <g transform="translate(590, 405)">
-    <rect width="260" height="48" rx="8" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
-    <text x="130" y="30" text-anchor="middle" fill="#334155" font-family="sans-serif" font-size="12">अवैध दलालले प्रोत्साहन</text>
-  </g>
-  <g transform="translate(860, 405)">
-    <rect width="290" height="48" rx="8" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
-    <text x="145" y="30" text-anchor="middle" fill="#334155" font-family="sans-serif" font-size="12">भिसा स्थिति ≠ वास्तविक काम</text>
-  </g>
-
-  <g transform="translate(50, 475)">
-    <rect width="1100" height="55" rx="10" fill="#fffbeb" stroke="#fde68a" stroke-width="1"/>
-    <text x="100" y="35" text-anchor="middle" fill="#92400e" font-family="sans-serif" font-size="13" font-weight="bold">गिरफ्तारी</text>
-    <text x="310" y="35" text-anchor="middle" fill="#92400e" font-family="sans-serif" font-size="13" font-weight="bold">निष्कासन</text>
-    <text x="550" y="35" text-anchor="middle" fill="#92400e" font-family="sans-serif" font-size="13" font-weight="bold">प्रवेश प्रतिबन्ध</text>
-    <text x="810" y="35" text-anchor="middle" fill="#92400e" font-family="sans-serif" font-size="13" font-weight="bold">भिसा जाँच हानि</text>
-    <text x="1010" y="35" text-anchor="middle" fill="#92400e" font-family="sans-serif" font-size="13" font-weight="bold">करियर नाश</text>
-  </g>
-
-  <text x="600" y="565" text-anchor="middle" fill="#475569" font-family="sans-serif" font-size="14">भिसा स्थिति र वास्तविक कामको मिलान कानूनी रूपमा अत्यन्त महत्त्वपूर्ण छ</text>
-  <text x="600" y="600" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="18">visa.japanlifeinfo.com</text>
+  <text x="600" y="600" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="24">visa.japanlifeinfo.com</text>
 
   <defs>
     <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">

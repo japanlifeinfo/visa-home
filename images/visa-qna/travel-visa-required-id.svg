@@ -2,52 +2,28 @@
   <rect width="1200" height="630" fill="#f8fafc"/>
   <rect width="1200" height="8" fill="url(#headerGradient)"/>
 
-  <text x="600" y="70" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="34" font-weight="bold">Perlu Visa untuk ke Jepang?</text>
-  <text x="600" y="105" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="20">Tergantung kewarganegaraan Anda</text>
+  <text x="600" y="75" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="44" font-weight="bold">Wisata Jepang: Perlu Visa?</text>
 
-  <circle cx="600" cy="290" r="95" fill="white" stroke="#e2e8f0" stroke-width="3"/>
-  <text x="600" y="275" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="56" font-weight="bold">90</text>
-  <text x="600" y="310" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="20">hari maks</text>
-  <text x="600" y="340" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="14">Batas tinggal jangka pendek</text>
+  <!-- Passport icon -->
+  <rect x="420" y="110" width="200" height="260" rx="16" fill="#1e40af"/>
+  <rect x="445" y="140" width="150" height="100" rx="8" fill="#dbeafe"/>
+  <text x="520" y="210" text-anchor="middle" fill="#1e40af" font-family="sans-serif" font-size="40" font-weight="bold">PASS</text>
+  <text x="520" y="315" text-anchor="middle" fill="white" font-family="sans-serif" font-size="32" font-weight="bold">PASSPORT</text>
 
-  <g transform="translate(50, 150)">
-    <rect width="420" height="280" rx="20" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="2"/>
-    <circle cx="50" cy="40" r="22" fill="#16a34a"/>
-    <text x="50" y="47" text-anchor="middle" fill="white" font-family="sans-serif" font-size="22" font-weight="bold">✓</text>
-    <text x="82" y="48" fill="#15803d" font-family="sans-serif" font-size="22" font-weight="bold">Negara Bebas Visa</text>
-    <text x="35" y="90" fill="#1e293b" font-family="sans-serif" font-size="17" font-weight="bold">Tidak perlu visa untuk masuk</text>
-    <text x="35" y="125" fill="#64748b" font-family="sans-serif" font-size="15">• Korea Selatan · AS · Kanada</text>
-    <text x="35" y="150" fill="#64748b" font-family="sans-serif" font-size="15">• Sebagian besar negara EU</text>
-    <text x="35" y="175" fill="#64748b" font-family="sans-serif" font-size="15">• Australia · Selandia Baru, dll.</text>
-    <rect x="35" y="200" width="350" height="50" rx="10" fill="#dcfce7"/>
-    <text x="210" y="222" text-anchor="middle" fill="#15803d" font-family="sans-serif" font-size="14">Wisata · Kunjungan · Bisnis singkat OK</text>
-    <text x="210" y="240" text-anchor="middle" fill="#dc2626" font-family="sans-serif" font-size="13" font-weight="bold">Bekerja dilarang keras!</text>
-  </g>
+  <!-- Question mark -->
+  <text x="720" y="300" fill="#f59e0b" font-family="sans-serif" font-size="160" font-weight="bold">?</text>
 
-  <g transform="translate(730, 150)">
-    <rect width="420" height="280" rx="20" fill="#fef2f2" stroke="#fecaca" stroke-width="2"/>
-    <circle cx="50" cy="40" r="22" fill="#dc2626"/>
-    <text x="50" y="48" text-anchor="middle" fill="white" font-family="sans-serif" font-size="22" font-weight="bold">!</text>
-    <text x="82" y="48" fill="#991b1b" font-family="sans-serif" font-size="22" font-weight="bold">Negara Perlu Visa</text>
-    <text x="35" y="90" fill="#1e293b" font-family="sans-serif" font-size="17" font-weight="bold">Harus urus visa terlebih dahulu</text>
-    <text x="35" y="125" fill="#64748b" font-family="sans-serif" font-size="15">• Beberapa negara Asia Tenggara</text>
-    <text x="35" y="150" fill="#64748b" font-family="sans-serif" font-size="15">• Beberapa negara Afrika</text>
-    <text x="35" y="175" fill="#64748b" font-family="sans-serif" font-size="15">• Beberapa negara Timur Tengah, dll.</text>
-    <rect x="35" y="200" width="350" height="50" rx="10" fill="#fee2e2"/>
-    <text x="210" y="222" text-anchor="middle" fill="#991b1b" font-family="sans-serif" font-size="14">Periksa situs web Kemlu</text>
-    <text x="210" y="240" text-anchor="middle" fill="#991b1b" font-family="sans-serif" font-size="14" font-weight="bold">untuk daftar negara terbaru</text>
-  </g>
+  <!-- Bottom: two columns -->
+  <rect x="60" y="410" width="520" height="110" rx="16" fill="#f0fdf4" stroke="#86efac" stroke-width="3"/>
+  <text x="320" y="460" text-anchor="middle" fill="#15803d" font-family="sans-serif" font-size="36" font-weight="bold">Bebas: Korea, AS, EU</text>
+  <text x="320" y="505" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="26">Tinggal 90 hari tanpa visa</text>
 
-  <g transform="translate(100, 460)">
-    <rect width="1000" height="105" rx="16" fill="#1e293b"/>
-    <text x="500" y="30" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="16" font-weight="bold">⚠ Meski bebas visa, perhatikan</text>
-    <text x="250" y="60" text-anchor="middle" fill="#e2e8f0" font-family="sans-serif" font-size="14">Tiket pulang-pergi siap</text>
-    <text x="500" y="60" text-anchor="middle" fill="#e2e8f0" font-family="sans-serif" font-size="14">Akomodasi · Itinerari</text>
-    <text x="750" y="60" text-anchor="middle" fill="#e2e8f0" font-family="sans-serif" font-size="14">Dana perjalanan cukup</text>
-    <text x="500" y="88" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="13">Lebih dari 90 hari → Perlu visa pelajar, kerja, atau Working Holiday</text>
-  </g>
+  <rect x="620" y="410" width="520" height="110" rx="16" fill="#fef2f2" stroke="#fca5a5" stroke-width="3"/>
+  <text x="880" y="460" text-anchor="middle" fill="#991b1b" font-family="sans-serif" font-size="36" font-weight="bold">Perlu: beberapa negara</text>
+  <text x="880" y="505" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="26">Wajib urus visa lebih dulu</text>
 
-  <text x="600" y="610" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="18">visa.japanlifeinfo.com</text>
+  <text x="600" y="590" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="24">visa.japanlifeinfo.com</text>
+
   <defs>
     <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">
       <stop offset="0%" stop-color="#3b82f6"/><stop offset="50%" stop-color="#8b5cf6"/><stop offset="100%" stop-color="#10b981"/>

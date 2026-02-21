@@ -2,79 +2,31 @@
   <rect width="1200" height="630" fill="#f8fafc"/>
   <rect width="1200" height="8" fill="url(#headerGradient)"/>
 
-  <text x="600" y="50" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="24" font-weight="bold">Buod ng Bayarin sa Aplikasyon / Pag-renew / Pagbabago ng Status</text>
-  <text x="600" y="78" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="15">Batay sa rebisyon noong Abril 2025</text>
+  <text x="600" y="80" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="44" font-weight="bold">Gabay sa Bayarin ng Visa</text>
 
-  <!-- Receipt-style table -->
-  <g transform="translate(60, 95)">
-    <!-- Table header -->
-    <rect width="1080" height="45" rx="8" fill="#1e293b"/>
-    <text x="200" y="30" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="15" font-weight="bold">Kategorya</text>
-    <text x="480" y="30" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="15" font-weight="bold">Bagong Aplikasyon</text>
-    <text x="700" y="30" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="15" font-weight="bold">Pag-renew</text>
-    <text x="920" y="30" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="15" font-weight="bold">Pagbabago</text>
+  <!-- Column 1: Bago -->
+  <rect x="60" y="130" width="340" height="340" rx="20" fill="#eff6ff" stroke="#93c5fd" stroke-width="3"/>
+  <text x="230" y="195" text-anchor="middle" fill="#1e40af" font-family="sans-serif" font-size="36" font-weight="bold">Bago (COE)</text>
+  <text x="230" y="310" text-anchor="middle" fill="#3b82f6" font-family="sans-serif" font-size="60" font-weight="bold">Libre</text>
+  <text x="230" y="420" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="28">Opisyal na bayad</text>
 
-    <!-- Row 1: Official fees -->
-    <rect y="50" width="1080" height="55" rx="0" fill="white" stroke="#e2e8f0" stroke-width="1"/>
-    <rect y="50" width="350" height="55" fill="#eff6ff"/>
-    <text x="25" y="82" fill="#1e40af" font-family="sans-serif" font-size="14" font-weight="bold">Opisyal na Bayarin (Revenue Stamp)</text>
-    <text x="480" y="82" text-anchor="middle" fill="#334155" font-family="sans-serif" font-size="15" font-weight="bold">Libre (COE)</text>
-    <text x="700" y="82" text-anchor="middle" fill="#334155" font-family="sans-serif" font-size="15" font-weight="bold">¥4,000</text>
-    <text x="920" y="82" text-anchor="middle" fill="#334155" font-family="sans-serif" font-size="15" font-weight="bold">¥4,000</text>
+  <!-- Column 2: Renewal -->
+  <rect x="430" y="130" width="340" height="340" rx="20" fill="#f0fdf4" stroke="#86efac" stroke-width="3"/>
+  <text x="600" y="195" text-anchor="middle" fill="#15803d" font-family="sans-serif" font-size="36" font-weight="bold">Renewal</text>
+  <text x="600" y="310" text-anchor="middle" fill="#16a34a" font-family="sans-serif" font-size="56" font-weight="bold">&#165;4,000</text>
+  <text x="600" y="420" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="28">Revenue stamp</text>
 
-    <!-- Row 2: Online discount -->
-    <rect y="105" width="1080" height="55" rx="0" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
-    <rect y="105" width="350" height="55" fill="#f0fdf4"/>
-    <text x="25" y="137" fill="#15803d" font-family="sans-serif" font-size="14" font-weight="bold">Diskwento sa Online na Aplikasyon</text>
-    <text x="480" y="137" text-anchor="middle" fill="#334155" font-family="sans-serif" font-size="15">—</text>
-    <text x="700" y="137" text-anchor="middle" fill="#16a34a" font-family="sans-serif" font-size="15" font-weight="bold">¥3,000</text>
-    <text x="920" y="137" text-anchor="middle" fill="#16a34a" font-family="sans-serif" font-size="15" font-weight="bold">¥3,000</text>
-
-    <!-- Row 3: Scrivener -->
-    <rect y="160" width="1080" height="55" rx="0" fill="white" stroke="#e2e8f0" stroke-width="1"/>
-    <rect y="160" width="350" height="55" fill="#fffbeb"/>
-    <text x="25" y="192" fill="#92400e" font-family="sans-serif" font-size="14" font-weight="bold">Bayad sa Administrative Scrivener</text>
-    <text x="480" y="192" text-anchor="middle" fill="#334155" font-family="sans-serif" font-size="14">¥44,000~¥220,000</text>
-    <text x="700" y="192" text-anchor="middle" fill="#334155" font-family="sans-serif" font-size="14">¥40,000~¥99,000</text>
-    <text x="920" y="192" text-anchor="middle" fill="#334155" font-family="sans-serif" font-size="14">¥80,000~¥187,000</text>
-
-    <!-- Row 4: Permanent residence -->
-    <rect y="215" width="1080" height="55" rx="0" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
-    <rect y="215" width="350" height="55" fill="#fdf2f8"/>
-    <text x="25" y="247" fill="#9d174d" font-family="sans-serif" font-size="13" font-weight="bold">Aplikasyon sa Permanenteng Paninirahan</text>
-    <text x="540" y="240" text-anchor="middle" fill="#334155" font-family="sans-serif" font-size="14">Stamp: ¥8,000</text>
-    <text x="540" y="260" text-anchor="middle" fill="#334155" font-family="sans-serif" font-size="13">Scrivener: ¥100,000~¥200,000</text>
-    <text x="920" y="247" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="13">—</text>
-  </g>
-
-  <!-- Additional costs box -->
-  <g transform="translate(60, 380)">
-    <rect width="520" height="130" rx="12" fill="white" stroke="#e2e8f0" stroke-width="2"/>
-    <rect width="520" height="38" rx="12" fill="#6366f1"/>
-    <rect y="26" width="520" height="12" fill="#6366f1"/>
-    <text x="260" y="27" text-anchor="middle" fill="white" font-family="sans-serif" font-size="14" font-weight="bold">Iba Pang Posibleng Gastos</text>
-    <text x="30" y="62" fill="#334155" font-family="sans-serif" font-size="13">• Pagsasalin ng dokumento: ¥3,000~¥10,000/dok</text>
-    <text x="30" y="84" fill="#334155" font-family="sans-serif" font-size="13">• Notarisasyon: ¥5,000~¥20,000</text>
-    <text x="30" y="106" fill="#334155" font-family="sans-serif" font-size="13">• Larawan, selyo, gastos sa liham-imbitasyon</text>
-  </g>
-
-  <!-- Summary highlight -->
-  <g transform="translate(600, 380)">
-    <rect width="540" height="130" rx="12" fill="#1e293b"/>
-    <text x="270" y="30" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="16" font-weight="bold">Tinatayang Kabuuang Gastos</text>
-    <line x1="40" y1="45" x2="500" y2="45" stroke="#334155"/>
-    <text x="270" y="72" text-anchor="middle" fill="white" font-family="sans-serif" font-size="14">Sariling aplikasyon (renewal): ~¥4,000</text>
-    <text x="270" y="96" text-anchor="middle" fill="white" font-family="sans-serif" font-size="13">Sa pamamagitan ng ahente (bago): ¥50,000~¥300,000+</text>
-    <text x="270" y="120" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="13" font-weight="bold">Makatipid sa bayad sa ahente kung sariling mag-apply!</text>
-  </g>
+  <!-- Column 3: Permanente -->
+  <rect x="800" y="130" width="340" height="340" rx="20" fill="#fdf2f8" stroke="#f9a8d4" stroke-width="3"/>
+  <text x="970" y="195" text-anchor="middle" fill="#9d174d" font-family="sans-serif" font-size="36" font-weight="bold">Permanente</text>
+  <text x="970" y="310" text-anchor="middle" fill="#db2777" font-family="sans-serif" font-size="56" font-weight="bold">&#165;8,000</text>
+  <text x="970" y="420" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="28">Revenue stamp</text>
 
   <!-- Bottom note -->
-  <g transform="translate(60, 525)">
-    <rect width="1080" height="50" rx="10" fill="#fefce8" stroke="#fde68a" stroke-width="1"/>
-    <text x="540" y="32" text-anchor="middle" fill="#854d0e" font-family="sans-serif" font-size="13" font-weight="bold">※ May diskwento sa online na aplikasyon | Pinag-uusapan ang pagtaas ng bayarin (suriin ang pinakabagong impormasyon)</text>
-  </g>
+  <rect x="100" y="500" width="1000" height="60" rx="12" fill="#1e293b"/>
+  <text x="600" y="540" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="30" font-weight="bold">Mag-apply mismo para makatipid!</text>
 
-  <text x="600" y="610" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="18">visa.japanlifeinfo.com</text>
+  <text x="600" y="610" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="24">visa.japanlifeinfo.com</text>
 
   <defs>
     <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">

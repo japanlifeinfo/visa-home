@@ -2,89 +2,35 @@
   <rect width="1200" height="630" fill="#f8fafc"/>
   <rect width="1200" height="8" fill="url(#headerGradient)"/>
 
-  <text x="600" y="50" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="26" font-weight="bold">कार्य भिसा vs स्थायी निवास — के परिवर्तन हुन्छ?</text>
-  <text x="600" y="78" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="15">स्थायी निवासबाट प्राप्त हुने वास्तविक फाइदाहरू</text>
+  <text x="600" y="75" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="40" font-weight="bold">कार्य भिसा vs स्थायी बसोबास</text>
 
-  <!-- Left column header -->
-  <g transform="translate(60, 100)">
-    <rect width="520" height="50" rx="10" fill="#64748b"/>
-    <text x="260" y="33" text-anchor="middle" fill="white" font-family="sans-serif" font-size="20" font-weight="bold">कार्य भिसा (सीमित)</text>
-  </g>
+  <!-- Left: कार्य भिसा (grey) -->
+  <rect x="60" y="110" width="520" height="400" rx="20" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="3"/>
+  <rect x="60" y="110" width="520" height="70" rx="20" fill="#64748b"/>
+  <rect x="60" y="155" width="520" height="25" fill="#64748b"/>
+  <text x="320" y="155" text-anchor="middle" fill="white" font-family="sans-serif" font-size="34" font-weight="bold">कार्य भिसा</text>
 
-  <!-- Right column header -->
-  <g transform="translate(620, 100)">
-    <rect width="520" height="50" rx="10" fill="#16a34a"/>
-    <text x="260" y="33" text-anchor="middle" fill="white" font-family="sans-serif" font-size="20" font-weight="bold">स्थायी निवास (स्वतन्त्र)</text>
-  </g>
+  <text x="320" y="250" text-anchor="middle" fill="#475569" font-family="sans-serif" font-size="30">पेशा सीमित</text>
+  <text x="320" y="310" text-anchor="middle" fill="#475569" font-family="sans-serif" font-size="30">नवीकरण आवश्यक</text>
+  <text x="320" y="370" text-anchor="middle" fill="#475569" font-family="sans-serif" font-size="30">ऋण कठिन</text>
+  <text x="320" y="470" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="34" font-weight="bold">सीमित</text>
 
-  <!-- Row 1: बसोबासको अवधि -->
-  <g transform="translate(60, 160)">
-    <rect width="520" height="60" rx="8" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
-    <text x="25" y="25" fill="#64748b" font-family="sans-serif" font-size="12">बसोबासको अवधि</text>
-    <text x="25" y="47" fill="#475569" font-family="sans-serif" font-size="15" font-weight="bold">हरेक १-५ वर्षमा नवीकरण आवश्यक</text>
-  </g>
-  <g transform="translate(620, 160)">
-    <rect width="520" height="60" rx="8" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
-    <text x="25" y="25" fill="#16a34a" font-family="sans-serif" font-size="12">बसोबासको अवधि</text>
-    <text x="25" y="47" fill="#15803d" font-family="sans-serif" font-size="15" font-weight="bold">असीमित — नवीकरण आवश्यक छैन</text>
-  </g>
+  <!-- Right: स्थायी बसोबास (green) -->
+  <rect x="620" y="110" width="520" height="400" rx="20" fill="#f0fdf4" stroke="#86efac" stroke-width="3"/>
+  <rect x="620" y="110" width="520" height="70" rx="20" fill="#16a34a"/>
+  <rect x="620" y="155" width="520" height="25" fill="#16a34a"/>
+  <text x="880" y="155" text-anchor="middle" fill="white" font-family="sans-serif" font-size="32" font-weight="bold">स्थायी बसोबास</text>
 
-  <!-- Row 2: पेशा छनौट -->
-  <g transform="translate(60, 228)">
-    <rect width="520" height="60" rx="8" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
-    <text x="25" y="25" fill="#64748b" font-family="sans-serif" font-size="12">पेशा छनौट</text>
-    <text x="25" y="47" fill="#475569" font-family="sans-serif" font-size="15" font-weight="bold">अनुमति भएको क्षेत्र मात्र, साइड जब सीमित</text>
-  </g>
-  <g transform="translate(620, 228)">
-    <rect width="520" height="60" rx="8" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
-    <text x="25" y="25" fill="#16a34a" font-family="sans-serif" font-size="12">पेशा छनौट</text>
-    <text x="25" y="47" fill="#15803d" font-family="sans-serif" font-size="15" font-weight="bold">क्षेत्र सीमा छैन, फ्रिल्यान्स, व्यापार OK</text>
-  </g>
+  <text x="880" y="250" text-anchor="middle" fill="#15803d" font-family="sans-serif" font-size="30">पेशा स्वतन्त्र</text>
+  <text x="880" y="310" text-anchor="middle" fill="#15803d" font-family="sans-serif" font-size="30">नवीकरण अनावश्यक</text>
+  <text x="880" y="370" text-anchor="middle" fill="#15803d" font-family="sans-serif" font-size="30">ऋण सम्भव</text>
+  <text x="880" y="470" text-anchor="middle" fill="#16a34a" font-family="sans-serif" font-size="34" font-weight="bold">स्वतन्त्र</text>
 
-  <!-- Row 3: काम परिवर्तन / बेरोजगारी -->
-  <g transform="translate(60, 296)">
-    <rect width="520" height="60" rx="8" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
-    <text x="25" y="25" fill="#64748b" font-family="sans-serif" font-size="12">काम परिवर्तन / बेरोजगारी</text>
-    <text x="25" y="47" fill="#475569" font-family="sans-serif" font-size="15" font-weight="bold">कम्पनी आधारित भिसा, छोड्दा जोखिम</text>
-  </g>
-  <g transform="translate(620, 296)">
-    <rect width="520" height="60" rx="8" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
-    <text x="25" y="25" fill="#16a34a" font-family="sans-serif" font-size="12">काम परिवर्तन / बेरोजगारी</text>
-    <text x="25" y="47" fill="#15803d" font-family="sans-serif" font-size="14" font-weight="bold">व्यक्तिगत आधारित, बेरोजगार भए पनि बस्न सकिन्छ</text>
-  </g>
+  <!-- VS badge -->
+  <circle cx="600" cy="310" r="40" fill="#1e293b"/>
+  <text x="600" y="322" text-anchor="middle" fill="white" font-family="sans-serif" font-size="30" font-weight="bold">VS</text>
 
-  <!-- Row 4: वित्त / ऋण -->
-  <g transform="translate(60, 364)">
-    <rect width="520" height="60" rx="8" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
-    <text x="25" y="25" fill="#64748b" font-family="sans-serif" font-size="12">वित्त / ऋण</text>
-    <text x="25" y="47" fill="#475569" font-family="sans-serif" font-size="15" font-weight="bold">गृह ऋण कठिन, प्रतिकूल ब्याजदर</text>
-  </g>
-  <g transform="translate(620, 364)">
-    <rect width="520" height="60" rx="8" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
-    <text x="25" y="25" fill="#16a34a" font-family="sans-serif" font-size="12">वित्त / ऋण</text>
-    <text x="25" y="47" fill="#15803d" font-family="sans-serif" font-size="15" font-weight="bold">गृह ऋण सम्भव, अनुकूल सर्तहरू</text>
-  </g>
-
-  <!-- Row 5: प्रशासनिक भार -->
-  <g transform="translate(60, 432)">
-    <rect width="520" height="60" rx="8" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
-    <text x="25" y="25" fill="#64748b" font-family="sans-serif" font-size="12">प्रशासनिक भार</text>
-    <text x="25" y="47" fill="#475569" font-family="sans-serif" font-size="15" font-weight="bold">नियमित नवीकरण, कागजात तयारी तनाव</text>
-  </g>
-  <g transform="translate(620, 432)">
-    <rect width="520" height="60" rx="8" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
-    <text x="25" y="25" fill="#16a34a" font-family="sans-serif" font-size="12">प्रशासनिक भार</text>
-    <text x="25" y="47" fill="#15803d" font-family="sans-serif" font-size="15" font-weight="bold">नवीकरण आवश्यक छैन, प्रशासनिक तनाव छैन</text>
-  </g>
-
-  <!-- Bottom summary -->
-  <g transform="translate(60, 510)">
-    <rect width="1080" height="65" rx="12" fill="#1e293b"/>
-    <text x="540" y="28" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="16" font-weight="bold">स्थायी निवासको मुख्य मूल्य</text>
-    <text x="540" y="52" text-anchor="middle" fill="white" font-family="sans-serif" font-size="13">राष्ट्रियता कायम राख्नुहोस् · अनिश्चितकालीन बसोबास · आफ्नो जीवन आफैं डिजाइन गर्नुहोस्</text>
-  </g>
-
-  <text x="600" y="610" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="18">visa.japanlifeinfo.com</text>
+  <text x="600" y="590" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="24">visa.japanlifeinfo.com</text>
 
   <defs>
     <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">

@@ -1,117 +1,33 @@
 <svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- Background -->
   <rect width="1200" height="630" fill="#f8fafc"/>
-
-  <!-- Header gradient bar -->
   <rect width="1200" height="8" fill="url(#headerGradient)"/>
 
-  <!-- Title -->
-  <text x="600" y="100" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="44" font-weight="bold">भिसा र बसोबास स्थिति बीचको भिन्नता</text>
+  <text x="600" y="80" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="42" font-weight="bold">भिसा vs बसोबास स्थिति</text>
 
-  <!-- Subtitle -->
-  <text x="600" y="145" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="24">भ्रमित भयो भने आवेदन चरणबाटै अड्किन्छ</text>
+  <!-- Left circle: भिसा -->
+  <circle cx="300" cy="310" r="150" fill="#dbeafe" stroke="#3b82f6" stroke-width="4"/>
+  <text x="300" y="280" text-anchor="middle" fill="#1e40af" font-family="sans-serif" font-size="48" font-weight="bold">भिसा</text>
+  <text x="300" y="340" text-anchor="middle" fill="#3b82f6" font-family="sans-serif" font-size="30">प्रवेश टिकट</text>
+  <text x="300" y="390" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="28">एक पटक</text>
 
-  <!-- Left Card: Visa -->
-  <g transform="translate(150, 190)">
-    <!-- Card background -->
-    <rect width="380" height="350" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+  <!-- VS -->
+  <circle cx="600" cy="310" r="45" fill="#1e293b"/>
+  <text x="600" y="322" text-anchor="middle" fill="white" font-family="sans-serif" font-size="36" font-weight="bold">VS</text>
 
-    <!-- Card header -->
-    <rect width="380" height="70" rx="16" fill="#3b82f6"/>
-    <rect y="55" width="380" height="15" fill="#3b82f6"/>
+  <!-- Right circle: बसोबास स्थिति -->
+  <circle cx="900" cy="310" r="150" fill="#d1fae5" stroke="#10b981" stroke-width="4"/>
+  <text x="900" y="275" text-anchor="middle" fill="#047857" font-family="sans-serif" font-size="36" font-weight="bold">बसोबास स्थिति</text>
+  <text x="900" y="330" text-anchor="middle" fill="#10b981" font-family="sans-serif" font-size="30">बस्ने अधिकार</text>
+  <text x="900" y="380" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="28">नवीकरण सम्भव</text>
 
-    <!-- Passport icon -->
-    <g transform="translate(150, 20)">
-      <rect x="0" y="0" width="80" height="56" rx="4" fill="#1e40af"/>
-      <text x="40" y="35" text-anchor="middle" fill="white" font-family="sans-serif" font-size="14" font-weight="bold">VISA</text>
-      <circle cx="40" cy="48" r="3" fill="#fbbf24"/>
-    </g>
+  <!-- Bottom -->
+  <text x="600" y="540" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="30">भ्रम भयो भने आवेदनमा समस्या</text>
 
-    <!-- Card title -->
-    <text x="190" y="110" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="32" font-weight="bold">भिसा (査証)</text>
+  <text x="600" y="600" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="24">visa.japanlifeinfo.com</text>
 
-    <!-- Features -->
-    <text x="30" y="160" fill="#64748b" font-family="sans-serif" font-size="18">प्रवेश अनुमति</text>
-    <text x="30" y="200" fill="#64748b" font-family="sans-serif" font-size="18">जापानी दूतावासले जारी गर्छ</text>
-    <text x="30" y="240" fill="#64748b" font-family="sans-serif" font-size="18">प्रवेशमा एक पटक प्रयोग</text>
-    <text x="30" y="280" fill="#64748b" font-family="sans-serif" font-size="18">नवीकरण हुँदैन</text>
-
-    <!-- Checkmarks -->
-    <circle cx="360" cy="153" r="12" fill="#dbeafe"/>
-    <text x="360" y="158" text-anchor="middle" fill="#3b82f6" font-family="sans-serif" font-size="14">✓</text>
-    <circle cx="360" cy="193" r="12" fill="#dbeafe"/>
-    <text x="360" y="198" text-anchor="middle" fill="#3b82f6" font-family="sans-serif" font-size="14">✓</text>
-    <circle cx="360" cy="233" r="12" fill="#dbeafe"/>
-    <text x="360" y="238" text-anchor="middle" fill="#3b82f6" font-family="sans-serif" font-size="14">✓</text>
-    <circle cx="360" cy="273" r="12" fill="#dbeafe"/>
-    <text x="360" y="278" text-anchor="middle" fill="#3b82f6" font-family="sans-serif" font-size="14">✓</text>
-
-    <!-- Bottom label -->
-    <rect x="100" y="305" width="180" height="36" rx="18" fill="#dbeafe"/>
-    <text x="190" y="330" text-anchor="middle" fill="#1d4ed8" font-family="sans-serif" font-size="16" font-weight="bold">प्रवेश टिकट</text>
-  </g>
-
-  <!-- VS divider -->
-  <g transform="translate(560, 340)">
-    <circle cx="40" cy="40" r="40" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="2"/>
-    <text x="40" y="50" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="24" font-weight="bold">VS</text>
-  </g>
-
-  <!-- Arrow -->
-  <path d="M560 365 L640 365" stroke="#cbd5e1" stroke-width="3" stroke-dasharray="8 4"/>
-
-  <!-- Right Card: Status of Residence -->
-  <g transform="translate(670, 190)">
-    <!-- Card background -->
-    <rect width="380" height="350" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
-
-    <!-- Card header -->
-    <rect width="380" height="70" rx="16" fill="#10b981"/>
-    <rect y="55" width="380" height="15" fill="#10b981"/>
-
-    <!-- Residence card icon -->
-    <g transform="translate(140, 15)">
-      <rect x="0" y="0" width="100" height="60" rx="6" fill="#065f46"/>
-      <rect x="8" y="8" width="30" height="35" fill="#d1fae5"/>
-      <rect x="45" y="12" width="45" height="6" rx="3" fill="#6ee7b7"/>
-      <rect x="45" y="24" width="35" height="6" rx="3" fill="#6ee7b7"/>
-      <rect x="45" y="36" width="40" height="6" rx="3" fill="#6ee7b7"/>
-      <text x="50" y="55" fill="#a7f3d0" font-family="sans-serif" font-size="8">在留カード</text>
-    </g>
-
-    <!-- Card title -->
-    <text x="190" y="110" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="28" font-weight="bold">बसोबास स्थिति (在留資格)</text>
-
-    <!-- Features -->
-    <text x="30" y="160" fill="#64748b" font-family="sans-serif" font-size="18">बसोबास योग्यता</text>
-    <text x="30" y="200" fill="#64748b" font-family="sans-serif" font-size="18">आप्रवासन कार्यालयले व्यवस्थापन</text>
-    <text x="30" y="240" fill="#64748b" font-family="sans-serif" font-size="18">प्रवेश पछि निरन्तर लागू</text>
-    <text x="30" y="280" fill="#64748b" font-family="sans-serif" font-size="18">नवीकरण/परिवर्तन सम्भव</text>
-
-    <!-- Checkmarks -->
-    <circle cx="360" cy="153" r="12" fill="#d1fae5"/>
-    <text x="360" y="158" text-anchor="middle" fill="#10b981" font-family="sans-serif" font-size="14">✓</text>
-    <circle cx="360" cy="193" r="12" fill="#d1fae5"/>
-    <text x="360" y="198" text-anchor="middle" fill="#10b981" font-family="sans-serif" font-size="14">✓</text>
-    <circle cx="360" cy="233" r="12" fill="#d1fae5"/>
-    <text x="360" y="238" text-anchor="middle" fill="#10b981" font-family="sans-serif" font-size="14">✓</text>
-    <circle cx="360" cy="273" r="12" fill="#d1fae5"/>
-    <text x="360" y="278" text-anchor="middle" fill="#10b981" font-family="sans-serif" font-size="14">✓</text>
-
-    <!-- Bottom label -->
-    <rect x="100" y="305" width="180" height="36" rx="18" fill="#d1fae5"/>
-    <text x="190" y="330" text-anchor="middle" fill="#047857" font-family="sans-serif" font-size="16" font-weight="bold">जीवन आफै</text>
-  </g>
-
-  <!-- Footer -->
-  <text x="600" y="590" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="18">visa.japanlifeinfo.com</text>
-
-  <!-- Gradients -->
   <defs>
     <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">
-      <stop offset="0%" stop-color="#3b82f6"/>
-      <stop offset="50%" stop-color="#8b5cf6"/>
-      <stop offset="100%" stop-color="#10b981"/>
+      <stop offset="0%" stop-color="#3b82f6"/><stop offset="50%" stop-color="#8b5cf6"/><stop offset="100%" stop-color="#10b981"/>
     </linearGradient>
   </defs>
 </svg>

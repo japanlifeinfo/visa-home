@@ -2,89 +2,35 @@
   <rect width="1200" height="630" fill="#f8fafc"/>
   <rect width="1200" height="8" fill="url(#headerGradient)"/>
 
-  <text x="600" y="50" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="26" font-weight="bold">Visa Kerja vs Permanent Residence — Apa yang Berubah?</text>
-  <text x="600" y="78" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="15">Manfaat nyata yang didapat dengan permanent residence</text>
+  <text x="600" y="75" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="44" font-weight="bold">Visa Kerja vs PR</text>
 
-  <!-- Left column header -->
-  <g transform="translate(60, 100)">
-    <rect width="520" height="50" rx="10" fill="#64748b"/>
-    <text x="260" y="33" text-anchor="middle" fill="white" font-family="sans-serif" font-size="20" font-weight="bold">Visa Kerja (Terbatas)</text>
-  </g>
+  <!-- Left: Visa Kerja (grey) -->
+  <rect x="60" y="110" width="520" height="400" rx="20" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="3"/>
+  <rect x="60" y="110" width="520" height="70" rx="20" fill="#64748b"/>
+  <rect x="60" y="155" width="520" height="25" fill="#64748b"/>
+  <text x="320" y="155" text-anchor="middle" fill="white" font-family="sans-serif" font-size="36" font-weight="bold">Visa Kerja</text>
 
-  <!-- Right column header -->
-  <g transform="translate(620, 100)">
-    <rect width="520" height="50" rx="10" fill="#16a34a"/>
-    <text x="260" y="33" text-anchor="middle" fill="white" font-family="sans-serif" font-size="20" font-weight="bold">Permanent Residence (Bebas)</text>
-  </g>
+  <text x="320" y="250" text-anchor="middle" fill="#475569" font-family="sans-serif" font-size="32">Kerja terbatas</text>
+  <text x="320" y="310" text-anchor="middle" fill="#475569" font-family="sans-serif" font-size="32">Wajib perpanjang</text>
+  <text x="320" y="370" text-anchor="middle" fill="#475569" font-family="sans-serif" font-size="32">Sulit pinjam</text>
+  <text x="320" y="470" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="36" font-weight="bold">Terbatas</text>
 
-  <!-- Row 1: Durasi Tinggal -->
-  <g transform="translate(60, 160)">
-    <rect width="520" height="60" rx="8" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
-    <text x="25" y="25" fill="#64748b" font-family="sans-serif" font-size="12">Durasi Tinggal</text>
-    <text x="25" y="47" fill="#475569" font-family="sans-serif" font-size="16" font-weight="bold">Wajib perpanjang setiap 1-5 tahun</text>
-  </g>
-  <g transform="translate(620, 160)">
-    <rect width="520" height="60" rx="8" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
-    <text x="25" y="25" fill="#16a34a" font-family="sans-serif" font-size="12">Durasi Tinggal</text>
-    <text x="25" y="47" fill="#15803d" font-family="sans-serif" font-size="16" font-weight="bold">Tidak terbatas — tidak perlu perpanjang</text>
-  </g>
+  <!-- Right: PR (green) -->
+  <rect x="620" y="110" width="520" height="400" rx="20" fill="#f0fdf4" stroke="#86efac" stroke-width="3"/>
+  <rect x="620" y="110" width="520" height="70" rx="20" fill="#16a34a"/>
+  <rect x="620" y="155" width="520" height="25" fill="#16a34a"/>
+  <text x="880" y="155" text-anchor="middle" fill="white" font-family="sans-serif" font-size="36" font-weight="bold">PR</text>
 
-  <!-- Row 2: Pilihan Pekerjaan -->
-  <g transform="translate(60, 228)">
-    <rect width="520" height="60" rx="8" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
-    <text x="25" y="25" fill="#64748b" font-family="sans-serif" font-size="12">Pilihan Pekerjaan</text>
-    <text x="25" y="47" fill="#475569" font-family="sans-serif" font-size="15" font-weight="bold">Hanya industri yang diizinkan, pekerjaan sampingan terbatas</text>
-  </g>
-  <g transform="translate(620, 228)">
-    <rect width="520" height="60" rx="8" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
-    <text x="25" y="25" fill="#16a34a" font-family="sans-serif" font-size="12">Pilihan Pekerjaan</text>
-    <text x="25" y="47" fill="#15803d" font-family="sans-serif" font-size="16" font-weight="bold">Tanpa batasan industri, freelance, bisnis OK</text>
-  </g>
+  <text x="880" y="250" text-anchor="middle" fill="#15803d" font-family="sans-serif" font-size="32">Kerja bebas</text>
+  <text x="880" y="310" text-anchor="middle" fill="#15803d" font-family="sans-serif" font-size="32">Tanpa perpanjangan</text>
+  <text x="880" y="370" text-anchor="middle" fill="#15803d" font-family="sans-serif" font-size="32">Bisa pinjam</text>
+  <text x="880" y="470" text-anchor="middle" fill="#16a34a" font-family="sans-serif" font-size="36" font-weight="bold">Bebas</text>
 
-  <!-- Row 3: Pindah Kerja / Pengangguran -->
-  <g transform="translate(60, 296)">
-    <rect width="520" height="60" rx="8" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
-    <text x="25" y="25" fill="#64748b" font-family="sans-serif" font-size="12">Pindah Kerja / Pengangguran</text>
-    <text x="25" y="47" fill="#475569" font-family="sans-serif" font-size="16" font-weight="bold">Visa berbasis perusahaan, risiko jika resign</text>
-  </g>
-  <g transform="translate(620, 296)">
-    <rect width="520" height="60" rx="8" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
-    <text x="25" y="25" fill="#16a34a" font-family="sans-serif" font-size="12">Pindah Kerja / Pengangguran</text>
-    <text x="25" y="47" fill="#15803d" font-family="sans-serif" font-size="15" font-weight="bold">Berbasis individu, tetap tinggal meski menganggur</text>
-  </g>
+  <!-- VS badge -->
+  <circle cx="600" cy="310" r="40" fill="#1e293b"/>
+  <text x="600" y="322" text-anchor="middle" fill="white" font-family="sans-serif" font-size="30" font-weight="bold">VS</text>
 
-  <!-- Row 4: Keuangan / Pinjaman -->
-  <g transform="translate(60, 364)">
-    <rect width="520" height="60" rx="8" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
-    <text x="25" y="25" fill="#64748b" font-family="sans-serif" font-size="12">Keuangan / Pinjaman</text>
-    <text x="25" y="47" fill="#475569" font-family="sans-serif" font-size="16" font-weight="bold">KPR sulit, suku bunga tidak menguntungkan</text>
-  </g>
-  <g transform="translate(620, 364)">
-    <rect width="520" height="60" rx="8" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
-    <text x="25" y="25" fill="#16a34a" font-family="sans-serif" font-size="12">Keuangan / Pinjaman</text>
-    <text x="25" y="47" fill="#15803d" font-family="sans-serif" font-size="16" font-weight="bold">KPR tersedia, syarat menguntungkan</text>
-  </g>
-
-  <!-- Row 5: Beban Administrasi -->
-  <g transform="translate(60, 432)">
-    <rect width="520" height="60" rx="8" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
-    <text x="25" y="25" fill="#64748b" font-family="sans-serif" font-size="12">Beban Administrasi</text>
-    <text x="25" y="47" fill="#475569" font-family="sans-serif" font-size="16" font-weight="bold">Perpanjangan rutin, stres persiapan dokumen</text>
-  </g>
-  <g transform="translate(620, 432)">
-    <rect width="520" height="60" rx="8" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
-    <text x="25" y="25" fill="#16a34a" font-family="sans-serif" font-size="12">Beban Administrasi</text>
-    <text x="25" y="47" fill="#15803d" font-family="sans-serif" font-size="16" font-weight="bold">Tidak perlu perpanjang, tanpa stres administrasi</text>
-  </g>
-
-  <!-- Bottom summary -->
-  <g transform="translate(60, 510)">
-    <rect width="1080" height="65" rx="12" fill="#1e293b"/>
-    <text x="540" y="28" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="16" font-weight="bold">Nilai Utama Permanent Residence</text>
-    <text x="540" y="52" text-anchor="middle" fill="white" font-family="sans-serif" font-size="14">Pertahankan kewarganegaraan · Tinggal tanpa batas waktu · Rancang hidup Anda sendiri</text>
-  </g>
-
-  <text x="600" y="610" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="18">visa.japanlifeinfo.com</text>
+  <text x="600" y="590" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="24">visa.japanlifeinfo.com</text>
 
   <defs>
     <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">

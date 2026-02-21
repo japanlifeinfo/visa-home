@@ -1,71 +1,27 @@
 <svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- Background -->
   <rect width="1200" height="630" fill="#f8fafc"/>
-
-  <!-- Header gradient bar -->
   <rect width="1200" height="8" fill="url(#headerGradient)"/>
 
-  <!-- Title -->
-  <text x="600" y="85" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="32" font-weight="bold">Discussao sobre Requisito de Japones</text>
-  <text x="600" y="140" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="24">Novas Mudancas na Politica do Japao para Estrangeiros</text>
+  <!-- NEWS badge -->
+  <rect x="60" y="50" width="200" height="70" rx="12" fill="#dc2626"/>
+  <text x="160" y="97" text-anchor="middle" fill="white" font-family="sans-serif" font-size="42" font-weight="bold">NEWS</text>
 
-  <!-- Main content area -->
-  <!-- Policy Icon -->
-  <g transform="translate(150, 200)">
-    <rect width="260" height="180" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
-    <circle cx="130" cy="60" r="35" fill="#fef3c7"/>
-    <text x="130" y="70" text-anchor="middle" fill="#d97706" font-family="sans-serif" font-size="36" font-weight="bold">JP</text>
-    <text x="130" y="115" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="14" font-weight="bold">Proficiencia</text>
-    <text x="130" y="140" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="12">Requisito para PR</text>
-    <text x="130" y="160" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="12">JLPT N3~N2</text>
-  </g>
+  <!-- Headline -->
+  <text x="600" y="230" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="56" font-weight="bold">Profici&#234;ncia em Japon&#234;s</text>
+  <text x="600" y="310" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="50" font-weight="bold">Debate sobre Obrigatoriedade</text>
 
-  <!-- Arrow -->
-  <path d="M420 290 L480 290" stroke="#cbd5e1" stroke-width="3" marker-end="url(#arrowhead)"/>
+  <!-- Subtitle -->
+  <text x="600" y="400" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="30">Requisito de japon&#234;s em an&#225;lise para resid&#234;ncia permanente</text>
 
-  <!-- Integration Icon -->
-  <g transform="translate(490, 200)">
-    <rect width="260" height="180" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
-    <circle cx="130" cy="60" r="35" fill="#dbeafe"/>
-    <text x="130" y="72" text-anchor="middle" fill="#3b82f6" font-family="sans-serif" font-size="28" font-weight="bold">社会</text>
-    <text x="130" y="115" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="14" font-weight="bold">Integracao Social</text>
-    <text x="130" y="140" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="12">Convivencia local</text>
-    <text x="130" y="160" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="12">Educacao obrigatoria</text>
-  </g>
+  <!-- Key info bar -->
+  <rect x="150" y="450" width="900" height="80" rx="16" fill="#1e293b"/>
+  <text x="600" y="500" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="30" font-weight="bold">JLPT N3~N2 recomendado | Educa&#231;&#227;o obrigat&#243;ria em revis&#227;o</text>
 
-  <!-- Arrow -->
-  <path d="M760 290 L820 290" stroke="#cbd5e1" stroke-width="3" marker-end="url(#arrowhead)"/>
+  <text x="600" y="600" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="24">visa.japanlifeinfo.com</text>
 
-  <!-- Future Icon -->
-  <g transform="translate(830, 200)">
-    <rect width="260" height="180" rx="16" fill="white" stroke="#e2e8f0" stroke-width="2"/>
-    <circle cx="130" cy="60" r="35" fill="#dcfce7"/>
-    <text x="130" y="72" text-anchor="middle" fill="#16a34a" font-family="sans-serif" font-size="28" font-weight="bold">準備</text>
-    <text x="130" y="115" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="14" font-weight="bold">Preparacao</text>
-    <text x="130" y="140" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="12">Vantagem no emprego</text>
-    <text x="130" y="160" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="12">Planos de longo prazo</text>
-  </g>
-
-  <!-- Key Points Box -->
-  <g transform="translate(200, 420)">
-    <rect width="800" height="100" rx="16" fill="#1e293b"/>
-    <text x="400" y="35" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="14">Pontos Principais</text>
-    <text x="400" y="60" text-anchor="middle" fill="white" font-family="sans-serif" font-size="15" font-weight="bold">Japones pode se tornar requisito para PR</text>
-    <text x="400" y="85" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="13">Educacao linguistica obrigatoria | Revisao abrangente da politica</text>
-  </g>
-
-  <!-- Footer -->
-  <text x="600" y="590" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="18">visa.japanlifeinfo.com</text>
-
-  <!-- Gradients and markers -->
   <defs>
     <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">
-      <stop offset="0%" stop-color="#dc2626"/>
-      <stop offset="50%" stop-color="#ea580c"/>
-      <stop offset="100%" stop-color="#d97706"/>
+      <stop offset="0%" stop-color="#dc2626"/><stop offset="50%" stop-color="#ea580c"/><stop offset="100%" stop-color="#d97706"/>
     </linearGradient>
-    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
-      <polygon points="0 0, 10 3.5, 0 7" fill="#cbd5e1"/>
-    </marker>
   </defs>
 </svg>

@@ -2,89 +2,35 @@
   <rect width="1200" height="630" fill="#f8fafc"/>
   <rect width="1200" height="8" fill="url(#headerGradient)"/>
 
-  <text x="600" y="50" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="28" font-weight="bold">工作签证 vs 永住权 — 有什么变化？</text>
-  <text x="600" y="78" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="15">获得永住权后的实际变化</text>
+  <text x="600" y="75" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="44" font-weight="bold">工作签证 vs 永住权</text>
 
-  <!-- Left column header -->
-  <g transform="translate(60, 100)">
-    <rect width="520" height="50" rx="10" fill="#64748b"/>
-    <text x="260" y="33" text-anchor="middle" fill="white" font-family="sans-serif" font-size="20" font-weight="bold">工作签证（受限）</text>
-  </g>
+  <!-- Left: 工作签证 (grey) -->
+  <rect x="60" y="110" width="520" height="400" rx="20" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="3"/>
+  <rect x="60" y="110" width="520" height="70" rx="20" fill="#64748b"/>
+  <rect x="60" y="155" width="520" height="25" fill="#64748b"/>
+  <text x="320" y="155" text-anchor="middle" fill="white" font-family="sans-serif" font-size="36" font-weight="bold">工作签证</text>
 
-  <!-- Right column header -->
-  <g transform="translate(620, 100)">
-    <rect width="520" height="50" rx="10" fill="#16a34a"/>
-    <text x="260" y="33" text-anchor="middle" fill="white" font-family="sans-serif" font-size="20" font-weight="bold">永住权（自由）</text>
-  </g>
+  <text x="320" y="250" text-anchor="middle" fill="#475569" font-family="sans-serif" font-size="32">行业限制</text>
+  <text x="320" y="310" text-anchor="middle" fill="#475569" font-family="sans-serif" font-size="32">定期更新</text>
+  <text x="320" y="370" text-anchor="middle" fill="#475569" font-family="sans-serif" font-size="32">贷款困难</text>
+  <text x="320" y="470" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="36" font-weight="bold">受限</text>
 
-  <!-- Row 1: 居留期限 -->
-  <g transform="translate(60, 160)">
-    <rect width="520" height="60" rx="8" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
-    <text x="25" y="25" fill="#64748b" font-family="sans-serif" font-size="12">居留期限</text>
-    <text x="25" y="47" fill="#475569" font-family="sans-serif" font-size="16" font-weight="bold">每1~5年必须续签</text>
-  </g>
-  <g transform="translate(620, 160)">
-    <rect width="520" height="60" rx="8" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
-    <text x="25" y="25" fill="#16a34a" font-family="sans-serif" font-size="12">居留期限</text>
-    <text x="25" y="47" fill="#15803d" font-family="sans-serif" font-size="16" font-weight="bold">无期限 — 无需续签</text>
-  </g>
+  <!-- Right: 永住权 (green) -->
+  <rect x="620" y="110" width="520" height="400" rx="20" fill="#f0fdf4" stroke="#86efac" stroke-width="3"/>
+  <rect x="620" y="110" width="520" height="70" rx="20" fill="#16a34a"/>
+  <rect x="620" y="155" width="520" height="25" fill="#16a34a"/>
+  <text x="880" y="155" text-anchor="middle" fill="white" font-family="sans-serif" font-size="36" font-weight="bold">永住权</text>
 
-  <!-- Row 2: 职业选择 -->
-  <g transform="translate(60, 228)">
-    <rect width="520" height="60" rx="8" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
-    <text x="25" y="25" fill="#64748b" font-family="sans-serif" font-size="12">职业选择</text>
-    <text x="25" y="47" fill="#475569" font-family="sans-serif" font-size="16" font-weight="bold">仅限许可行业 · 副业受限</text>
-  </g>
-  <g transform="translate(620, 228)">
-    <rect width="520" height="60" rx="8" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
-    <text x="25" y="25" fill="#16a34a" font-family="sans-serif" font-size="12">职业选择</text>
-    <text x="25" y="47" fill="#15803d" font-family="sans-serif" font-size="16" font-weight="bold">无行业限制 · 自由职业 · 创业OK</text>
-  </g>
+  <text x="880" y="250" text-anchor="middle" fill="#15803d" font-family="sans-serif" font-size="32">行业自由</text>
+  <text x="880" y="310" text-anchor="middle" fill="#15803d" font-family="sans-serif" font-size="32">无需更新</text>
+  <text x="880" y="370" text-anchor="middle" fill="#15803d" font-family="sans-serif" font-size="32">可贷款</text>
+  <text x="880" y="470" text-anchor="middle" fill="#16a34a" font-family="sans-serif" font-size="36" font-weight="bold">自由</text>
 
-  <!-- Row 3: 换工作/失业 -->
-  <g transform="translate(60, 296)">
-    <rect width="520" height="60" rx="8" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
-    <text x="25" y="25" fill="#64748b" font-family="sans-serif" font-size="12">换工作/失业</text>
-    <text x="25" y="47" fill="#475569" font-family="sans-serif" font-size="16" font-weight="bold">公司绑定签证 → 离职有居留风险</text>
-  </g>
-  <g transform="translate(620, 296)">
-    <rect width="520" height="60" rx="8" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
-    <text x="25" y="25" fill="#16a34a" font-family="sans-serif" font-size="12">换工作/失业</text>
-    <text x="25" y="47" fill="#15803d" font-family="sans-serif" font-size="16" font-weight="bold">个人身份 → 失业也可继续居留</text>
-  </g>
+  <!-- VS badge -->
+  <circle cx="600" cy="310" r="40" fill="#1e293b"/>
+  <text x="600" y="322" text-anchor="middle" fill="white" font-family="sans-serif" font-size="30" font-weight="bold">VS</text>
 
-  <!-- Row 4: 金融/贷款 -->
-  <g transform="translate(60, 364)">
-    <rect width="520" height="60" rx="8" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
-    <text x="25" y="25" fill="#64748b" font-family="sans-serif" font-size="12">金融/贷款</text>
-    <text x="25" y="47" fill="#475569" font-family="sans-serif" font-size="16" font-weight="bold">房贷困难 · 利率不利</text>
-  </g>
-  <g transform="translate(620, 364)">
-    <rect width="520" height="60" rx="8" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
-    <text x="25" y="25" fill="#16a34a" font-family="sans-serif" font-size="12">金融/贷款</text>
-    <text x="25" y="47" fill="#15803d" font-family="sans-serif" font-size="16" font-weight="bold">可申请房贷 · 条件优惠</text>
-  </g>
-
-  <!-- Row 5: 行政负担 -->
-  <g transform="translate(60, 432)">
-    <rect width="520" height="60" rx="8" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
-    <text x="25" y="25" fill="#64748b" font-family="sans-serif" font-size="12">行政负担</text>
-    <text x="25" y="47" fill="#475569" font-family="sans-serif" font-size="16" font-weight="bold">定期续签、准备材料的压力</text>
-  </g>
-  <g transform="translate(620, 432)">
-    <rect width="520" height="60" rx="8" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
-    <text x="25" y="25" fill="#16a34a" font-family="sans-serif" font-size="12">行政负担</text>
-    <text x="25" y="47" fill="#15803d" font-family="sans-serif" font-size="16" font-weight="bold">无需续签 · 无行政压力</text>
-  </g>
-
-  <!-- Bottom summary -->
-  <g transform="translate(60, 510)">
-    <rect width="1080" height="65" rx="12" fill="#1e293b"/>
-    <text x="540" y="28" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="16" font-weight="bold">永住权的核心价值</text>
-    <text x="540" y="52" text-anchor="middle" fill="white" font-family="sans-serif" font-size="15">保留国籍 · 无期限居住 · 自主设计人生</text>
-  </g>
-
-  <text x="600" y="610" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="18">visa.japanlifeinfo.com</text>
+  <text x="600" y="590" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="24">visa.japanlifeinfo.com</text>
 
   <defs>
     <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">

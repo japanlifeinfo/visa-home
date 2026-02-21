@@ -2,95 +2,43 @@
   <rect width="1200" height="630" fill="#f8fafc"/>
   <rect width="1200" height="8" fill="url(#headerGradient)"/>
 
-  <text x="600" y="50" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="26" font-weight="bold">जापान बसोबास स्थिति आवेदन पूर्ण गाइड</text>
-  <text x="600" y="78" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="15">पहिलो पटक आवेदन गर्नेहरूको लागि ४ चरण गाइड</text>
+  <text x="600" y="80" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="42" font-weight="bold">आवेदन प्रक्रिया ४ चरण</text>
 
   <!-- Step 1 -->
-  <g transform="translate(50, 100)">
-    <rect width="240" height="145" rx="12" fill="#eff6ff" stroke="#93c5fd" stroke-width="2"/>
-    <rect width="240" height="38" rx="12" fill="#3b82f6"/>
-    <rect y="26" width="240" height="12" fill="#3b82f6"/>
-    <text x="120" y="27" text-anchor="middle" fill="white" font-family="sans-serif" font-size="13" font-weight="bold">STEP 1 · कागजात तयारी</text>
-    <text x="120" y="65" text-anchor="middle" fill="#1e40af" font-family="sans-serif" font-size="12" font-weight="bold">आवेदन फारम · राहदानी · फोटो</text>
-    <text x="120" y="88" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="11">क्रियाकलाप प्रमाण, कम्पनी कागजात</text>
-    <text x="120" y="108" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="11">रोजगारी प्रमाणपत्र</text>
-    <text x="120" y="132" text-anchor="middle" fill="#3b82f6" font-family="sans-serif" font-size="11" font-weight="bold">भिसा प्रकार अनुसार थप कागजात जाँच!</text>
-  </g>
+  <circle cx="180" cy="250" r="80" fill="#3b82f6"/>
+  <text x="180" y="240" text-anchor="middle" fill="white" font-family="sans-serif" font-size="56" font-weight="bold">1</text>
+  <text x="180" y="290" text-anchor="middle" fill="white" font-family="sans-serif" font-size="30" font-weight="bold">कागजात</text>
 
-  <!-- Arrow 1-2 -->
-  <text x="300" y="172" fill="#94a3b8" font-family="sans-serif" font-size="24">&#x2192;</text>
+  <!-- Arrow 1→2 -->
+  <text x="310" y="260" fill="#94a3b8" font-family="sans-serif" font-size="50" font-weight="bold">&gt;</text>
 
   <!-- Step 2 -->
-  <g transform="translate(320, 130)">
-    <rect width="240" height="145" rx="12" fill="#f0fdf4" stroke="#86efac" stroke-width="2"/>
-    <rect width="240" height="38" rx="12" fill="#16a34a"/>
-    <rect y="26" width="240" height="12" fill="#16a34a"/>
-    <text x="120" y="27" text-anchor="middle" fill="white" font-family="sans-serif" font-size="13" font-weight="bold">STEP 2 · आप्रवासन आवेदन</text>
-    <text x="120" y="65" text-anchor="middle" fill="#15803d" font-family="sans-serif" font-size="12" font-weight="bold">व्यक्तिगत वा प्रतिनिधि आवेदन</text>
-    <text x="120" y="88" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="12">आवेदन शुल्क निःशुल्क</text>
-    <text x="120" y="108" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="11">अधिकार क्षेत्र कार्यालय पूर्व जाँच</text>
-    <text x="120" y="132" text-anchor="middle" fill="#16a34a" font-family="sans-serif" font-size="12" font-weight="bold">अनलाइन आवेदन पनि सम्भव!</text>
-  </g>
+  <circle cx="450" cy="250" r="80" fill="#8b5cf6"/>
+  <text x="450" y="240" text-anchor="middle" fill="white" font-family="sans-serif" font-size="56" font-weight="bold">2</text>
+  <text x="450" y="290" text-anchor="middle" fill="white" font-family="sans-serif" font-size="30" font-weight="bold">आवेदन</text>
 
-  <!-- Arrow 2-3 -->
-  <text x="570" y="202" fill="#94a3b8" font-family="sans-serif" font-size="24">&#x2192;</text>
+  <!-- Arrow 2→3 -->
+  <text x="580" y="260" fill="#94a3b8" font-family="sans-serif" font-size="50" font-weight="bold">&gt;</text>
 
   <!-- Step 3 -->
-  <g transform="translate(590, 160)">
-    <rect width="240" height="145" rx="12" fill="#fffbeb" stroke="#fde68a" stroke-width="2"/>
-    <rect width="240" height="38" rx="12" fill="#d97706"/>
-    <rect y="26" width="240" height="12" fill="#d97706"/>
-    <text x="120" y="27" text-anchor="middle" fill="white" font-family="sans-serif" font-size="13" font-weight="bold">STEP 3 · समीक्षा प्रतीक्षा</text>
-    <text x="120" y="65" text-anchor="middle" fill="#92400e" font-family="sans-serif" font-size="13" font-weight="bold">औसत १-३ महिना लाग्छ</text>
-    <text x="120" y="88" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="11">थप कागजात माग्दा छिटो प्रतिक्रिया</text>
-    <text x="120" y="108" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="12">नतिजा सूचनाको प्रतीक्षा</text>
-    <text x="120" y="132" text-anchor="middle" fill="#d97706" font-family="sans-serif" font-size="12" font-weight="bold">व्यस्त सिजन ३-४ महिना+</text>
-  </g>
+  <circle cx="720" cy="250" r="80" fill="#f59e0b"/>
+  <text x="720" y="240" text-anchor="middle" fill="white" font-family="sans-serif" font-size="56" font-weight="bold">3</text>
+  <text x="720" y="290" text-anchor="middle" fill="white" font-family="sans-serif" font-size="30" font-weight="bold">जाँच</text>
 
-  <!-- Arrow 3-4 -->
-  <text x="840" y="232" fill="#94a3b8" font-family="sans-serif" font-size="24">&#x2192;</text>
+  <!-- Arrow 3→4 -->
+  <text x="850" y="260" fill="#94a3b8" font-family="sans-serif" font-size="50" font-weight="bold">&gt;</text>
 
   <!-- Step 4 -->
-  <g transform="translate(860, 190)">
-    <rect width="280" height="145" rx="12" fill="#fdf2f8" stroke="#fbcfe8" stroke-width="2"/>
-    <rect width="280" height="38" rx="12" fill="#db2777"/>
-    <rect y="26" width="280" height="12" fill="#db2777"/>
-    <text x="140" y="27" text-anchor="middle" fill="white" font-family="sans-serif" font-size="14" font-weight="bold">STEP 4 · स्वीकृति पूर्ण!</text>
-    <text x="140" y="65" text-anchor="middle" fill="#9d174d" font-family="sans-serif" font-size="12" font-weight="bold">बसोबास कार्ड · भिसा जारी</text>
-    <text x="140" y="88" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="12">राजस्व टिकट भुक्तानी (&#xA5;4,000)</text>
-    <text x="140" y="108" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="12">ठेगाना दर्ता</text>
-    <text x="140" y="132" text-anchor="middle" fill="#16a34a" font-family="sans-serif" font-size="14" font-weight="bold">आधिकारिक बसोबास सुरु!</text>
-  </g>
+  <circle cx="990" cy="250" r="80" fill="#10b981"/>
+  <text x="990" y="240" text-anchor="middle" fill="white" font-family="sans-serif" font-size="56" font-weight="bold">4</text>
+  <text x="990" y="290" text-anchor="middle" fill="white" font-family="sans-serif" font-size="30" font-weight="bold">अनुमति</text>
 
-  <!-- Checklist Box -->
-  <g transform="translate(50, 365)">
-    <rect width="520" height="210" rx="12" fill="#1e293b"/>
-    <text x="260" y="30" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="16" font-weight="bold">मुख्य जाँचसूची</text>
-    <line x1="30" y1="45" x2="490" y2="45" stroke="#334155"/>
-    <text x="40" y="72" fill="#e2e8f0" font-family="sans-serif" font-size="13">&#x2713; स्थिति र वास्तविक क्रियाकलाप मेल खान्छ कि जाँच</text>
-    <text x="40" y="98" fill="#e2e8f0" font-family="sans-serif" font-size="13">&#x2713; सबै कागजातको सामग्री एकरूप छ कि जाँच</text>
-    <text x="40" y="124" fill="#e2e8f0" font-family="sans-serif" font-size="13">&#x2713; थप कागजात माग्दा छिटो प्रतिक्रिया दिनुहोस्</text>
-    <text x="40" y="150" fill="#e2e8f0" font-family="sans-serif" font-size="13">&#x2713; बसोबास अवधि समाप्त हुनु अघि आवेदन गर्नुहोस्</text>
-    <text x="40" y="176" fill="#e2e8f0" font-family="sans-serif" font-size="13">&#x2713; अधिकार क्षेत्र आप्रवासन कार्यालय पूर्व जाँच</text>
-    <text x="40" y="200" fill="#fbbf24" font-family="sans-serif" font-size="13">&#x203B; धेरैजसो अस्वीकृति कागजात तयारी कमजोर भएर हुन्छ</text>
-  </g>
+  <!-- Bottom summary -->
+  <rect x="100" y="400" width="1000" height="100" rx="16" fill="#1e293b"/>
+  <text x="600" y="445" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="34" font-weight="bold">कागजात तयारी नै सफलताको कुञ्जी!</text>
+  <text x="600" y="485" text-anchor="middle" fill="#e2e8f0" font-family="sans-serif" font-size="28">कुल अवधि: लगभग १~३ महिना</text>
 
-  <!-- Duration summary -->
-  <g transform="translate(600, 365)">
-    <rect width="550" height="100" rx="12" fill="white" stroke="#e2e8f0" stroke-width="2"/>
-    <text x="275" y="30" text-anchor="middle" fill="#475569" font-family="sans-serif" font-size="14">अनुमानित कुल अवधि</text>
-    <text x="275" y="65" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="32" font-weight="bold">लगभग १-३ महिना</text>
-    <text x="275" y="88" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="13">नयाँ आवेदन (COE सहित): १.५-४ महिना+</text>
-  </g>
-
-  <g transform="translate(600, 480)">
-    <rect width="550" height="95" rx="12" fill="#fefce8" stroke="#fde68a" stroke-width="1"/>
-    <text x="275" y="28" text-anchor="middle" fill="#854d0e" font-family="sans-serif" font-size="15" font-weight="bold">आवेदन प्रकार अनुसार सन्दर्भ</text>
-    <text x="275" y="52" text-anchor="middle" fill="#713f12" font-family="sans-serif" font-size="12">नयाँ(COE) · परिवर्तन · नवीकरण · स्थायी — प्रकार अनुसार कागजात र समीक्षा फरक</text>
-    <text x="275" y="75" text-anchor="middle" fill="#713f12" font-family="sans-serif" font-size="13">आफैं आवेदनले एजेन्ट शुल्क बचत | एजेन्ट सेवा पनि विकल्प</text>
-  </g>
-
-  <text x="600" y="610" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="18">visa.japanlifeinfo.com</text>
+  <text x="600" y="590" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="24">visa.japanlifeinfo.com</text>
 
   <defs>
     <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">

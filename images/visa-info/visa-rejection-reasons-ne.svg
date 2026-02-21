@@ -2,103 +2,23 @@
   <rect width="1200" height="630" fill="#fef2f2"/>
   <rect width="1200" height="8" fill="url(#headerGradient)"/>
 
-  <text x="600" y="50" text-anchor="middle" fill="#991b1b" font-family="sans-serif" font-size="26" font-weight="bold">जापान कार्य भिसा अस्वीकृतिका सामान्य कारणहरू</text>
-  <text x="600" y="78" text-anchor="middle" fill="#b91c1c" font-family="sans-serif" font-size="15">अधिकांश अस्वीकृति कागजात तयारीको कमीले गर्दा हुन्छ</text>
+  <text x="600" y="75" text-anchor="middle" fill="#991b1b" font-family="sans-serif" font-size="40" font-weight="bold">भिसा अस्वीकृतिका मुख्य कारण</text>
 
-  <!-- Danger card 1 -->
-  <g transform="translate(50, 100)">
-    <rect width="350" height="150" rx="12" fill="white" stroke="#fca5a5" stroke-width="2"/>
-    <rect width="60" height="150" rx="12" fill="#dc2626"/>
-    <rect x="48" width="12" height="150" fill="#dc2626"/>
-    <text x="30" y="82" text-anchor="middle" fill="white" font-family="sans-serif" font-size="26" font-weight="bold">1</text>
-    <text x="80" y="35" fill="#991b1b" font-family="sans-serif" font-size="15" font-weight="bold">विषय · कामको बेमेल</text>
-    <text x="80" y="60" fill="#64748b" font-family="sans-serif" font-size="12">सबैभन्दा सामान्य अस्वीकृतिको कारण</text>
-    <text x="80" y="82" fill="#64748b" font-family="sans-serif" font-size="12">शिक्षा/अनुभव कामसँग सम्बन्धित हुनुपर्छ</text>
-    <text x="80" y="104" fill="#64748b" font-family="sans-serif" font-size="12">व्याख्या गर्न नसके → "सामान्य श्रम" निर्णय</text>
-    <text x="80" y="132" fill="#dc2626" font-family="sans-serif" font-size="12" font-weight="bold">→ अस्वीकृतिको #1 कारण</text>
-  </g>
+  <!-- Warning triangle icon -->
+  <polygon points="600,120 680,260 520,260" fill="#fbbf24" stroke="#f59e0b" stroke-width="4"/>
+  <text x="600" y="240" text-anchor="middle" fill="#78350f" font-family="sans-serif" font-size="60" font-weight="bold">!</text>
 
-  <!-- Danger card 2 -->
-  <g transform="translate(420, 100)">
-    <rect width="350" height="150" rx="12" fill="white" stroke="#fdba74" stroke-width="2"/>
-    <rect width="60" height="150" rx="12" fill="#ea580c"/>
-    <rect x="48" width="12" height="150" fill="#ea580c"/>
-    <text x="30" y="82" text-anchor="middle" fill="white" font-family="sans-serif" font-size="26" font-weight="bold">2</text>
-    <text x="80" y="35" fill="#9a3412" font-family="sans-serif" font-size="15" font-weight="bold">अस्पष्ट कार्य विवरण</text>
-    <text x="80" y="60" fill="#64748b" font-family="sans-serif" font-size="12">"व्यावसायिक हो?" समीक्षा मापदण्ड</text>
-    <text x="80" y="82" fill="#64748b" font-family="sans-serif" font-size="12">अमूर्त अभिव्यक्ति जोखिमपूर्ण</text>
-    <text x="80" y="104" fill="#64748b" font-family="sans-serif" font-size="12">विशिष्ट कार्य विवरण आवश्यक</text>
-    <text x="80" y="132" fill="#ea580c" font-family="sans-serif" font-size="12" font-weight="bold">→ कार्य विवरण नै मुख्य कुरा</text>
-  </g>
+  <!-- 3 reason rows -->
+  <rect x="100" y="300" width="1000" height="70" rx="12" fill="#dc2626"/>
+  <text x="600" y="347" text-anchor="middle" fill="white" font-family="sans-serif" font-size="34" font-weight="bold">1. विषय/कार्य बेमेल</text>
 
-  <!-- Danger card 3 -->
-  <g transform="translate(790, 100)">
-    <rect width="360" height="150" rx="12" fill="white" stroke="#fde68a" stroke-width="2"/>
-    <rect width="60" height="150" rx="12" fill="#d97706"/>
-    <rect x="48" width="12" height="150" fill="#d97706"/>
-    <text x="30" y="82" text-anchor="middle" fill="white" font-family="sans-serif" font-size="26" font-weight="bold">3</text>
-    <text x="80" y="35" fill="#92400e" font-family="sans-serif" font-size="15" font-weight="bold">कम्पनीको आर्थिक समस्या</text>
-    <text x="80" y="60" fill="#64748b" font-family="sans-serif" font-size="12">आवेदक होइन, कम्पनीको कारणले अस्वीकृत</text>
-    <text x="80" y="82" fill="#64748b" font-family="sans-serif" font-size="12">स्टार्टअप / घाटा कम्पनी = उच्च जोखिम</text>
-    <text x="80" y="104" fill="#64748b" font-family="sans-serif" font-size="12">रोजगार दिगोपनाको समीक्षा</text>
-    <text x="80" y="132" fill="#d97706" font-family="sans-serif" font-size="12" font-weight="bold">→ कम्पनीको स्थिरता पनि जाँच गरिन्छ</text>
-  </g>
+  <rect x="100" y="385" width="1000" height="70" rx="12" fill="#ea580c"/>
+  <text x="600" y="432" text-anchor="middle" fill="white" font-family="sans-serif" font-size="34" font-weight="bold">2. कार्य विवरण अस्पष्ट</text>
 
-  <!-- Additional reasons row -->
-  <text x="50" y="290" fill="#991b1b" font-family="sans-serif" font-size="15" font-weight="bold">अन्य प्रमुख अस्वीकृतिका कारणहरू</text>
-  <g transform="translate(50, 300)">
-    <rect width="260" height="85" rx="8" fill="white" stroke="#fecaca" stroke-width="1"/>
-    <text x="20" y="25" fill="#dc2626" font-family="sans-serif" font-size="22" font-weight="bold">¥</text>
-    <text x="50" y="27" fill="#334155" font-family="sans-serif" font-size="14" font-weight="bold">कम तलब</text>
-    <text x="20" y="48" fill="#64748b" font-family="sans-serif" font-size="12">जापान औसतभन्दा कम = शंकास्पद</text>
-    <text x="20" y="68" fill="#64748b" font-family="sans-serif" font-size="12">समान उद्योगको औसतसँग तुलना</text>
-  </g>
-  <g transform="translate(325, 300)">
-    <rect width="260" height="85" rx="8" fill="white" stroke="#fecaca" stroke-width="1"/>
-    <text x="20" y="27" fill="#dc2626" font-family="sans-serif" font-size="16" font-weight="bold">!</text>
-    <text x="40" y="27" fill="#334155" font-family="sans-serif" font-size="13" font-weight="bold">कागजात छुटेको · बेमेल</text>
-    <text x="20" y="48" fill="#64748b" font-family="sans-serif" font-size="11">अनुवाद छुटेको, कागजातमा विरोधाभास</text>
-    <text x="20" y="68" fill="#64748b" font-family="sans-serif" font-size="11">असंगत जानकारी = विश्वास घट्छ</text>
-  </g>
-  <g transform="translate(600, 300)">
-    <rect width="260" height="85" rx="8" fill="white" stroke="#fecaca" stroke-width="1"/>
-    <text x="20" y="27" fill="#dc2626" font-family="sans-serif" font-size="16" font-weight="bold">X</text>
-    <text x="42" y="27" fill="#334155" font-family="sans-serif" font-size="13" font-weight="bold">बसोबासको इतिहास समस्या</text>
-    <text x="20" y="48" fill="#64748b" font-family="sans-serif" font-size="12">विगतमा अवैध बसोबास</text>
-    <text x="20" y="68" fill="#64748b" font-family="sans-serif" font-size="12">कर नतिरेको, आपराधिक रेकर्ड</text>
-  </g>
-  <g transform="translate(875, 300)">
-    <rect width="275" height="85" rx="8" fill="white" stroke="#fecaca" stroke-width="1"/>
-    <text x="20" y="27" fill="#dc2626" font-family="sans-serif" font-size="16" font-weight="bold">?</text>
-    <text x="42" y="27" fill="#334155" font-family="sans-serif" font-size="13" font-weight="bold">अपर्याप्त अनुभव प्रमाण</text>
-    <text x="20" y="48" fill="#64748b" font-family="sans-serif" font-size="12">10 वर्षको अनुभव पूरा नभएको</text>
-    <text x="20" y="68" fill="#64748b" font-family="sans-serif" font-size="12">शैक्षिक आवश्यकता पूरा नभएको</text>
-  </g>
+  <rect x="100" y="470" width="1000" height="70" rx="12" fill="#d97706"/>
+  <text x="600" y="517" text-anchor="middle" fill="white" font-family="sans-serif" font-size="34" font-weight="bold">3. कम्पनी आर्थिक समस्या</text>
 
-  <!-- Prevention checklist -->
-  <g transform="translate(50, 405)">
-    <rect width="540" height="155" rx="12" fill="#1e293b"/>
-    <text x="270" y="28" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="15" font-weight="bold">अस्वीकृति रोकथाम चेकलिस्ट</text>
-    <line x1="30" y1="42" x2="510" y2="42" stroke="#334155"/>
-    <text x="35" y="65" fill="#e2e8f0" font-family="sans-serif" font-size="12">✓ विषय/अनुभव र कामको सम्बन्ध स्पष्ट रूपमा व्याख्या गर्नुहोस्</text>
-    <text x="35" y="87" fill="#e2e8f0" font-family="sans-serif" font-size="13">✓ विशिष्ट कार्य विवरण लेख्नुहोस्</text>
-    <text x="35" y="109" fill="#e2e8f0" font-family="sans-serif" font-size="12">✓ सबै कागजातमा जानकारीको एकरूपता जाँच गर्नुहोस्</text>
-    <text x="35" y="131" fill="#e2e8f0" font-family="sans-serif" font-size="12">✓ तलब उद्योग औसत वा माथि भएको पुष्टि गर्नुहोस्</text>
-    <text x="35" y="148" fill="#fbbf24" font-family="sans-serif" font-size="12">※ पुन: आवेदन सम्भव तर उही समस्या = उही नतिजा</text>
-  </g>
-
-  <!-- Rejection consequences box -->
-  <g transform="translate(610, 405)">
-    <rect width="540" height="155" rx="12" fill="white" stroke="#fecaca" stroke-width="2"/>
-    <text x="270" y="28" text-anchor="middle" fill="#dc2626" font-family="sans-serif" font-size="15" font-weight="bold">अस्वीकृतिको परिणाम</text>
-    <line x1="30" y1="42" x2="510" y2="42" stroke="#fecaca"/>
-    <text x="270" y="68" text-anchor="middle" fill="#334155" font-family="sans-serif" font-size="14">प्रवेश गर्न नसकिने (COE अस्वीकृत)</text>
-    <text x="270" y="90" text-anchor="middle" fill="#334155" font-family="sans-serif" font-size="13">परिवर्तन/नवीकरण अस्वीकृत → छोड्नुपर्ने</text>
-    <text x="270" y="112" text-anchor="middle" fill="#334155" font-family="sans-serif" font-size="14">पुन: आवेदन सम्भव तर समय लाग्छ</text>
-    <text x="270" y="140" text-anchor="middle" fill="#dc2626" font-family="sans-serif" font-size="14" font-weight="bold">→ पहिलो पटकमा राम्रोसँग तयारी गर्नुहोस्!</text>
-  </g>
-
-  <text x="600" y="600" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="18">visa.japanlifeinfo.com</text>
+  <text x="600" y="600" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="24">visa.japanlifeinfo.com</text>
 
   <defs>
     <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">

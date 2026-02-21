@@ -2,122 +2,31 @@
   <rect width="1200" height="630" fill="#f8fafc"/>
   <rect width="1200" height="8" fill="url(#headerGradient)"/>
 
-  <text x="600" y="55" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="28" font-weight="bold">छोटो अवधिको भिसाबाट लामो अवधिको भिसामा परिवर्तन?</text>
-  <text x="600" y="85" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="16">पर्यटक भिसा → कार्य भिसा: वास्तविकता</text>
+  <text x="600" y="70" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="38" font-weight="bold">छोटो अवधि भिसाबाट दीर्घकालीन?</text>
 
-  <text x="80" y="125" fill="#dc2626" font-family="sans-serif" font-size="18" font-weight="bold">गलत तरिका</text>
+  <!-- Top half: Red (불가) -->
+  <rect x="60" y="100" width="1080" height="200" rx="20" fill="#fef2f2" stroke="#fca5a5" stroke-width="3"/>
+  <circle cx="180" cy="200" r="60" fill="#dc2626"/>
+  <line x1="138" y1="158" x2="222" y2="242" stroke="white" stroke-width="8" stroke-linecap="round"/>
+  <line x1="222" y1="158" x2="138" y2="242" stroke="white" stroke-width="8" stroke-linecap="round"/>
+  <text x="660" y="180" text-anchor="middle" fill="#991b1b" font-family="sans-serif" font-size="34" font-weight="bold">पर्यटक भिसाबाट सिधै परिवर्तन असम्भव</text>
+  <text x="660" y="235" text-anchor="middle" fill="#dc2626" font-family="sans-serif" font-size="28">आप्रवासन कानुनले अनुमति दिँदैन</text>
 
-  <g transform="translate(60, 138)">
-    <rect width="200" height="60" rx="10" fill="#fef2f2" stroke="#fecaca" stroke-width="2"/>
-    <text x="100" y="25" text-anchor="middle" fill="#991b1b" font-family="sans-serif" font-size="13" font-weight="bold">पर्यटक भिसामा प्रवेश</text>
-    <text x="100" y="45" text-anchor="middle" fill="#991b1b" font-family="sans-serif" font-size="12">छोटो बसाइ 15/30/90 दिन</text>
-  </g>
-  <line x1="270" y1="168" x2="310" y2="168" stroke="#dc2626" stroke-width="2" stroke-dasharray="6,3"/>
-  <polygon points="310,162 322,168 310,174" fill="#dc2626"/>
+  <!-- Bottom half: Green (정규 절차) -->
+  <rect x="60" y="330" width="1080" height="200" rx="20" fill="#f0fdf4" stroke="#86efac" stroke-width="3"/>
+  <circle cx="180" cy="430" r="60" fill="#22c55e"/>
+  <path d="M150,430 L170,455 L215,405" stroke="white" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <text x="660" y="410" text-anchor="middle" fill="#15803d" font-family="sans-serif" font-size="34" font-weight="bold">COE पाएपछि कार्य भिसा आवेदन</text>
+  <text x="660" y="465" text-anchor="middle" fill="#166534" font-family="sans-serif" font-size="28">रोजगार &gt; COE &gt; भिसा &gt; प्रवेश</text>
 
-  <g transform="translate(325, 138)">
-    <rect width="200" height="60" rx="10" fill="#fef2f2" stroke="#fecaca" stroke-width="2"/>
-    <text x="100" y="25" text-anchor="middle" fill="#991b1b" font-family="sans-serif" font-size="13" font-weight="bold">जापानमा भिसा परिवर्तन?</text>
-    <text x="100" y="45" text-anchor="middle" fill="#991b1b" font-family="sans-serif" font-size="12">छोटो → कार्य भिसा</text>
-  </g>
-  <g transform="translate(545, 138)">
-    <circle cx="30" cy="30" r="30" fill="#dc2626"/>
-    <line x1="15" y1="15" x2="45" y2="45" stroke="white" stroke-width="5" stroke-linecap="round"/>
-    <line x1="45" y1="15" x2="15" y2="45" stroke="white" stroke-width="5" stroke-linecap="round"/>
-  </g>
+  <!-- Bottom note -->
+  <text x="600" y="575" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="28">उचित प्रक्रिया सबैभन्दा छिटो र सुरक्षित</text>
 
-  <g transform="translate(620, 138)">
-    <rect width="520" height="60" rx="10" fill="#1e293b"/>
-    <text x="260" y="25" text-anchor="middle" fill="#f87171" font-family="sans-serif" font-size="13" font-weight="bold">आप्रवासन कानून: छोटो → अन्य स्थिति परिवर्तन निषेध</text>
-    <text x="260" y="45" text-anchor="middle" fill="#e2e8f0" font-family="sans-serif" font-size="12">"अस्थायी भ्रमण" प्रवेश → लामो उद्देश्य = प्रवेश उल्लंघन</text>
-  </g>
-
-  <line x1="60" y1="220" x2="1140" y2="220" stroke="#e2e8f0" stroke-width="2"/>
-
-  <text x="80" y="252" fill="#15803d" font-family="sans-serif" font-size="18" font-weight="bold">सही प्रक्रिया</text>
-
-  <g transform="translate(60, 265)">
-    <rect width="200" height="90" rx="10" fill="#f0fdf4" stroke="#86efac" stroke-width="2"/>
-    <circle cx="24" cy="20" r="14" fill="#22c55e"/>
-    <text x="24" y="25" text-anchor="middle" fill="white" font-family="sans-serif" font-size="14" font-weight="bold">1</text>
-    <text x="120" y="24" text-anchor="middle" fill="#15803d" font-family="sans-serif" font-size="14" font-weight="bold">नियुक्ति पाउनु</text>
-    <text x="100" y="52" text-anchor="middle" fill="#166534" font-family="sans-serif" font-size="12">जापानी कम्पनीबाट</text>
-    <text x="100" y="70" text-anchor="middle" fill="#166534" font-family="sans-serif" font-size="12">जागिर प्राप्त</text>
-  </g>
-  <line x1="270" y1="310" x2="290" y2="310" stroke="#22c55e" stroke-width="2"/>
-  <polygon points="290,304 302,310 290,316" fill="#22c55e"/>
-
-  <g transform="translate(305, 265)">
-    <rect width="200" height="90" rx="10" fill="#f0fdf4" stroke="#86efac" stroke-width="2"/>
-    <circle cx="24" cy="20" r="14" fill="#22c55e"/>
-    <text x="24" y="25" text-anchor="middle" fill="white" font-family="sans-serif" font-size="14" font-weight="bold">2</text>
-    <text x="120" y="24" text-anchor="middle" fill="#15803d" font-family="sans-serif" font-size="14" font-weight="bold">COE आवेदन</text>
-    <text x="100" y="52" text-anchor="middle" fill="#166534" font-family="sans-serif" font-size="12">कम्पनीले COE को</text>
-    <text x="100" y="70" text-anchor="middle" fill="#166534" font-family="sans-serif" font-size="12">लागि आवेदन गर्छ</text>
-  </g>
-  <line x1="515" y1="310" x2="535" y2="310" stroke="#22c55e" stroke-width="2"/>
-  <polygon points="535,304 547,310 535,316" fill="#22c55e"/>
-
-  <g transform="translate(550, 265)">
-    <rect width="180" height="90" rx="10" fill="#f0fdf4" stroke="#86efac" stroke-width="2"/>
-    <circle cx="24" cy="20" r="14" fill="#22c55e"/>
-    <text x="24" y="25" text-anchor="middle" fill="white" font-family="sans-serif" font-size="14" font-weight="bold">3</text>
-    <text x="108" y="24" text-anchor="middle" fill="#15803d" font-family="sans-serif" font-size="14" font-weight="bold">COE जारी</text>
-    <text x="90" y="52" text-anchor="middle" fill="#166534" font-family="sans-serif" font-size="12">आप्रवासनले</text>
-    <text x="90" y="70" text-anchor="middle" fill="#166534" font-family="sans-serif" font-size="12">COE प्रमाणपत्र जारी</text>
-  </g>
-  <line x1="740" y1="310" x2="760" y2="310" stroke="#22c55e" stroke-width="2"/>
-  <polygon points="760,304 772,310 760,316" fill="#22c55e"/>
-
-  <g transform="translate(775, 265)">
-    <rect width="200" height="90" rx="10" fill="#f0fdf4" stroke="#86efac" stroke-width="2"/>
-    <circle cx="24" cy="20" r="14" fill="#22c55e"/>
-    <text x="24" y="25" text-anchor="middle" fill="white" font-family="sans-serif" font-size="14" font-weight="bold">4</text>
-    <text x="118" y="24" text-anchor="middle" fill="#15803d" font-family="sans-serif" font-size="13" font-weight="bold">कार्य भिसा प्राप्त</text>
-    <text x="100" y="52" text-anchor="middle" fill="#166534" font-family="sans-serif" font-size="12">स्वदेशमा जापानी</text>
-    <text x="100" y="70" text-anchor="middle" fill="#166534" font-family="sans-serif" font-size="12">दूतावासमा आवेदन</text>
-  </g>
-  <line x1="985" y1="310" x2="1005" y2="310" stroke="#22c55e" stroke-width="2"/>
-  <polygon points="1005,304 1017,310 1005,316" fill="#22c55e"/>
-
-  <g transform="translate(1020, 265)">
-    <rect width="120" height="90" rx="10" fill="#22c55e"/>
-    <circle cx="22" cy="20" r="14" fill="white"/>
-    <text x="22" y="25" text-anchor="middle" fill="#22c55e" font-family="sans-serif" font-size="14" font-weight="bold">5</text>
-    <text x="60" y="55" text-anchor="middle" fill="white" font-family="sans-serif" font-size="16" font-weight="bold">जापान</text>
-    <text x="60" y="75" text-anchor="middle" fill="white" font-family="sans-serif" font-size="16" font-weight="bold">प्रवेश!</text>
-  </g>
-
-  <g transform="translate(60, 380)">
-    <rect width="530" height="100" rx="10" fill="#fffbeb" stroke="#fde68a" stroke-width="2"/>
-    <text x="265" y="28" text-anchor="middle" fill="#92400e" font-family="sans-serif" font-size="15" font-weight="bold">अपवाद (धेरै सीमित)</text>
-    <line x1="30" y1="40" x2="500" y2="40" stroke="#fde68a" stroke-width="1"/>
-    <text x="30" y="62" fill="#78350f" font-family="sans-serif" font-size="13">* जापानी जीवनसाथीसँग आपतकालीन विवाह</text>
-    <text x="30" y="82" fill="#78350f" font-family="sans-serif" font-size="13">* पारिवारिक गम्भीर परिस्थिति / प्रसूति</text>
-    <text x="300" y="62" fill="#78350f" font-family="sans-serif" font-size="13">* विशेष प्रशासनिक निर्णय</text>
-    <text x="300" y="82" fill="#a16207" font-family="sans-serif" font-size="12">→ रोजगारी केसमा प्रायः लागू हुँदैन</text>
-  </g>
-
-  <g transform="translate(610, 380)">
-    <rect width="530" height="100" rx="10" fill="#fef2f2" stroke="#fecaca" stroke-width="2"/>
-    <text x="265" y="28" text-anchor="middle" fill="#dc2626" font-family="sans-serif" font-size="15" font-weight="bold">पर्यटक भिसामा सावधानी</text>
-    <line x1="30" y1="40" x2="500" y2="40" stroke="#fecaca" stroke-width="1"/>
-    <text x="30" y="62" fill="#991b1b" font-family="sans-serif" font-size="13">OK: अन्तर्वार्तामा जानु</text>
-    <text x="30" y="82" fill="#991b1b" font-family="sans-serif" font-size="13">NG: काम सुरु गर्नु (अवैध रोजगारी)</text>
-    <text x="300" y="62" fill="#991b1b" font-family="sans-serif" font-size="13">NG: अनुमति बिना काम = निर्वासन</text>
-    <text x="300" y="82" fill="#991b1b" font-family="sans-serif" font-size="13">NG: भविष्यको भिसामा ठूलो असर</text>
-  </g>
-
-  <rect x="60" y="500" width="1080" height="50" rx="10" fill="#1e293b"/>
-  <text x="600" y="530" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="16" font-weight="bold">"पहिले जाऊँ अनि मिलाउँछ" ✕ → नियुक्ति → COE → कार्य भिसा → प्रवेश ✓</text>
-
-  <text x="600" y="590" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="18">visa.japanlifeinfo.com</text>
+  <text x="600" y="615" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="24">visa.japanlifeinfo.com</text>
 
   <defs>
     <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">
-      <stop offset="0%" stop-color="#3b82f6"/>
-      <stop offset="50%" stop-color="#8b5cf6"/>
-      <stop offset="100%" stop-color="#10b981"/>
+      <stop offset="0%" stop-color="#3b82f6"/><stop offset="50%" stop-color="#8b5cf6"/><stop offset="100%" stop-color="#10b981"/>
     </linearGradient>
   </defs>
 </svg>

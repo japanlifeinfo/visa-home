@@ -2,86 +2,38 @@
   <rect width="1200" height="630" fill="#f8fafc"/>
   <rect width="1200" height="8" fill="url(#headerGradient)"/>
 
-  <text x="600" y="55" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="28" font-weight="bold">Cac Vu Bi Phat Hien Lam Viec Bat Hop Phap Tai Nhat</text>
-  <text x="600" y="82" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="16">"Mot lan sai lam" co the thay doi ca cuoc doi</text>
+  <text x="600" y="75" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="42" font-weight="bold">C&#xE1;c v&#x1EE5; vi&#x1EC7;c lao &#x111;&#x1ED9;ng b&#x1EA5;t h&#x1EE3;p ph&#xE1;p</text>
 
-  <g transform="translate(50, 100)">
-    <rect width="350" height="160" rx="8" fill="white" stroke="#e2e8f0" stroke-width="2"/>
-    <rect width="350" height="32" rx="8" fill="#dc2626"/>
-    <rect y="16" width="350" height="16" fill="#dc2626"/>
-    <text x="175" y="22" text-anchor="middle" fill="white" font-family="sans-serif" font-size="12" font-weight="bold">Vu 1 · Thuc tap sinh bo tron + The cu tru gia</text>
-    <text x="20" y="58" fill="#334155" font-family="sans-serif" font-size="13">Thuc tap sinh bo tron, lam bat hop phap</text>
-    <text x="20" y="78" fill="#334155" font-family="sans-serif" font-size="13">Moi gioi lam the cu tru gia</text>
-    <text x="20" y="100" fill="#dc2626" font-family="sans-serif" font-size="13" font-weight="bold">Ket qua: Moi gioi bi bat va truy to</text>
-    <text x="20" y="122" fill="#64748b" font-family="sans-serif" font-size="12">→ Nguoi gioi thieu cung bi xu phat</text>
-    <text x="20" y="144" fill="#64748b" font-family="sans-serif" font-size="12">→ Nguoi lao dong · chu · moi gioi deu chiu trach nhiem</text>
-  </g>
+  <!-- Badge 1: Red -->
+  <rect x="60" y="130" width="340" height="280" rx="20" fill="#dc2626"/>
+  <circle cx="230" cy="200" r="50" fill="white"/>
+  <text x="230" y="215" text-anchor="middle" fill="#dc2626" font-family="sans-serif" font-size="50" font-weight="bold">1</text>
+  <text x="230" y="290" text-anchor="middle" fill="white" font-family="sans-serif" font-size="28" font-weight="bold">Th&#x1EF1;c t&#x1EAD;p sinh b&#x1ECF; tr&#x1ED1;n</text>
+  <text x="230" y="335" text-anchor="middle" fill="#fecaca" font-family="sans-serif" font-size="24">Th&#x1EBB; l&#x1B0;u tr&#xFA; gi&#x1EA3;</text>
+  <text x="230" y="380" text-anchor="middle" fill="#fecaca" font-family="sans-serif" font-size="24">M&#xF4;i gi&#x1EDB;i b&#x1ECB; b&#x1EAF;t</text>
 
-  <g transform="translate(420, 100)">
-    <rect width="350" height="160" rx="8" fill="white" stroke="#e2e8f0" stroke-width="2"/>
-    <rect width="350" height="32" rx="8" fill="#ea580c"/>
-    <rect y="16" width="350" height="16" fill="#ea580c"/>
-    <text x="175" y="22" text-anchor="middle" fill="white" font-family="sans-serif" font-size="12" font-weight="bold">Vu 2 · Lam viec ngoai nganh visa</text>
-    <text x="20" y="58" fill="#334155" font-family="sans-serif" font-size="13">Visa nong nghiep → lam giat · nha may</text>
-    <text x="20" y="78" fill="#334155" font-family="sans-serif" font-size="13">Co quan noi "khong sao" nhung vi pham</text>
-    <text x="20" y="100" fill="#ea580c" font-family="sans-serif" font-size="13" font-weight="bold">Ket qua: Bi bat vi vi pham nhap cu</text>
-    <text x="20" y="122" fill="#64748b" font-family="sans-serif" font-size="12">→ Lam ngoai nganh chi dinh = bat hop phap</text>
-    <text x="20" y="144" fill="#64748b" font-family="sans-serif" font-size="12">→ Loai visa phai khop voi cong viec thuc te</text>
-  </g>
+  <!-- Badge 2: Orange -->
+  <rect x="430" y="130" width="340" height="280" rx="20" fill="#ea580c"/>
+  <circle cx="600" cy="200" r="50" fill="white"/>
+  <text x="600" y="215" text-anchor="middle" fill="#ea580c" font-family="sans-serif" font-size="50" font-weight="bold">2</text>
+  <text x="600" y="290" text-anchor="middle" fill="white" font-family="sans-serif" font-size="28" font-weight="bold">Sai ng&#xE0;nh ngh&#x1EC1;</text>
+  <text x="600" y="335" text-anchor="middle" fill="#fed7aa" font-family="sans-serif" font-size="22">Visa n&#xF4;ng nghi&#x1EC7;p l&#xE0;m nh&#xE0; m&#xE1;y</text>
+  <text x="600" y="380" text-anchor="middle" fill="#fed7aa" font-family="sans-serif" font-size="24">Vi ph&#x1EA1;m lu&#x1EAD;t nh&#x1EAD;p c&#x1B0;</text>
 
-  <g transform="translate(790, 100)">
-    <rect width="360" height="160" rx="8" fill="white" stroke="#e2e8f0" stroke-width="2"/>
-    <rect width="360" height="32" rx="8" fill="#9333ea"/>
-    <rect y="16" width="360" height="16" fill="#9333ea"/>
-    <text x="180" y="22" text-anchor="middle" fill="white" font-family="sans-serif" font-size="12" font-weight="bold">Vu 3 · Chu lao dong bi bat</text>
-    <text x="20" y="58" fill="#334155" font-family="sans-serif" font-size="13">Tuyen nguoi het han/khong co visa</text>
-    <text x="20" y="78" fill="#334155" font-family="sans-serif" font-size="13">"Tuyen vi luong re"</text>
-    <text x="20" y="100" fill="#9333ea" font-family="sans-serif" font-size="13" font-weight="bold">Ket qua: Bi bat vi vi pham luat nhap cu</text>
-    <text x="20" y="122" fill="#64748b" font-family="sans-serif" font-size="12">→ Chu lao dong bi truy cuu hinh su</text>
-    <text x="20" y="144" fill="#64748b" font-family="sans-serif" font-size="12">→ Phai kiem tra tu cach luu tru truoc khi tuyen</text>
-  </g>
+  <!-- Badge 3: Purple -->
+  <rect x="800" y="130" width="340" height="280" rx="20" fill="#9333ea"/>
+  <circle cx="970" cy="200" r="50" fill="white"/>
+  <text x="970" y="215" text-anchor="middle" fill="#9333ea" font-family="sans-serif" font-size="50" font-weight="bold">3</text>
+  <text x="970" y="290" text-anchor="middle" fill="white" font-family="sans-serif" font-size="24" font-weight="bold">Ch&#x1EE7; s&#x1EED; d&#x1EE5;ng b&#x1ECB; ph&#xE1;t hi&#x1EC7;n</text>
+  <text x="970" y="335" text-anchor="middle" fill="#e9d5ff" font-family="sans-serif" font-size="22">Thu&#xEA; lao &#x111;&#x1ED9;ng kh&#xF4;ng t&#x1B0; c&#xE1;ch</text>
+  <text x="970" y="380" text-anchor="middle" fill="#e9d5ff" font-family="sans-serif" font-size="24">B&#x1ECB; truy t&#x1ED1; h&#xEC;nh s&#x1EF1;</text>
 
-  <g transform="translate(50, 280)">
-    <rect width="530" height="75" rx="12" fill="#1e293b"/>
-    <text x="265" y="30" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="16" font-weight="bold">Thong ke 2024: ~14.000 nguoi bi phat hien vi pham</text>
-    <text x="265" y="55" text-anchor="middle" fill="#e2e8f0" font-family="sans-serif" font-size="13">Bao gom ca truong hop cu tru khong dung quy dinh visa</text>
-  </g>
+  <!-- Bottom -->
+  <rect x="100" y="460" width="1000" height="80" rx="16" fill="#1e293b"/>
+  <text x="600" y="500" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="28" font-weight="bold">2024: ~14.000 vi ph&#x1EA1;m lao &#x111;&#x1ED9;ng</text>
+  <text x="600" y="530" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="22">C&#x1EA3;nh gi&#xE1;c vi&#x1EC7;c l&#xE0;m "thu nh&#x1EAD;p cao" tr&#xEA;n MXH</text>
 
-  <g transform="translate(600, 280)">
-    <rect width="550" height="75" rx="12" fill="#fef2f2" stroke="#fecaca" stroke-width="2"/>
-    <text x="275" y="30" text-anchor="middle" fill="#dc2626" font-family="sans-serif" font-size="16" font-weight="bold">⚠ Canh giac "viec luong cao ngan han" tren SNS</text>
-    <text x="275" y="55" text-anchor="middle" fill="#991b1b" font-family="sans-serif" font-size="13">Tuyen dung bat hop phap online — Canh sat Nhat canh bao</text>
-  </g>
-
-  <text x="50" y="395" fill="#475569" font-family="sans-serif" font-size="15" font-weight="bold">Tai sao co nhieu vu nhu vay?</text>
-  <g transform="translate(50, 405)">
-    <rect width="260" height="48" rx="8" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
-    <text x="130" y="30" text-anchor="middle" fill="#334155" font-family="sans-serif" font-size="13">Thieu lao dong → phu thuoc ngoai</text>
-  </g>
-  <g transform="translate(320, 405)">
-    <rect width="260" height="48" rx="8" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
-    <text x="130" y="30" text-anchor="middle" fill="#334155" font-family="sans-serif" font-size="13">Khong biet dieu kien visa</text>
-  </g>
-  <g transform="translate(590, 405)">
-    <rect width="260" height="48" rx="8" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
-    <text x="130" y="30" text-anchor="middle" fill="#334155" font-family="sans-serif" font-size="13">Moi gioi bat hop phap xui giuc</text>
-  </g>
-  <g transform="translate(860, 405)">
-    <rect width="290" height="48" rx="8" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
-    <text x="145" y="30" text-anchor="middle" fill="#334155" font-family="sans-serif" font-size="13">Tinh trang visa ≠ Cong viec</text>
-  </g>
-
-  <g transform="translate(50, 475)">
-    <rect width="1100" height="55" rx="10" fill="#fffbeb" stroke="#fde68a" stroke-width="1"/>
-    <text x="100" y="35" text-anchor="middle" fill="#92400e" font-family="sans-serif" font-size="14" font-weight="bold">Bat giu</text>
-    <text x="310" y="35" text-anchor="middle" fill="#92400e" font-family="sans-serif" font-size="14" font-weight="bold">Truc xuat</text>
-    <text x="550" y="35" text-anchor="middle" fill="#92400e" font-family="sans-serif" font-size="14" font-weight="bold">Cam nhap canh</text>
-    <text x="810" y="35" text-anchor="middle" fill="#92400e" font-family="sans-serif" font-size="14" font-weight="bold">Bat loi visa</text>
-    <text x="1010" y="35" text-anchor="middle" fill="#92400e" font-family="sans-serif" font-size="14" font-weight="bold">Su nghiep bi huy</text>
-  </g>
-
-  <text x="600" y="565" text-anchor="middle" fill="#475569" font-family="sans-serif" font-size="15">Tinh trang visa phai khop voi cong viec thuc te — dieu nay rat quan trong ve phap ly</text>
-  <text x="600" y="600" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="18">visa.japanlifeinfo.com</text>
+  <text x="600" y="600" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="24">visa.japanlifeinfo.com</text>
 
   <defs>
     <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">
