@@ -1,0 +1,35 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#f0f9ff"/>
+  <rect width="1200" height="8" fill="url(#headerGradient)"/>
+
+  <text x="600" y="75" text-anchor="middle" fill="#0c4a6e" font-family="sans-serif" font-size="44" font-weight="bold">Panduan Spesifikasi Foto ID</text>
+
+  <!-- Photo frame illustration (left-aligned) -->
+  <rect x="100" y="110" width="150" height="200" rx="8" fill="white" stroke="#0ea5e9" stroke-width="4"/>
+  <circle cx="175" cy="180" r="35" fill="#bae6fd"/>
+  <rect x="140" y="230" width="70" height="60" rx="8" fill="#bae6fd"/>
+  <text x="175" y="340" text-anchor="middle" fill="#0369a1" font-family="sans-serif" font-size="24" font-weight="bold">4cm x 3cm</text>
+
+  <!-- Right side: 3 key points (wider) -->
+  <rect x="310" y="120" width="790" height="70" rx="12" fill="#0284c7"/>
+  <text x="705" y="165" text-anchor="middle" fill="white" font-family="sans-serif" font-size="30" font-weight="bold">Foto berwarna dalam 3 bulan</text>
+
+  <rect x="310" y="205" width="790" height="70" rx="12" fill="#0369a1"/>
+  <text x="705" y="250" text-anchor="middle" fill="white" font-family="sans-serif" font-size="30" font-weight="bold">Latar putih · Menghadap depan</text>
+
+  <rect x="310" y="290" width="790" height="70" rx="12" fill="#075985"/>
+  <text x="705" y="335" text-anchor="middle" fill="white" font-family="sans-serif" font-size="30" font-weight="bold">Dilarang topi · Dilarang kacamata hitam</text>
+
+  <!-- Bottom warning bar -->
+  <rect x="100" y="420" width="1000" height="100" rx="16" fill="#1e293b"/>
+  <text x="600" y="465" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="36" font-weight="bold">Berbeda dari foto paspor (45x35mm)!</text>
+  <text x="600" y="505" text-anchor="middle" fill="#e2e8f0" font-family="sans-serif" font-size="28">Spesifikasi salah = Keterlambatan · Pengajuan ulang</text>
+
+  <text x="600" y="590" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="24">visa.japanlifeinfo.com</text>
+
+  <defs>
+    <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">
+      <stop offset="0%" stop-color="#0ea5e9"/><stop offset="50%" stop-color="#0284c7"/><stop offset="100%" stop-color="#075985"/>
+    </linearGradient>
+  </defs>
+</svg>

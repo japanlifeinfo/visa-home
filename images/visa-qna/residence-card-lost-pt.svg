@@ -1,0 +1,45 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#eff6ff"/>
+  <rect width="1200" height="8" fill="url(#hg)"/>
+
+  <text x="600" y="75" text-anchor="middle" fill="#1e3a5f" font-family="sans-serif" font-size="40" font-weight="bold">Perdeu o Cartao de Residencia? Faca Isso!</text>
+
+  <text x="100" y="140" fill="#dc2626" font-family="sans-serif" font-size="22" font-weight="bold">STEP 1</text>
+  <rect x="100" y="155" width="460" height="75" rx="14" fill="#dc2626"/>
+  <text x="330" y="200" text-anchor="middle" fill="white" font-family="sans-serif" font-size="28" font-weight="bold">Registrar na policia</text>
+
+  <polygon points="330,242 318,230 342,230" fill="#dc2626"/>
+
+  <text x="100" y="268" fill="#ea580c" font-family="sans-serif" font-size="22" font-weight="bold">STEP 2</text>
+  <rect x="100" y="283" width="460" height="75" rx="14" fill="#ea580c"/>
+  <text x="330" y="328" text-anchor="middle" fill="white" font-family="sans-serif" font-size="26" font-weight="bold">Reemissao em 14 dias</text>
+
+  <polygon points="330,370 318,358 342,358" fill="#ea580c"/>
+
+  <text x="100" y="396" fill="#16a34a" font-family="sans-serif" font-size="22" font-weight="bold">STEP 3</text>
+  <rect x="100" y="411" width="460" height="75" rx="14" fill="#16a34a"/>
+  <text x="330" y="456" text-anchor="middle" fill="white" font-family="sans-serif" font-size="28" font-weight="bold">Receber novo cartao</text>
+
+  <rect x="640" y="130" width="470" height="360" rx="16" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="875" y="175" text-anchor="middle" fill="#334155" font-family="sans-serif" font-size="26" font-weight="bold">Documentos Necessarios</text>
+  <line x1="665" y1="192" x2="1085" y2="192" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="680" y="235" fill="#475569" font-family="sans-serif" font-size="24">&#x2713; Formulario de reemissao</text>
+  <text x="680" y="280" fill="#475569" font-family="sans-serif" font-size="24">&#x2713; Passaporte</text>
+  <text x="680" y="325" fill="#475569" font-family="sans-serif" font-size="24">&#x2713; Foto (4cm x 3cm)</text>
+  <text x="680" y="370" fill="#475569" font-family="sans-serif" font-size="24">&#x2713; Numero do boletim</text>
+  <text x="680" y="415" fill="#475569" font-family="sans-serif" font-size="24">&#x2713; Taxa: Gratuito</text>
+  <text x="680" y="460" fill="#475569" font-family="sans-serif" font-size="24">&#x2713; Local: Escritorio imigracao</text>
+
+  <rect x="80" y="520" width="1040" height="60" rx="12" fill="#fbbf24"/>
+  <text x="600" y="558" text-anchor="middle" fill="#78350f" font-family="sans-serif" font-size="24" font-weight="bold">Deve solicitar em 14 dias apos perceber a perda!</text>
+
+  <text x="600" y="615" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="22">visa.japanlifeinfo.com</text>
+
+  <defs>
+    <linearGradient id="hg" x1="0" y1="0" x2="1200" y2="0">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="50%" stop-color="#1d4ed8"/>
+      <stop offset="100%" stop-color="#1e40af"/>
+    </linearGradient>
+  </defs>
+</svg>

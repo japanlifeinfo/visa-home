@@ -1,0 +1,27 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#fdf4ff"/>
+  <rect width="1200" height="8" fill="url(#hg)"/>
+  <text x="600" y="70" text-anchor="middle" fill="#701a75" font-family="sans-serif" font-size="36" font-weight="bold">Spouse Visa Pagkatapos ng Marriage Registration?</text>
+  <rect x="80" y="110" width="340" height="220" rx="20" fill="#9333ea"/>
+  <text x="250" y="175" text-anchor="middle" fill="white" font-family="sans-serif" font-size="38" font-weight="bold">Marriage</text>
+  <text x="250" y="220" text-anchor="middle" fill="white" font-family="sans-serif" font-size="38" font-weight="bold">Registration</text>
+  <line x1="140" y1="240" x2="360" y2="240" stroke="#c084fc" stroke-width="2"/>
+  <text x="250" y="272" text-anchor="middle" fill="#e9d5ff" font-family="sans-serif" font-size="20">Dalawang bansa kumpleto</text>
+  <text x="250" y="300" text-anchor="middle" fill="#e9d5ff" font-family="sans-serif" font-size="20">Koseki registration done</text>
+  <polygon points="450,220 490,195 490,207 560,207 560,233 490,233 490,245" fill="#a855f7"/>
+  <rect x="590" y="110" width="340" height="220" rx="20" fill="#7e22ce"/>
+  <text x="760" y="175" text-anchor="middle" fill="white" font-family="sans-serif" font-size="42" font-weight="bold">Visa</text>
+  <text x="760" y="220" text-anchor="middle" fill="white" font-family="sans-serif" font-size="42" font-weight="bold">Review</text>
+  <line x1="650" y1="240" x2="870" y2="240" stroke="#a855f7" stroke-width="2"/>
+  <text x="760" y="272" text-anchor="middle" fill="#e9d5ff" font-family="sans-serif" font-size="20">Katotohanan ng kasal</text>
+  <text x="760" y="300" text-anchor="middle" fill="#e9d5ff" font-family="sans-serif" font-size="20">Financial stability</text>
+  <rect x="970" y="160" width="150" height="100" rx="50" fill="#16a34a"/>
+  <text x="1045" y="200" text-anchor="middle" fill="white" font-family="sans-serif" font-size="26" font-weight="bold">Pwede</text>
+  <text x="1045" y="235" text-anchor="middle" fill="white" font-family="sans-serif" font-size="26" font-weight="bold">Mag-apply!</text>
+  <rect x="80" y="370" width="1040" height="60" rx="12" fill="#fbbf24"/>
+  <text x="600" y="410" text-anchor="middle" fill="#78350f" font-family="sans-serif" font-size="26" font-weight="bold">Babala: Maiksing dating · Age gap · Language barrier → Mas mahigpit</text>
+  <rect x="80" y="450" width="1040" height="80" rx="12" fill="#1e293b"/>
+  <text x="600" y="500" text-anchor="middle" fill="#e2e8f0" font-family="sans-serif" font-size="30" font-weight="bold">Kasal ≠ Auto Approval — Dokumento at patunay ang susi</text>
+  <text x="600" y="590" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="24">visa.japanlifeinfo.com</text>
+  <defs><linearGradient id="hg" x1="0" y1="0" x2="1200" y2="0"><stop offset="0%" stop-color="#a855f7"/><stop offset="50%" stop-color="#9333ea"/><stop offset="100%" stop-color="#6b21a8"/></linearGradient></defs>
+</svg>

@@ -1,0 +1,64 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#1e293b"/>
+  <rect width="1200" height="8" fill="url(#hg)"/>
+
+  <text x="600" y="72" text-anchor="middle" fill="#f8fafc" font-family="sans-serif" font-size="40" font-weight="bold">在留卡随身携带义务违反时的处罚</text>
+
+  <!-- Left: Obligation -->
+  <rect x="60" y="105" width="520" height="370" rx="16" fill="#0f172a" stroke="#3b82f6" stroke-width="2"/>
+  <rect x="60" y="105" width="520" height="50" rx="16" fill="#2563eb"/>
+  <rect x="60" y="135" width="520" height="20" fill="#2563eb"/>
+  <text x="320" y="140" text-anchor="middle" fill="white" font-family="sans-serif" font-size="24" font-weight="bold">随身携带义务</text>
+
+  <text x="100" y="200" fill="#93c5fd" font-family="sans-serif" font-size="20" font-weight="bold">外出时必须随身携带</text>
+  <text x="100" y="232" fill="#cbd5e1" font-family="sans-serif" font-size="17">将原件放在钱包或包中</text>
+
+  <line x1="90" y1="255" x2="550" y2="255" stroke="#334155" stroke-width="1"/>
+
+  <text x="100" y="285" fill="#93c5fd" font-family="sans-serif" font-size="20" font-weight="bold">何时可能被要求出示</text>
+  <circle cx="110" cy="315" r="5" fill="#60a5fa"/>
+  <text x="125" y="321" fill="#cbd5e1" font-family="sans-serif" font-size="17">警察盘问</text>
+  <circle cx="280" cy="315" r="5" fill="#60a5fa"/>
+  <text x="295" y="321" fill="#cbd5e1" font-family="sans-serif" font-size="17">出入国检查</text>
+  <circle cx="110" cy="348" r="5" fill="#60a5fa"/>
+  <text x="125" y="354" fill="#cbd5e1" font-family="sans-serif" font-size="17">交通执法</text>
+  <circle cx="280" cy="348" r="5" fill="#60a5fa"/>
+  <text x="295" y="354" fill="#cbd5e1" font-family="sans-serif" font-size="17">公务确认</text>
+
+  <line x1="90" y1="375" x2="550" y2="375" stroke="#334155" stroke-width="1"/>
+
+  <rect x="90" y="395" width="460" height="55" rx="10" fill="#7f1d1d"/>
+  <text x="320" y="420" text-anchor="middle" fill="#fca5a5" font-family="sans-serif" font-size="16">复印件 ✕ · 手机照片 ✕ · 驾照 ✕</text>
+  <text x="320" y="440" text-anchor="middle" fill="#fecaca" font-family="sans-serif" font-size="14">仅认可原件</text>
+
+  <!-- Right: Penalty -->
+  <rect x="620" y="105" width="520" height="185" rx="16" fill="#dc2626"/>
+  <text x="880" y="155" text-anchor="middle" fill="white" font-family="sans-serif" font-size="28" font-weight="bold">违反处罚</text>
+  <text x="880" y="200" text-anchor="middle" fill="#fef2f2" font-family="sans-serif" font-size="48" font-weight="bold">20万日元以下罚款</text>
+  <text x="880" y="240" text-anchor="middle" fill="#fecaca" font-family="sans-serif" font-size="18">即使非故意也原则上属于违反</text>
+  <text x="880" y="268" text-anchor="middle" fill="#fecaca" font-family="sans-serif" font-size="16">反复违反可能受到实际处罚</text>
+
+  <!-- Right bottom: Impact -->
+  <rect x="620" y="310" width="520" height="165" rx="16" fill="#0f172a" stroke="#f59e0b" stroke-width="2"/>
+  <text x="880" y="352" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="22" font-weight="bold">对永住权·签证续签的影响</text>
+  <circle cx="660" cy="388" r="5" fill="#fbbf24"/>
+  <text x="680" y="394" fill="#e2e8f0" font-family="sans-serif" font-size="18">反复违反 → 审查时不利</text>
+  <circle cx="660" cy="420" r="5" fill="#fbbf24"/>
+  <text x="680" y="426" fill="#e2e8f0" font-family="sans-serif" font-size="18">罚款记录 → 永住权申请不利</text>
+  <circle cx="660" cy="452" r="5" fill="#fbbf24"/>
+  <text x="680" y="458" fill="#e2e8f0" font-family="sans-serif" font-size="18">违法记录由入管保存</text>
+
+  <!-- Bottom -->
+  <rect x="60" y="500" width="1080" height="60" rx="12" fill="#16a34a"/>
+  <text x="600" y="538" text-anchor="middle" fill="white" font-family="sans-serif" font-size="24" font-weight="bold">例外：16岁以下免除携带义务 · 特别永住者适用单独制度</text>
+
+  <text x="600" y="605" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="22">visa.japanlifeinfo.com</text>
+
+  <defs>
+    <linearGradient id="hg" x1="0" y1="0" x2="1200" y2="0">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="50%" stop-color="#dc2626"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+  </defs>
+</svg>

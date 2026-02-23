@@ -1,0 +1,55 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#ecfdf5"/>
+  <rect width="1200" height="8" fill="url(#hg)"/>
+
+  <text x="600" y="75" text-anchor="middle" fill="#064e3b" font-family="sans-serif" font-size="38" font-weight="bold">Visto Conjuge → PR: Rota Mais Rapida</text>
+
+  <line x1="180" y1="260" x2="1020" y2="260" stroke="#a7f3d0" stroke-width="12" stroke-linecap="round"/>
+
+  <circle cx="180" cy="260" r="50" fill="#059669"/>
+  <text x="180" y="255" text-anchor="middle" fill="white" font-family="sans-serif" font-size="16" font-weight="bold">Visto</text>
+  <text x="180" y="278" text-anchor="middle" fill="white" font-family="sans-serif" font-size="16" font-weight="bold">Conjuge</text>
+  <text x="180" y="340" text-anchor="middle" fill="#065f46" font-family="sans-serif" font-size="16" font-weight="bold">START</text>
+
+  <rect x="320" y="180" width="160" height="80" rx="14" fill="#10b981"/>
+  <text x="400" y="215" text-anchor="middle" fill="white" font-family="sans-serif" font-size="20" font-weight="bold">Casamento 3a</text>
+  <text x="400" y="240" text-anchor="middle" fill="#d1fae5" font-family="sans-serif" font-size="16">+ 1 ano no Japao</text>
+  <circle cx="400" cy="260" r="12" fill="#10b981" stroke="white" stroke-width="3"/>
+
+  <rect x="520" y="280" width="160" height="80" rx="14" fill="#0d9488"/>
+  <text x="600" y="315" text-anchor="middle" fill="white" font-family="sans-serif" font-size="20" font-weight="bold">Impostos</text>
+  <text x="600" y="340" text-anchor="middle" fill="#ccfbf1" font-family="sans-serif" font-size="16">Totalmente pagos</text>
+  <circle cx="600" cy="260" r="12" fill="#0d9488" stroke="white" stroke-width="3"/>
+
+  <rect x="720" y="180" width="160" height="80" rx="14" fill="#0891b2"/>
+  <text x="800" y="215" text-anchor="middle" fill="white" font-family="sans-serif" font-size="20" font-weight="bold">Renda Estavel</text>
+  <text x="800" y="240" text-anchor="middle" fill="#cffafe" font-family="sans-serif" font-size="16">3M+ ienes/ano</text>
+  <circle cx="800" cy="260" r="12" fill="#0891b2" stroke="white" stroke-width="3"/>
+
+  <circle cx="1020" cy="260" r="55" fill="#047857" stroke="#a7f3d0" stroke-width="4"/>
+  <text x="1020" y="265" text-anchor="middle" fill="white" font-family="sans-serif" font-size="22" font-weight="bold">PR</text>
+  <text x="1020" y="290" text-anchor="middle" fill="#6ee7b7" font-family="sans-serif" font-size="14">GOAL</text>
+
+  <polygon points="340,252 355,260 340,268" fill="#059669"/>
+  <polygon points="540,252 555,260 540,268" fill="#059669"/>
+  <polygon points="740,252 755,260 740,268" fill="#059669"/>
+  <polygon points="940,252 955,260 940,268" fill="#059669"/>
+
+  <rect x="80" y="410" width="500" height="70" rx="12" fill="#fbbf24"/>
+  <text x="330" y="450" text-anchor="middle" fill="#78350f" font-family="sans-serif" font-size="22" font-weight="bold">Mais rapido ~1 ano (residente longo)</text>
+  <text x="330" y="470" text-anchor="middle" fill="#92400e" font-family="sans-serif" font-size="14">Geralmente minimo 3 anos</text>
+
+  <rect x="620" y="410" width="500" height="70" rx="12" fill="#1e293b"/>
+  <text x="870" y="455" text-anchor="middle" fill="#e2e8f0" font-family="sans-serif" font-size="22" font-weight="bold">Visto Conjuge ≠ PR Automatico</text>
+
+  <text x="600" y="555" text-anchor="middle" fill="#6b7280" font-family="sans-serif" font-size="15" font-weight="bold">Casamento 3a + impostos pagos + renda estavel + residencia 3a = rota mais rapida</text>
+  <text x="600" y="595" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="24">visa.japanlifeinfo.com</text>
+
+  <defs>
+    <linearGradient id="hg" x1="0" y1="0" x2="1200" y2="0">
+      <stop offset="0%" stop-color="#059669"/>
+      <stop offset="50%" stop-color="#0d9488"/>
+      <stop offset="100%" stop-color="#0891b2"/>
+    </linearGradient>
+  </defs>
+</svg>

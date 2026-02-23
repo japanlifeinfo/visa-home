@@ -1,0 +1,27 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#fdf4ff"/>
+  <rect width="1200" height="8" fill="url(#hg)"/>
+  <text x="600" y="70" text-anchor="middle" fill="#701a75" font-family="sans-serif" font-size="36" font-weight="bold">विवाह दर्ता पछि जीवनसाथी भिसा आवेदन?</text>
+  <rect x="80" y="110" width="340" height="220" rx="20" fill="#9333ea"/>
+  <text x="250" y="185" text-anchor="middle" fill="white" font-family="sans-serif" font-size="40" font-weight="bold">विवाह दर्ता</text>
+  <line x1="140" y1="210" x2="360" y2="210" stroke="#c084fc" stroke-width="2"/>
+  <text x="250" y="245" text-anchor="middle" fill="#e9d5ff" font-family="sans-serif" font-size="20">दुवै देशमा पूरा</text>
+  <text x="250" y="275" text-anchor="middle" fill="#e9d5ff" font-family="sans-serif" font-size="20">कोसेकी दर्ता पूरा</text>
+  <text x="250" y="305" text-anchor="middle" fill="#e9d5ff" font-family="sans-serif" font-size="20">प्रमाणपत्र उपलब्ध</text>
+  <polygon points="450,220 490,195 490,207 560,207 560,233 490,233 490,245" fill="#a855f7"/>
+  <rect x="590" y="110" width="340" height="220" rx="20" fill="#7e22ce"/>
+  <text x="760" y="185" text-anchor="middle" fill="white" font-family="sans-serif" font-size="40" font-weight="bold">भिसा जाँच</text>
+  <line x1="650" y1="210" x2="870" y2="210" stroke="#a855f7" stroke-width="2"/>
+  <text x="760" y="245" text-anchor="middle" fill="#e9d5ff" font-family="sans-serif" font-size="20">प्रामाणिकता</text>
+  <text x="760" y="275" text-anchor="middle" fill="#e9d5ff" font-family="sans-serif" font-size="20">आर्थिक क्षमता</text>
+  <text x="760" y="305" text-anchor="middle" fill="#e9d5ff" font-family="sans-serif" font-size="20">सहवास योजना</text>
+  <rect x="970" y="160" width="150" height="100" rx="50" fill="#16a34a"/>
+  <text x="1045" y="200" text-anchor="middle" fill="white" font-family="sans-serif" font-size="26" font-weight="bold">आवेदन</text>
+  <text x="1045" y="235" text-anchor="middle" fill="white" font-family="sans-serif" font-size="26" font-weight="bold">सम्भव!</text>
+  <rect x="80" y="370" width="1040" height="60" rx="12" fill="#fbbf24"/>
+  <text x="600" y="410" text-anchor="middle" fill="#78350f" font-family="sans-serif" font-size="26" font-weight="bold">सावधान: छोटो सम्बन्ध · उमेर फरक · भाषा बाधा → कडा जाँच</text>
+  <rect x="80" y="450" width="1040" height="80" rx="12" fill="#1e293b"/>
+  <text x="600" y="500" text-anchor="middle" fill="#e2e8f0" font-family="sans-serif" font-size="28" font-weight="bold">विवाह ≠ स्वचालित स्वीकृति — कागजात र प्रमाण कुञ्जी हो</text>
+  <text x="600" y="590" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="24">visa.japanlifeinfo.com</text>
+  <defs><linearGradient id="hg" x1="0" y1="0" x2="1200" y2="0"><stop offset="0%" stop-color="#a855f7"/><stop offset="50%" stop-color="#9333ea"/><stop offset="100%" stop-color="#6b21a8"/></linearGradient></defs>
+</svg>

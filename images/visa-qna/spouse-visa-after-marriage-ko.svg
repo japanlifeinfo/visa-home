@@ -1,0 +1,48 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#fdf4ff"/>
+  <rect width="1200" height="8" fill="url(#headerGradient)"/>
+
+  <!-- Title as Q&A style -->
+  <text x="600" y="70" text-anchor="middle" fill="#701a75" font-family="sans-serif" font-size="40" font-weight="bold">혼인신고 후 바로 배우자 비자 신청 가능?</text>
+
+  <!-- Flow: 혼인신고 → 비자 신청 -->
+  <!-- Step 1: 혼인신고 box -->
+  <rect x="80" y="110" width="340" height="220" rx="20" fill="#9333ea"/>
+  <text x="250" y="170" text-anchor="middle" fill="white" font-family="sans-serif" font-size="48" font-weight="bold">혼인신고</text>
+  <line x1="140" y1="195" x2="360" y2="195" stroke="#c084fc" stroke-width="2"/>
+  <text x="250" y="230" text-anchor="middle" fill="#e9d5ff" font-family="sans-serif" font-size="22">일본 + 본국 양쪽 완료</text>
+  <text x="250" y="260" text-anchor="middle" fill="#e9d5ff" font-family="sans-serif" font-size="22">호적 등재 완료</text>
+  <text x="250" y="290" text-anchor="middle" fill="#e9d5ff" font-family="sans-serif" font-size="22">혼인증명서 발급 가능</text>
+
+  <!-- Arrow -->
+  <polygon points="450,220 490,195 490,207 560,207 560,233 490,233 490,245" fill="#a855f7"/>
+
+  <!-- Step 2: 비자 심사 box -->
+  <rect x="590" y="110" width="340" height="220" rx="20" fill="#7e22ce"/>
+  <text x="760" y="170" text-anchor="middle" fill="white" font-family="sans-serif" font-size="48" font-weight="bold">비자 심사</text>
+  <line x1="650" y1="195" x2="870" y2="195" stroke="#a855f7" stroke-width="2"/>
+  <text x="760" y="230" text-anchor="middle" fill="#e9d5ff" font-family="sans-serif" font-size="22">관계 진정성 확인</text>
+  <text x="760" y="260" text-anchor="middle" fill="#e9d5ff" font-family="sans-serif" font-size="22">생계 능력 심사</text>
+  <text x="760" y="290" text-anchor="middle" fill="#e9d5ff" font-family="sans-serif" font-size="22">동거 예정 여부</text>
+
+  <!-- Result badge -->
+  <rect x="970" y="160" width="150" height="100" rx="50" fill="#16a34a"/>
+  <text x="1045" y="200" text-anchor="middle" fill="white" font-family="sans-serif" font-size="28" font-weight="bold">신청</text>
+  <text x="1045" y="235" text-anchor="middle" fill="white" font-family="sans-serif" font-size="28" font-weight="bold">가능!</text>
+
+  <!-- Caution section -->
+  <rect x="80" y="370" width="1040" height="60" rx="12" fill="#fbbf24"/>
+  <text x="600" y="410" text-anchor="middle" fill="#78350f" font-family="sans-serif" font-size="30" font-weight="bold">주의: 교제기간 짧음 · 나이차 큼 · 의사소통 어려움 → 심사 강화</text>
+
+  <!-- Bottom key message -->
+  <rect x="80" y="450" width="1040" height="80" rx="12" fill="#1e293b"/>
+  <text x="600" y="500" text-anchor="middle" fill="#e2e8f0" font-family="sans-serif" font-size="32" font-weight="bold">혼인 완료 ≠ 자동 승인 — 서류 준비와 관계 입증이 핵심</text>
+
+  <text x="600" y="590" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="24">visa.japanlifeinfo.com</text>
+
+  <defs>
+    <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">
+      <stop offset="0%" stop-color="#a855f7"/><stop offset="50%" stop-color="#9333ea"/><stop offset="100%" stop-color="#6b21a8"/>
+    </linearGradient>
+  </defs>
+</svg>

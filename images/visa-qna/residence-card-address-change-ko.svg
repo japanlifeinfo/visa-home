@@ -1,0 +1,52 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#f0f9ff"/>
+  <rect width="1200" height="8" fill="url(#hg)"/>
+
+  <text x="600" y="75" text-anchor="middle" fill="#0c4a6e" font-family="sans-serif" font-size="42" font-weight="bold">이사했다면? 재류카드 주소 변경 필수!</text>
+
+  <!-- Left: Process -->
+  <rect x="80" y="120" width="500" height="340" rx="16" fill="white" stroke="#bae6fd" stroke-width="2"/>
+  <text x="330" y="165" text-anchor="middle" fill="#0369a1" font-family="sans-serif" font-size="26" font-weight="bold">신고 절차</text>
+  <line x1="100" y1="180" x2="560" y2="180" stroke="#e0f2fe" stroke-width="2"/>
+
+  <circle cx="140" cy="225" r="22" fill="#0284c7"/>
+  <text x="140" y="232" text-anchor="middle" fill="white" font-family="sans-serif" font-size="18" font-weight="bold">1</text>
+  <text x="180" y="232" fill="#334155" font-family="sans-serif" font-size="22" font-weight="bold">시청·구청 방문 (市役所·区役所)</text>
+
+  <circle cx="140" cy="285" r="22" fill="#0284c7"/>
+  <text x="140" y="292" text-anchor="middle" fill="white" font-family="sans-serif" font-size="18" font-weight="bold">2</text>
+  <text x="180" y="292" fill="#334155" font-family="sans-serif" font-size="22" font-weight="bold">전입신고 + 재류카드 제시</text>
+
+  <circle cx="140" cy="345" r="22" fill="#0284c7"/>
+  <text x="140" y="352" text-anchor="middle" fill="white" font-family="sans-serif" font-size="18" font-weight="bold">3</text>
+  <text x="180" y="352" fill="#334155" font-family="sans-serif" font-size="22" font-weight="bold">카드 뒷면에 새 주소 기재</text>
+
+  <line x1="100" y1="385" x2="560" y2="385" stroke="#e0f2fe" stroke-width="2"/>
+  <text x="330" y="420" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="18">준비물: 재류카드 · 여권 · 마이넘버카드 · 전출증명서</text>
+
+  <!-- Right: Deadline & Penalty -->
+  <rect x="620" y="120" width="500" height="155" rx="16" fill="#dc2626"/>
+  <text x="870" y="170" text-anchor="middle" fill="white" font-family="sans-serif" font-size="28" font-weight="bold">기한: 이사일로부터 14일 이내</text>
+  <text x="870" y="210" text-anchor="middle" fill="#fecaca" font-family="sans-serif" font-size="20">실제 거주 시작일 기준 (계약일 아님)</text>
+  <text x="870" y="250" text-anchor="middle" fill="#fef2f2" font-family="sans-serif" font-size="20" font-weight="bold">위반 시: 20만엔 이하 벌금</text>
+
+  <rect x="620" y="300" width="500" height="160" rx="16" fill="#1e293b"/>
+  <text x="870" y="345" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="22" font-weight="bold">미신고 시 실질적 불이익</text>
+  <text x="870" y="380" text-anchor="middle" fill="#e2e8f0" font-family="sans-serif" font-size="18">세금 고지서 미수령 · 연금 체납 처리</text>
+  <text x="870" y="410" text-anchor="middle" fill="#e2e8f0" font-family="sans-serif" font-size="18">건강보험 문제 · 입관 통지 누락</text>
+  <text x="870" y="440" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="18" font-weight="bold">영주권 심사 시 신뢰도 하락!</text>
+
+  <!-- Bottom -->
+  <rect x="80" y="500" width="1040" height="60" rx="12" fill="#fbbf24"/>
+  <text x="600" y="538" text-anchor="middle" fill="#78350f" font-family="sans-serif" font-size="26" font-weight="bold">이사 후 14일 이내, 시청·구청에서 반드시 신고하세요!</text>
+
+  <text x="600" y="605" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="22">visa.japanlifeinfo.com</text>
+
+  <defs>
+    <linearGradient id="hg" x1="0" y1="0" x2="1200" y2="0">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="50%" stop-color="#0369a1"/>
+      <stop offset="100%" stop-color="#075985"/>
+    </linearGradient>
+  </defs>
+</svg>
