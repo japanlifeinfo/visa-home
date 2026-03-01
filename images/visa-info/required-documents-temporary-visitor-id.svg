@@ -1,92 +1,46 @@
 <svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- Background -->
-  <rect width="1200" height="630" fill="#f8fafc"/>
+  <defs>
+    <linearGradient id="splitGrad" x1="0" y1="0" x2="700" y2="630">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#0369a1"/>
+    </linearGradient>
+    <clipPath id="diagClip">
+      <polygon points="0,0 880,0 480,630 0,630"/>
+    </clipPath>
+  </defs>
 
-  <!-- Header gradient bar -->
-  <rect width="1200" height="8" fill="url(#headerGradient)"/>
+  <!-- White background (right side) -->
+  <rect width="1200" height="630" fill="#fafafa"/>
 
-  <!-- Title -->
-  <text x="600" y="100" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="44" font-weight="bold">Pengunjung Sementara</text>
+  <!-- Diagonal color area (left side) -->
+  <polygon points="0,0 880,0 480,630 0,630" fill="url(#splitGrad)"/>
 
-  <!-- Subtitle -->
-  <text x="600" y="150" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="28">Panduan Dokumen yang Diperlukan</text>
+  <!-- Left: title area -->
+  <g clip-path="url(#diagClip)">
+    <circle cx="100" cy="500" r="120" fill="white" opacity="0.07"/>
+    <circle cx="620" cy="80" r="80" fill="white" opacity="0.05"/>
 
-  <!-- Main Card -->
-  <g transform="translate(200, 190)">
-    <!-- Card background -->
-    <rect width="800" height="350" rx="20" fill="white" stroke="#e2e8f0" stroke-width="2"/>
-
-    <!-- Left side - Icon area -->
-    <g transform="translate(40, 25)">
-      <!-- Suitcase -->
-      <rect x="25" y="40" width="70" height="55" rx="8" fill="#0ea5e9"/>
-      <rect x="45" y="30" width="30" height="15" rx="5" fill="#0ea5e9"/>
-      <rect x="50" y="35" width="20" height="5" fill="#f0f9ff"/>
-      <rect x="30" y="55" width="60" height="3" fill="#0369a1"/>
-      <rect x="30" y="75" width="60" height="3" fill="#0369a1"/>
-      <!-- Handle -->
-      <rect x="55" y="22" width="10" height="12" rx="2" fill="#6b7280"/>
-      <!-- Airplane -->
-      <g transform="translate(75, 5) rotate(15)">
-        <ellipse cx="20" cy="15" rx="25" ry="6" fill="#64748b"/>
-        <polygon points="5,15 -10,5 -10,10 0,15 -10,20 -10,25" fill="#64748b"/>
-        <polygon points="35,15 50,8 50,12 40,15 50,18 50,22" fill="#64748b"/>
-        <polygon points="15,15 10,0 20,0 25,15" fill="#475569"/>
-      </g>
-      <!-- Calendar with short period -->
-      <rect x="95" y="60" width="35" height="40" rx="3" fill="white" stroke="#94a3b8" stroke-width="2"/>
-      <rect x="95" y="60" width="35" height="12" fill="#ef4444"/>
-      <text x="112" y="70" text-anchor="middle" fill="white" font-family="sans-serif" font-size="8" font-weight="bold">90日</text>
-      <rect x="100" y="78" width="8" height="8" fill="#d1d5db"/>
-      <rect x="112" y="78" width="8" height="8" fill="#d1d5db"/>
-      <rect x="100" y="88" width="8" height="8" fill="#d1d5db"/>
-      <rect x="112" y="88" width="8" height="8" fill="#94a3b8"/>
-    </g>
-
-    <!-- Right side - Content -->
-    <g transform="translate(220, 40)">
-      <text x="0" y="30" fill="#1e293b" font-family="sans-serif" font-size="24" font-weight="bold">Status Tinggal Kunjungan Sementara</text>
-
-      <!-- Features list -->
-      <g transform="translate(0, 60)">
-        <circle cx="12" cy="12" r="12" fill="#e0f2fe"/>
-        <text x="12" y="17" text-anchor="middle" fill="#0ea5e9" font-family="sans-serif" font-size="14">✓</text>
-        <text x="35" y="18" fill="#64748b" font-family="sans-serif" font-size="18">Wisata, kunjungan keluarga, urusan bisnis, dll.</text>
-      </g>
-
-      <g transform="translate(0, 105)">
-        <circle cx="12" cy="12" r="12" fill="#e0f2fe"/>
-        <text x="12" y="17" text-anchor="middle" fill="#0ea5e9" font-family="sans-serif" font-size="14">✓</text>
-        <text x="35" y="18" fill="#64748b" font-family="sans-serif" font-size="18">Masa tinggal: 90 hari, 30 hari, 15 hari</text>
-      </g>
-
-      <g transform="translate(0, 150)">
-        <circle cx="12" cy="12" r="12" fill="#e0f2fe"/>
-        <text x="12" y="17" text-anchor="middle" fill="#0ea5e9" font-family="sans-serif" font-size="14">✓</text>
-        <text x="35" y="18" fill="#64748b" font-family="sans-serif" font-size="18">Perpanjangan prinsipnya tidak bisa (kecuali khusus)</text>
-      </g>
-
-      <g transform="translate(0, 195)">
-        <circle cx="12" cy="12" r="12" fill="#e0f2fe"/>
-        <text x="12" y="17" text-anchor="middle" fill="#0ea5e9" font-family="sans-serif" font-size="14">✓</text>
-        <text x="35" y="18" fill="#64748b" font-family="sans-serif" font-size="18">Tidak bisa mengajukan sertifikat pengakuan</text>
-      </g>
-    </g>
-
-    <!-- Bottom badge -->
-    <rect x="305" y="290" width="190" height="44" rx="22" fill="#e0f2fe"/>
-    <text x="400" y="320" text-anchor="middle" fill="#0369a1" font-family="sans-serif" font-size="18" font-weight="bold">短期滞在</text>
+    <text x="80" y="210" fill="white" font-family="'Noto Sans KR', 'Noto Sans JP', sans-serif" font-size="28" font-weight="500" letter-spacing="6" opacity="0.8">Dokumen yang Diperlukan</text>
+    <text x="80" y="300" fill="white" font-family="'Noto Sans KR', 'Noto Sans JP', sans-serif" font-size="72" font-weight="900">Pengunjung</text>
+    <text x="80" y="390" fill="white" font-family="'Noto Sans KR', 'Noto Sans JP', sans-serif" font-size="72" font-weight="900">Sementara</text>
   </g>
 
-  <!-- Footer -->
-  <text x="600" y="590" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="18">visa.japanlifeinfo.com</text>
+  <!-- Right: icon + info -->
+  <g transform="translate(840, 120) scale(0.85)">
+    
+      <path d="M60 130 L130 80 L200 130" fill="none" stroke="#0284c7" stroke-width="4" opacity="0.35"/>
+      <path d="M130 80 L130 55" stroke="#0284c7" stroke-width="3" opacity="0.3"/>
+      <ellipse cx="130" cy="115" rx="70" ry="20" fill="#0284c7" opacity="0.15"/>
+      <path d="M85 105 L130 75 L175 105 L155 105 L130 85 L105 105Z" fill="#0284c7" opacity="0.3"/>
+      <rect x="120" y="105" width="20" height="4" rx="2" fill="#0284c7" opacity="0.4"/>
+      <path d="M80 140 C80 140 105 155 130 155 C155 155 180 140 180 140" fill="none" stroke="#0284c7" stroke-width="2" opacity="0.2"/>
+  </g>
 
-  <!-- Gradients -->
-  <defs>
-    <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">
-      <stop offset="0%" stop-color="#3b82f6"/>
-      <stop offset="50%" stop-color="#8b5cf6"/>
-      <stop offset="100%" stop-color="#10b981"/>
-    </linearGradient>
-  </defs>
+  <text x="955" y="385" text-anchor="middle" fill="#0284c7" font-family="'Noto Serif JP', serif" font-size="38" font-weight="700">短期滞在</text>
+  <text x="955" y="425" text-anchor="middle" fill="#0284c7" font-family="sans-serif" font-size="30" opacity="0.6">Temporary Visitor</text>
+
+  <rect x="907" y="443" width="96" height="40" rx="20" fill="#0284c7" opacity="0.08" stroke="#0284c7" stroke-width="1.5" stroke-opacity="0.2"/>
+  <text x="955" y="471" text-anchor="middle" fill="#0284c7" font-family="sans-serif" font-size="23" font-weight="600">S</text>
+
+  <text x="955" y="598" text-anchor="middle" fill="#d4d4d8" font-family="sans-serif" font-size="26">visa.japanlifeinfo.com</text>
 </svg>

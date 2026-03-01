@@ -1,84 +1,41 @@
 <svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- Background -->
-  <rect width="1200" height="630" fill="#f8fafc"/>
+  <defs>
+    <linearGradient id="splitGrad" x1="0" y1="0" x2="700" y2="630">
+      <stop offset="0%" stop-color="#db2777"/>
+      <stop offset="100%" stop-color="#e879a0"/>
+    </linearGradient>
+    <clipPath id="diagClip">
+      <polygon points="0,0 880,0 480,630 0,630"/>
+    </clipPath>
+  </defs>
 
-  <!-- Header gradient bar -->
-  <rect width="1200" height="8" fill="url(#headerGradient)"/>
+  <!-- White background (right side) -->
+  <rect width="1200" height="630" fill="#fafafa"/>
 
-  <!-- Title -->
-  <text x="600" y="100" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="40" font-weight="bold">Cham soc dieu duong</text>
+  <!-- Diagonal color area (left side) -->
+  <polygon points="0,0 880,0 480,630 0,630" fill="url(#splitGrad)"/>
 
-  <!-- Subtitle -->
-  <text x="600" y="150" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="28">Huong dan ho so can nop</text>
+  <!-- Left: title area -->
+  <g clip-path="url(#diagClip)">
+    <circle cx="100" cy="500" r="120" fill="white" opacity="0.07"/>
+    <circle cx="620" cy="80" r="80" fill="white" opacity="0.05"/>
 
-  <!-- Main Card -->
-  <g transform="translate(200, 190)">
-    <!-- Card background -->
-    <rect width="800" height="350" rx="20" fill="white" stroke="#e2e8f0" stroke-width="2"/>
-
-    <!-- Left side - Icon area -->
-    <g transform="translate(50, 40)">
-      <!-- Caregiver -->
-      <circle cx="50" cy="40" r="18" fill="#ec4899"/>
-      <rect x="32" y="62" width="36" height="45" rx="6" fill="#ec4899"/>
-      <!-- Heart -->
-      <path d="M50,75 C42,67 30,70 30,82 C30,95 50,105 50,105 C50,105 70,95 70,82 C70,70 58,67 50,75" fill="#fecdd3"/>
-      <!-- Elderly person in wheelchair -->
-      <circle cx="110" cy="60" r="15" fill="#f9a8d4"/>
-      <rect x="95" y="78" width="30" height="35" rx="4" fill="#f9a8d4"/>
-      <!-- Wheelchair -->
-      <circle cx="100" cy="130" r="12" fill="none" stroke="#9ca3af" stroke-width="3"/>
-      <circle cx="130" cy="130" r="12" fill="none" stroke="#9ca3af" stroke-width="3"/>
-      <line x1="100" y1="118" x2="130" y2="118" stroke="#9ca3af" stroke-width="3"/>
-      <line x1="115" y1="90" x2="115" y2="118" stroke="#9ca3af" stroke-width="3"/>
-      <!-- Hands helping -->
-      <path d="M75,100 Q85,95 95,100" fill="none" stroke="#ec4899" stroke-width="3"/>
-    </g>
-
-    <!-- Right side - Content -->
-    <g transform="translate(220, 40)">
-      <text x="0" y="30" fill="#1e293b" font-family="sans-serif" font-size="24" font-weight="bold">Cham soc va huong dan cham soc</text>
-
-      <!-- Features list -->
-      <g transform="translate(0, 60)">
-        <circle cx="12" cy="12" r="12" fill="#fce7f3"/>
-        <text x="12" y="17" text-anchor="middle" fill="#ec4899" font-family="sans-serif" font-size="14">✓</text>
-        <text x="35" y="18" fill="#64748b" font-family="sans-serif" font-size="18">Chung chi Kaigo Fukushishi</text>
-      </g>
-
-      <g transform="translate(0, 105)">
-        <circle cx="12" cy="12" r="12" fill="#fce7f3"/>
-        <text x="12" y="17" text-anchor="middle" fill="#ec4899" font-family="sans-serif" font-size="14">✓</text>
-        <text x="35" y="18" fill="#64748b" font-family="sans-serif" font-size="18">Nhan vien phuc loi dieu duong</text>
-      </g>
-
-      <g transform="translate(0, 150)">
-        <circle cx="12" cy="12" r="12" fill="#fce7f3"/>
-        <text x="12" y="17" text-anchor="middle" fill="#ec4899" font-family="sans-serif" font-size="14">✓</text>
-        <text x="35" y="18" fill="#64748b" font-family="sans-serif" font-size="18">Thoi han: 5 nam, 3 nam, 1 nam, 3 thang</text>
-      </g>
-
-      <g transform="translate(0, 195)">
-        <circle cx="12" cy="12" r="12" fill="#fce7f3"/>
-        <text x="12" y="17" text-anchor="middle" fill="#ec4899" font-family="sans-serif" font-size="14">✓</text>
-        <text x="35" y="18" fill="#64748b" font-family="sans-serif" font-size="18">Hop dong voi co quan tai Nhat Ban</text>
-      </g>
-    </g>
-
-    <!-- Bottom badge -->
-    <rect x="330" y="290" width="140" height="44" rx="22" fill="#fce7f3"/>
-    <text x="400" y="320" text-anchor="middle" fill="#be185d" font-family="sans-serif" font-size="18" font-weight="bold">介護</text>
+    <text x="80" y="210" fill="white" font-family="'Noto Sans KR', 'Noto Sans JP', sans-serif" font-size="34" font-weight="500" letter-spacing="6" opacity="0.8">Hồ sơ cần nộp</text>
+    <text x="80" y="340" fill="white" font-family="'Noto Sans KR', 'Noto Sans JP', sans-serif" font-size="80" font-weight="900">Điều dưỡng</text>
   </g>
 
-  <!-- Footer -->
-  <text x="600" y="590" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="18">visa.japanlifeinfo.com</text>
+  <!-- Right: icon + info -->
+  <g transform="translate(840, 120) scale(0.85)">
+    
+      <path d="M130 85 C130 75 115 55 95 55 C70 55 60 80 60 95 C60 135 130 180 130 180 C130 180 200 135 200 95 C200 80 190 55 165 55 C145 55 130 75 130 85Z" fill="#db2777" opacity="0.3"/>
+      <path d="M130 105 C130 98 121 85 108 85 C92 85 85 100 85 110 C85 135 130 160 130 160 C130 160 175 135 175 110 C175 100 168 85 152 85 C139 85 130 98 130 105Z" fill="#db2777" opacity="0.2"/>
+  </g>
 
-  <!-- Gradients -->
-  <defs>
-    <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">
-      <stop offset="0%" stop-color="#3b82f6"/>
-      <stop offset="50%" stop-color="#8b5cf6"/>
-      <stop offset="100%" stop-color="#10b981"/>
-    </linearGradient>
-  </defs>
+  <text x="955" y="385" text-anchor="middle" fill="#db2777" font-family="'Noto Serif JP', serif" font-size="38" font-weight="700">介護</text>
+  <text x="955" y="425" text-anchor="middle" fill="#db2777" font-family="sans-serif" font-size="30" opacity="0.6">Nursing Care</text>
+
+  <rect x="907" y="443" width="96" height="40" rx="20" fill="#db2777" opacity="0.08" stroke="#db2777" stroke-width="1.5" stroke-opacity="0.2"/>
+  <text x="955" y="471" text-anchor="middle" fill="#db2777" font-family="sans-serif" font-size="23" font-weight="600">I</text>
+
+  <text x="955" y="598" text-anchor="middle" fill="#d4d4d8" font-family="sans-serif" font-size="26">visa.japanlifeinfo.com</text>
 </svg>

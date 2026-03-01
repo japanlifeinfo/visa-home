@@ -1,50 +1,44 @@
 <svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1200" height="630" fill="#f8fafc"/>
-  <rect width="1200" height="8" fill="url(#headerGradient)"/>
-  <text x="600" y="100" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="44" font-weight="bold">Specified Skilled Worker (ii)</text>
-  <text x="600" y="150" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="28">Required Documents Guide</text>
-  <g transform="translate(200, 190)">
-    <rect width="800" height="350" rx="20" fill="white" stroke="#e2e8f0" stroke-width="2"/>
-    <!-- Advanced Worker Icon -->
-    <g transform="translate(60, 70)">
-      <!-- Worker figure -->
-      <circle cx="80" cy="40" r="25" fill="#e0e7ff" stroke="#6366f1" stroke-width="3"/>
-      <rect x="55" y="70" width="50" height="60" rx="8" fill="#6366f1"/>
-      <!-- Star badge for advanced -->
-      <polygon points="80,5 84,18 98,18 87,27 91,40 80,32 69,40 73,27 62,18 76,18" fill="#6366f1"/>
-      <!-- Gear/Cog for expertise -->
-      <g transform="translate(110, 80)">
-        <circle cx="25" cy="25" r="18" fill="none" stroke="#818cf8" stroke-width="4"/>
-        <circle cx="25" cy="25" r="8" fill="#6366f1"/>
-        <rect x="22" y="0" width="6" height="12" fill="#818cf8"/>
-        <rect x="22" y="38" width="6" height="12" fill="#818cf8"/>
-        <rect x="0" y="22" width="12" height="6" fill="#818cf8"/>
-        <rect x="38" y="22" width="12" height="6" fill="#818cf8"/>
-      </g>
-      <!-- Badge with "2" -->
-      <circle cx="130" cy="130" r="22" fill="#e0e7ff" stroke="#6366f1" stroke-width="3"/>
-      <text x="130" y="138" text-anchor="middle" fill="#4f46e5" font-family="sans-serif" font-size="24" font-weight="bold">2</text>
-    </g>
-    <!-- Content Section -->
-    <g transform="translate(280, 60)">
-      <circle cx="20" cy="20" r="12" fill="#e0e7ff"/>
-      <text x="45" y="26" fill="#1e293b" font-family="sans-serif" font-size="20">Advanced skilled work</text>
-      <circle cx="20" cy="70" r="12" fill="#e0e7ff"/>
-      <text x="45" y="76" fill="#1e293b" font-family="sans-serif" font-size="20">Higher expertise level</text>
-      <circle cx="20" cy="120" r="12" fill="#e0e7ff"/>
-      <text x="45" y="126" fill="#1e293b" font-family="sans-serif" font-size="20">Family allowed</text>
-      <circle cx="20" cy="170" r="12" fill="#e0e7ff"/>
-      <text x="45" y="176" fill="#1e293b" font-family="sans-serif" font-size="20">Unlimited renewals</text>
-    </g>
-    <rect x="305" y="290" width="190" height="44" rx="22" fill="#e0e7ff"/>
-    <text x="400" y="320" text-anchor="middle" fill="#4f46e5" font-family="sans-serif" font-size="18" font-weight="bold">特定技能2号</text>
-  </g>
-  <text x="600" y="590" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="18">visa.japanlifeinfo.com</text>
   <defs>
-    <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">
-      <stop offset="0%" stop-color="#3b82f6"/>
-      <stop offset="50%" stop-color="#8b5cf6"/>
-      <stop offset="100%" stop-color="#10b981"/>
+    <linearGradient id="splitGrad" x1="0" y1="0" x2="700" y2="630">
+      <stop offset="0%" stop-color="#0f766e"/>
+      <stop offset="100%" stop-color="#047857"/>
     </linearGradient>
+    <clipPath id="diagClip">
+      <polygon points="0,0 880,0 480,630 0,630"/>
+    </clipPath>
   </defs>
+
+  <!-- White background (right side) -->
+  <rect width="1200" height="630" fill="#fafafa"/>
+
+  <!-- Diagonal color area (left side) -->
+  <polygon points="0,0 880,0 480,630 0,630" fill="url(#splitGrad)"/>
+
+  <!-- Left: title area -->
+  <g clip-path="url(#diagClip)">
+    <circle cx="100" cy="500" r="120" fill="white" opacity="0.07"/>
+    <circle cx="620" cy="80" r="80" fill="white" opacity="0.05"/>
+
+    <text x="80" y="210" fill="white" font-family="'Noto Sans KR', 'Noto Sans JP', sans-serif" font-size="34" font-weight="500" letter-spacing="6" opacity="0.8">Required Documents</text>
+    <text x="80" y="300" fill="white" font-family="'Noto Sans KR', 'Noto Sans JP', sans-serif" font-size="48" font-weight="900">Specified</text>
+    <text x="80" y="360" fill="white" font-family="'Noto Sans KR', 'Noto Sans JP', sans-serif" font-size="48" font-weight="900">Skilled Worker (ii)</text>
+  </g>
+
+  <!-- Right: icon + info -->
+  <g transform="translate(840, 120) scale(0.85)">
+    
+      <rect x="80" y="65" width="100" height="120" rx="12" fill="#0f766e" opacity="0.25"/>
+      <rect x="80" y="65" width="100" height="40" rx="12" fill="#0f766e" opacity="0.35"/>
+      <circle cx="130" cy="85" r="10" fill="#0f766e" opacity="0.15"/>
+      <text x="130" y="155" text-anchor="middle" fill="#0f766e" font-family="sans-serif" font-size="52" font-weight="900" opacity="0.4">2</text>
+  </g>
+
+  <text x="955" y="385" text-anchor="middle" fill="#0f766e" font-family="'Noto Serif JP', serif" font-size="38" font-weight="700">特定技能2号</text>
+  <text x="955" y="425" text-anchor="middle" fill="#0f766e" font-family="sans-serif" font-size="30" opacity="0.6">Specified Skilled Worker (ii)</text>
+
+  <rect x="907" y="443" width="96" height="40" rx="20" fill="#0f766e" opacity="0.08" stroke="#0f766e" stroke-width="1.5" stroke-opacity="0.2"/>
+  <text x="955" y="471" text-anchor="middle" fill="#0f766e" font-family="sans-serif" font-size="23" font-weight="600">V-2</text>
+
+  <text x="955" y="598" text-anchor="middle" fill="#d4d4d8" font-family="sans-serif" font-size="26">visa.japanlifeinfo.com</text>
 </svg>

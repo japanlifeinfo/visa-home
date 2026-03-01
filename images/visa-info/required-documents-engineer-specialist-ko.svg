@@ -1,79 +1,47 @@
 <svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- Background -->
-  <rect width="1200" height="630" fill="#f8fafc"/>
+  <defs>
+    <linearGradient id="splitGrad" x1="0" y1="0" x2="700" y2="630">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#0ea5e9"/>
+    </linearGradient>
+    <clipPath id="diagClip">
+      <polygon points="0,0 880,0 480,630 0,630"/>
+    </clipPath>
+  </defs>
 
-  <!-- Header gradient bar -->
-  <rect width="1200" height="8" fill="url(#headerGradient)"/>
+  <!-- White background (right side) -->
+  <rect width="1200" height="630" fill="#fafafa"/>
 
-  <!-- Title -->
-  <text x="600" y="100" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="44" font-weight="bold">기술·인문지식·국제업무</text>
+  <!-- Diagonal color area (left side) -->
+  <polygon points="0,0 880,0 480,630 0,630" fill="url(#splitGrad)"/>
 
-  <!-- Subtitle -->
-  <text x="600" y="150" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="28">제출 서류 안내</text>
+  <!-- Left: title area -->
+  <g clip-path="url(#diagClip)">
+    <circle cx="100" cy="500" r="120" fill="white" opacity="0.07"/>
+    <circle cx="620" cy="80" r="80" fill="white" opacity="0.05"/>
 
-  <!-- Main Card -->
-  <g transform="translate(200, 190)">
-    <!-- Card background -->
-    <rect width="800" height="350" rx="20" fill="white" stroke="#e2e8f0" stroke-width="2"/>
-
-    <!-- Left side - Icon area -->
-    <g transform="translate(60, 60)">
-      <!-- Computer/Work icon -->
-      <rect x="0" y="0" width="120" height="80" rx="8" fill="#3b82f6"/>
-      <rect x="10" y="10" width="100" height="55" rx="4" fill="#1e40af"/>
-      <rect x="20" y="20" width="80" height="35" fill="#60a5fa"/>
-      <rect x="40" y="80" width="40" height="10" fill="#3b82f6"/>
-      <rect x="30" y="90" width="60" height="5" rx="2" fill="#3b82f6"/>
-
-      <!-- Code symbols -->
-      <text x="35" y="45" fill="#1e3a5f" font-family="monospace" font-size="14">&lt;/&gt;</text>
-      <text x="65" y="45" fill="#1e3a5f" font-family="monospace" font-size="14">{ }</text>
-    </g>
-
-    <!-- Right side - Content -->
-    <g transform="translate(220, 40)">
-      <text x="0" y="30" fill="#1e293b" font-family="sans-serif" font-size="24" font-weight="bold">취업 관련 재류자격</text>
-
-      <!-- Features list -->
-      <g transform="translate(0, 60)">
-        <circle cx="12" cy="12" r="12" fill="#dbeafe"/>
-        <text x="12" y="17" text-anchor="middle" fill="#3b82f6" font-family="sans-serif" font-size="14">✓</text>
-        <text x="35" y="18" fill="#64748b" font-family="sans-serif" font-size="18">IT 엔지니어, 통역, 번역, 마케팅</text>
-      </g>
-
-      <g transform="translate(0, 105)">
-        <circle cx="12" cy="12" r="12" fill="#dbeafe"/>
-        <text x="12" y="17" text-anchor="middle" fill="#3b82f6" font-family="sans-serif" font-size="14">✓</text>
-        <text x="35" y="18" fill="#64748b" font-family="sans-serif" font-size="18">대학 졸업 또는 10년 이상 경력</text>
-      </g>
-
-      <g transform="translate(0, 150)">
-        <circle cx="12" cy="12" r="12" fill="#dbeafe"/>
-        <text x="12" y="17" text-anchor="middle" fill="#3b82f6" font-family="sans-serif" font-size="14">✓</text>
-        <text x="35" y="18" fill="#64748b" font-family="sans-serif" font-size="18">카테고리별 서류 상이</text>
-      </g>
-
-      <g transform="translate(0, 195)">
-        <circle cx="12" cy="12" r="12" fill="#dbeafe"/>
-        <text x="12" y="17" text-anchor="middle" fill="#3b82f6" font-family="sans-serif" font-size="14">✓</text>
-        <text x="35" y="18" fill="#64748b" font-family="sans-serif" font-size="18">인정 · 변경 · 갱신 신청 가능</text>
-      </g>
-    </g>
-
-    <!-- Bottom badge -->
-    <rect x="280" y="290" width="240" height="44" rx="22" fill="#dbeafe"/>
-    <text x="400" y="320" text-anchor="middle" fill="#1d4ed8" font-family="sans-serif" font-size="18" font-weight="bold">技術・人文知識・国際業務</text>
+    <text x="80" y="210" fill="white" font-family="'Noto Sans KR', 'Noto Sans JP', sans-serif" font-size="34" font-weight="500" letter-spacing="6" opacity="0.8">제출 서류</text>
+    <text x="80" y="300" fill="white" font-family="'Noto Sans KR', 'Noto Sans JP', sans-serif" font-size="64" font-weight="900">기술·</text>
+    <text x="80" y="380" fill="white" font-family="'Noto Sans KR', 'Noto Sans JP', sans-serif" font-size="64" font-weight="900">인문지식·국제업무</text>
   </g>
 
-  <!-- Footer -->
-  <text x="600" y="590" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="18">visa.japanlifeinfo.com</text>
+  <!-- Right: icon + info -->
+  <g transform="translate(840, 120) scale(0.85)">
+    
+      <circle cx="130" cy="120" r="55" fill="none" stroke="#2563eb" stroke-width="6" opacity="0.3"/>
+      <circle cx="130" cy="120" r="40" fill="none" stroke="#2563eb" stroke-width="4" opacity="0.2"/>
+      <circle cx="130" cy="120" r="12" fill="#2563eb" opacity="0.4"/>
+      <rect x="126" y="60" width="8" height="20" rx="4" fill="#2563eb" opacity="0.35"/>
+      <rect x="126" y="160" width="8" height="20" rx="4" fill="#2563eb" opacity="0.35"/>
+      <rect x="170" y="116" width="20" height="8" rx="4" fill="#2563eb" opacity="0.35"/>
+      <rect x="70" y="116" width="20" height="8" rx="4" fill="#2563eb" opacity="0.35"/>
+  </g>
 
-  <!-- Gradients -->
-  <defs>
-    <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">
-      <stop offset="0%" stop-color="#3b82f6"/>
-      <stop offset="50%" stop-color="#8b5cf6"/>
-      <stop offset="100%" stop-color="#10b981"/>
-    </linearGradient>
-  </defs>
+  <text x="955" y="385" text-anchor="middle" fill="#2563eb" font-family="'Noto Serif JP', serif" font-size="38" font-weight="700">技術・人文知識・国際業務</text>
+  <text x="955" y="425" text-anchor="middle" fill="#2563eb" font-family="sans-serif" font-size="30" opacity="0.6">Engineer/Specialist</text>
+
+  <rect x="907" y="443" width="96" height="40" rx="20" fill="#2563eb" opacity="0.08" stroke="#2563eb" stroke-width="1.5" stroke-opacity="0.2"/>
+  <text x="955" y="471" text-anchor="middle" fill="#2563eb" font-family="sans-serif" font-size="23" font-weight="600">N-2</text>
+
+  <text x="955" y="598" text-anchor="middle" fill="#d4d4d8" font-family="sans-serif" font-size="26">visa.japanlifeinfo.com</text>
 </svg>

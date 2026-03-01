@@ -1,88 +1,46 @@
 <svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- Background -->
-  <rect width="1200" height="630" fill="#f8fafc"/>
+  <defs>
+    <linearGradient id="splitGrad" x1="0" y1="0" x2="700" y2="630">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#0369a1"/>
+    </linearGradient>
+    <clipPath id="diagClip">
+      <polygon points="0,0 880,0 480,630 0,630"/>
+    </clipPath>
+  </defs>
 
-  <!-- Header gradient bar -->
-  <rect width="1200" height="8" fill="url(#headerGradient)"/>
+  <!-- White background (right side) -->
+  <rect width="1200" height="630" fill="#fafafa"/>
 
-  <!-- Title -->
-  <text x="600" y="100" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="44" font-weight="bold">Luu tru ngan han</text>
+  <!-- Diagonal color area (left side) -->
+  <polygon points="0,0 880,0 480,630 0,630" fill="url(#splitGrad)"/>
 
-  <!-- Subtitle -->
-  <text x="600" y="150" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="28">Huong dan ho so can nop</text>
+  <!-- Left: title area -->
+  <g clip-path="url(#diagClip)">
+    <circle cx="100" cy="500" r="120" fill="white" opacity="0.07"/>
+    <circle cx="620" cy="80" r="80" fill="white" opacity="0.05"/>
 
-  <!-- Main Card -->
-  <g transform="translate(200, 190)">
-    <!-- Card background -->
-    <rect width="800" height="350" rx="20" fill="white" stroke="#e2e8f0" stroke-width="2"/>
-
-    <!-- Left side - Icon area -->
-    <g transform="translate(45, 35)">
-      <!-- Airplane -->
-      <polygon points="70,20 90,35 130,35 130,45 90,45 70,60 70,45 50,45 50,35 70,35" fill="#0ea5e9"/>
-      <rect x="55" y="37" width="8" height="6" fill="#0284c7"/>
-      <!-- Suitcase -->
-      <rect x="30" y="75" width="50" height="40" rx="4" fill="#0284c7"/>
-      <rect x="45" y="68" width="20" height="10" rx="2" fill="#0369a1"/>
-      <rect x="35" y="85" width="40" height="3" fill="#7dd3fc"/>
-      <rect x="35" y="95" width="40" height="3" fill="#7dd3fc"/>
-      <!-- Camera icon -->
-      <rect x="95" y="75" width="40" height="30" rx="4" fill="#38bdf8"/>
-      <circle cx="115" cy="90" r="10" fill="#0284c7"/>
-      <circle cx="115" cy="90" r="6" fill="#7dd3fc"/>
-      <rect x="125" y="78" width="8" height="5" rx="1" fill="#0284c7"/>
-      <!-- Calendar with short duration -->
-      <rect x="55" y="125" width="50" height="45" rx="4" fill="#bae6fd"/>
-      <rect x="60" y="120" width="6" height="10" fill="#0369a1"/>
-      <rect x="94" y="120" width="6" height="10" fill="#0369a1"/>
-      <text x="80" y="155" text-anchor="middle" fill="#0369a1" font-family="sans-serif" font-size="16" font-weight="bold">90</text>
-      <text x="80" y="167" text-anchor="middle" fill="#0369a1" font-family="sans-serif" font-size="10">ngay</text>
-    </g>
-
-    <!-- Right side - Content -->
-    <g transform="translate(220, 40)">
-      <text x="0" y="30" fill="#1e293b" font-family="sans-serif" font-size="24" font-weight="bold">Du lich, tham nguoi than, cong tac</text>
-
-      <!-- Features list -->
-      <g transform="translate(0, 60)">
-        <circle cx="12" cy="12" r="12" fill="#e0f2fe"/>
-        <text x="12" y="17" text-anchor="middle" fill="#0ea5e9" font-family="sans-serif" font-size="14">✓</text>
-        <text x="35" y="18" fill="#64748b" font-family="sans-serif" font-size="18">Thoi han: 90 ngay, 30 ngay, 15 ngay</text>
-      </g>
-
-      <g transform="translate(0, 105)">
-        <circle cx="12" cy="12" r="12" fill="#e0f2fe"/>
-        <text x="12" y="17" text-anchor="middle" fill="#0ea5e9" font-family="sans-serif" font-size="14">✓</text>
-        <text x="35" y="18" fill="#64748b" font-family="sans-serif" font-size="18">Khong chap nhan don xin cap moi</text>
-      </g>
-
-      <g transform="translate(0, 150)">
-        <circle cx="12" cy="12" r="12" fill="#e0f2fe"/>
-        <text x="12" y="17" text-anchor="middle" fill="#0ea5e9" font-family="sans-serif" font-size="14">✓</text>
-        <text x="35" y="18" fill="#64748b" font-family="sans-serif" font-size="18">Gia han chi trong truong hop dac biet</text>
-      </g>
-
-      <g transform="translate(0, 195)">
-        <circle cx="12" cy="12" r="12" fill="#e0f2fe"/>
-        <text x="12" y="17" text-anchor="middle" fill="#0ea5e9" font-family="sans-serif" font-size="14">✓</text>
-        <text x="35" y="18" fill="#64748b" font-family="sans-serif" font-size="18">Thay doi visa ve nguyen tac khong duoc</text>
-      </g>
-    </g>
-
-    <!-- Bottom badge -->
-    <rect x="320" y="290" width="160" height="44" rx="22" fill="#e0f2fe"/>
-    <text x="400" y="320" text-anchor="middle" fill="#0369a1" font-family="sans-serif" font-size="18" font-weight="bold">短期滞在</text>
+    <text x="80" y="210" fill="white" font-family="'Noto Sans KR', 'Noto Sans JP', sans-serif" font-size="34" font-weight="500" letter-spacing="6" opacity="0.8">Hồ sơ cần nộp</text>
+    <text x="80" y="300" fill="white" font-family="'Noto Sans KR', 'Noto Sans JP', sans-serif" font-size="72" font-weight="900">Lưu trú</text>
+    <text x="80" y="390" fill="white" font-family="'Noto Sans KR', 'Noto Sans JP', sans-serif" font-size="72" font-weight="900">ngắn hạn</text>
   </g>
 
-  <!-- Footer -->
-  <text x="600" y="590" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="18">visa.japanlifeinfo.com</text>
+  <!-- Right: icon + info -->
+  <g transform="translate(840, 120) scale(0.85)">
+    
+      <path d="M60 130 L130 80 L200 130" fill="none" stroke="#0284c7" stroke-width="4" opacity="0.35"/>
+      <path d="M130 80 L130 55" stroke="#0284c7" stroke-width="3" opacity="0.3"/>
+      <ellipse cx="130" cy="115" rx="70" ry="20" fill="#0284c7" opacity="0.15"/>
+      <path d="M85 105 L130 75 L175 105 L155 105 L130 85 L105 105Z" fill="#0284c7" opacity="0.3"/>
+      <rect x="120" y="105" width="20" height="4" rx="2" fill="#0284c7" opacity="0.4"/>
+      <path d="M80 140 C80 140 105 155 130 155 C155 155 180 140 180 140" fill="none" stroke="#0284c7" stroke-width="2" opacity="0.2"/>
+  </g>
 
-  <!-- Gradients -->
-  <defs>
-    <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">
-      <stop offset="0%" stop-color="#3b82f6"/>
-      <stop offset="50%" stop-color="#8b5cf6"/>
-      <stop offset="100%" stop-color="#10b981"/>
-    </linearGradient>
-  </defs>
+  <text x="955" y="385" text-anchor="middle" fill="#0284c7" font-family="'Noto Serif JP', serif" font-size="38" font-weight="700">短期滞在</text>
+  <text x="955" y="425" text-anchor="middle" fill="#0284c7" font-family="sans-serif" font-size="30" opacity="0.6">Temporary Visitor</text>
+
+  <rect x="907" y="443" width="96" height="40" rx="20" fill="#0284c7" opacity="0.08" stroke="#0284c7" stroke-width="1.5" stroke-opacity="0.2"/>
+  <text x="955" y="471" text-anchor="middle" fill="#0284c7" font-family="sans-serif" font-size="23" font-weight="600">S</text>
+
+  <text x="955" y="598" text-anchor="middle" fill="#d4d4d8" font-family="sans-serif" font-size="26">visa.japanlifeinfo.com</text>
 </svg>

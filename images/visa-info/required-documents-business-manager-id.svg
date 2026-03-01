@@ -1,86 +1,45 @@
 <svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- Background -->
-  <rect width="1200" height="630" fill="#f8fafc"/>
+  <defs>
+    <linearGradient id="splitGrad" x1="0" y1="0" x2="700" y2="630">
+      <stop offset="0%" stop-color="#0f766e"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+    <clipPath id="diagClip">
+      <polygon points="0,0 880,0 480,630 0,630"/>
+    </clipPath>
+  </defs>
 
-  <!-- Header gradient bar -->
-  <rect width="1200" height="8" fill="url(#headerGradient)"/>
+  <!-- White background (right side) -->
+  <rect width="1200" height="630" fill="#fafafa"/>
 
-  <!-- Title -->
-  <text x="600" y="100" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="44" font-weight="bold">Manajemen Bisnis</text>
+  <!-- Diagonal color area (left side) -->
+  <polygon points="0,0 880,0 480,630 0,630" fill="url(#splitGrad)"/>
 
-  <!-- Subtitle -->
-  <text x="600" y="150" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="28">Panduan Dokumen yang Diperlukan</text>
+  <!-- Left: title area -->
+  <g clip-path="url(#diagClip)">
+    <circle cx="100" cy="500" r="120" fill="white" opacity="0.07"/>
+    <circle cx="620" cy="80" r="80" fill="white" opacity="0.05"/>
 
-  <!-- Main Card -->
-  <g transform="translate(200, 190)">
-    <!-- Card background -->
-    <rect width="800" height="350" rx="20" fill="white" stroke="#e2e8f0" stroke-width="2"/>
-
-    <!-- Left side - Icon area -->
-    <g transform="translate(50, 40)">
-      <!-- Building -->
-      <rect x="20" y="20" width="80" height="100" fill="#0ea5e9"/>
-      <rect x="25" y="25" width="15" height="15" fill="#bae6fd"/>
-      <rect x="45" y="25" width="15" height="15" fill="#bae6fd"/>
-      <rect x="65" y="25" width="15" height="15" fill="#bae6fd"/>
-      <rect x="25" y="45" width="15" height="15" fill="#bae6fd"/>
-      <rect x="45" y="45" width="15" height="15" fill="#bae6fd"/>
-      <rect x="65" y="45" width="15" height="15" fill="#bae6fd"/>
-      <rect x="25" y="65" width="15" height="15" fill="#bae6fd"/>
-      <rect x="45" y="65" width="15" height="15" fill="#bae6fd"/>
-      <rect x="65" y="65" width="15" height="15" fill="#bae6fd"/>
-      <!-- Door -->
-      <rect x="45" y="90" width="30" height="30" fill="#0369a1"/>
-      <!-- Chart -->
-      <rect x="95" y="50" width="30" height="50" fill="#f0fdf4"/>
-      <rect x="100" y="80" width="8" height="15" fill="#22c55e"/>
-      <rect x="112" y="65" width="8" height="30" fill="#22c55e"/>
-    </g>
-
-    <!-- Right side - Content -->
-    <g transform="translate(220, 40)">
-      <text x="0" y="30" fill="#1e293b" font-family="sans-serif" font-size="24" font-weight="bold">Status Tinggal Manajemen Bisnis</text>
-
-      <!-- Features list -->
-      <g transform="translate(0, 60)">
-        <circle cx="12" cy="12" r="12" fill="#e0f2fe"/>
-        <text x="12" y="17" text-anchor="middle" fill="#0ea5e9" font-family="sans-serif" font-size="14">✓</text>
-        <text x="35" y="18" fill="#64748b" font-family="sans-serif" font-size="18">Mengelola perusahaan atau tugas manajemen</text>
-      </g>
-
-      <g transform="translate(0, 105)">
-        <circle cx="12" cy="12" r="12" fill="#e0f2fe"/>
-        <text x="12" y="17" text-anchor="middle" fill="#0ea5e9" font-family="sans-serif" font-size="14">✓</text>
-        <text x="35" y="18" fill="#64748b" font-family="sans-serif" font-size="18">Modal 5 juta yen atau 2+ karyawan tetap</text>
-      </g>
-
-      <g transform="translate(0, 150)">
-        <circle cx="12" cy="12" r="12" fill="#e0f2fe"/>
-        <text x="12" y="17" text-anchor="middle" fill="#0ea5e9" font-family="sans-serif" font-size="14">✓</text>
-        <text x="35" y="18" fill="#64748b" font-family="sans-serif" font-size="18">Masa tinggal: 5, 3, 1 tahun, 4, 3 bulan</text>
-      </g>
-
-      <g transform="translate(0, 195)">
-        <circle cx="12" cy="12" r="12" fill="#e0f2fe"/>
-        <text x="12" y="17" text-anchor="middle" fill="#0ea5e9" font-family="sans-serif" font-size="14">✓</text>
-        <text x="35" y="18" fill="#64748b" font-family="sans-serif" font-size="18">Dokumen berbeda sesuai kategori</text>
-      </g>
-    </g>
-
-    <!-- Bottom badge -->
-    <rect x="305" y="290" width="190" height="44" rx="22" fill="#e0f2fe"/>
-    <text x="400" y="320" text-anchor="middle" fill="#0369a1" font-family="sans-serif" font-size="18" font-weight="bold">経営・管理</text>
+    <text x="80" y="210" fill="white" font-family="'Noto Sans KR', 'Noto Sans JP', sans-serif" font-size="28" font-weight="500" letter-spacing="6" opacity="0.8">Dokumen yang Diperlukan</text>
+    <text x="80" y="340" fill="white" font-family="'Noto Sans KR', 'Noto Sans JP', sans-serif" font-size="64" font-weight="900">Manajer Bisnis</text>
   </g>
 
-  <!-- Footer -->
-  <text x="600" y="590" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="18">visa.japanlifeinfo.com</text>
+  <!-- Right: icon + info -->
+  <g transform="translate(840, 120) scale(0.85)">
+    
+      <rect x="60" y="80" width="140" height="100" rx="10" fill="#0f766e" opacity="0.3"/>
+      <rect x="60" y="80" width="140" height="30" rx="10" fill="#0f766e" opacity="0.45"/>
+      <rect x="110" y="55" width="40" height="30" rx="5" fill="#0f766e" opacity="0.35"/>
+      <rect x="120" y="55" width="20" height="10" rx="3" fill="#0f766e" opacity="0.5"/>
+      <line x1="90" y1="140" x2="170" y2="140" stroke="#0f766e" stroke-width="3" opacity="0.3"/>
+      <line x1="90" y1="155" x2="150" y2="155" stroke="#0f766e" stroke-width="3" opacity="0.3"/>
+  </g>
 
-  <!-- Gradients -->
-  <defs>
-    <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">
-      <stop offset="0%" stop-color="#3b82f6"/>
-      <stop offset="50%" stop-color="#8b5cf6"/>
-      <stop offset="100%" stop-color="#10b981"/>
-    </linearGradient>
-  </defs>
+  <text x="955" y="385" text-anchor="middle" fill="#0f766e" font-family="'Noto Serif JP', serif" font-size="38" font-weight="700">経営・管理</text>
+  <text x="955" y="425" text-anchor="middle" fill="#0f766e" font-family="sans-serif" font-size="30" opacity="0.6">Business Manager</text>
+
+  <rect x="907" y="443" width="96" height="40" rx="20" fill="#0f766e" opacity="0.08" stroke="#0f766e" stroke-width="1.5" stroke-opacity="0.2"/>
+  <text x="955" y="471" text-anchor="middle" fill="#0f766e" font-family="sans-serif" font-size="23" font-weight="600">C</text>
+
+  <text x="955" y="598" text-anchor="middle" fill="#d4d4d8" font-family="sans-serif" font-size="26">visa.japanlifeinfo.com</text>
 </svg>

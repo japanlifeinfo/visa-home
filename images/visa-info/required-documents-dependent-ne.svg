@@ -1,84 +1,46 @@
 <svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- Background -->
-  <rect width="1200" height="630" fill="#f8fafc"/>
+  <defs>
+    <linearGradient id="splitGrad" x1="0" y1="0" x2="700" y2="630">
+      <stop offset="0%" stop-color="#e11d48"/>
+      <stop offset="100%" stop-color="#f43f5e"/>
+    </linearGradient>
+    <clipPath id="diagClip">
+      <polygon points="0,0 880,0 480,630 0,630"/>
+    </clipPath>
+  </defs>
 
-  <!-- Header gradient bar -->
-  <rect width="1200" height="8" fill="url(#headerGradient)"/>
+  <!-- White background (right side) -->
+  <rect width="1200" height="630" fill="#fafafa"/>
 
-  <!-- Title -->
-  <text x="600" y="100" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="48" font-weight="bold">परिवार बसोबास</text>
+  <!-- Diagonal color area (left side) -->
+  <polygon points="0,0 880,0 480,630 0,630" fill="url(#splitGrad)"/>
 
-  <!-- Subtitle -->
-  <text x="600" y="150" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="28">आवश्यक कागजातहरूको गाइड</text>
+  <!-- Left: title area -->
+  <g clip-path="url(#diagClip)">
+    <circle cx="100" cy="500" r="120" fill="white" opacity="0.07"/>
+    <circle cx="620" cy="80" r="80" fill="white" opacity="0.05"/>
 
-  <!-- Main Card -->
-  <g transform="translate(200, 190)">
-    <!-- Card background -->
-    <rect width="800" height="350" rx="20" fill="white" stroke="#e2e8f0" stroke-width="2"/>
-
-    <!-- Left side - Icon area -->
-    <g transform="translate(50, 60)">
-      <!-- Family icon -->
-      <!-- Parent 1 -->
-      <circle cx="40" cy="40" r="20" fill="#f97316"/>
-      <rect x="20" y="65" width="40" height="50" rx="8" fill="#f97316"/>
-
-      <!-- Parent 2 -->
-      <circle cx="100" cy="40" r="20" fill="#fb923c"/>
-      <rect x="80" y="65" width="40" height="50" rx="8" fill="#fb923c"/>
-
-      <!-- Child -->
-      <circle cx="70" cy="100" r="15" fill="#fdba74"/>
-      <rect x="55" y="118" width="30" height="35" rx="6" fill="#fdba74"/>
-
-      <!-- Heart -->
-      <path d="M70 75 C60 65, 45 70, 45 80 C45 95, 70 105, 70 105 C70 105, 95 95, 95 80 C95 70, 80 65, 70 75" fill="#fecaca"/>
-    </g>
-
-    <!-- Right side - Content -->
-    <g transform="translate(220, 40)">
-      <text x="0" y="30" fill="#1e293b" font-family="sans-serif" font-size="24" font-weight="bold">पारिवारिक बसोबास निवास स्थिति</text>
-
-      <!-- Features list -->
-      <g transform="translate(0, 60)">
-        <circle cx="12" cy="12" r="12" fill="#ffedd5"/>
-        <text x="12" y="17" text-anchor="middle" fill="#f97316" font-family="sans-serif" font-size="14">✓</text>
-        <text x="35" y="18" fill="#64748b" font-family="sans-serif" font-size="18">कार्य·विद्यार्थी भिसाधारकको जीवनसाथी·बच्चा</text>
-      </g>
-
-      <g transform="translate(0, 105)">
-        <circle cx="12" cy="12" r="12" fill="#ffedd5"/>
-        <text x="12" y="17" text-anchor="middle" fill="#f97316" font-family="sans-serif" font-size="14">✓</text>
-        <text x="35" y="18" fill="#64748b" font-family="sans-serif" font-size="18">भरणपोषणकर्ताको निवास कार्ड·रोजगार प्रमाणपत्र</text>
-      </g>
-
-      <g transform="translate(0, 150)">
-        <circle cx="12" cy="12" r="12" fill="#ffedd5"/>
-        <text x="12" y="17" text-anchor="middle" fill="#f97316" font-family="sans-serif" font-size="14">✓</text>
-        <text x="35" y="18" fill="#64748b" font-family="sans-serif" font-size="18">पारिवारिक सम्बन्ध प्रमाण कागजात अनिवार्य</text>
-      </g>
-
-      <g transform="translate(0, 195)">
-        <circle cx="12" cy="12" r="12" fill="#ffedd5"/>
-        <text x="12" y="17" text-anchor="middle" fill="#f97316" font-family="sans-serif" font-size="14">✓</text>
-        <text x="35" y="18" fill="#64748b" font-family="sans-serif" font-size="18">पार्ट-टाइम कामको लागि स्थिति बाहिर अनुमति</text>
-      </g>
-    </g>
-
-    <!-- Bottom badge -->
-    <rect x="320" y="290" width="160" height="44" rx="22" fill="#ffedd5"/>
-    <text x="400" y="320" text-anchor="middle" fill="#ea580c" font-family="sans-serif" font-size="18" font-weight="bold">家族滞在</text>
+    <text x="80" y="210" fill="white" font-family="'Noto Sans KR', 'Noto Sans JP', sans-serif" font-size="34" font-weight="500" letter-spacing="6" opacity="0.8">आवश्यक कागजातहरू</text>
+    <text x="80" y="300" fill="white" font-family="'Noto Sans KR', 'Noto Sans JP', sans-serif" font-size="56" font-weight="900">पारिवारिक</text>
+    <text x="80" y="370" fill="white" font-family="'Noto Sans KR', 'Noto Sans JP', sans-serif" font-size="56" font-weight="900">बसोबास</text>
   </g>
 
-  <!-- Footer -->
-  <text x="600" y="590" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="18">visa.japanlifeinfo.com</text>
+  <!-- Right: icon + info -->
+  <g transform="translate(840, 120) scale(0.85)">
+    
+      <circle cx="110" cy="90" r="28" fill="#e11d48" opacity="0.3"/>
+      <ellipse cx="110" cy="150" rx="35" ry="25" fill="#e11d48" opacity="0.25"/>
+      <circle cx="160" cy="100" r="22" fill="#e11d48" opacity="0.25"/>
+      <ellipse cx="160" cy="148" rx="28" ry="22" fill="#e11d48" opacity="0.2"/>
+      <circle cx="85" cy="108" r="16" fill="#e11d48" opacity="0.2"/>
+      <ellipse cx="85" cy="148" rx="20" ry="18" fill="#e11d48" opacity="0.15"/>
+  </g>
 
-  <!-- Gradients -->
-  <defs>
-    <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">
-      <stop offset="0%" stop-color="#3b82f6"/>
-      <stop offset="50%" stop-color="#8b5cf6"/>
-      <stop offset="100%" stop-color="#10b981"/>
-    </linearGradient>
-  </defs>
+  <text x="955" y="385" text-anchor="middle" fill="#e11d48" font-family="'Noto Serif JP', serif" font-size="38" font-weight="700">家族滞在</text>
+  <text x="955" y="425" text-anchor="middle" fill="#e11d48" font-family="sans-serif" font-size="30" opacity="0.6">Dependent</text>
+
+  <rect x="907" y="443" width="96" height="40" rx="20" fill="#e11d48" opacity="0.08" stroke="#e11d48" stroke-width="1.5" stroke-opacity="0.2"/>
+  <text x="955" y="471" text-anchor="middle" fill="#e11d48" font-family="sans-serif" font-size="23" font-weight="600">R-1</text>
+
+  <text x="955" y="598" text-anchor="middle" fill="#d4d4d8" font-family="sans-serif" font-size="26">visa.japanlifeinfo.com</text>
 </svg>

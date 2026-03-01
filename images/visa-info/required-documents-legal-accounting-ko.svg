@@ -1,93 +1,46 @@
 <svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- Background -->
-  <rect width="1200" height="630" fill="#f8fafc"/>
+  <defs>
+    <linearGradient id="splitGrad" x1="0" y1="0" x2="700" y2="630">
+      <stop offset="0%" stop-color="#1e3a5f"/>
+      <stop offset="100%" stop-color="#1e40af"/>
+    </linearGradient>
+    <clipPath id="diagClip">
+      <polygon points="0,0 880,0 480,630 0,630"/>
+    </clipPath>
+  </defs>
 
-  <!-- Header gradient bar -->
-  <rect width="1200" height="8" fill="url(#headerGradient)"/>
+  <!-- White background (right side) -->
+  <rect width="1200" height="630" fill="#fafafa"/>
 
-  <!-- Title -->
-  <text x="600" y="100" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="44" font-weight="bold">법률·회계업무</text>
+  <!-- Diagonal color area (left side) -->
+  <polygon points="0,0 880,0 480,630 0,630" fill="url(#splitGrad)"/>
 
-  <!-- Subtitle -->
-  <text x="600" y="150" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="28">제출 서류 안내</text>
+  <!-- Left: title area -->
+  <g clip-path="url(#diagClip)">
+    <circle cx="100" cy="500" r="120" fill="white" opacity="0.07"/>
+    <circle cx="620" cy="80" r="80" fill="white" opacity="0.05"/>
 
-  <!-- Main Card -->
-  <g transform="translate(200, 190)">
-    <!-- Card background -->
-    <rect width="800" height="350" rx="20" fill="white" stroke="#e2e8f0" stroke-width="2"/>
-
-    <!-- Left side - Icon area -->
-    <g transform="translate(50, 35)">
-      <!-- Scales of justice -->
-      <rect x="55" y="10" width="10" height="80" fill="#6366f1"/>
-      <rect x="30" y="85" width="60" height="10" rx="3" fill="#6366f1"/>
-      <!-- Left pan -->
-      <line x1="60" y1="25" x2="25" y2="35" stroke="#6366f1" stroke-width="3"/>
-      <path d="M10 35 L25 35 L40 35 L35 55 L15 55 Z" fill="#a5b4fc"/>
-      <!-- Right pan -->
-      <line x1="60" y1="25" x2="95" y2="35" stroke="#6366f1" stroke-width="3"/>
-      <path d="M80 35 L95 35 L110 35 L105 55 L85 55 Z" fill="#a5b4fc"/>
-      <!-- Balance bar -->
-      <rect x="20" y="20" width="80" height="8" rx="4" fill="#4f46e5"/>
-      <circle cx="60" cy="15" r="8" fill="#4f46e5"/>
-      <!-- Calculator -->
-      <rect x="90" y="65" width="30" height="40" rx="3" fill="#374151"/>
-      <rect x="93" y="68" width="24" height="12" fill="#86efac"/>
-      <rect x="93" y="83" width="5" height="5" fill="#9ca3af"/>
-      <rect x="100" y="83" width="5" height="5" fill="#9ca3af"/>
-      <rect x="107" y="83" width="5" height="5" fill="#9ca3af"/>
-      <rect x="93" y="90" width="5" height="5" fill="#9ca3af"/>
-      <rect x="100" y="90" width="5" height="5" fill="#9ca3af"/>
-      <rect x="107" y="90" width="5" height="5" fill="#9ca3af"/>
-      <rect x="93" y="97" width="5" height="5" fill="#9ca3af"/>
-      <rect x="100" y="97" width="5" height="5" fill="#9ca3af"/>
-      <rect x="107" y="97" width="5" height="5" fill="#9ca3af"/>
-    </g>
-
-    <!-- Right side - Content -->
-    <g transform="translate(220, 40)">
-      <text x="0" y="30" fill="#1e293b" font-family="sans-serif" font-size="24" font-weight="bold">법률·회계 전문직 재류자격</text>
-
-      <!-- Features list -->
-      <g transform="translate(0, 60)">
-        <circle cx="12" cy="12" r="12" fill="#e0e7ff"/>
-        <text x="12" y="17" text-anchor="middle" fill="#6366f1" font-family="sans-serif" font-size="14">✓</text>
-        <text x="35" y="18" fill="#64748b" font-family="sans-serif" font-size="18">변호사, 공인회계사, 세무사 등</text>
-      </g>
-
-      <g transform="translate(0, 105)">
-        <circle cx="12" cy="12" r="12" fill="#e0e7ff"/>
-        <text x="12" y="17" text-anchor="middle" fill="#6366f1" font-family="sans-serif" font-size="14">✓</text>
-        <text x="35" y="18" fill="#64748b" font-family="sans-serif" font-size="18">일본 자격 취득 필요</text>
-      </g>
-
-      <g transform="translate(0, 150)">
-        <circle cx="12" cy="12" r="12" fill="#e0e7ff"/>
-        <text x="12" y="17" text-anchor="middle" fill="#6366f1" font-family="sans-serif" font-size="14">✓</text>
-        <text x="35" y="18" fill="#64748b" font-family="sans-serif" font-size="18">재류 기간: 5년, 3년, 1년, 3개월</text>
-      </g>
-
-      <g transform="translate(0, 195)">
-        <circle cx="12" cy="12" r="12" fill="#e0e7ff"/>
-        <text x="12" y="17" text-anchor="middle" fill="#6366f1" font-family="sans-serif" font-size="14">✓</text>
-        <text x="35" y="18" fill="#64748b" font-family="sans-serif" font-size="18">인정 · 변경 · 갱신 신청 가능</text>
-      </g>
-    </g>
-
-    <!-- Bottom badge -->
-    <rect x="280" y="290" width="240" height="44" rx="22" fill="#e0e7ff"/>
-    <text x="400" y="320" text-anchor="middle" fill="#4338ca" font-family="sans-serif" font-size="18" font-weight="bold">法律・会計業務</text>
+    <text x="80" y="210" fill="white" font-family="'Noto Sans KR', 'Noto Sans JP', sans-serif" font-size="34" font-weight="500" letter-spacing="6" opacity="0.8">제출 서류</text>
+    <text x="80" y="340" fill="white" font-family="'Noto Sans KR', 'Noto Sans JP', sans-serif" font-size="80" font-weight="900">법률·회계업무</text>
   </g>
 
-  <!-- Footer -->
-  <text x="600" y="590" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="18">visa.japanlifeinfo.com</text>
+  <!-- Right: icon + info -->
+  <g transform="translate(840, 120) scale(0.85)">
+    
+      <rect x="118" y="50" width="24" height="8" rx="4" fill="#1e3a5f" opacity="0.4"/>
+      <rect x="126" y="58" width="8" height="55" fill="#1e3a5f" opacity="0.3"/>
+      <rect x="86" y="113" width="88" height="6" rx="3" fill="#1e3a5f" opacity="0.4"/>
+      <line x1="100" y1="119" x2="100" y2="170" stroke="#1e3a5f" stroke-width="3" opacity="0.3"/>
+      <line x1="160" y1="119" x2="160" y2="170" stroke="#1e3a5f" stroke-width="3" opacity="0.3"/>
+      <circle cx="100" cy="175" r="14" fill="#1e3a5f" opacity="0.25"/>
+      <circle cx="160" cy="175" r="14" fill="#1e3a5f" opacity="0.25"/>
+  </g>
 
-  <!-- Gradients -->
-  <defs>
-    <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">
-      <stop offset="0%" stop-color="#3b82f6"/>
-      <stop offset="50%" stop-color="#8b5cf6"/>
-      <stop offset="100%" stop-color="#10b981"/>
-    </linearGradient>
-  </defs>
+  <text x="955" y="385" text-anchor="middle" fill="#1e3a5f" font-family="'Noto Serif JP', serif" font-size="38" font-weight="700">法律・会計業務</text>
+  <text x="955" y="425" text-anchor="middle" fill="#1e3a5f" font-family="sans-serif" font-size="30" opacity="0.6">Legal/Accounting</text>
+
+  <rect x="907" y="443" width="96" height="40" rx="20" fill="#1e3a5f" opacity="0.08" stroke="#1e3a5f" stroke-width="1.5" stroke-opacity="0.2"/>
+  <text x="955" y="471" text-anchor="middle" fill="#1e3a5f" font-family="sans-serif" font-size="23" font-weight="600">D</text>
+
+  <text x="955" y="598" text-anchor="middle" fill="#d4d4d8" font-family="sans-serif" font-size="26">visa.japanlifeinfo.com</text>
 </svg>

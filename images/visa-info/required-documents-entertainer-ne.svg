@@ -1,85 +1,45 @@
 <svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- Background -->
-  <rect width="1200" height="630" fill="#f8fafc"/>
+  <defs>
+    <linearGradient id="splitGrad" x1="0" y1="0" x2="700" y2="630">
+      <stop offset="0%" stop-color="#c026d3"/>
+      <stop offset="100%" stop-color="#a21caf"/>
+    </linearGradient>
+    <clipPath id="diagClip">
+      <polygon points="0,0 880,0 480,630 0,630"/>
+    </clipPath>
+  </defs>
 
-  <!-- Header gradient bar -->
-  <rect width="1200" height="8" fill="url(#headerGradient)"/>
+  <!-- White background (right side) -->
+  <rect width="1200" height="630" fill="#fafafa"/>
 
-  <!-- Title -->
-  <text x="600" y="100" text-anchor="middle" fill="#1e293b" font-family="sans-serif" font-size="44" font-weight="bold">मनोरञ्जन</text>
+  <!-- Diagonal color area (left side) -->
+  <polygon points="0,0 880,0 480,630 0,630" fill="url(#splitGrad)"/>
 
-  <!-- Subtitle -->
-  <text x="600" y="150" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="28">आवश्यक कागजातहरू गाइड</text>
+  <!-- Left: title area -->
+  <g clip-path="url(#diagClip)">
+    <circle cx="100" cy="500" r="120" fill="white" opacity="0.07"/>
+    <circle cx="620" cy="80" r="80" fill="white" opacity="0.05"/>
 
-  <!-- Main Card -->
-  <g transform="translate(200, 190)">
-    <!-- Card background -->
-    <rect width="800" height="350" rx="20" fill="white" stroke="#e2e8f0" stroke-width="2"/>
-
-    <!-- Left side - Icon area -->
-    <g transform="translate(40, 25)">
-      <!-- Stage spotlight -->
-      <polygon points="60,0 45,30 75,30" fill="#fbbf24"/>
-      <rect x="52" y="30" width="16" height="8" fill="#92400e"/>
-      <!-- Light beam -->
-      <polygon points="60,38 30,110 90,110" fill="#fef3c7" opacity="0.5"/>
-      <!-- Microphone -->
-      <ellipse cx="60" cy="55" rx="12" ry="18" fill="#374151"/>
-      <rect x="55" y="70" width="10" height="30" fill="#6b7280"/>
-      <ellipse cx="60" cy="100" rx="18" ry="6" fill="#374151"/>
-      <!-- Music notes -->
-      <text x="95" y="50" fill="#8b5cf6" font-family="sans-serif" font-size="24">&#9834;</text>
-      <text x="105" y="35" fill="#ec4899" font-family="sans-serif" font-size="20">&#9835;</text>
-      <text x="20" y="45" fill="#3b82f6" font-family="sans-serif" font-size="22">&#9834;</text>
-      <!-- Stars -->
-      <polygon points="115,70 117,76 123,76 118,80 120,86 115,82 110,86 112,80 107,76 113,76" fill="#fbbf24"/>
-      <polygon points="25,75 26,79 30,79 27,82 28,86 25,83 22,86 23,82 20,79 24,79" fill="#fbbf24"/>
-    </g>
-
-    <!-- Right side - Content -->
-    <g transform="translate(220, 40)">
-      <text x="0" y="30" fill="#1e293b" font-family="sans-serif" font-size="24" font-weight="bold">मनोरञ्जन भिसा</text>
-
-      <!-- Features list -->
-      <g transform="translate(0, 60)">
-        <circle cx="12" cy="12" r="12" fill="#fae8ff"/>
-        <text x="12" y="17" text-anchor="middle" fill="#a855f7" font-family="sans-serif" font-size="14">✓</text>
-        <text x="35" y="18" fill="#64748b" font-family="sans-serif" font-size="18">नाटक, प्रदर्शन, संगीत, खेलकुद आदि</text>
-      </g>
-
-      <g transform="translate(0, 105)">
-        <circle cx="12" cy="12" r="12" fill="#fae8ff"/>
-        <text x="12" y="17" text-anchor="middle" fill="#a855f7" font-family="sans-serif" font-size="14">✓</text>
-        <text x="35" y="18" fill="#64748b" font-family="sans-serif" font-size="18">मनोरञ्जन गतिविधि (प्रसारण, फिल्म)</text>
-      </g>
-
-      <g transform="translate(0, 150)">
-        <circle cx="12" cy="12" r="12" fill="#fae8ff"/>
-        <text x="12" y="17" text-anchor="middle" fill="#a855f7" font-family="sans-serif" font-size="14">✓</text>
-        <text x="35" y="18" fill="#64748b" font-family="sans-serif" font-size="18">बसोबास: ३ वर्ष, १ वर्ष, ६ महिना, ३ महिना, १५ दिन</text>
-      </g>
-
-      <g transform="translate(0, 195)">
-        <circle cx="12" cy="12" r="12" fill="#fae8ff"/>
-        <text x="12" y="17" text-anchor="middle" fill="#a855f7" font-family="sans-serif" font-size="14">✓</text>
-        <text x="35" y="18" fill="#64748b" font-family="sans-serif" font-size="18">मान्यता, परिवर्तन, नवीकरण आवेदन</text>
-      </g>
-    </g>
-
-    <!-- Bottom badge -->
-    <rect x="330" y="290" width="140" height="44" rx="22" fill="#fae8ff"/>
-    <text x="400" y="320" text-anchor="middle" fill="#9333ea" font-family="sans-serif" font-size="18" font-weight="bold">興行</text>
+    <text x="80" y="210" fill="white" font-family="'Noto Sans KR', 'Noto Sans JP', sans-serif" font-size="34" font-weight="500" letter-spacing="6" opacity="0.8">आवश्यक कागजातहरू</text>
+    <text x="80" y="340" fill="white" font-family="'Noto Sans KR', 'Noto Sans JP', sans-serif" font-size="64" font-weight="900">मनोरञ्जन</text>
   </g>
 
-  <!-- Footer -->
-  <text x="600" y="590" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="18">visa.japanlifeinfo.com</text>
+  <!-- Right: icon + info -->
+  <g transform="translate(840, 120) scale(0.85)">
+    
+      <circle cx="120" cy="100" r="12" fill="#c026d3" opacity="0.5"/>
+      <rect x="132" y="70" width="5" height="70" fill="#c026d3" opacity="0.35"/>
+      <path d="M137 70 L137 45 C137 45 185 55 185 80 C185 105 137 95 137 95" fill="#c026d3" opacity="0.35"/>
+      <circle cx="120" cy="155" r="8" fill="#c026d3" opacity="0.3"/>
+      <rect x="128" y="130" width="4" height="50" fill="#c026d3" opacity="0.25"/>
+      <path d="M132 130 L132 115 C132 115 165 122 165 138 C165 155 132 150 132 150" fill="#c026d3" opacity="0.25"/>
+  </g>
 
-  <!-- Gradients -->
-  <defs>
-    <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">
-      <stop offset="0%" stop-color="#3b82f6"/>
-      <stop offset="50%" stop-color="#8b5cf6"/>
-      <stop offset="100%" stop-color="#10b981"/>
-    </linearGradient>
-  </defs>
+  <text x="955" y="385" text-anchor="middle" fill="#c026d3" font-family="'Noto Serif JP', serif" font-size="38" font-weight="700">興行</text>
+  <text x="955" y="425" text-anchor="middle" fill="#c026d3" font-family="sans-serif" font-size="30" opacity="0.6">Entertainer</text>
+
+  <rect x="907" y="443" width="96" height="40" rx="20" fill="#c026d3" opacity="0.08" stroke="#c026d3" stroke-width="1.5" stroke-opacity="0.2"/>
+  <text x="955" y="471" text-anchor="middle" fill="#c026d3" font-family="sans-serif" font-size="23" font-weight="600">K</text>
+
+  <text x="955" y="598" text-anchor="middle" fill="#d4d4d8" font-family="sans-serif" font-size="26">visa.japanlifeinfo.com</text>
 </svg>
