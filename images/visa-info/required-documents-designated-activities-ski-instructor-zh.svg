@@ -1,0 +1,29 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="splitGrad" x1="0" y1="0" x2="700" y2="630">
+      <stop offset="0%" stop-color="#65a30d"/>
+      <stop offset="100%" stop-color="#4d7c0f"/>
+    </linearGradient>
+    <clipPath id="diagClip">
+      <polygon points="0,0 880,0 480,630 0,630"/>
+    </clipPath>
+  </defs>
+  <rect width="1200" height="630" fill="#fafafa"/>
+  <polygon points="0,0 880,0 480,630 0,630" fill="url(#splitGrad)"/>
+  <g clip-path="url(#diagClip)">
+    <circle cx="100" cy="500" r="120" fill="white" opacity="0.07"/>
+    <circle cx="620" cy="80" r="80" fill="white" opacity="0.05"/>
+    <text x="80" y="210" fill="white" font-family="'Noto Sans SC', 'Noto Sans JP', sans-serif" font-size="34" font-weight="500" letter-spacing="6" opacity="0.8">提交材料</text>
+    <text x="80" y="340" fill="white" font-family="'Noto Sans SC', 'Noto Sans JP', sans-serif" font-size="100" font-weight="900">滑雪教练</text>
+  </g>
+  <g transform="translate(840, 120) scale(0.85)">
+    <polygon points="80,140 130,50 180,140" stroke="#65a30d" stroke-width="4" fill="none" opacity="0.25"/>
+    <polygon points="140,140 175,80 210,140" stroke="#65a30d" stroke-width="3" fill="none" opacity="0.18"/>
+    <line x1="115" y1="95" x2="145" y2="95" stroke="white" stroke-width="2" opacity="0.15"/>
+  </g>
+  <text x="955" y="385" text-anchor="middle" fill="#65a30d" font-family="'Noto Serif JP', serif" font-size="38" font-weight="700">特定活動</text>
+  <text x="955" y="425" text-anchor="middle" fill="#65a30d" font-family="sans-serif" font-size="30" opacity="0.6">Designated Activities</text>
+  <rect x="907" y="443" width="96" height="40" rx="20" fill="#65a30d" opacity="0.08" stroke="#65a30d" stroke-width="1.5" stroke-opacity="0.2"/>
+  <text x="955" y="471" text-anchor="middle" fill="#65a30d" font-family="sans-serif" font-size="23" font-weight="600">L</text>
+  <text x="955" y="598" text-anchor="middle" fill="#d4d4d8" font-family="sans-serif" font-size="26">visa.japanlifeinfo.com</text>
+</svg>
