@@ -1,0 +1,61 @@
+<svg width="1200" height="600" viewBox="0 0 1200 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="600" fill="white"/>
+
+  <!-- Title -->
+  <text x="600" y="38" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="bold" fill="#1e293b">&lt; 经营·管理签证申请条件修订前后对比 &gt;</text>
+
+  <!-- Header backgrounds -->
+  <rect x="270" y="70" width="455" height="60" fill="#dbeafe"/>
+  <rect x="725" y="70" width="455" height="60" fill="#bfdbfe"/>
+
+  <!-- Category column background -->
+  <rect x="20" y="130" width="250" height="450" fill="#f1f5f9"/>
+
+  <!-- Header row text -->
+  <text x="498" y="108" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="bold" fill="#1e293b">修订前</text>
+  <text x="953" y="108" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="bold" fill="#1e293b">修订后</text>
+
+  <!-- Outer border -->
+  <rect x="20" y="70" width="1160" height="510" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
+
+  <!-- Row separators -->
+  <line x1="20" y1="130" x2="1180" y2="130" stroke="#94a3b8" stroke-width="1.5"/>
+  <line x1="20" y1="220" x2="1180" y2="220" stroke="#cbd5e1" stroke-width="1"/>
+  <line x1="20" y1="310" x2="1180" y2="310" stroke="#cbd5e1" stroke-width="1"/>
+  <line x1="20" y1="400" x2="1180" y2="400" stroke="#cbd5e1" stroke-width="1"/>
+  <line x1="20" y1="490" x2="1180" y2="490" stroke="#cbd5e1" stroke-width="1"/>
+
+  <!-- Column separators -->
+  <line x1="270" y1="70" x2="270" y2="580" stroke="#94a3b8" stroke-width="1.5"/>
+  <line x1="725" y1="70" x2="725" y2="580" stroke="#94a3b8" stroke-width="1.5"/>
+
+  <!-- Row 1: Capital -->
+  <text x="145" y="181" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="bold" fill="#1e293b">资本金 / 出资额</text>
+  <text x="498" y="181" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#334155">500万日元</text>
+  <text x="953" y="181" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#334155">3000万日元</text>
+
+  <!-- Row 2: Experience -->
+  <text x="145" y="271" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="bold" fill="#1e293b">经验 / 学历</text>
+  <text x="498" y="271" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#334155">无要求</text>
+  <text x="953" y="248" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#334155">3年以上经营管理经验</text>
+  <text x="953" y="270" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#334155">或具备相关商科专业硕士学历</text>
+
+  <!-- Row 3: Employment -->
+  <text x="145" y="361" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="bold" fill="#1e293b">雇用义务</text>
+  <text x="498" y="361" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#334155">无要求</text>
+  <text x="953" y="350" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#334155">须雇佣至少1名</text>
+  <text x="953" y="372" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#334155">全职员工</text>
+
+  <!-- Row 4: Japanese -->
+  <text x="145" y="451" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="bold" fill="#1e293b">日语能力</text>
+  <text x="498" y="451" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#334155">无要求</text>
+  <text x="953" y="428" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#334155">申请人或员工须具备</text>
+  <text x="953" y="450" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#334155">足够的日语能力</text>
+
+  <!-- Row 5: Expert verification -->
+  <text x="145" y="528" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="bold" fill="#1e293b">专家审核</text>
+  <text x="145" y="548" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#475569">（在留资格确认时）</text>
+  <text x="498" y="541" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#334155">无要求</text>
+  <text x="953" y="518" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#334155">须由经营管理专家对</text>
+  <text x="953" y="540" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#334155">新商业计划进行强制审核</text>
+</svg>

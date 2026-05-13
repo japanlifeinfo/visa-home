@@ -1,0 +1,66 @@
+<svg width="1200" height="600" viewBox="0 0 1200 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="600" fill="white"/>
+
+  <!-- Title -->
+  <text x="600" y="38" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="bold" fill="#1e293b">&lt; Perbandingan Syarat Visa Manajer Bisnis &gt;</text>
+
+  <!-- Header backgrounds -->
+  <rect x="270" y="70" width="455" height="60" fill="#dbeafe"/>
+  <rect x="725" y="70" width="455" height="60" fill="#bfdbfe"/>
+
+  <!-- Category column background -->
+  <rect x="20" y="130" width="250" height="450" fill="#f1f5f9"/>
+
+  <!-- Header row text -->
+  <text x="498" y="108" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="bold" fill="#1e293b">Sebelum</text>
+  <text x="953" y="108" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="bold" fill="#1e293b">Sesudah</text>
+
+  <!-- Outer border -->
+  <rect x="20" y="70" width="1160" height="510" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
+
+  <!-- Row separators -->
+  <line x1="20" y1="130" x2="1180" y2="130" stroke="#94a3b8" stroke-width="1.5"/>
+  <line x1="20" y1="220" x2="1180" y2="220" stroke="#cbd5e1" stroke-width="1"/>
+  <line x1="20" y1="310" x2="1180" y2="310" stroke="#cbd5e1" stroke-width="1"/>
+  <line x1="20" y1="400" x2="1180" y2="400" stroke="#cbd5e1" stroke-width="1"/>
+  <line x1="20" y1="490" x2="1180" y2="490" stroke="#cbd5e1" stroke-width="1"/>
+
+  <!-- Column separators -->
+  <line x1="270" y1="70" x2="270" y2="580" stroke="#94a3b8" stroke-width="1.5"/>
+  <line x1="725" y1="70" x2="725" y2="580" stroke="#94a3b8" stroke-width="1.5"/>
+
+  <!-- Row 1: Capital -->
+  <text x="145" y="181" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="bold" fill="#1e293b">Modal / Investasi</text>
+  <text x="498" y="181" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#334155">5 juta yen</text>
+  <text x="953" y="181" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#334155">30 juta yen</text>
+
+  <!-- Row 2: Experience -->
+  <text x="145" y="261" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#1e293b">Pengalaman /</text>
+  <text x="145" y="279" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#1e293b">Pendidikan</text>
+  <text x="498" y="271" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#334155">Tidak Ada</text>
+  <text x="953" y="245" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#334155">Pengalaman manajemen 3+ tahun</text>
+  <text x="953" y="263" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#334155">ATAU gelar master di bidang</text>
+  <text x="953" y="281" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#334155">bisnis yang relevan</text>
+
+  <!-- Row 3: Employment -->
+  <text x="145" y="352" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#1e293b">Kewajiban</text>
+  <text x="145" y="370" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#1e293b">Karyawan</text>
+  <text x="498" y="361" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#334155">Tidak Ada</text>
+  <text x="953" y="349" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#334155">Wajib mempekerjakan min.</text>
+  <text x="953" y="369" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#334155">1 karyawan tetap</text>
+
+  <!-- Row 4: Japanese -->
+  <text x="145" y="441" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#1e293b">Kemampuan</text>
+  <text x="145" y="459" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#1e293b">Bahasa Jepang</text>
+  <text x="498" y="451" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#334155">Tidak Ada</text>
+  <text x="953" y="428" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#334155">Pemohon atau staf harus memiliki</text>
+  <text x="953" y="450" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#334155">kemampuan bahasa Jepang</text>
+  <text x="953" y="468" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#334155">yang memadai</text>
+
+  <!-- Row 5: Expert verification -->
+  <text x="145" y="521" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#1e293b">Verifikasi Ahli</text>
+  <text x="145" y="541" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#475569">(saat konfirmasi status)</text>
+  <text x="498" y="541" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#334155">Tidak Ada</text>
+  <text x="953" y="515" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#334155">Verifikasi wajib rencana bisnis baru</text>
+  <text x="953" y="535" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#334155">oleh pakar manajemen</text>
+</svg>

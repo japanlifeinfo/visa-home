@@ -1,0 +1,70 @@
+<svg width="1200" height="600" viewBox="0 0 1200 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="600" fill="white"/>
+
+  <!-- Title -->
+  <text x="600" y="38" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="bold" fill="#1e293b">&lt; Mga Kinakailangan sa Business Manager Visa &gt;</text>
+
+  <!-- Header backgrounds -->
+  <rect x="270" y="70" width="455" height="60" fill="#dbeafe"/>
+  <rect x="725" y="70" width="455" height="60" fill="#bfdbfe"/>
+
+  <!-- Category column background -->
+  <rect x="20" y="130" width="250" height="450" fill="#f1f5f9"/>
+
+  <!-- Header row text -->
+  <text x="498" y="97" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold" fill="#1e293b">Bago ang</text>
+  <text x="498" y="117" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold" fill="#1e293b">Rebisyon</text>
+  <text x="953" y="97" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold" fill="#1e293b">Pagkatapos ng</text>
+  <text x="953" y="117" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold" fill="#1e293b">Rebisyon</text>
+
+  <!-- Outer border -->
+  <rect x="20" y="70" width="1160" height="510" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
+
+  <!-- Row separators -->
+  <line x1="20" y1="130" x2="1180" y2="130" stroke="#94a3b8" stroke-width="1.5"/>
+  <line x1="20" y1="220" x2="1180" y2="220" stroke="#cbd5e1" stroke-width="1"/>
+  <line x1="20" y1="310" x2="1180" y2="310" stroke="#cbd5e1" stroke-width="1"/>
+  <line x1="20" y1="400" x2="1180" y2="400" stroke="#cbd5e1" stroke-width="1"/>
+  <line x1="20" y1="490" x2="1180" y2="490" stroke="#cbd5e1" stroke-width="1"/>
+
+  <!-- Column separators -->
+  <line x1="270" y1="70" x2="270" y2="580" stroke="#94a3b8" stroke-width="1.5"/>
+  <line x1="725" y1="70" x2="725" y2="580" stroke="#94a3b8" stroke-width="1.5"/>
+
+  <!-- Row 1: Capital -->
+  <text x="145" y="172" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="bold" fill="#1e293b">Kapital /</text>
+  <text x="145" y="190" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="bold" fill="#1e293b">Puhunan</text>
+  <text x="498" y="181" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#334155">5M yen</text>
+  <text x="953" y="181" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#334155">30M yen</text>
+
+  <!-- Row 2: Experience -->
+  <text x="145" y="262" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="bold" fill="#1e293b">Karanasan /</text>
+  <text x="145" y="280" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="bold" fill="#1e293b">Edukasyon</text>
+  <text x="498" y="271" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#334155">Wala</text>
+  <text x="953" y="244" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#334155">3+ taon ng karanasan sa pamamahala</text>
+  <text x="953" y="261" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#334155">O master's degree sa kaugnay</text>
+  <text x="953" y="278" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#334155">na larangan ng negosyo</text>
+
+  <!-- Row 3: Employment -->
+  <text x="145" y="352" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="bold" fill="#1e293b">Obligasyon</text>
+  <text x="145" y="370" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="bold" fill="#1e293b">sa Trabaho</text>
+  <text x="498" y="361" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#334155">Wala</text>
+  <text x="953" y="344" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#334155">Kumuha ng hindi bababa sa</text>
+  <text x="953" y="361" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#334155">1 full-time na empleyado</text>
+
+  <!-- Row 4: Japanese -->
+  <text x="145" y="442" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="bold" fill="#1e293b">Kakayahan</text>
+  <text x="145" y="460" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="bold" fill="#1e293b">sa Japanese</text>
+  <text x="498" y="451" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#334155">Wala</text>
+  <text x="953" y="428" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#334155">Ang aplikante o kawani ay dapat</text>
+  <text x="953" y="445" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#334155">magkaroon ng sapat na</text>
+  <text x="953" y="462" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#334155">kakayahan sa Japanese</text>
+
+  <!-- Row 5: Expert verification -->
+  <text x="145" y="519" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#1e293b">Pagsusuri ng Eksperto</text>
+  <text x="145" y="537" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#475569">(sa pagkumpirma ng status)</text>
+  <text x="498" y="541" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#334155">Wala</text>
+  <text x="953" y="511" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#334155">Sapilitang pagsusuri ng bagong</text>
+  <text x="953" y="528" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#334155">plano sa negosyo ng isang</text>
+  <text x="953" y="545" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#334155">eksperto sa pamamahala</text>
+</svg>

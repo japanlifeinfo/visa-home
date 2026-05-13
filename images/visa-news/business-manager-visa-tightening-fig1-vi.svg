@@ -1,0 +1,70 @@
+<svg width="1200" height="600" viewBox="0 0 1200 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="600" fill="white"/>
+
+  <!-- Title -->
+  <text x="600" y="38" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="bold" fill="#1e293b">&lt; Yêu Cầu Visa Kinh Doanh Nhật Bản &gt;</text>
+
+  <!-- Header backgrounds -->
+  <rect x="270" y="70" width="455" height="60" fill="#dbeafe"/>
+  <rect x="725" y="70" width="455" height="60" fill="#bfdbfe"/>
+
+  <!-- Category column background -->
+  <rect x="20" y="130" width="250" height="450" fill="#f1f5f9"/>
+
+  <!-- Header row text -->
+  <text x="498" y="100" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="bold" fill="#1e293b">Trước</text>
+  <text x="498" y="120" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#1e293b">(khi sửa đổi)</text>
+  <text x="953" y="100" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="bold" fill="#1e293b">Sau</text>
+  <text x="953" y="120" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#1e293b">(khi sửa đổi)</text>
+
+  <!-- Outer border -->
+  <rect x="20" y="70" width="1160" height="510" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
+
+  <!-- Row separators -->
+  <line x1="20" y1="130" x2="1180" y2="130" stroke="#94a3b8" stroke-width="1.5"/>
+  <line x1="20" y1="220" x2="1180" y2="220" stroke="#cbd5e1" stroke-width="1"/>
+  <line x1="20" y1="310" x2="1180" y2="310" stroke="#cbd5e1" stroke-width="1"/>
+  <line x1="20" y1="400" x2="1180" y2="400" stroke="#cbd5e1" stroke-width="1"/>
+  <line x1="20" y1="490" x2="1180" y2="490" stroke="#cbd5e1" stroke-width="1"/>
+
+  <!-- Column separators -->
+  <line x1="270" y1="70" x2="270" y2="580" stroke="#94a3b8" stroke-width="1.5"/>
+  <line x1="725" y1="70" x2="725" y2="580" stroke="#94a3b8" stroke-width="1.5"/>
+
+  <!-- Row 1: Capital -->
+  <text x="145" y="173" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="bold" fill="#1e293b">Vốn Đăng Ký</text>
+  <text x="145" y="191" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="bold" fill="#1e293b">/ Đầu Tư</text>
+  <text x="498" y="181" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#334155">5 triệu yên</text>
+  <text x="953" y="181" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#334155">30 triệu yên</text>
+
+  <!-- Row 2: Experience -->
+  <text x="145" y="265" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#1e293b">Kinh Nghiệm</text>
+  <text x="145" y="283" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#1e293b">/ Học Vấn</text>
+  <text x="498" y="271" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#334155">Không yêu cầu</text>
+  <text x="953" y="248" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#334155">Kinh nghiệm quản lý 3 năm trở lên</text>
+  <text x="953" y="268" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#334155">HOẶC bằng thạc sĩ chuyên ngành</text>
+  <text x="953" y="288" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#334155">kinh doanh liên quan</text>
+
+  <!-- Row 3: Employment -->
+  <text x="145" y="355" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#1e293b">Nghĩa Vụ</text>
+  <text x="145" y="373" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#1e293b">Tuyển Dụng</text>
+  <text x="498" y="361" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#334155">Không yêu cầu</text>
+  <text x="953" y="350" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#334155">Tuyển ít nhất 1 nhân viên</text>
+  <text x="953" y="372" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#334155">toàn thời gian</text>
+
+  <!-- Row 4: Japanese -->
+  <text x="145" y="445" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#1e293b">Năng Lực</text>
+  <text x="145" y="463" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#1e293b">Tiếng Nhật</text>
+  <text x="498" y="451" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#334155">Không yêu cầu</text>
+  <text x="953" y="434" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#334155">Người xin visa hoặc nhân viên</text>
+  <text x="953" y="454" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#334155">phải có năng lực tiếng Nhật</text>
+  <text x="953" y="474" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#334155">đầy đủ</text>
+
+  <!-- Row 5: Expert verification -->
+  <text x="145" y="521" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#1e293b">Xác Minh Chuyên Gia</text>
+  <text x="145" y="541" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#475569">(khi xác nhận tư cách lưu trú)</text>
+  <text x="498" y="541" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#334155">Không yêu cầu</text>
+  <text x="953" y="515" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#334155">Bắt buộc thẩm định kế hoạch</text>
+  <text x="953" y="535" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#334155">kinh doanh mới bởi</text>
+  <text x="953" y="555" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#334155">chuyên gia quản lý</text>
+</svg>

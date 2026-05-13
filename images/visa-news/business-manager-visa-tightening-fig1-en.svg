@@ -1,0 +1,63 @@
+<svg width="1200" height="600" viewBox="0 0 1200 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="600" fill="white"/>
+
+  <!-- Title -->
+  <text x="600" y="38" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="bold" fill="#1e293b">&lt; Business Manager Visa Requirements &gt;</text>
+
+  <!-- Header backgrounds -->
+  <rect x="270" y="70" width="455" height="60" fill="#dbeafe"/>
+  <rect x="725" y="70" width="455" height="60" fill="#bfdbfe"/>
+
+  <!-- Category column background -->
+  <rect x="20" y="130" width="250" height="450" fill="#f1f5f9"/>
+
+  <!-- Header row text -->
+  <text x="498" y="108" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="bold" fill="#1e293b">Before</text>
+  <text x="953" y="108" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="bold" fill="#1e293b">After</text>
+
+  <!-- Outer border -->
+  <rect x="20" y="70" width="1160" height="510" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
+
+  <!-- Row separators -->
+  <line x1="20" y1="130" x2="1180" y2="130" stroke="#94a3b8" stroke-width="1.5"/>
+  <line x1="20" y1="220" x2="1180" y2="220" stroke="#cbd5e1" stroke-width="1"/>
+  <line x1="20" y1="310" x2="1180" y2="310" stroke="#cbd5e1" stroke-width="1"/>
+  <line x1="20" y1="400" x2="1180" y2="400" stroke="#cbd5e1" stroke-width="1"/>
+  <line x1="20" y1="490" x2="1180" y2="490" stroke="#cbd5e1" stroke-width="1"/>
+
+  <!-- Column separators -->
+  <line x1="270" y1="70" x2="270" y2="580" stroke="#94a3b8" stroke-width="1.5"/>
+  <line x1="725" y1="70" x2="725" y2="580" stroke="#94a3b8" stroke-width="1.5"/>
+
+  <!-- Row 1: Capital -->
+  <text x="145" y="181" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="bold" fill="#1e293b">Capital / Investment</text>
+  <text x="498" y="181" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#334155">5M yen</text>
+  <text x="953" y="181" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#334155">30M yen</text>
+
+  <!-- Row 2: Experience -->
+  <text x="145" y="271" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="bold" fill="#1e293b">Experience / Education</text>
+  <text x="498" y="271" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#334155">None</text>
+  <text x="953" y="248" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#334155">3+ years of management experience</text>
+  <text x="953" y="270" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#334155">OR master's degree in a relevant</text>
+  <text x="953" y="292" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#334155">business field</text>
+
+  <!-- Row 3: Employment -->
+  <text x="145" y="361" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="bold" fill="#1e293b">Employment Duty</text>
+  <text x="498" y="361" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#334155">None</text>
+  <text x="953" y="350" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#334155">Hire at least 1 full-time</text>
+  <text x="953" y="372" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#334155">employee</text>
+
+  <!-- Row 4: Japanese -->
+  <text x="145" y="451" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="bold" fill="#1e293b">Japanese Proficiency</text>
+  <text x="498" y="451" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#334155">None</text>
+  <text x="953" y="428" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#334155">Applicant or staff must have</text>
+  <text x="953" y="450" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#334155">sufficient Japanese proficiency</text>
+
+  <!-- Row 5: Expert verification -->
+  <text x="145" y="528" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="bold" fill="#1e293b">Expert Verification</text>
+  <text x="145" y="548" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#475569">(at status confirmation)</text>
+  <text x="498" y="541" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#334155">None</text>
+  <text x="953" y="518" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#334155">Mandatory verification of new</text>
+  <text x="953" y="540" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#334155">business plan by a</text>
+  <text x="953" y="562" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#334155">management expert</text>
+</svg>
