@@ -24,7 +24,6 @@
   <!-- Bottom -->
   <text x="600" y="540" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="28">Nh&#x1EA7;m l&#x1EAB;n s&#x1EBD; g&#xE2;y kh&#xF3; kh&#x103;n t&#x1EEB; &#x111;&#x1EA7;u</text>
 
-  <text x="600" y="600" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="24">visa.japanlifeinfo.com</text>
 
   <defs>
     <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">

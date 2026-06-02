@@ -29,7 +29,6 @@
   <text x="440" y="475" fill="#dc2626" font-family="sans-serif" font-size="32" font-weight="bold">Sau h&#x1EBF;t h&#x1EA1;n = b&#x1EA5;t h&#x1EE3;p ph&#xE1;p</text>
   <text x="440" y="520" fill="#64748b" font-family="sans-serif" font-size="26">Ch&#x1EC9; 1 ng&#xE0;y c&#x169;ng nguy hi&#x1EC3;m!</text>
 
-  <text x="600" y="610" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="24">visa.japanlifeinfo.com</text>
 
   <defs>
     <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">

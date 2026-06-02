@@ -30,7 +30,6 @@
   <rect x="100" y="510" width="1000" height="60" rx="12" fill="#1e293b"/>
   <text x="600" y="550" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="30" font-weight="bold">몇 만 엔 때문에 일본 커리어가 끝날 수 있습니다</text>
 
-  <text x="600" y="610" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="24">visa.japanlifeinfo.com</text>
 
   <defs>
     <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">

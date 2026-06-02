@@ -18,7 +18,6 @@
   <rect x="100" y="470" width="1000" height="70" rx="12" fill="#d97706"/>
   <text x="600" y="517" text-anchor="middle" fill="white" font-family="sans-serif" font-size="36" font-weight="bold">3. Company financial issues</text>
 
-  <text x="600" y="600" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="24">visa.japanlifeinfo.com</text>
 
   <defs>
     <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">

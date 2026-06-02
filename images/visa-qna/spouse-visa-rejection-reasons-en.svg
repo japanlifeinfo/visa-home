@@ -22,7 +22,6 @@
   <rect x="100" y="430" width="1000" height="90" rx="16" fill="#1e293b"/>
   <text x="600" y="485" text-anchor="middle" fill="#e2e8f0" font-family="sans-serif" font-size="32" font-weight="bold">Marriage ≠ Automatic Approval</text>
 
-  <text x="600" y="590" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="24">visa.japanlifeinfo.com</text>
 
   <defs>
     <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">

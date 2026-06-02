@@ -63,7 +63,6 @@
   <rect x="60" y="500" width="1080" height="60" rx="12" fill="#fbbf24"/>
   <text x="600" y="538" text-anchor="middle" fill="#78350f" font-family="sans-serif" font-size="21" font-weight="bold">Bawa: Kartu tinggal · Paspor · My Number · Surat pindah | Batas: 14 hari</text>
 
-  <text x="600" y="605" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="22">visa.japanlifeinfo.com</text>
 
   <defs>
     <linearGradient id="hg" x1="0" y1="0" x2="1200" y2="0">

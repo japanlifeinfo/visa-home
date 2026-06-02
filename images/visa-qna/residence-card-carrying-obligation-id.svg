@@ -52,7 +52,6 @@
   <rect x="60" y="500" width="1080" height="60" rx="12" fill="#16a34a"/>
   <text x="600" y="538" text-anchor="middle" fill="white" font-family="sans-serif" font-size="24" font-weight="bold">Pengecualian: Di bawah 16 tahun bebas · Penduduk tetap khusus aturan terpisah</text>
 
-  <text x="600" y="605" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="22">visa.japanlifeinfo.com</text>
 
   <defs>
     <linearGradient id="hg" x1="0" y1="0" x2="1200" y2="0">

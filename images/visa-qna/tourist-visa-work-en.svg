@@ -13,7 +13,6 @@
   <rect x="150" y="500" width="900" height="70" rx="16" fill="#dc2626"/>
   <text x="600" y="547" text-anchor="middle" fill="white" font-family="sans-serif" font-size="42" font-weight="bold">Absolutely NOT!</text>
 
-  <text x="600" y="610" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="24">visa.japanlifeinfo.com</text>
 
   <defs>
     <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">

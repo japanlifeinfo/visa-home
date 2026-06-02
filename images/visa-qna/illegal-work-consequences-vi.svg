@@ -30,7 +30,6 @@
   <rect x="100" y="510" width="1000" height="60" rx="12" fill="#1e293b"/>
   <text x="600" y="550" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="26" font-weight="bold">V&#xE0;i v&#x1EA1;n y&#xEA;n c&#xF3; th&#x1EC3; k&#x1EBF;t th&#xFA;c s&#x1EF1; nghi&#x1EC7;p t&#x1EA1;i Nh&#x1EAD;t</text>
 
-  <text x="600" y="610" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="24">visa.japanlifeinfo.com</text>
 
   <defs>
     <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">

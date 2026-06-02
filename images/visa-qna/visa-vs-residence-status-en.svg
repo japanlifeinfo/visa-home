@@ -23,7 +23,6 @@
   <!-- Bottom -->
   <text x="600" y="540" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="30">Confusing them blocks your application</text>
 
-  <text x="600" y="600" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="24">visa.japanlifeinfo.com</text>
 
   <defs>
     <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">
