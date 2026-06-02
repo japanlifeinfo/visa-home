@@ -1,0 +1,78 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#f8fafc"/>
+  <rect width="1200" height="8" fill="url(#headerGradient)"/>
+
+  <!-- Title -->
+  <text x="600" y="70" text-anchor="middle" fill="#0f172a" font-family="sans-serif" font-size="44" font-weight="bold">Status de Residencia do Japao em Resumo</text>
+  <text x="600" y="108" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="22">7 Status Essenciais para Permanencia Prolongada</text>
+
+  <!-- 1. Especialista -->
+  <rect x="40" y="155" width="270" height="160" rx="20" fill="#eff6ff" stroke="#3b82f6" stroke-width="3"/>
+  <rect x="40" y="155" width="270" height="48" rx="20" fill="#3b82f6"/>
+  <rect x="40" y="183" width="270" height="20" fill="#3b82f6"/>
+  <text x="175" y="189" text-anchor="middle" fill="white" font-family="sans-serif" font-size="22" font-weight="bold">1. Especialista</text>
+  <text x="175" y="245" text-anchor="middle" fill="#1e3a8a" font-family="sans-serif" font-size="22" font-weight="bold">Trabalho</text>
+  <text x="175" y="280" text-anchor="middle" fill="#475569" font-family="sans-serif" font-size="18">IT · Design · Trad.</text>
+
+  <!-- 2. Conjuge Japones -->
+  <rect x="330" y="155" width="270" height="160" rx="20" fill="#fdf2f8" stroke="#ec4899" stroke-width="3"/>
+  <rect x="330" y="155" width="270" height="48" rx="20" fill="#ec4899"/>
+  <rect x="330" y="183" width="270" height="20" fill="#ec4899"/>
+  <text x="465" y="189" text-anchor="middle" fill="white" font-family="sans-serif" font-size="22" font-weight="bold">2. Conjuge Japones</text>
+  <text x="465" y="245" text-anchor="middle" fill="#9d174d" font-family="sans-serif" font-size="22" font-weight="bold">Casamento</text>
+  <text x="465" y="280" text-anchor="middle" fill="#475569" font-family="sans-serif" font-size="18">Sem limites</text>
+
+  <!-- 3. Residente Perm. -->
+  <rect x="620" y="155" width="270" height="160" rx="20" fill="#f0fdf4" stroke="#10b981" stroke-width="3"/>
+  <rect x="620" y="155" width="270" height="48" rx="20" fill="#10b981"/>
+  <rect x="620" y="183" width="270" height="20" fill="#10b981"/>
+  <text x="755" y="189" text-anchor="middle" fill="white" font-family="sans-serif" font-size="22" font-weight="bold">3. Residente Perm.</text>
+  <text x="755" y="245" text-anchor="middle" fill="#065f46" font-family="sans-serif" font-size="22" font-weight="bold">Permanente</text>
+  <text x="755" y="280" text-anchor="middle" fill="#475569" font-family="sans-serif" font-size="18">Sem renovacao</text>
+
+  <!-- 4. Dependente -->
+  <rect x="910" y="155" width="250" height="160" rx="20" fill="#faf5ff" stroke="#8b5cf6" stroke-width="3"/>
+  <rect x="910" y="155" width="250" height="48" rx="20" fill="#8b5cf6"/>
+  <rect x="910" y="183" width="250" height="20" fill="#8b5cf6"/>
+  <text x="1035" y="189" text-anchor="middle" fill="white" font-family="sans-serif" font-size="22" font-weight="bold">4. Dependente</text>
+  <text x="1035" y="245" text-anchor="middle" fill="#5b21b6" font-family="sans-serif" font-size="22" font-weight="bold">Familia</text>
+  <text x="1035" y="280" text-anchor="middle" fill="#475569" font-family="sans-serif" font-size="18">Conjuge · Filhos</text>
+
+  <!-- 5. Estudante -->
+  <rect x="180" y="345" width="270" height="160" rx="20" fill="#fffbeb" stroke="#f59e0b" stroke-width="3"/>
+  <rect x="180" y="345" width="270" height="48" rx="20" fill="#f59e0b"/>
+  <rect x="180" y="373" width="270" height="20" fill="#f59e0b"/>
+  <text x="315" y="379" text-anchor="middle" fill="white" font-family="sans-serif" font-size="22" font-weight="bold">5. Estudante</text>
+  <text x="315" y="435" text-anchor="middle" fill="#92400e" font-family="sans-serif" font-size="22" font-weight="bold">Estudos</text>
+  <text x="315" y="470" text-anchor="middle" fill="#475569" font-family="sans-serif" font-size="18">Univ · Voc · Idioma</text>
+
+  <!-- 6. Especializado -->
+  <rect x="470" y="345" width="270" height="160" rx="20" fill="#f0fdfa" stroke="#14b8a6" stroke-width="3"/>
+  <rect x="470" y="345" width="270" height="48" rx="20" fill="#14b8a6"/>
+  <rect x="470" y="373" width="270" height="20" fill="#14b8a6"/>
+  <text x="605" y="379" text-anchor="middle" fill="white" font-family="sans-serif" font-size="22" font-weight="bold">6. Especializado</text>
+  <text x="605" y="435" text-anchor="middle" fill="#115e59" font-family="sans-serif" font-size="22" font-weight="bold">Industria</text>
+  <text x="605" y="470" text-anchor="middle" fill="#475569" font-family="sans-serif" font-size="18">Food · Hotel · Cuid.</text>
+
+  <!-- 7. Negocios -->
+  <rect x="760" y="345" width="270" height="160" rx="20" fill="#eef2ff" stroke="#6366f1" stroke-width="3"/>
+  <rect x="760" y="345" width="270" height="48" rx="20" fill="#6366f1"/>
+  <rect x="760" y="373" width="270" height="20" fill="#6366f1"/>
+  <text x="895" y="379" text-anchor="middle" fill="white" font-family="sans-serif" font-size="22" font-weight="bold">7. Negocios</text>
+  <text x="895" y="435" text-anchor="middle" fill="#3730a3" font-family="sans-serif" font-size="22" font-weight="bold">Empresa</text>
+  <text x="895" y="470" text-anchor="middle" fill="#475569" font-family="sans-serif" font-size="18">CEO · Dono</text>
+
+  <!-- Bottom callout -->
+  <rect x="80" y="540" width="1040" height="64" rx="12" fill="#0f172a"/>
+  <text x="600" y="582" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="24" font-weight="bold">Status de Residencia define seu escopo de atividades no Japao</text>
+
+  <defs>
+    <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="25%" stop-color="#8b5cf6"/>
+      <stop offset="50%" stop-color="#ec4899"/>
+      <stop offset="75%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+  </defs>
+</svg>
