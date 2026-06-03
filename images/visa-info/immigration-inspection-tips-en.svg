@@ -1,0 +1,58 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#f8fafc"/>
+  <rect width="1200" height="8" fill="url(#headerGradient)"/>
+
+  <!-- Decorative background shapes -->
+  <circle cx="100" cy="540" r="130" fill="#dbeafe" opacity="0.55"/>
+  <circle cx="1140" cy="110" r="80" fill="#ede9fe" opacity="0.55"/>
+  <circle cx="1080" cy="540" r="55" fill="#fef3c7" opacity="0.5"/>
+
+  <!-- Left: Headline -->
+  <text x="60" y="150" fill="#1d4ed8" font-family="sans-serif" font-size="24" font-weight="600">Japan Immigration Guide</text>
+  <text x="60" y="232" fill="#0f172a" font-family="sans-serif" font-size="68" font-weight="bold">Japan</text>
+  <text x="60" y="304" fill="#0f172a" font-family="sans-serif" font-size="68" font-weight="bold">Immigration:</text>
+  <text x="60" y="376" fill="#0f172a" font-family="sans-serif" font-size="68" font-weight="bold">9 Key Tips</text>
+
+  <text x="60" y="438" fill="#475569" font-family="sans-serif" font-size="22">Purpose · lodging · COE —</text>
+  <text x="60" y="468" fill="#475569" font-family="sans-serif" font-size="22">answer calmly and honestly.</text>
+
+  <!-- Bottom-left callout -->
+  <rect x="60" y="510" width="520" height="60" rx="14" fill="#1e3a8a"/>
+  <text x="84" y="548" fill="#fbbf24" font-family="sans-serif" font-size="22" font-weight="bold" textLength="472" lengthAdjust="spacingAndGlyphs">Purpose · Address · Visa · COE · Residence Card</text>
+
+  <!-- Right: Passport with immigration stamp -->
+  <g transform="translate(720, 110)">
+    <rect x="8" y="12" width="420" height="420" rx="20" fill="#0f172a" opacity="0.12"/>
+    <rect x="0" y="0" width="420" height="420" rx="20" fill="#1e3a8a"/>
+    <rect x="16" y="16" width="388" height="388" rx="14" fill="none" stroke="#fbbf24" stroke-width="1.5" opacity="0.55"/>
+
+    <g transform="translate(210, 92)">
+      <circle r="38" fill="none" stroke="#fbbf24" stroke-width="2"/>
+      <circle r="28" fill="none" stroke="#fbbf24" stroke-width="1.5" opacity="0.8"/>
+      <text y="7" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="20" font-weight="bold">JP</text>
+    </g>
+
+    <text x="210" y="180" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="24" font-weight="bold" letter-spacing="4">PASSPORT</text>
+    <text x="210" y="212" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="20" font-weight="600">日本国 旅券</text>
+
+    <rect x="40" y="248" width="340" height="138" rx="6" fill="#fefce8"/>
+    <line x1="56" y1="266" x2="364" y2="266" stroke="#e7d4a8" stroke-width="1" opacity="0.7"/>
+    <line x1="56" y1="372" x2="364" y2="372" stroke="#e7d4a8" stroke-width="1" opacity="0.7"/>
+
+    <g transform="translate(210, 317) rotate(-8)">
+      <rect x="-112" y="-44" width="224" height="88" rx="4" fill="none" stroke="#dc2626" stroke-width="3" opacity="0.9"/>
+      <rect x="-106" y="-38" width="212" height="76" rx="2" fill="none" stroke="#dc2626" stroke-width="1" opacity="0.85"/>
+      <text x="0" y="-10" text-anchor="middle" fill="#dc2626" font-family="sans-serif" font-size="22" font-weight="bold" letter-spacing="2" opacity="0.95">LANDED</text>
+      <text x="0" y="14" text-anchor="middle" fill="#dc2626" font-family="sans-serif" font-size="15" font-weight="bold" opacity="0.9">入国許可</text>
+      <text x="0" y="32" text-anchor="middle" fill="#dc2626" font-family="sans-serif" font-size="10" font-weight="600" letter-spacing="1" opacity="0.85">JAPAN IMMIGRATION</text>
+    </g>
+  </g>
+
+  <defs>
+    <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="50%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+  </defs>
+</svg>
