@@ -1,82 +1,91 @@
 <svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1200" height="630" fill="#f8fafc"/>
+  <rect width="1200" height="630" fill="#fffbeb"/>
   <rect width="1200" height="8" fill="url(#headerGradient)"/>
 
   <!-- Decorative background shapes -->
-  <circle cx="80" cy="540" r="140" fill="#ecfdf5" opacity="0.6"/>
-  <circle cx="1130" cy="100" r="90" fill="#dbeafe" opacity="0.5"/>
-  <circle cx="1050" cy="560" r="60" fill="#fef3c7" opacity="0.5"/>
+  <circle cx="1100" cy="540" r="120" fill="#fef3c7" opacity="0.55"/>
+  <circle cx="80" cy="540" r="60" fill="#fde68a" opacity="0.45"/>
+  <circle cx="1080" cy="100" r="50" fill="#fde68a" opacity="0.4"/>
 
-  <!-- Left: Headline -->
-  <text x="60" y="150" fill="#0f766e" font-family="sans-serif" font-size="26" font-weight="600">3년·5년 비자를 받는 사람들</text>
-  <text x="60" y="232" fill="#0f172a" font-family="sans-serif" font-size="68" font-weight="bold">재류기간이</text>
-  <text x="60" y="304" fill="#0f172a" font-family="sans-serif" font-size="68" font-weight="bold">길게 나오는</text>
-  <text x="60" y="376" fill="#0f172a" font-family="sans-serif" font-size="68" font-weight="bold">사람들의 특징</text>
+  <!-- ===== LEFT: Realistic Japanese Residence Card illustration ===== -->
+  <g transform="translate(60, 110)">
+    <!-- Shadow -->
+    <rect x="6" y="8" width="540" height="400" rx="14" fill="#92400e" opacity="0.18"/>
 
-  <text x="60" y="438" fill="#475569" font-family="sans-serif" font-size="22">출입국재류관리청이 평가하는</text>
-  <text x="60" y="468" fill="#475569" font-family="sans-serif" font-size="22">체류 안정성 지표를 정리했습니다.</text>
-
-  <!-- Bottom-left callout -->
-  <rect x="60" y="510" width="520" height="60" rx="14" fill="#0f172a"/>
-  <text x="84" y="548" fill="#34d399" font-family="sans-serif" font-size="22" font-weight="bold" textLength="472" lengthAdjust="spacingAndGlyphs">납세 · 연금 · 건강보험 · 안정직장 · 장기체류</text>
-
-  <!-- Right: Visa stamp card with checklist -->
-  <g transform="translate(720, 110)">
-    <!-- Card shadow -->
-    <rect x="6" y="10" width="420" height="420" rx="24" fill="#0f172a" opacity="0.08"/>
     <!-- Card body -->
-    <rect x="0" y="0" width="420" height="420" rx="24" fill="white" stroke="#10b981" stroke-width="3"/>
+    <rect width="540" height="400" rx="14" fill="#fffcf7" stroke="#fcd34d" stroke-width="2"/>
 
-    <!-- Card header strip -->
-    <path d="M 0 24 Q 0 0 24 0 L 396 0 Q 420 0 420 24 L 420 76 L 0 76 Z" fill="#10b981"/>
-    <text x="32" y="50" fill="white" font-family="sans-serif" font-size="22" font-weight="bold">JAPAN VISA</text>
-    <text x="388" y="50" text-anchor="end" fill="white" font-family="sans-serif" font-size="22" font-weight="600">在留期間</text>
+    <!-- Red header band -->
+    <path d="M 0 14 Q 0 0 14 0 L 526 0 Q 540 0 540 14 L 540 56 L 0 56 Z" fill="#dc2626"/>
+    <text x="28" y="36" fill="white" font-family="sans-serif" font-size="22" font-weight="bold">在留カード</text>
+    <text x="512" y="36" text-anchor="end" fill="white" font-family="sans-serif" font-size="13" font-weight="600" letter-spacing="2">RESIDENCE CARD</text>
 
-    <!-- Big period label -->
-    <text x="210" y="160" text-anchor="middle" fill="#065f46" font-family="sans-serif" font-size="32" font-weight="600">3年 · 5年</text>
+    <!-- Photo box -->
+    <rect x="28" y="86" width="110" height="140" rx="6" fill="#e5e7eb" stroke="#9ca3af" stroke-width="1.5"/>
+    <circle cx="83" cy="130" r="22" fill="#9ca3af" opacity="0.65"/>
+    <path d="M 58 195 Q 83 165 108 195 L 108 215 L 58 215 Z" fill="#9ca3af" opacity="0.65"/>
 
-    <!-- Approval stamp (rotated) -->
-    <g transform="translate(330, 140) rotate(-12)">
-      <circle cx="0" cy="0" r="44" fill="none" stroke="#dc2626" stroke-width="3" opacity="0.85"/>
-      <circle cx="0" cy="0" r="36" fill="none" stroke="#dc2626" stroke-width="1.5" opacity="0.85"/>
-      <text x="0" y="-4" text-anchor="middle" fill="#dc2626" font-family="sans-serif" font-size="14" font-weight="bold" opacity="0.9">APPROVED</text>
-      <text x="0" y="14" text-anchor="middle" fill="#dc2626" font-family="sans-serif" font-size="12" font-weight="bold" opacity="0.9">許可</text>
-    </g>
+    <!-- Name -->
+    <text x="160" y="100" fill="#6b7280" font-family="sans-serif" font-size="11" font-weight="600" letter-spacing="1">氏名 / NAME</text>
+    <text x="160" y="120" fill="#1f2937" font-family="sans-serif" font-size="15" font-weight="600">YAMADA TARO</text>
 
-    <!-- Checklist items -->
-    <g transform="translate(36, 200)">
-      <!-- item 1 -->
-      <circle cx="14" cy="14" r="14" fill="#10b981"/>
-      <path d="M 8 14 L 13 19 L 21 9" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-      <text x="42" y="20" fill="#0f172a" font-family="sans-serif" font-size="20" font-weight="600">세금 완납</text>
+    <!-- Status of residence -->
+    <text x="160" y="146" fill="#6b7280" font-family="sans-serif" font-size="11" font-weight="600" letter-spacing="1">在留資格 / STATUS</text>
+    <text x="160" y="166" fill="#1f2937" font-family="sans-serif" font-size="13" font-weight="600">技術・人文知識・国際業務</text>
 
-      <!-- item 2 -->
-      <circle cx="14" cy="54" r="14" fill="#10b981"/>
-      <path d="M 8 54 L 13 59 L 21 49" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-      <text x="42" y="60" fill="#0f172a" font-family="sans-serif" font-size="20" font-weight="600">연금 성실 납부</text>
+    <!-- Highlighted period -->
+    <rect x="160" y="186" width="350" height="62" rx="8" fill="#fef3c7" stroke="#fbbf24" stroke-width="1.5"/>
+    <text x="174" y="206" fill="#92400e" font-family="sans-serif" font-size="11" font-weight="bold" letter-spacing="1">在留期間 / PERIOD OF STAY</text>
+    <text x="174" y="236" fill="#b45309" font-family="serif" font-size="28" font-weight="bold">5 年</text>
+    <text x="234" y="236" fill="#92400e" font-family="sans-serif" font-size="14" font-weight="600">(YEARS)</text>
 
-      <!-- item 3 -->
-      <circle cx="14" cy="94" r="14" fill="#10b981"/>
-      <path d="M 8 94 L 13 99 L 21 89" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-      <text x="42" y="100" fill="#0f172a" font-family="sans-serif" font-size="20" font-weight="600">건강보험 납부</text>
+    <!-- Divider -->
+    <line x1="28" y1="276" x2="512" y2="276" stroke="#fcd34d" stroke-width="1" opacity="0.7"/>
 
-      <!-- item 4 -->
-      <circle cx="14" cy="134" r="14" fill="#10b981"/>
-      <path d="M 8 134 L 13 139 L 21 129" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-      <text x="42" y="140" fill="#0f172a" font-family="sans-serif" font-size="20" font-weight="600">안정적인 직장</text>
+    <!-- Bottom row: expiry + card number -->
+    <text x="28" y="298" fill="#6b7280" font-family="sans-serif" font-size="11" font-weight="600" letter-spacing="1">期限 / EXPIRES</text>
+    <text x="28" y="318" fill="#1f2937" font-family="sans-serif" font-size="14" font-weight="600">2031.06.03</text>
 
-      <!-- item 5 -->
-      <circle cx="14" cy="174" r="14" fill="#10b981"/>
-      <path d="M 8 174 L 13 179 L 21 169" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-      <text x="42" y="180" fill="#0f172a" font-family="sans-serif" font-size="20" font-weight="600">장기 체류 이력</text>
+    <text x="220" y="298" fill="#6b7280" font-family="sans-serif" font-size="11" font-weight="600" letter-spacing="1">CARD NO.</text>
+    <text x="220" y="318" fill="#1f2937" font-family="sans-serif" font-size="14" font-weight="600">AB12345678CD</text>
+
+    <!-- Address -->
+    <text x="28" y="350" fill="#6b7280" font-family="sans-serif" font-size="11" font-weight="600" letter-spacing="1">住居地 / ADDRESS</text>
+    <text x="28" y="370" fill="#1f2937" font-family="sans-serif" font-size="12" font-weight="500">東京都新宿区西新宿2-8-1</text>
+
+    <!-- APPROVED stamp (rotated overlay) -->
+    <g transform="translate(430, 330) rotate(-10)">
+      <circle r="48" fill="none" stroke="#dc2626" stroke-width="2.5" opacity="0.85"/>
+      <circle r="38" fill="none" stroke="#dc2626" stroke-width="1.5" opacity="0.75"/>
+      <text y="-6" text-anchor="middle" fill="#dc2626" font-family="sans-serif" font-size="13" font-weight="bold" opacity="0.9">APPROVED</text>
+      <text y="14" text-anchor="middle" fill="#dc2626" font-family="serif" font-size="16" font-weight="bold" opacity="0.9">許可</text>
+      <text y="32" text-anchor="middle" fill="#dc2626" font-family="sans-serif" font-size="9" font-weight="600" letter-spacing="1" opacity="0.85">入国管理</text>
     </g>
   </g>
 
+  <!-- ===== RIGHT: Headline + subtitle + callout ===== -->
+
+  <!-- Small label -->
+  <text x="640" y="135" fill="#92400e" font-family="sans-serif" font-size="20" font-weight="600">3年 · 5年 비자를 받는 사람들</text>
+
+  <!-- Headline (3 lines, narrative) -->
+  <text x="640" y="210" fill="#0f172a" font-family="sans-serif" font-size="56" font-weight="bold">재류기간이</text>
+  <text x="640" y="278" fill="#0f172a" font-family="sans-serif" font-size="56" font-weight="bold">길게 나오는</text>
+  <text x="640" y="346" fill="#b45309" font-family="sans-serif" font-size="56" font-weight="bold">사람들의 특징</text>
+
+  <!-- Subtitle -->
+  <text x="640" y="402" fill="#475569" font-family="sans-serif" font-size="20">출입국재류관리청이 평가하는</text>
+  <text x="640" y="430" fill="#475569" font-family="sans-serif" font-size="20">체류 안정성 지표를 정리했습니다.</text>
+
+  <!-- Dark callout with keywords -->
+  <rect x="640" y="468" width="500" height="58" rx="14" fill="#7c2d12"/>
+  <text x="664" y="504" fill="#fbbf24" font-family="sans-serif" font-size="20" font-weight="bold">납세 · 연금 · 보험 · 안정 직장 · 장기 거주</text>
+
   <defs>
     <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">
-      <stop offset="0%" stop-color="#0ea5e9"/>
-      <stop offset="50%" stop-color="#14b8a6"/>
-      <stop offset="100%" stop-color="#10b981"/>
+      <stop offset="0%" stop-color="#d97706"/>
+      <stop offset="50%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#fbbf24"/>
     </linearGradient>
   </defs>
 </svg>

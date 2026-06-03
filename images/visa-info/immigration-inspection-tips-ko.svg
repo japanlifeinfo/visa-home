@@ -1,66 +1,118 @@
 <svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1200" height="630" fill="#f8fafc"/>
+  <rect width="1200" height="630" fill="#f0f9ff"/>
   <rect width="1200" height="8" fill="url(#headerGradient)"/>
 
-  <!-- Decorative background shapes -->
-  <circle cx="100" cy="540" r="130" fill="#dbeafe" opacity="0.55"/>
-  <circle cx="1140" cy="110" r="80" fill="#ede9fe" opacity="0.55"/>
-  <circle cx="1080" cy="540" r="55" fill="#fef3c7" opacity="0.5"/>
+  <!-- Subtle background stamp patterns in corners -->
+  <g opacity="0.06">
+    <circle cx="80" cy="110" r="48" fill="none" stroke="#1e3a8a" stroke-width="3"/>
+    <text x="80" y="120" text-anchor="middle" fill="#1e3a8a" font-family="serif" font-size="22" font-weight="bold">入国</text>
+  </g>
+  <g opacity="0.06">
+    <circle cx="1120" cy="110" r="48" fill="none" stroke="#1e3a8a" stroke-width="3"/>
+    <text x="1120" y="120" text-anchor="middle" fill="#1e3a8a" font-family="serif" font-size="22" font-weight="bold">許可</text>
+  </g>
 
-  <!-- Left: Headline -->
-  <text x="60" y="150" fill="#1d4ed8" font-family="sans-serif" font-size="24" font-weight="600">일본 입국심사 가이드</text>
-  <text x="60" y="232" fill="#0f172a" font-family="sans-serif" font-size="68" font-weight="bold">입국심사에서</text>
-  <text x="60" y="304" fill="#0f172a" font-family="sans-serif" font-size="68" font-weight="bold">주의해야 할</text>
-  <text x="60" y="376" fill="#0f172a" font-family="sans-serif" font-size="68" font-weight="bold">9가지 사항</text>
+  <!-- ===== TOP: Headline ===== -->
+  <text x="600" y="62" text-anchor="middle" fill="#1d4ed8" font-family="sans-serif" font-size="18" font-weight="600" letter-spacing="4">JAPAN IMMIGRATION CHECKLIST</text>
 
-  <text x="60" y="438" fill="#475569" font-family="sans-serif" font-size="22">입국 목적 · 숙소 정보 · COE까지</text>
-  <text x="60" y="468" fill="#475569" font-family="sans-serif" font-size="22">차분하고 솔직하게 답변하기.</text>
+  <text x="600" y="128" text-anchor="middle" fill="#0f172a" font-family="sans-serif" font-size="40" font-weight="600">입국심사에서 주의해야 할</text>
+  <text x="600" y="200" text-anchor="middle" fill="#dc2626" font-family="sans-serif" font-size="72" font-weight="bold">9가지 사항</text>
 
-  <!-- Bottom-left callout -->
-  <rect x="60" y="510" width="520" height="60" rx="14" fill="#1e3a8a"/>
-  <text x="84" y="548" fill="#fbbf24" font-family="sans-serif" font-size="22" font-weight="bold" textLength="472" lengthAdjust="spacingAndGlyphs">입국 목적 · 체류지 · 비자 · COE · 재류카드</text>
+  <text x="600" y="248" text-anchor="middle" fill="#475569" font-family="sans-serif" font-size="20">차분하고 솔직한 답변이 가장 빠른 통과 방법입니다.</text>
 
-  <!-- Right: Passport with immigration stamp -->
-  <g transform="translate(720, 110)">
+  <!-- ===== BOTTOM: Open passport spread ===== -->
+  <g transform="translate(200, 290)">
     <!-- Shadow -->
-    <rect x="8" y="12" width="420" height="420" rx="20" fill="#0f172a" opacity="0.12"/>
-    <!-- Passport cover -->
-    <rect x="0" y="0" width="420" height="420" rx="20" fill="#1e3a8a"/>
-    <!-- Gold inner frame -->
-    <rect x="16" y="16" width="388" height="388" rx="14" fill="none" stroke="#fbbf24" stroke-width="1.5" opacity="0.55"/>
+    <rect x="6" y="10" width="800" height="310" rx="10" fill="#0f172a" opacity="0.15"/>
 
-    <!-- Emblem -->
-    <g transform="translate(210, 92)">
-      <circle r="38" fill="none" stroke="#fbbf24" stroke-width="2"/>
-      <circle r="28" fill="none" stroke="#fbbf24" stroke-width="1.5" opacity="0.8"/>
-      <text y="7" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="20" font-weight="bold">JP</text>
+    <!-- Passport page background (cream) -->
+    <rect width="800" height="310" rx="6" fill="#fefce8"/>
+
+    <!-- Center binding/fold -->
+    <rect x="395" y="0" width="10" height="310" fill="#a3a3a3" opacity="0.2"/>
+    <line x1="400" y1="0" x2="400" y2="310" stroke="#9ca3af" stroke-width="1.5" opacity="0.4"/>
+
+    <!-- ===== LEFT PAGE: Photo + Bio ===== -->
+    <g transform="translate(28, 22)">
+      <!-- Japan header band -->
+      <rect width="350" height="46" rx="4" fill="#1e3a8a"/>
+      <text x="175" y="27" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="18" font-weight="bold" letter-spacing="5">JAPAN</text>
+      <text x="175" y="41" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="9" letter-spacing="2" opacity="0.85">日本国旅券</text>
+
+      <!-- Photo box -->
+      <rect y="64" width="100" height="130" rx="4" fill="#e5e7eb" stroke="#9ca3af" stroke-width="1.5"/>
+      <circle cx="50" cy="104" r="20" fill="#9ca3af" opacity="0.65"/>
+      <path d="M 28 164 Q 50 136 72 164 L 72 184 L 28 184 Z" fill="#9ca3af" opacity="0.65"/>
+
+      <!-- Bio info -->
+      <text x="116" y="80" fill="#6b7280" font-family="sans-serif" font-size="9" font-weight="600" letter-spacing="1">SURNAME / 姓</text>
+      <text x="116" y="98" fill="#1f2937" font-family="sans-serif" font-size="14" font-weight="600">YAMADA</text>
+
+      <text x="116" y="120" fill="#6b7280" font-family="sans-serif" font-size="9" font-weight="600" letter-spacing="1">GIVEN NAME / 名</text>
+      <text x="116" y="138" fill="#1f2937" font-family="sans-serif" font-size="14" font-weight="600">TARO</text>
+
+      <text x="116" y="160" fill="#6b7280" font-family="sans-serif" font-size="9" font-weight="600" letter-spacing="1">NATIONALITY</text>
+      <text x="116" y="178" fill="#1f2937" font-family="sans-serif" font-size="13" font-weight="600">KOREAN</text>
+
+      <!-- MRZ lines -->
+      <line x1="0" y1="212" x2="350" y2="212" stroke="#d4d4d8" stroke-width="1"/>
+      <text x="0" y="232" fill="#6b7280" font-family="monospace" font-size="10" letter-spacing="1">P&lt;KORYAMADA&lt;&lt;TARO&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;</text>
+      <text x="0" y="250" fill="#6b7280" font-family="monospace" font-size="10" letter-spacing="1">M12345678&lt;7KOR9005158M3010031</text>
     </g>
 
-    <!-- Passport title -->
-    <text x="210" y="180" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="24" font-weight="bold" letter-spacing="4">PASSPORT</text>
-    <text x="210" y="212" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="20" font-weight="600">日本国 旅券</text>
+    <!-- ===== RIGHT PAGE: Stamps integrated as supporting keywords ===== -->
+    <g transform="translate(420, 22)">
+      <!-- Page header -->
+      <text x="175" y="14" text-anchor="middle" fill="#6b7280" font-family="sans-serif" font-size="10" font-weight="600" letter-spacing="3">VISAS &amp; ENTRY STAMPS</text>
+      <line x1="0" y1="22" x2="350" y2="22" stroke="#d4d4d8" stroke-width="1"/>
 
-    <!-- Inside page -->
-    <rect x="40" y="248" width="340" height="138" rx="6" fill="#fefce8"/>
-    <!-- Page line accents -->
-    <line x1="56" y1="266" x2="364" y2="266" stroke="#e7d4a8" stroke-width="1" opacity="0.7"/>
-    <line x1="56" y1="372" x2="364" y2="372" stroke="#e7d4a8" stroke-width="1" opacity="0.7"/>
+      <!-- Stamp: PURPOSE (top-left small) -->
+      <g transform="translate(60, 60) rotate(5)">
+        <rect x="-40" y="-18" width="80" height="36" rx="3" fill="none" stroke="#0f766e" stroke-width="1.8" opacity="0.85"/>
+        <text x="0" y="-3" text-anchor="middle" fill="#0f766e" font-family="sans-serif" font-size="9" font-weight="bold" letter-spacing="1" opacity="0.95">PURPOSE</text>
+        <text x="0" y="10" text-anchor="middle" fill="#0f766e" font-family="serif" font-size="10" font-weight="bold" opacity="0.9">目的</text>
+      </g>
 
-    <!-- Immigration stamp (rotated) -->
-    <g transform="translate(210, 317) rotate(-8)">
-      <rect x="-112" y="-44" width="224" height="88" rx="4" fill="none" stroke="#dc2626" stroke-width="3" opacity="0.9"/>
-      <rect x="-106" y="-38" width="212" height="76" rx="2" fill="none" stroke="#dc2626" stroke-width="1" opacity="0.85"/>
-      <text x="0" y="-10" text-anchor="middle" fill="#dc2626" font-family="sans-serif" font-size="22" font-weight="bold" letter-spacing="2" opacity="0.95">LANDED</text>
-      <text x="0" y="14" text-anchor="middle" fill="#dc2626" font-family="sans-serif" font-size="15" font-weight="bold" opacity="0.9">入国許可</text>
-      <text x="0" y="32" text-anchor="middle" fill="#dc2626" font-family="sans-serif" font-size="10" font-weight="600" letter-spacing="1" opacity="0.85">JAPAN IMMIGRATION</text>
+      <!-- Stamp: ADDRESS (top-right circular) -->
+      <g transform="translate(300, 65) rotate(-4)">
+        <circle r="30" fill="none" stroke="#7c3aed" stroke-width="2" opacity="0.85"/>
+        <text x="0" y="-3" text-anchor="middle" fill="#7c3aed" font-family="sans-serif" font-size="9" font-weight="bold" letter-spacing="1" opacity="0.95">ADDRESS</text>
+        <text x="0" y="10" text-anchor="middle" fill="#7c3aed" font-family="serif" font-size="10" font-weight="bold" opacity="0.9">住所</text>
+      </g>
+
+      <!-- BIG center stamp: LANDED -->
+      <g transform="translate(175, 130) rotate(-7)">
+        <rect x="-105" y="-44" width="210" height="88" rx="3" fill="none" stroke="#dc2626" stroke-width="3" opacity="0.9"/>
+        <rect x="-99" y="-38" width="198" height="76" rx="2" fill="none" stroke="#dc2626" stroke-width="1.5" opacity="0.85"/>
+        <text x="0" y="-13" text-anchor="middle" fill="#dc2626" font-family="sans-serif" font-size="26" font-weight="bold" letter-spacing="3" opacity="0.95">LANDED</text>
+        <text x="0" y="14" text-anchor="middle" fill="#dc2626" font-family="serif" font-size="16" font-weight="bold" opacity="0.9">入国許可</text>
+        <text x="0" y="32" text-anchor="middle" fill="#dc2626" font-family="sans-serif" font-size="9" font-weight="600" letter-spacing="2" opacity="0.85">JAPAN IMMIGRATION</text>
+      </g>
+
+      <!-- Stamp: COE (bottom-left) -->
+      <g transform="translate(60, 220) rotate(-4)">
+        <rect x="-36" y="-18" width="72" height="36" rx="3" fill="none" stroke="#1d4ed8" stroke-width="1.8" opacity="0.85"/>
+        <text x="0" y="-3" text-anchor="middle" fill="#1d4ed8" font-family="sans-serif" font-size="11" font-weight="bold" letter-spacing="1" opacity="0.95">COE</text>
+        <text x="0" y="10" text-anchor="middle" fill="#1d4ed8" font-family="sans-serif" font-size="7" font-weight="600" opacity="0.85">在留資格証明</text>
+      </g>
+
+      <!-- Stamp: RESIDENCE CARD (bottom-right) -->
+      <g transform="translate(290, 222) rotate(6)">
+        <rect x="-46" y="-18" width="92" height="36" rx="3" fill="none" stroke="#b45309" stroke-width="1.8" opacity="0.85"/>
+        <text x="0" y="-4" text-anchor="middle" fill="#b45309" font-family="sans-serif" font-size="8" font-weight="bold" letter-spacing="1" opacity="0.95">RESIDENCE CARD</text>
+        <text x="0" y="10" text-anchor="middle" fill="#b45309" font-family="serif" font-size="10" font-weight="bold" opacity="0.9">在留カード</text>
+      </g>
+
+      <!-- Date / port marker -->
+      <text x="175" y="270" text-anchor="middle" fill="#6b7280" font-family="monospace" font-size="10" font-weight="600" opacity="0.7">2026.06.03 / NRT NARITA</text>
     </g>
   </g>
 
   <defs>
     <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">
-      <stop offset="0%" stop-color="#3b82f6"/>
-      <stop offset="50%" stop-color="#6366f1"/>
-      <stop offset="100%" stop-color="#8b5cf6"/>
+      <stop offset="0%" stop-color="#1e40af"/>
+      <stop offset="50%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#0ea5e9"/>
     </linearGradient>
   </defs>
 </svg>
