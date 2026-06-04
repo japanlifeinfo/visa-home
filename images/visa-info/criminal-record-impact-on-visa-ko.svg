@@ -1,0 +1,80 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background: stone-900 charcoal-warm (distinct from prior indigo/cream/emerald/slate) -->
+  <rect width="1200" height="630" fill="#1c1917"/>
+  <rect width="1200" height="8" fill="url(#headerGradient)"/>
+
+  <!-- Subtle background texture: faint diagonal hatching on right half (behind hanko) -->
+  <g opacity="0.04">
+    <line x1="700" y1="80" x2="1200" y2="580" stroke="#fbbf24" stroke-width="1"/>
+    <line x1="760" y1="80" x2="1200" y2="520" stroke="#fbbf24" stroke-width="1"/>
+    <line x1="820" y1="80" x2="1200" y2="460" stroke="#fbbf24" stroke-width="1"/>
+    <line x1="880" y1="80" x2="1200" y2="400" stroke="#fbbf24" stroke-width="1"/>
+    <line x1="940" y1="80" x2="1200" y2="340" stroke="#fbbf24" stroke-width="1"/>
+  </g>
+
+  <!-- Background watermark 前科 (very faint, lower-left edge) -->
+  <text x="40" y="600" fill="#fbbf24" font-family="serif" font-size="160" font-weight="bold" opacity="0.05">前科</text>
+
+  <!-- ===== LEFT: Editorial text block ===== -->
+
+  <!-- Top kicker: vertical accent bar + 2 small lines -->
+  <rect x="80" y="68" width="4" height="44" fill="#dc2626"/>
+  <text x="100" y="86" fill="#fbbf24" font-family="sans-serif" font-size="13" font-weight="bold" letter-spacing="4">CRIMINAL RECORD · 前科</text>
+  <text x="100" y="106" fill="#a8a29e" font-family="sans-serif" font-size="12" letter-spacing="2">일본 비자 · 입국 · 영주권 심사에서의 영향</text>
+
+  <!-- Big editorial headline: declarative, 2 lines -->
+  <text x="80" y="234" fill="#f5f5f4" font-family="sans-serif" font-size="54" font-weight="500">범죄경력이 있어도</text>
+  <text x="80" y="316" fill="#fbbf24" font-family="sans-serif" font-size="68" font-weight="bold">거절되지는 않습니다</text>
+
+  <!-- Decorative gold accent line -->
+  <line x1="80" y1="354" x2="240" y2="354" stroke="#fbbf24" stroke-width="3"/>
+
+  <!-- Subtitle: brief single sentence -->
+  <text x="80" y="400" fill="#d6d3d1" font-family="sans-serif" font-size="20" font-weight="500">범죄 종류 · 처벌 수위 · 시기 · 재범 여부에 따라</text>
+  <text x="80" y="428" fill="#d6d3d1" font-family="sans-serif" font-size="20" font-weight="500">결과가 달라지는 종합 판단입니다</text>
+
+  <!-- Bottom byline -->
+  <text x="80" y="540" fill="#78716c" font-family="sans-serif" font-size="12" letter-spacing="4" font-weight="bold">JAPAN LIFE INFO · 일본 비자 가이드</text>
+  <line x1="80" y1="554" x2="160" y2="554" stroke="#78716c" stroke-width="1" opacity="0.6"/>
+
+  <!-- ===== RIGHT: HUGE traditional hanko (印) — the hero illustration ===== -->
+
+  <g transform="translate(940, 315) rotate(-8)">
+    <!-- Outer faint dashed guide ring (gives stamp depth) -->
+    <circle r="218" fill="none" stroke="#dc2626" stroke-width="1.2" stroke-dasharray="3 6" opacity="0.5"/>
+
+    <!-- Subtle ink shadow behind main stamp (suggests it was stamped) -->
+    <circle cx="3" cy="3" r="190" fill="none" stroke="#000000" stroke-width="14" opacity="0.4"/>
+
+    <!-- Main thick red outer ring -->
+    <circle r="190" fill="none" stroke="#dc2626" stroke-width="14"/>
+
+    <!-- Inner thin red ring -->
+    <circle r="168" fill="none" stroke="#dc2626" stroke-width="2.5"/>
+
+    <!-- Top arc text: JUDGMENT -->
+    <text y="-128" text-anchor="middle" fill="#dc2626" font-family="serif" font-size="15" font-weight="bold" letter-spacing="6">JUDGMENT</text>
+
+    <!-- Center kanji 審 (screening/examination — fits the case-by-case judgment theme) -->
+    <text y="68" text-anchor="middle" fill="#dc2626" font-family="serif" font-size="220" font-weight="bold">審</text>
+
+    <!-- Bottom arc kanji: 査 (investigate) — together with 審 forms 審査 (screening) -->
+    <text y="148" text-anchor="middle" fill="#dc2626" font-family="serif" font-size="15" font-weight="bold" letter-spacing="8">審査 · SCREENING</text>
+
+    <!-- Decorative side dots (left/right of center) -->
+    <circle cx="-180" cy="0" r="5" fill="#dc2626"/>
+    <circle cx="180" cy="0" r="5" fill="#dc2626"/>
+
+    <!-- Slight ink imperfection: small notches on outer ring to suggest hand-stamped texture -->
+    <circle cx="-188" cy="-30" r="3" fill="#1c1917"/>
+    <circle cx="172" cy="80" r="2.5" fill="#1c1917"/>
+  </g>
+
+  <defs>
+    <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">
+      <stop offset="0%" stop-color="#dc2626"/>
+      <stop offset="50%" stop-color="#ea580c"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+  </defs>
+</svg>
