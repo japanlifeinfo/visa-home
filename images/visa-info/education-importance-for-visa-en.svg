@@ -1,0 +1,143 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background: deep emerald (academic dark green, distinct from prior slate/navy/cream backgrounds) -->
+  <rect width="1200" height="630" fill="#064e3b"/>
+  <rect width="1200" height="8" fill="url(#headerGradient)"/>
+
+  <!-- Background watermark kanji (left side only; right side anchored by emblem) -->
+  <text x="60" y="600" fill="#10b981" font-family="serif" font-size="180" font-weight="bold" opacity="0.07">学歴</text>
+
+  <!-- Subtle floor line baseline beneath stairs -->
+  <line x1="80" y1="572" x2="1120" y2="572" stroke="#10b981" stroke-width="1" opacity="0.25" stroke-dasharray="2 6"/>
+
+  <!-- ===== TOP-LEFT: Left-aligned kicker + headline + subtitle ===== -->
+  <!-- Vertical gold accent bar -->
+  <rect x="76" y="48" width="4" height="44" fill="#fbbf24"/>
+
+  <text x="94" y="64" fill="#6ee7b7" font-family="sans-serif" font-size="13" font-weight="600" letter-spacing="3">ACADEMIC TIERS · 学位レベル</text>
+  <text x="94" y="84" fill="#a7f3d0" font-family="sans-serif" font-size="11" letter-spacing="1" opacity="0.8">DEGREE LEVELS · How ISA Evaluates Education</text>
+
+  <text x="76" y="146" fill="#f0fdf4" font-family="sans-serif" font-size="38" font-weight="600">Visa Eligibility by</text>
+  <text x="76" y="204" fill="#fbbf24" font-family="sans-serif" font-size="54" font-weight="bold">Degree Level</text>
+
+  <text x="76" y="238" fill="#a7f3d0" font-family="sans-serif" font-size="14" opacity="0.85">High School · Junior College · Bachelor's · Master's/PhD — How each tier fares</text>
+
+  <!-- ===== TOP-RIGHT: Academic credential emblem (学 kanji seal) ===== -->
+  <g transform="translate(1020, 138)">
+    <!-- Outer dashed guide ring -->
+    <circle r="94" fill="none" stroke="#fbbf24" stroke-width="1.2" stroke-dasharray="3 5" opacity="0.55"/>
+    <!-- Main solid emblem -->
+    <circle r="82" fill="#0f172a" stroke="#fbbf24" stroke-width="2.5"/>
+    <!-- Inner faint ring -->
+    <circle r="72" fill="none" stroke="#fbbf24" stroke-width="1" opacity="0.45"/>
+
+    <!-- Top arc text -->
+    <text y="-42" text-anchor="middle" fill="#fde68a" font-family="sans-serif" font-size="9" font-weight="bold" letter-spacing="3">ACADEMIC</text>
+
+    <!-- Center kanji 学 -->
+    <text y="22" text-anchor="middle" fill="#fbbf24" font-family="serif" font-size="68" font-weight="bold">学</text>
+
+    <!-- Bottom arc text -->
+    <text y="54" text-anchor="middle" fill="#fde68a" font-family="sans-serif" font-size="9" font-weight="bold" letter-spacing="3">CREDENTIAL</text>
+
+    <!-- Side stars -->
+    <text x="-62" y="6" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="14">★</text>
+    <text x="62" y="6" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="14">★</text>
+  </g>
+
+  <!-- ===== ASCENDING STAIRCASE (4 steps, all share baseline y=570) ===== -->
+
+  <!-- Step 1: High School (red accent - Difficult) -->
+  <g transform="translate(140, 490)">
+    <rect x="4" y="6" width="190" height="80" rx="8" fill="#000" opacity="0.3"/>
+    <rect width="190" height="80" rx="8" fill="#0f172a" stroke="#dc2626" stroke-width="2"/>
+    <rect width="190" height="6" fill="#dc2626"/>
+    <text x="95" y="38" text-anchor="middle" fill="#f8fafc" font-family="sans-serif" font-size="22" font-weight="bold">High School</text>
+    <rect x="49" y="50" width="92" height="22" rx="11" fill="#dc2626"/>
+    <text x="95" y="66" text-anchor="middle" fill="white" font-family="sans-serif" font-size="13" font-weight="bold">Difficult</text>
+  </g>
+
+  <!-- Step 2: Junior College (amber accent - Possible) -->
+  <g transform="translate(345, 430)">
+    <rect x="4" y="6" width="190" height="140" rx="8" fill="#000" opacity="0.3"/>
+    <rect width="190" height="140" rx="8" fill="#0f172a" stroke="#f59e0b" stroke-width="2"/>
+    <rect width="190" height="6" fill="#f59e0b"/>
+    <!-- "Junior College" ~169px natural > 152 — apply textLength -->
+    <text x="95" y="50" text-anchor="middle" fill="#f8fafc" font-family="sans-serif" font-size="22" font-weight="bold" textLength="160" lengthAdjust="spacingAndGlyphs">Junior College</text>
+    <rect x="55" y="62" width="80" height="22" rx="11" fill="#f59e0b"/>
+    <text x="95" y="78" text-anchor="middle" fill="white" font-family="sans-serif" font-size="13" font-weight="bold">Possible</text>
+    <line x1="30" y1="100" x2="160" y2="100" stroke="#475569" stroke-width="1"/>
+    <text x="95" y="120" text-anchor="middle" fill="#cbd5e1" font-family="sans-serif" font-size="12">If major matches role</text>
+  </g>
+
+  <!-- Step 3: Bachelor's (green accent - Standard) -->
+  <g transform="translate(550, 370)">
+    <rect x="4" y="6" width="190" height="200" rx="8" fill="#000" opacity="0.3"/>
+    <rect width="190" height="200" rx="8" fill="#0f172a" stroke="#10b981" stroke-width="2"/>
+    <rect width="190" height="6" fill="#10b981"/>
+    <text x="95" y="52" text-anchor="middle" fill="#f8fafc" font-family="sans-serif" font-size="22" font-weight="bold">Bachelor's</text>
+    <text x="95" y="74" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="13">4-year university</text>
+    <rect x="47" y="88" width="96" height="22" rx="11" fill="#10b981"/>
+    <text x="95" y="104" text-anchor="middle" fill="white" font-family="sans-serif" font-size="13" font-weight="bold">Standard</text>
+    <line x1="30" y1="126" x2="160" y2="126" stroke="#475569" stroke-width="1"/>
+    <text x="95" y="150" text-anchor="middle" fill="#cbd5e1" font-family="sans-serif" font-size="12">Work visa</text>
+    <text x="95" y="170" text-anchor="middle" fill="#cbd5e1" font-family="sans-serif" font-size="12">Standard path</text>
+  </g>
+
+  <!-- Step 4: Master's/PhD (gold accent - Very Favorable) - tallest -->
+  <g transform="translate(755, 310)">
+    <rect x="4" y="6" width="190" height="260" rx="8" fill="#000" opacity="0.3"/>
+    <rect width="190" height="260" rx="8" fill="#0f172a" stroke="#fbbf24" stroke-width="2"/>
+    <rect width="190" height="6" fill="#fbbf24"/>
+
+    <!-- Mortarboard cap icon on top -->
+    <g transform="translate(95, 50)">
+      <polygon points="0,-13 34,0 0,9 -34,0" fill="#fbbf24"/>
+      <polygon points="0,-10 28,0 0,7 -28,0" fill="#f59e0b" opacity="0.55"/>
+      <path d="M -23 3 Q -23 19 0 21 Q 23 19 23 3 Z" fill="#fbbf24"/>
+      <ellipse cy="3" rx="23" ry="3" fill="#f59e0b"/>
+      <circle cy="-4" r="2.5" fill="#fef3c7"/>
+      <path d="M 0 -4 Q 16 0 18 12" stroke="#fef3c7" stroke-width="1.5" fill="none"/>
+      <circle cx="18" cy="14" r="2.5" fill="#fef3c7"/>
+    </g>
+
+    <!-- "Master's/PhD" ~145px natural, marginal — apply textLength -->
+    <text x="95" y="104" text-anchor="middle" fill="#f8fafc" font-family="sans-serif" font-size="22" font-weight="bold">Master's/PhD</text>
+    <text x="95" y="126" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="13">Graduate / 大学院</text>
+    <rect x="33" y="140" width="124" height="24" rx="12" fill="#fbbf24"/>
+    <!-- "Very Favorable" ~100px close to 104 — apply textLength -->
+    <text x="95" y="157" text-anchor="middle" fill="#7c2d12" font-family="sans-serif" font-size="13" font-weight="bold">Very Favorable</text>
+    <line x1="30" y1="182" x2="160" y2="182" stroke="#475569" stroke-width="1"/>
+    <text x="95" y="206" text-anchor="middle" fill="#cbd5e1" font-family="sans-serif" font-size="12">HSP preference</text>
+    <text x="95" y="226" text-anchor="middle" fill="#cbd5e1" font-family="sans-serif" font-size="12">Points bonus</text>
+    <text x="95" y="252" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="13" font-weight="bold">★ TOP TIER</text>
+  </g>
+
+  <!-- ===== Right-side BYPASS callout: experience supplement ===== -->
+  <g transform="translate(975, 380)">
+    <rect width="195" height="190" rx="10" fill="#134e4a" stroke="#5eead4" stroke-width="1.5" stroke-dasharray="6 4"/>
+    <text x="97" y="32" text-anchor="middle" fill="#5eead4" font-family="sans-serif" font-size="12" font-weight="bold" letter-spacing="3">BYPASS · Experience</text>
+    <line x1="30" y1="46" x2="165" y2="46" stroke="#5eead4" stroke-width="1" opacity="0.4"/>
+
+    <!-- Big "OR" -->
+    <text x="97" y="80" text-anchor="middle" fill="#a7f3d0" font-family="sans-serif" font-size="18" font-weight="600">OR</text>
+
+    <!-- Experience badge -->
+    <rect x="20" y="96" width="155" height="40" rx="10" fill="#0f766e"/>
+    <!-- "10+ years exp." ~145px close to 128 — apply textLength -->
+    <text x="97" y="123" text-anchor="middle" fill="#f0fdfa" font-family="sans-serif" font-size="20" font-weight="bold" textLength="135" lengthAdjust="spacingAndGlyphs">10+ years exp.</text>
+
+    <text x="97" y="160" text-anchor="middle" fill="#a7f3d0" font-family="sans-serif" font-size="12">If education is low</text>
+    <text x="97" y="178" text-anchor="middle" fill="#a7f3d0" font-family="sans-serif" font-size="12">Alternative path</text>
+  </g>
+
+  <!-- Bottom caption -->
+  <text x="600" y="610" text-anchor="middle" fill="#a7f3d0" font-family="sans-serif" font-size="13" opacity="0.9">ISA evaluates either degree level or equivalent professional experience</text>
+
+  <defs>
+    <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="50%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#fbbf24"/>
+    </linearGradient>
+  </defs>
+</svg>
