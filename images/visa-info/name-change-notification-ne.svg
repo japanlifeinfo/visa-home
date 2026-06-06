@@ -1,0 +1,186 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="headerGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0d9488"/>
+      <stop offset="50%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#dc2626"/>
+    </linearGradient>
+    <radialGradient id="sealInk" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fecaca" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#dc2626" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="paperGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fef9c3"/>
+      <stop offset="100%" stop-color="#fde68a"/>
+    </linearGradient>
+    <path id="sealTopArc" d="M -56 -20 A 64 64 0 0 1 56 -20" fill="none"/>
+    <path id="sealBottomArc" d="M -56 38 A 64 64 0 0 0 56 38" fill="none"/>
+  </defs>
+
+  <!-- Background: soft mint/cream -->
+  <rect width="1200" height="630" fill="#ecfdf5"/>
+  <rect width="1200" height="8" fill="url(#headerGradient)"/>
+
+  <!-- Background watermark: "सूचना" lower-right faint -->
+  <text x="1180" y="615" text-anchor="end" fill="#dc2626" font-family="sans-serif" font-size="220" font-weight="bold" opacity="0.06">सूचना</text>
+
+  <!-- Subtle dotted radial pattern emanating from seal position (impact rays) -->
+  <g stroke="#dc2626" stroke-width="1.5" stroke-dasharray="2 8" opacity="0.18" fill="none">
+    <line x1="600" y1="320" x2="200" y2="120"/>
+    <line x1="600" y1="320" x2="1000" y2="120"/>
+    <line x1="600" y1="320" x2="120" y2="320"/>
+    <line x1="600" y1="320" x2="1080" y2="320"/>
+    <line x1="600" y1="320" x2="280" y2="580"/>
+    <line x1="600" y1="320" x2="920" y2="580"/>
+  </g>
+
+  <!-- ===== TOP: minimal kicker pill only (centered, very small) ===== -->
+
+  <g transform="translate(600, 56)">
+    <rect x="-220" y="-19" width="440" height="36" rx="18" fill="#fff" stroke="#dc2626" stroke-width="1.5"/>
+    <text x="0" y="6" text-anchor="middle" fill="#dc2626" font-family="sans-serif" font-size="13" font-weight="bold" letter-spacing="2">नाम परिवर्तन · रेजिडेन्स कार्ड अपडेट</text>
+  </g>
+
+  <!-- =============================================================== -->
+  <!-- CENTER HUB: the seal stamping action is the dramatic focal point -->
+  <!-- =============================================================== -->
+
+  <!-- DOCUMENT PAPER (tilted slightly for depth) -->
+  <g transform="translate(600, 360) rotate(-4)">
+    <!-- Drop shadow -->
+    <rect x="-326" y="-152" width="660" height="320" rx="10" fill="#000" opacity="0.13" transform="translate(8, 12)"/>
+
+    <!-- Paper body -->
+    <rect x="-326" y="-152" width="660" height="320" rx="10" fill="url(#paperGrad)" stroke="#a16207" stroke-width="1.2"/>
+
+    <!-- Top header band (dark teal) -->
+    <path d="M -326 -142 Q -326 -152 -316 -152 L 324 -152 Q 334 -152 334 -142 L 334 -108 L -326 -108 Z" fill="#134e4a"/>
+
+    <!-- Header decorative ticks -->
+    <g fill="#fbbf24">
+      <circle cx="-302" cy="-130" r="3.5"/>
+      <circle cx="-288" cy="-130" r="3.5" opacity="0.6"/>
+      <circle cx="-274" cy="-130" r="3.5" opacity="0.3"/>
+    </g>
+
+    <!-- Header title text (Nepali) -->
+    <text x="-244" y="-126" font-family="sans-serif" font-size="14" font-weight="bold" letter-spacing="6" fill="#fbbf24">रेजिडेन्स कार्ड अपडेट</text>
+
+    <!-- Header right small marker -->
+    <g transform="translate(310, -130)">
+      <circle r="3" fill="#fbbf24"/>
+      <circle cx="-12" r="3" fill="#fbbf24" opacity="0.55"/>
+      <circle cx="-24" r="3" fill="#fbbf24" opacity="0.3"/>
+    </g>
+
+    <!-- Field label: "नाम" -->
+    <text x="-302" y="-72" font-family="sans-serif" font-size="14" font-weight="bold" fill="#78350f" letter-spacing="5">नाम</text>
+    <!-- Field separator line -->
+    <line x1="-302" y1="-60" x2="-220" y2="-60" stroke="#a16207" stroke-width="1.2"/>
+
+    <!-- Old name row -->
+    <text x="-302" y="-26" font-family="sans-serif" font-size="14" font-weight="bold" fill="#a16207" letter-spacing="3" opacity="0.85">पुरानो</text>
+    <text x="-220" y="-20" font-family="sans-serif" font-size="36" font-weight="500" fill="#78716c" letter-spacing="5">पुरानो नाम</text>
+    <!-- Red strikethrough across old name -->
+    <line x1="-220" y1="-26" x2="160" y2="-44" stroke="#ef4444" stroke-width="4" stroke-linecap="round" opacity="0.95"/>
+    <!-- Old underline (dashed) -->
+    <line x1="-220" y1="-2" x2="294" y2="-2" stroke="#a8a29e" stroke-width="1.2" stroke-dasharray="4 5" opacity="0.7"/>
+
+    <!-- Down arrow indicator -->
+    <g transform="translate(-260, 26)">
+      <line x1="0" y1="0" x2="0" y2="22" stroke="#dc2626" stroke-width="3" stroke-linecap="round"/>
+      <path d="M -9 16 L 0 26 L 9 16" stroke="#dc2626" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+
+    <!-- New name row -->
+    <text x="-302" y="76" font-family="sans-serif" font-size="14" font-weight="bold" fill="#dc2626" letter-spacing="3">नयाँ</text>
+    <text x="-220" y="84" font-family="sans-serif" font-size="44" font-weight="bold" fill="#134e4a" letter-spacing="6">नयाँ नाम</text>
+
+    <!-- New underline glow + sharp line -->
+    <line x1="-220" y1="110" x2="294" y2="110" stroke="#fbbf24" stroke-width="11" stroke-linecap="round" opacity="0.35"/>
+    <line x1="-220" y1="110" x2="294" y2="110" stroke="#d97706" stroke-width="2.5" stroke-linecap="round"/>
+
+    <!-- Bottom small label area (faded info lines) -->
+    <line x1="-302" y1="142" x2="180" y2="142" stroke="#a8a29e" stroke-width="0.8" opacity="0.55"/>
+    <line x1="-302" y1="152" x2="120" y2="152" stroke="#a8a29e" stroke-width="0.8" opacity="0.55"/>
+  </g>
+
+  <!-- ===== PEN drawing on the new name line ===== -->
+  <g transform="translate(920, 472) rotate(-32)">
+    <!-- Pen shadow -->
+    <rect x="0" y="7" width="170" height="22" rx="4" fill="#000" opacity="0.32"/>
+    <!-- Pen body -->
+    <rect x="0" y="-11" width="170" height="22" rx="4" fill="#1c1917"/>
+    <!-- Pen body color band -->
+    <rect x="20" y="-11" width="100" height="22" fill="#d97706"/>
+    <!-- Highlight -->
+    <rect x="6" y="-9" width="158" height="3.5" rx="1.5" fill="#fef3c7" opacity="0.55"/>
+    <!-- Clip ring -->
+    <rect x="124" y="-11" width="3" height="22" fill="#451a03"/>
+    <!-- Pen cap end -->
+    <rect x="168" y="-11" width="6" height="22" rx="2" fill="#fbbf24"/>
+    <!-- Pen tip cone -->
+    <path d="M -34 0 L 0 -11 L 0 11 Z" fill="#1c1917"/>
+    <path d="M -26 0 L -3 -7 L -3 7 Z" fill="#fbbf24"/>
+    <!-- Ink dot at very tip -->
+    <circle cx="-36" cy="0" r="4" fill="#d97706"/>
+  </g>
+
+  <!-- =============================================================== -->
+  <!-- BIG RED SEAL -->
+  <!-- =============================================================== -->
+
+  <!-- Soft ink halo behind seal -->
+  <ellipse cx="850" cy="232" rx="142" ry="142" fill="url(#sealInk)" opacity="0.85"/>
+
+  <!-- Seal group (slightly tilted) -->
+  <g transform="translate(850, 232) rotate(14)">
+    <!-- Outer ink smudge -->
+    <circle r="106" fill="#dc2626" opacity="0.12"/>
+    <!-- Outer ring (thick) -->
+    <circle r="86" fill="none" stroke="#dc2626" stroke-width="6"/>
+    <!-- Inner thin ring -->
+    <circle r="76" fill="none" stroke="#dc2626" stroke-width="1.5"/>
+
+    <!-- Top arc text "भित्र" -->
+    <text fill="#dc2626" font-family="sans-serif" font-size="13" font-weight="bold" letter-spacing="8">
+      <textPath href="#sealTopArc" startOffset="50%" text-anchor="middle">भित्र</textPath>
+    </text>
+
+    <!-- "१४" giant center (Devanagari 14) -->
+    <text x="0" y="14" text-anchor="middle" fill="#dc2626" font-family="sans-serif" font-size="56" font-weight="bold" letter-spacing="2">१४</text>
+
+    <!-- Bottom arc text "दिन" -->
+    <text fill="#dc2626" font-family="sans-serif" font-size="13" font-weight="bold" letter-spacing="8">
+      <textPath href="#sealBottomArc" startOffset="50%" text-anchor="middle">दिन</textPath>
+    </text>
+
+    <!-- Small star/asterisk decorations on sides -->
+    <g fill="#dc2626">
+      <path d="M -74 0 L -70 -4 L -66 0 L -70 4 Z"/>
+      <path d="M 74 0 L 70 -4 L 66 0 L 70 4 Z"/>
+    </g>
+  </g>
+
+  <!-- Motion impact lines around seal -->
+  <g stroke="#fca5a5" stroke-width="2.5" stroke-linecap="round" opacity="0.65">
+    <line x1="720" y1="160" x2="745" y2="180"/>
+    <line x1="725" y1="130" x2="745" y2="160"/>
+    <line x1="980" y1="160" x2="955" y2="180"/>
+    <line x1="975" y1="130" x2="955" y2="160"/>
+    <line x1="700" y1="232" x2="730" y2="232"/>
+    <line x1="970" y1="232" x2="1000" y2="232"/>
+  </g>
+
+  <!-- =============================================================== -->
+  <!-- BOTTOM: headline + subtitle (centered) -->
+  <!-- =============================================================== -->
+
+  <!-- Pre-headline (small label above main headline) -->
+  <text x="600" y="556" text-anchor="middle" fill="#475569" font-family="sans-serif" font-size="15" font-weight="500" letter-spacing="2">जापानमा बस्दा नाम परिवर्तन भएमा</text>
+
+  <!-- Main headline (single-line banner, centered) -->
+  <text x="600" y="600" text-anchor="middle" font-family="sans-serif" font-size="40" font-weight="bold">
+    <tspan fill="#0f172a">रेजिडेन्स कार्ड </tspan><tspan fill="#dc2626">पनि</tspan><tspan fill="#0f172a"> परिवर्तन गर्नुहोस्</tspan>
+  </text>
+</svg>
