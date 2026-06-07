@@ -1,0 +1,157 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">
+      <stop offset="0%" stop-color="#dc2626"/>
+      <stop offset="33%" stop-color="#6366f1"/>
+      <stop offset="66%" stop-color="#14b8a6"/>
+      <stop offset="100%" stop-color="#fbbf24"/>
+    </linearGradient>
+    <radialGradient id="hubGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.45"/>
+      <stop offset="55%" stop-color="#6366f1" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="hubCore" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ===== Background: dark navy (break from recent light cream / mint / split-light) ===== -->
+  <rect width="1200" height="630" fill="#0f172a"/>
+  <!-- Top gradient bar (spectrum colors reflecting freedom range) -->
+  <rect width="1200" height="8" fill="url(#headerGradient)"/>
+
+  <!-- Background watermark (Korean only): 활동 lower-right, very faint -->
+  <text x="1180" y="612" text-anchor="end" fill="#fbbf24" font-family="sans-serif" font-size="200" font-weight="bold" opacity="0.05">활동</text>
+
+  <!-- Subtle dotted grid (upper-left, breaks empty space) -->
+  <g opacity="0.18">
+    <circle cx="60" cy="80" r="2" fill="#475569"/>
+    <circle cx="90" cy="80" r="2" fill="#475569"/>
+    <circle cx="120" cy="80" r="2" fill="#475569"/>
+    <circle cx="60" cy="110" r="2" fill="#475569"/>
+    <circle cx="90" cy="110" r="2" fill="#475569"/>
+    <circle cx="60" cy="140" r="2" fill="#475569"/>
+  </g>
+
+  <!-- Decorative accent circles -->
+  <circle cx="1100" cy="100" r="60" fill="#6366f1" opacity="0.08"/>
+  <circle cx="1050" cy="170" r="28" fill="#14b8a6" opacity="0.13"/>
+
+  <!-- =============================================================== -->
+  <!-- TOP: Kicker pill + 2-line headline (left-aligned, top placement) -->
+  <!-- =============================================================== -->
+
+  <!-- Kicker pill (left-aligned) -->
+  <g transform="translate(60, 60)">
+    <rect width="280" height="34" rx="17" fill="none" stroke="#5eead4" stroke-width="1.5"/>
+    <text x="140" y="22" text-anchor="middle" fill="#5eead4" font-family="sans-serif" font-size="13" font-weight="bold" letter-spacing="4">일본 재류자격 · 허용 활동</text>
+  </g>
+
+  <!-- Pre-headline label -->
+  <text x="60" y="138" fill="#94a3b8" font-family="sans-serif" font-size="17" font-weight="500" letter-spacing="2">같은 외국인이라도</text>
+
+  <!-- Main headline (2 lines, left-aligned) -->
+  <text x="60" y="198" fill="#f1f5f9" font-family="sans-serif" font-size="56" font-weight="bold">재류자격에 따라</text>
+  <text x="60" y="262" font-family="sans-serif" font-size="56" font-weight="bold">
+    <tspan fill="#fbbf24">할 수 있는 일</tspan>
+    <tspan fill="#f1f5f9">이 다릅니다</tspan>
+  </text>
+
+  <!-- Thin accent line under headline -->
+  <line x1="60" y1="290" x2="200" y2="290" stroke="#fbbf24" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- =============================================================== -->
+  <!-- BOTTOM: HUB-AND-SPOKE DIAGRAM — vertical 3-row layout -->
+  <!-- Hub center at (600, 430), 3 chips stacked on each side at y = 320 / 410 / 500 -->
+  <!-- Silhouette: 6-branch hub diagram — break from typography / document / lens -->
+  <!-- =============================================================== -->
+
+  <!-- Outer halo glow around hub -->
+  <circle cx="600" cy="430" r="240" fill="url(#hubGlow)"/>
+
+  <!-- ===== SPOKES (lines from hub edge to each chip nearest edge) ===== -->
+  <!-- Hub circle r=62. LEFT chips at right edge x=426, RIGHT chips at left edge x=774 -->
+  <g stroke-width="2" fill="none" opacity="0.55">
+    <!-- LEFT upper → 단기 · 관광 (rose, restrictive) -->
+    <line x1="545" y1="401" x2="426" y2="339" stroke="#fda4af"/>
+    <!-- LEFT middle → 연수 · 문화 (violet) -->
+    <line x1="538" y1="430" x2="426" y2="429" stroke="#c4b5fd"/>
+    <!-- LEFT lower → 학업 · 유학 (indigo) -->
+    <line x1="545" y1="458" x2="426" y2="519" stroke="#93c5fd"/>
+    <!-- RIGHT upper → 취업 활동 (amber, most free) -->
+    <line x1="655" y1="401" x2="774" y2="339" stroke="#fbbf24"/>
+    <!-- RIGHT middle → 정주 · 영주 (green) -->
+    <line x1="662" y1="430" x2="774" y2="429" stroke="#86efac"/>
+    <!-- RIGHT lower → 가족 · 결혼 (teal) -->
+    <line x1="655" y1="458" x2="774" y2="519" stroke="#5eead4"/>
+  </g>
+
+  <!-- ===== CHIPS (3 stacked on each side, color-coded by freedom level) ===== -->
+
+  <!-- LEFT upper: 단기 · 관광 (rose — most restrictive) -->
+  <g transform="translate(280, 320)">
+    <rect width="146" height="38" rx="19" fill="#0f172a" stroke="#fda4af" stroke-width="1.5"/>
+    <circle cx="20" cy="19" r="6" fill="#fda4af"/>
+    <text x="36" y="25" fill="#fecdd3" font-family="sans-serif" font-size="15" font-weight="bold" letter-spacing="1">단기 · 관광</text>
+  </g>
+
+  <!-- LEFT middle: 연수 · 문화 (violet) -->
+  <g transform="translate(280, 410)">
+    <rect width="146" height="38" rx="19" fill="#0f172a" stroke="#c4b5fd" stroke-width="1.5"/>
+    <circle cx="20" cy="19" r="6" fill="#c4b5fd"/>
+    <text x="36" y="25" fill="#ddd6fe" font-family="sans-serif" font-size="15" font-weight="bold" letter-spacing="1">연수 · 문화</text>
+  </g>
+
+  <!-- LEFT lower: 학업 · 유학 (indigo) -->
+  <g transform="translate(280, 500)">
+    <rect width="146" height="38" rx="19" fill="#0f172a" stroke="#93c5fd" stroke-width="1.5"/>
+    <circle cx="20" cy="19" r="6" fill="#93c5fd"/>
+    <text x="36" y="25" fill="#bfdbfe" font-family="sans-serif" font-size="15" font-weight="bold" letter-spacing="1">학업 · 유학</text>
+  </g>
+
+  <!-- RIGHT upper: 취업 활동 (amber — most free) -->
+  <g transform="translate(774, 320)">
+    <rect width="146" height="38" rx="19" fill="#0f172a" stroke="#fbbf24" stroke-width="1.5"/>
+    <circle cx="20" cy="19" r="6" fill="#fbbf24"/>
+    <text x="36" y="25" fill="#fde68a" font-family="sans-serif" font-size="15" font-weight="bold" letter-spacing="1">취업 활동</text>
+  </g>
+
+  <!-- RIGHT middle: 정주 · 영주 (green) -->
+  <g transform="translate(774, 410)">
+    <rect width="146" height="38" rx="19" fill="#0f172a" stroke="#86efac" stroke-width="1.5"/>
+    <circle cx="20" cy="19" r="6" fill="#86efac"/>
+    <text x="36" y="25" fill="#bbf7d0" font-family="sans-serif" font-size="15" font-weight="bold" letter-spacing="1">정주 · 영주</text>
+  </g>
+
+  <!-- RIGHT lower: 가족 · 결혼 (teal) -->
+  <g transform="translate(774, 500)">
+    <rect width="146" height="38" rx="19" fill="#0f172a" stroke="#5eead4" stroke-width="1.5"/>
+    <circle cx="20" cy="19" r="6" fill="#5eead4"/>
+    <text x="36" y="25" fill="#a7f3d0" font-family="sans-serif" font-size="15" font-weight="bold" letter-spacing="1">가족 · 결혼</text>
+  </g>
+
+  <!-- ===== HUB CORE (the central concept) ===== -->
+
+  <!-- Outer thin halo ring -->
+  <circle cx="600" cy="430" r="78" fill="none" stroke="#fbbf24" stroke-width="0.8" opacity="0.35"/>
+  <!-- Hub core circle -->
+  <circle cx="600" cy="430" r="62" fill="url(#hubCore)" stroke="#fbbf24" stroke-width="3"/>
+  <!-- Inner dotted ring -->
+  <circle cx="600" cy="430" r="54" fill="none" stroke="#fbbf24" stroke-width="0.8" stroke-dasharray="2 4" opacity="0.5"/>
+
+  <!-- Hub center text "재류자격" (Korean only — no Japanese kanji, no English) -->
+  <text x="600" y="423" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="11" font-weight="bold" letter-spacing="4">허용 활동</text>
+  <text x="600" y="452" text-anchor="middle" fill="#f1f5f9" font-family="sans-serif" font-size="20" font-weight="bold" letter-spacing="2">재류자격</text>
+
+  <!-- =============================================================== -->
+  <!-- Right-side subtitle (balances left-aligned headline) -->
+  <!-- =============================================================== -->
+
+  <text x="1140" y="172" text-anchor="end" fill="#94a3b8" font-family="sans-serif" font-size="17" font-weight="500">취업 · 학업 · 가족 · 정주 · 단기까지</text>
+  <text x="1140" y="200" text-anchor="end" fill="#94a3b8" font-family="sans-serif" font-size="17" font-weight="500">재류자격마다 허용 범위가 달라집니다</text>
+
+  <!-- Small accent under right subtitle -->
+  <line x1="1040" y1="220" x2="1140" y2="220" stroke="#5eead4" stroke-width="1.5" opacity="0.6"/>
+</svg>

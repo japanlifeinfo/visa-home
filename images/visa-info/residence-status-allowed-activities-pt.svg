@@ -1,0 +1,111 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">
+      <stop offset="0%" stop-color="#dc2626"/>
+      <stop offset="33%" stop-color="#6366f1"/>
+      <stop offset="66%" stop-color="#14b8a6"/>
+      <stop offset="100%" stop-color="#fbbf24"/>
+    </linearGradient>
+    <radialGradient id="hubGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.45"/>
+      <stop offset="55%" stop-color="#6366f1" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="hubCore" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="#0f172a"/>
+  <rect width="1200" height="8" fill="url(#headerGradient)"/>
+
+  <text x="1180" y="612" text-anchor="end" fill="#fbbf24" font-family="sans-serif" font-size="160" font-weight="bold" opacity="0.05">Atividades</text>
+
+  <g opacity="0.18">
+    <circle cx="60" cy="80" r="2" fill="#475569"/>
+    <circle cx="90" cy="80" r="2" fill="#475569"/>
+    <circle cx="120" cy="80" r="2" fill="#475569"/>
+    <circle cx="60" cy="110" r="2" fill="#475569"/>
+    <circle cx="90" cy="110" r="2" fill="#475569"/>
+    <circle cx="60" cy="140" r="2" fill="#475569"/>
+  </g>
+
+  <circle cx="1100" cy="100" r="60" fill="#6366f1" opacity="0.08"/>
+  <circle cx="1050" cy="170" r="28" fill="#14b8a6" opacity="0.13"/>
+
+  <g transform="translate(60, 60)">
+    <rect width="340" height="34" rx="17" fill="none" stroke="#5eead4" stroke-width="1.5"/>
+    <text x="170" y="22" text-anchor="middle" fill="#5eead4" font-family="sans-serif" font-size="13" font-weight="bold" letter-spacing="3">STATUS DE RESIDENCIA NO JAPAO</text>
+  </g>
+
+  <text x="60" y="138" fill="#94a3b8" font-family="sans-serif" font-size="17" font-weight="500" letter-spacing="2">Mesmo entre estrangeiros,</text>
+
+  <text x="60" y="198" fill="#f1f5f9" font-family="sans-serif" font-size="56" font-weight="bold">Status diferente,</text>
+  <text x="60" y="262" font-family="sans-serif" font-size="56" font-weight="bold">
+    <tspan fill="#fbbf24">atividades </tspan>
+    <tspan fill="#f1f5f9">diferentes</tspan>
+  </text>
+
+  <line x1="60" y1="290" x2="200" y2="290" stroke="#fbbf24" stroke-width="3" stroke-linecap="round"/>
+
+  <circle cx="600" cy="430" r="240" fill="url(#hubGlow)"/>
+
+  <g stroke-width="2" fill="none" opacity="0.55">
+    <line x1="545" y1="401" x2="426" y2="339" stroke="#fda4af"/>
+    <line x1="538" y1="430" x2="426" y2="429" stroke="#c4b5fd"/>
+    <line x1="545" y1="458" x2="426" y2="519" stroke="#93c5fd"/>
+    <line x1="655" y1="401" x2="774" y2="339" stroke="#fbbf24"/>
+    <line x1="662" y1="430" x2="774" y2="429" stroke="#86efac"/>
+    <line x1="655" y1="458" x2="774" y2="519" stroke="#5eead4"/>
+  </g>
+
+  <g transform="translate(280, 320)">
+    <rect width="146" height="38" rx="19" fill="#0f172a" stroke="#fda4af" stroke-width="1.5"/>
+    <circle cx="20" cy="19" r="6" fill="#fda4af"/>
+    <text x="36" y="25" fill="#fecdd3" font-family="sans-serif" font-size="15" font-weight="bold" letter-spacing="1">Turismo</text>
+  </g>
+
+  <g transform="translate(280, 410)">
+    <rect width="146" height="38" rx="19" fill="#0f172a" stroke="#c4b5fd" stroke-width="1.5"/>
+    <circle cx="20" cy="19" r="6" fill="#c4b5fd"/>
+    <text x="36" y="25" fill="#ddd6fe" font-family="sans-serif" font-size="15" font-weight="bold" letter-spacing="1">Cultura</text>
+  </g>
+
+  <g transform="translate(280, 500)">
+    <rect width="146" height="38" rx="19" fill="#0f172a" stroke="#93c5fd" stroke-width="1.5"/>
+    <circle cx="20" cy="19" r="6" fill="#93c5fd"/>
+    <text x="36" y="25" fill="#bfdbfe" font-family="sans-serif" font-size="15" font-weight="bold" letter-spacing="1">Estudante</text>
+  </g>
+
+  <g transform="translate(774, 320)">
+    <rect width="146" height="38" rx="19" fill="#0f172a" stroke="#fbbf24" stroke-width="1.5"/>
+    <circle cx="20" cy="19" r="6" fill="#fbbf24"/>
+    <text x="36" y="25" fill="#fde68a" font-family="sans-serif" font-size="15" font-weight="bold" letter-spacing="1">Trabalho</text>
+  </g>
+
+  <g transform="translate(774, 410)">
+    <rect width="146" height="38" rx="19" fill="#0f172a" stroke="#86efac" stroke-width="1.5"/>
+    <circle cx="20" cy="19" r="6" fill="#86efac"/>
+    <text x="36" y="25" fill="#bbf7d0" font-family="sans-serif" font-size="15" font-weight="bold" letter-spacing="1">Permanente</text>
+  </g>
+
+  <g transform="translate(774, 500)">
+    <rect width="146" height="38" rx="19" fill="#0f172a" stroke="#5eead4" stroke-width="1.5"/>
+    <circle cx="20" cy="19" r="6" fill="#5eead4"/>
+    <text x="36" y="25" fill="#a7f3d0" font-family="sans-serif" font-size="15" font-weight="bold" letter-spacing="1">Familia</text>
+  </g>
+
+  <circle cx="600" cy="430" r="78" fill="none" stroke="#fbbf24" stroke-width="0.8" opacity="0.35"/>
+  <circle cx="600" cy="430" r="62" fill="url(#hubCore)" stroke="#fbbf24" stroke-width="3"/>
+  <circle cx="600" cy="430" r="54" fill="none" stroke="#fbbf24" stroke-width="0.8" stroke-dasharray="2 4" opacity="0.5"/>
+
+  <text x="600" y="421" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="10" font-weight="bold" letter-spacing="3">ATIVIDADES</text>
+  <text x="600" y="450" text-anchor="middle" fill="#f1f5f9" font-family="sans-serif" font-size="14" font-weight="bold" letter-spacing="1">Status de</text>
+  <text x="600" y="468" text-anchor="middle" fill="#f1f5f9" font-family="sans-serif" font-size="14" font-weight="bold" letter-spacing="1">Residencia</text>
+
+  <text x="1140" y="172" text-anchor="end" fill="#94a3b8" font-family="sans-serif" font-size="17" font-weight="500">Trabalho · Estudo · Familia · Permanente · Turismo</text>
+  <text x="1140" y="200" text-anchor="end" fill="#94a3b8" font-family="sans-serif" font-size="17" font-weight="500">Cada status define um escopo de atividades</text>
+
+  <line x1="1040" y1="220" x2="1140" y2="220" stroke="#5eead4" stroke-width="1.5" opacity="0.6"/>
+</svg>
