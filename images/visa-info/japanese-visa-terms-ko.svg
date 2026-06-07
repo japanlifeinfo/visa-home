@@ -1,0 +1,109 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="50%" stop-color="#14b8a6"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#fbbf24" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accentLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#fbbf24" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#fbbf24" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ===== Background: Dark emerald (distinct from light blue / dark navy / cream) ===== -->
+  <rect width="1200" height="630" fill="#062c1f"/>
+  <!-- Top gradient bar (glossary/learning theme: emerald → teal → amber) -->
+  <rect width="1200" height="8" fill="url(#headerGradient)"/>
+
+  <!-- Background watermark (Korean only): 용어 lower-right, very faint -->
+  <text x="1180" y="615" text-anchor="end" fill="#10b981" font-family="sans-serif" font-size="240" font-weight="bold" opacity="0.06" letter-spacing="-5">용어</text>
+
+  <!-- Subtle dotted accent (upper-left) -->
+  <g opacity="0.25">
+    <circle cx="60" cy="80" r="2" fill="#5eead4"/>
+    <circle cx="90" cy="80" r="2" fill="#5eead4"/>
+    <circle cx="120" cy="80" r="2" fill="#5eead4"/>
+    <circle cx="60" cy="110" r="2" fill="#5eead4"/>
+    <circle cx="90" cy="110" r="2" fill="#5eead4"/>
+    <circle cx="60" cy="140" r="2" fill="#5eead4"/>
+  </g>
+  <!-- Dotted accent (upper-right) -->
+  <g opacity="0.22">
+    <circle cx="1080" cy="80" r="2" fill="#fbbf24"/>
+    <circle cx="1110" cy="80" r="2" fill="#fbbf24"/>
+    <circle cx="1140" cy="80" r="2" fill="#fbbf24"/>
+    <circle cx="1110" cy="110" r="2" fill="#fbbf24"/>
+    <circle cx="1140" cy="110" r="2" fill="#fbbf24"/>
+    <circle cx="1140" cy="140" r="2" fill="#fbbf24"/>
+  </g>
+
+  <!-- Decorative accent circles (asymmetric, not 3-corner pattern) -->
+  <circle cx="140" cy="540" r="46" fill="#10b981" opacity="0.14"/>
+  <circle cx="90" cy="490" r="20" fill="#fbbf24" opacity="0.18"/>
+  <circle cx="1080" cy="560" r="32" fill="#14b8a6" opacity="0.18"/>
+
+  <!-- =============================================================== -->
+  <!-- TOP: Kicker pill (centered)                                     -->
+  <!-- Text "비자 신청 핵심 용어" (10 hangul + 3 spaces, 11 chars total) -->
+  <!-- W calc: 한글 8×13=104, 공백 3×5.2≈16, letter-spacing 4×10=40    -->
+  <!--   natural≈160, ×0.87≈139, W = 36+139+12 = 187                  -->
+  <!-- =============================================================== -->
+
+  <g transform="translate(600, 56)">
+    <rect x="-94" y="0" width="188" height="36" rx="18" fill="none" stroke="#5eead4" stroke-width="1.5"/>
+    <circle cx="-74" cy="18" r="4.5" fill="#5eead4"/>
+    <text x="-58" y="24" fill="#5eead4" font-family="sans-serif" font-size="13" font-weight="bold" letter-spacing="4">비자 신청 핵심 용어</text>
+  </g>
+
+  <!-- =============================================================== -->
+  <!-- WORD CLOUD: Floating Korean terms around the main typography    -->
+  <!-- (Decorative — surrounds the hero typography, lower opacity)     -->
+  <!-- =============================================================== -->
+
+  <!-- Left side terms -->
+  <g font-family="sans-serif" font-weight="bold" opacity="0.85">
+    <text x="160" y="200" fill="#5eead4" font-size="38" letter-spacing="-1">재류자격</text>
+    <text x="200" y="270" fill="#94a3b8" font-size="28" letter-spacing="-1">비자</text>
+    <text x="120" y="480" fill="#94a3b8" font-size="32" letter-spacing="-1">재류카드</text>
+  </g>
+
+  <!-- Right side terms -->
+  <g font-family="sans-serif" font-weight="bold" opacity="0.85">
+    <text x="1040" y="200" fill="#5eead4" font-size="34" letter-spacing="-1" text-anchor="end">입관</text>
+    <text x="1080" y="270" fill="#fbbf24" font-size="42" letter-spacing="-1" text-anchor="end">COE</text>
+    <text x="1080" y="480" fill="#94a3b8" font-size="32" letter-spacing="-1" text-anchor="end">영주허가</text>
+  </g>
+
+  <!-- =============================================================== -->
+  <!-- HERO TYPOGRAPHY (CENTER): "용어 정리" — giant centerpiece        -->
+  <!-- Pattern: 타이포그래피 히어로 (breaks from card/scale/sign)       -->
+  <!-- =============================================================== -->
+
+  <!-- Soft glow behind typography -->
+  <ellipse cx="600" cy="330" rx="340" ry="140" fill="url(#centerGlow)"/>
+
+  <!-- Pre-headline (small, above giant text) -->
+  <text x="600" y="200" text-anchor="middle" fill="#a7f3d0" font-family="sans-serif" font-size="22" font-weight="500" letter-spacing="2">처음 보는 일본어가 많아도</text>
+
+  <!-- Main typography hero -->
+  <text x="600" y="370" text-anchor="middle" font-family="sans-serif" font-size="140" font-weight="900" letter-spacing="-3">
+    <tspan fill="#fbbf24">용어</tspan><tspan fill="#f8fafc"> 정리</tspan>
+  </text>
+
+  <!-- Accent line below typography -->
+  <rect x="450" y="395" width="300" height="3" rx="1.5" fill="url(#accentLine)"/>
+
+  <!-- =============================================================== -->
+  <!-- BOTTOM: Subtitle + secondary message                             -->
+  <!-- =============================================================== -->
+
+  <text x="600" y="470" text-anchor="middle" fill="#e2e8f0" font-family="sans-serif" font-size="28" font-weight="600" letter-spacing="0.5">기본 용어부터 차근차근</text>
+
+  <text x="600" y="510" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="18" font-weight="500" letter-spacing="1">알아두면 비자 신청이 한결 쉬워집니다</text>
+</svg>

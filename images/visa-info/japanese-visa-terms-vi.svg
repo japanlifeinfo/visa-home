@@ -1,0 +1,77 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="50%" stop-color="#14b8a6"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#fbbf24" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accentLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#fbbf24" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#fbbf24" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="#062c1f"/>
+  <rect width="1200" height="8" fill="url(#headerGradient)"/>
+
+  <!-- Background watermark (Vietnamese only): THUAT (single word fits canvas) -->
+  <text x="1180" y="615" text-anchor="end" fill="#10b981" font-family="sans-serif" font-size="240" font-weight="bold" opacity="0.06" letter-spacing="-5">THUAT</text>
+
+  <g opacity="0.25">
+    <circle cx="60" cy="80" r="2" fill="#5eead4"/>
+    <circle cx="90" cy="80" r="2" fill="#5eead4"/>
+    <circle cx="120" cy="80" r="2" fill="#5eead4"/>
+    <circle cx="60" cy="110" r="2" fill="#5eead4"/>
+    <circle cx="90" cy="110" r="2" fill="#5eead4"/>
+    <circle cx="60" cy="140" r="2" fill="#5eead4"/>
+  </g>
+  <g opacity="0.22">
+    <circle cx="1080" cy="80" r="2" fill="#fbbf24"/>
+    <circle cx="1110" cy="80" r="2" fill="#fbbf24"/>
+    <circle cx="1140" cy="80" r="2" fill="#fbbf24"/>
+    <circle cx="1110" cy="110" r="2" fill="#fbbf24"/>
+    <circle cx="1140" cy="110" r="2" fill="#fbbf24"/>
+    <circle cx="1140" cy="140" r="2" fill="#fbbf24"/>
+  </g>
+
+  <circle cx="140" cy="540" r="46" fill="#10b981" opacity="0.14"/>
+  <circle cx="90" cy="490" r="20" fill="#fbbf24" opacity="0.18"/>
+  <circle cx="1080" cy="560" r="32" fill="#14b8a6" opacity="0.18"/>
+
+  <!-- Kicker pill: "THUAT NGU VISA" (12 letters + 2 spaces) — natural ≈ 187, W = 36 + 187 + 18 = 241 -->
+  <g transform="translate(600, 56)">
+    <rect x="-121" y="0" width="242" height="36" rx="18" fill="none" stroke="#5eead4" stroke-width="1.5"/>
+    <circle cx="-101" cy="18" r="4.5" fill="#5eead4"/>
+    <text x="-85" y="24" fill="#5eead4" font-family="sans-serif" font-size="13" font-weight="bold" letter-spacing="4">THUAT NGU VISA</text>
+  </g>
+
+  <g font-family="sans-serif" font-weight="bold" opacity="0.85">
+    <text x="160" y="200" fill="#5eead4" font-size="34" letter-spacing="-1">Tu cach</text>
+    <text x="200" y="270" fill="#94a3b8" font-size="28" letter-spacing="-1">Visa</text>
+    <text x="140" y="480" fill="#94a3b8" font-size="30" letter-spacing="-1">The luu tru</text>
+  </g>
+  <g font-family="sans-serif" font-weight="bold" opacity="0.85">
+    <text x="1040" y="200" fill="#5eead4" font-size="32" letter-spacing="-1" text-anchor="end">Nyukan</text>
+    <text x="1080" y="270" fill="#fbbf24" font-size="42" letter-spacing="-1" text-anchor="end">COE</text>
+    <text x="1080" y="480" fill="#94a3b8" font-size="30" letter-spacing="-1" text-anchor="end">Vinh tru</text>
+  </g>
+
+  <ellipse cx="600" cy="330" rx="340" ry="140" fill="url(#centerGlow)"/>
+
+  <text x="600" y="200" text-anchor="middle" fill="#a7f3d0" font-family="sans-serif" font-size="22" font-weight="500" letter-spacing="2">Nhieu thuat ngu tieng Nhat la?</text>
+
+  <text x="600" y="370" text-anchor="middle" font-family="sans-serif" font-size="100" font-weight="900" letter-spacing="-2">
+    <tspan fill="#fbbf24">THUAT</tspan><tspan fill="#f8fafc"> NGU</tspan>
+  </text>
+
+  <rect x="430" y="395" width="340" height="3" rx="1.5" fill="url(#accentLine)"/>
+
+  <text x="600" y="470" text-anchor="middle" fill="#e2e8f0" font-family="sans-serif" font-size="26" font-weight="600" letter-spacing="0.5">Bat dau tu nhung tu co ban</text>
+
+  <text x="600" y="510" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="18" font-weight="500" letter-spacing="1">Hieu cac tu nay giup xin visa de dang hon</text>
+</svg>
