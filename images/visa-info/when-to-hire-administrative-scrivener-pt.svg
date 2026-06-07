@@ -1,0 +1,179 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="50%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+    <radialGradient id="scaleGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a78bfa" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#a78bfa" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="beamGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e2e8f0"/>
+      <stop offset="100%" stop-color="#64748b"/>
+    </linearGradient>
+    <linearGradient id="pillarGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#334155"/>
+      <stop offset="50%" stop-color="#cbd5e1"/>
+      <stop offset="100%" stop-color="#334155"/>
+    </linearGradient>
+    <linearGradient id="plinthGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#334155"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ===== Background: Dark midnight navy (distinct from emerald-dark / cream / peach) ===== -->
+  <rect width="1200" height="630" fill="#0c1632"/>
+  <!-- Top gradient bar (decision/professional theme: blue → indigo → purple) -->
+  <rect width="1200" height="8" fill="url(#headerGradient)"/>
+
+  <!-- Background watermark: ESCOLHA lower-right, very faint -->
+  <text x="1180" y="615" text-anchor="end" fill="#a78bfa" font-family="sans-serif" font-size="240" font-weight="bold" opacity="0.05" letter-spacing="-5">ESCOLHA</text>
+
+  <!-- Subtle dotted grid (upper-left) -->
+  <g opacity="0.22">
+    <circle cx="60" cy="80" r="2" fill="#a78bfa"/>
+    <circle cx="90" cy="80" r="2" fill="#a78bfa"/>
+    <circle cx="120" cy="80" r="2" fill="#a78bfa"/>
+    <circle cx="60" cy="110" r="2" fill="#a78bfa"/>
+    <circle cx="90" cy="110" r="2" fill="#a78bfa"/>
+    <circle cx="60" cy="140" r="2" fill="#a78bfa"/>
+  </g>
+  <!-- Dotted accent (upper-right) -->
+  <g opacity="0.20">
+    <circle cx="1080" cy="80" r="2" fill="#a78bfa"/>
+    <circle cx="1110" cy="80" r="2" fill="#a78bfa"/>
+    <circle cx="1140" cy="80" r="2" fill="#a78bfa"/>
+    <circle cx="1110" cy="110" r="2" fill="#a78bfa"/>
+    <circle cx="1140" cy="110" r="2" fill="#a78bfa"/>
+    <circle cx="1140" cy="140" r="2" fill="#a78bfa"/>
+  </g>
+
+  <!-- Decorative accent circles (asymmetric placement) -->
+  <circle cx="1100" cy="170" r="48" fill="#6366f1" opacity="0.20"/>
+  <circle cx="1050" cy="220" r="22" fill="#a855f7" opacity="0.18"/>
+  <circle cx="80" cy="510" r="40" fill="#3b82f6" opacity="0.16"/>
+  <circle cx="135" cy="560" r="20" fill="#fbbf24" opacity="0.20"/>
+
+  <!-- =============================================================== -->
+  <!-- TOP ZONE: Kicker + headline + subtitle (centered)               -->
+  <!-- =============================================================== -->
+
+  <!-- Kicker pill (centered) — width=324 for "VISTO · GYOSEISHOSHI" -->
+  <g transform="translate(600, 56)">
+    <rect x="-162" y="0" width="324" height="36" rx="18" fill="none" stroke="#a78bfa" stroke-width="1.5"/>
+    <circle cx="-142" cy="18" r="4.5" fill="#a78bfa"/>
+    <text x="-126" y="24" fill="#a78bfa" font-family="sans-serif" font-size="13" font-weight="bold" letter-spacing="4">VISTO · GYOSEISHOSHI</text>
+  </g>
+
+  <!-- Pre-headline (centered, smaller) -->
+  <text x="600" y="138" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="20" font-weight="500" letter-spacing="2">Sozinho ou com Especialista?</text>
+
+  <!-- Main headline (centered, ONE-LINE GIANT BANNER) -->
+  <text x="600" y="214" text-anchor="middle" font-family="sans-serif" font-size="64" font-weight="bold">
+    <tspan fill="#f1f5f9">Quando Chamar </tspan><tspan fill="#fbbf24">Especialista</tspan>
+  </text>
+
+  <!-- Subtitle (centered) -->
+  <text x="600" y="262" text-anchor="middle" fill="#cbd5e1" font-family="sans-serif" font-size="19" font-weight="500">Ajuda especializada faz diferenca em certos casos</text>
+
+  <!-- =============================================================== -->
+  <!-- BOTTOM ZONE: Balance Scale Illustration (center)                -->
+  <!-- =============================================================== -->
+
+  <!-- Scale glow halo behind everything -->
+  <ellipse cx="600" cy="450" rx="380" ry="180" fill="url(#scaleGlow)"/>
+
+  <!-- ===== Plinth / base ===== -->
+  <rect x="520" y="568" width="160" height="22" rx="3" fill="url(#plinthGrad)" stroke="#475569" stroke-width="1.5"/>
+  <rect x="540" y="555" width="120" height="16" rx="2" fill="#334155" stroke="#64748b" stroke-width="1.2"/>
+
+  <!-- ===== Pillar (vertical column) ===== -->
+  <rect x="594" y="358" width="12" height="200" fill="url(#pillarGrad)" stroke="#475569" stroke-width="1"/>
+  <!-- Pillar decorative cap -->
+  <rect x="586" y="350" width="28" height="10" rx="2" fill="#64748b" stroke="#475569" stroke-width="1"/>
+
+  <!-- ===== Pivot at top of pillar ===== -->
+  <circle cx="600" cy="350" r="11" fill="#fbbf24" stroke="#92400e" stroke-width="1.5"/>
+  <circle cx="600" cy="350" r="4" fill="#0c1632"/>
+
+  <!-- ===== Beam (tilted -5° around pivot — right side heavier) ===== -->
+  <g transform="rotate(5, 600, 350)">
+    <!-- Main beam -->
+    <rect x="380" y="345" width="440" height="10" rx="4" fill="url(#beamGrad)"/>
+    <!-- End caps -->
+    <circle cx="380" cy="350" r="6.5" fill="#94a3b8" stroke="#475569" stroke-width="1"/>
+    <circle cx="820" cy="350" r="6.5" fill="#94a3b8" stroke="#475569" stroke-width="1"/>
+    <!-- Hooks at beam ends (small downward triangles) -->
+    <path d="M 376 356 L 380 364 L 384 356 Z" fill="#94a3b8"/>
+    <path d="M 816 356 L 820 364 L 824 356 Z" fill="#94a3b8"/>
+  </g>
+
+  <!-- ===== LEFT side (DIY — lighter, higher) ===== -->
+  <!-- Left chains (V-shape from beam end to pan) -->
+  <line x1="382" y1="333" x2="338" y2="408" stroke="#64748b" stroke-width="1.6" stroke-dasharray="3 3"/>
+  <line x1="382" y1="333" x2="426" y2="408" stroke="#64748b" stroke-width="1.6" stroke-dasharray="3 3"/>
+
+  <!-- Left pan (ellipse with bowl) -->
+  <ellipse cx="382" cy="412" rx="72" ry="9" fill="#1e293b" stroke="#94a3b8" stroke-width="1.6"/>
+  <path d="M 310 412 Q 382 460 454 412" fill="#334155" stroke="#94a3b8" stroke-width="1.6"/>
+  <!-- Pan inner shine -->
+  <path d="M 318 414 Q 350 422 380 422" fill="none" stroke="#475569" stroke-width="1" opacity="0.7"/>
+
+  <!-- Left pan content: single light document (simple = DIY-friendly) -->
+  <g transform="translate(382, 388)">
+    <rect x="-22" y="-24" width="44" height="32" rx="2" fill="#e2e8f0" stroke="#475569" stroke-width="1.2"/>
+    <line x1="-16" y1="-16" x2="16" y2="-16" stroke="#94a3b8" stroke-width="1"/>
+    <line x1="-16" y1="-10" x2="16" y2="-10" stroke="#94a3b8" stroke-width="1"/>
+    <line x1="-16" y1="-4" x2="8" y2="-4" stroke="#94a3b8" stroke-width="1"/>
+    <line x1="-16" y1="2" x2="14" y2="2" stroke="#94a3b8" stroke-width="1"/>
+  </g>
+
+  <!-- Left label "Sozinho" -->
+  <text x="382" y="500" text-anchor="middle" fill="#cbd5e1" font-family="sans-serif" font-size="22" font-weight="bold" letter-spacing="3">Sozinho</text>
+  <!-- Left subtext -->
+  <text x="382" y="526" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="14" font-weight="500" letter-spacing="1">Renovacoes · Notificacoes simples</text>
+
+  <!-- ===== RIGHT side (Pro — heavier, lower) ===== -->
+  <!-- Right chains (V-shape from beam end to pan) -->
+  <line x1="818" y1="371" x2="772" y2="446" stroke="#fbbf24" stroke-width="1.8" stroke-dasharray="3 3"/>
+  <line x1="818" y1="371" x2="864" y2="446" stroke="#fbbf24" stroke-width="1.8" stroke-dasharray="3 3"/>
+
+  <!-- Right pan (slightly larger, amber outline = highlighted) -->
+  <ellipse cx="818" cy="450" rx="80" ry="10" fill="#1e293b" stroke="#fbbf24" stroke-width="2"/>
+  <path d="M 738 450 Q 818 504 898 450" fill="#334155" stroke="#fbbf24" stroke-width="2"/>
+  <!-- Pan inner shine -->
+  <path d="M 748 452 Q 782 462 816 462" fill="none" stroke="#92400e" stroke-width="1" opacity="0.7"/>
+
+  <!-- Right pan content: stack of documents + seal (complex = pro recommended) -->
+  <g transform="translate(818, 422)">
+    <!-- Back document (offset back-left) -->
+    <rect x="-30" y="-22" width="46" height="34" rx="2" fill="#cbd5e1" stroke="#475569" stroke-width="1.2"/>
+    <line x1="-24" y1="-14" x2="10" y2="-14" stroke="#64748b" stroke-width="1"/>
+    <line x1="-24" y1="-8" x2="10" y2="-8" stroke="#64748b" stroke-width="1"/>
+    <line x1="-24" y1="-2" x2="6" y2="-2" stroke="#64748b" stroke-width="1"/>
+
+    <!-- Middle document (offset slightly) -->
+    <rect x="-22" y="-28" width="46" height="34" rx="2" fill="#e2e8f0" stroke="#475569" stroke-width="1.2"/>
+    <line x1="-16" y1="-20" x2="18" y2="-20" stroke="#94a3b8" stroke-width="1"/>
+    <line x1="-16" y1="-14" x2="18" y2="-14" stroke="#94a3b8" stroke-width="1"/>
+    <line x1="-16" y1="-8" x2="14" y2="-8" stroke="#94a3b8" stroke-width="1"/>
+    <line x1="-16" y1="-2" x2="18" y2="-2" stroke="#94a3b8" stroke-width="1"/>
+
+    <!-- Front document with red seal -->
+    <rect x="-14" y="-34" width="46" height="34" rx="2" fill="#fef3c7" stroke="#d97706" stroke-width="1.4"/>
+    <line x1="-8" y1="-26" x2="22" y2="-26" stroke="#d97706" stroke-width="1" opacity="0.6"/>
+    <line x1="-8" y1="-20" x2="22" y2="-20" stroke="#d97706" stroke-width="1" opacity="0.6"/>
+    <line x1="-8" y1="-14" x2="18" y2="-14" stroke="#d97706" stroke-width="1" opacity="0.6"/>
+    <!-- Red seal on front document -->
+    <circle cx="24" cy="-8" r="9.5" fill="none" stroke="#dc2626" stroke-width="2.4"/>
+    <path d="M 19 -8 L 22.5 -4.5 L 29 -11" stroke="#dc2626" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Right label "Contratar Gyoseishoshi" (amber-highlighted) -->
+  <text x="818" y="534" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="22" font-weight="bold" letter-spacing="3">Contratar Gyoseishoshi</text>
+  <!-- Right subtext -->
+  <text x="818" y="560" text-anchor="middle" fill="#fde68a" font-family="sans-serif" font-size="14" font-weight="500" letter-spacing="1">PR · Conjuge · Negocios</text>
+</svg>
