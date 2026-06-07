@@ -1,0 +1,101 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="headerGradient" x1="0" y1="0" x2="1200" y2="0">
+      <stop offset="0%" stop-color="#14b8a6"/>
+      <stop offset="50%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#dc2626"/>
+    </linearGradient>
+    <radialGradient id="trustGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#5eead4" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#5eead4" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="dangerGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fca5a5" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#fca5a5" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="trustInk" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#5eead4" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#14b8a6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="dangerInk" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fca5a5" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#dc2626" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="#0b1f1d"/>
+  <rect width="1200" height="8" fill="url(#headerGradient)"/>
+
+  <text x="600" y="430" text-anchor="middle" fill="#14b8a6" font-family="sans-serif" font-size="240" font-weight="bold" opacity="0.05" letter-spacing="-2">जमानत</text>
+
+  <g opacity="0.18">
+    <circle cx="60" cy="80" r="2" fill="#475569"/>
+    <circle cx="90" cy="80" r="2" fill="#475569"/>
+    <circle cx="120" cy="80" r="2" fill="#475569"/>
+    <circle cx="60" cy="110" r="2" fill="#475569"/>
+    <circle cx="90" cy="110" r="2" fill="#475569"/>
+    <circle cx="60" cy="140" r="2" fill="#475569"/>
+  </g>
+  <g opacity="0.18">
+    <circle cx="1080" cy="80" r="2" fill="#475569"/>
+    <circle cx="1110" cy="80" r="2" fill="#475569"/>
+    <circle cx="1140" cy="80" r="2" fill="#475569"/>
+    <circle cx="1110" cy="110" r="2" fill="#475569"/>
+    <circle cx="1140" cy="110" r="2" fill="#475569"/>
+    <circle cx="1140" cy="140" r="2" fill="#475569"/>
+  </g>
+
+  <circle cx="100" cy="560" r="46" fill="#14b8a6" opacity="0.08"/>
+  <circle cx="1130" cy="540" r="32" fill="#dc2626" opacity="0.10"/>
+
+  <g transform="translate(600, 56)">
+    <rect x="-130" y="0" width="260" height="36" rx="18" fill="none" stroke="#5eead4" stroke-width="1.5"/>
+    <circle cx="-110" cy="18" r="4.5" fill="#5eead4"/>
+    <text x="-94" y="24" fill="#5eead4" font-family="sans-serif" font-size="13" font-weight="bold" letter-spacing="3">भिसा आवेदन · जमानत भूमिका</text>
+  </g>
+
+  <text x="600" y="140" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="20" font-weight="500" letter-spacing="1">धेरैले गलत बुझ्ने तथ्य</text>
+
+  <text x="600" y="216" text-anchor="middle" font-family="sans-serif" font-size="68" font-weight="bold">
+    <tspan fill="#5eead4">भिसा जमानत</tspan>
+    <tspan fill="#fbbf24" dx="14">≠</tspan>
+    <tspan fill="#fca5a5" dx="14">ऋण जमानत</tspan>
+  </text>
+
+  <line x1="540" y1="240" x2="660" y2="240" stroke="#fbbf24" stroke-width="3" stroke-linecap="round"/>
+
+  <text x="600" y="278" text-anchor="middle" fill="#cbd5e1" font-family="sans-serif" font-size="19" font-weight="500">वित्तीय संयुक्त जमानतभन्दा फरक व्यक्तिगत जमानत प्रणाली</text>
+
+  <circle cx="350" cy="430" r="160" fill="url(#trustGlow)"/>
+  <g transform="translate(350, 430) rotate(-6)">
+    <circle r="138" fill="url(#trustInk)" opacity="0.7"/>
+    <circle r="124" fill="none" stroke="#14b8a6" stroke-width="4.5"/>
+    <circle r="115" fill="none" stroke="#5eead4" stroke-width="1.2" stroke-dasharray="2 5" opacity="0.75"/>
+    <path d="M -38 4 L -10 32 L 40 -28" stroke="#5eead4" stroke-width="11" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <text y="64" text-anchor="middle" fill="#5eead4" font-family="sans-serif" font-size="26" font-weight="bold" letter-spacing="2">व्यक्तिगत</text>
+    <circle cx="-80" cy="-70" r="1.8" fill="#14b8a6" opacity="0.6"/>
+    <circle cx="78" cy="68" r="1.6" fill="#14b8a6" opacity="0.5"/>
+    <circle cx="-72" cy="78" r="1.4" fill="#14b8a6" opacity="0.5"/>
+  </g>
+  <text x="350" y="606" text-anchor="middle" fill="#a7f3d0" font-family="sans-serif" font-size="16" font-weight="bold" letter-spacing="2">भिसा जमानत</text>
+
+  <g transform="translate(600, 430)">
+    <circle r="58" fill="#1c2e2a" stroke="#fbbf24" stroke-width="1.2" opacity="0.55"/>
+    <circle r="48" fill="none" stroke="#fbbf24" stroke-width="0.8" stroke-dasharray="2 4" opacity="0.5"/>
+    <text y="28" text-anchor="middle" fill="#fbbf24" font-family="serif" font-size="96" font-weight="bold">≠</text>
+    <text y="-78" text-anchor="middle" fill="#fde68a" font-family="sans-serif" font-size="13" font-weight="bold" letter-spacing="2">फरक अवधारणा</text>
+  </g>
+
+  <circle cx="850" cy="430" r="160" fill="url(#dangerGlow)"/>
+  <g transform="translate(850, 430) rotate(7)">
+    <circle r="138" fill="url(#dangerInk)" opacity="0.7"/>
+    <circle r="124" fill="none" stroke="#dc2626" stroke-width="4.5"/>
+    <circle r="115" fill="none" stroke="#fca5a5" stroke-width="1.2" stroke-dasharray="2 5" opacity="0.75"/>
+    <path d="M -34 -34 L 34 34 M 34 -34 L -34 34" stroke="#fca5a5" stroke-width="11" stroke-linecap="round" fill="none"/>
+    <text y="74" text-anchor="middle" fill="#fca5a5" font-family="sans-serif" font-size="26" font-weight="bold" letter-spacing="2">संयुक्त</text>
+    <circle cx="80" cy="-66" r="1.8" fill="#dc2626" opacity="0.6"/>
+    <circle cx="-78" cy="70" r="1.6" fill="#dc2626" opacity="0.5"/>
+    <circle cx="72" cy="80" r="1.4" fill="#dc2626" opacity="0.5"/>
+  </g>
+  <text x="850" y="606" text-anchor="middle" fill="#fecaca" font-family="sans-serif" font-size="16" font-weight="bold" letter-spacing="2">ऋण जमानत</text>
+</svg>
