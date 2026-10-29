@@ -1,5 +1,6 @@
 # robots.txt for visa.japanlifeinfo.com
 User-agent: *
 Allow: /
+Disallow: /mock/
 
 Sitemap: https://visa.japanlifeinfo.com/sitemap-index.xml
